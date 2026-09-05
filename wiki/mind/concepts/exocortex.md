@@ -5,7 +5,7 @@ title: "The Exocortex (Bootloaders & Master Prompts)"
 aliases: ["CATO", "operating manual", "master forensic prompt", "MAX"]
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-08-26
+date_modified: 2026-09-05
 sources:
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
   - raw/self/dox-md/CATO_conflict_architecture.md
@@ -76,6 +76,9 @@ connections:
   - page: wiki/interests/language/personal-lexicon
     type: contains
     claim: "The vocabulary the exocortex is named in is itself evidence about it: the corpus holds six competing names for what an AI is to Dan — recursive cognitive prosthetic, emotional metabolizer, taboo-mining, co-processor, daemon mirror, emotional debugger, ideation engine — four of them prosthetic metaphors and two diagnostic ones, and his own custom-instructions field stacks three in a single sentence, so the naming does not distinguish a tool that extends him from a tool that inspects him."
+  - page: wiki/interests/language/measured-vocabulary
+    type: contextualizes
+    claim: "Dan has never typed the word 'exocortex' — zero occurrences in 6.9M characters of his texting, 614k of his ChatGPT prompts and 4.7M of his Gemini prompts. This page never claimed otherwise, but the measurement generalises past it: a term the wiki uses fluently is not thereby a term the subject uses, and nothing in the prose marks the difference. His own names for the apparatus are 'cognitive prosthetic' (29 in his Gemini prompts), 'emotional metabolizing' (20), 'taboo-mining' (8), 'daemon mirror' (4)."
 ---
 
 
@@ -169,6 +172,44 @@ writing, exactly how he wants to be seen and argued with.
 how often the bootloaders are actually loaded (versus maintained) is
 undocumented; MAX's full spec lives in its own raw sources and is thinner in
 the corpus than CATO's.
+
+## The word is this wiki's, not his
+
+`bin/wiki-lexicon` counts the terms in every corpus that can be split by
+voice — his ChatGPT user turns, the prompt half of each Gemini activity
+cell, and 6.9 million characters of his texting. **"Exocortex" occurs zero
+times in all three.** It is the corpus's standing name for this apparatus,
+it titles this page, and Dan has never typed it.
+
+That is not an error here — this page never claimed the word was his, and
+its `aliases:` name the artifacts (CATO, MAX, the operating manual) rather
+than the concept. But the measurement generalises past this page and is
+worth stating where somebody will find it: **a term the wiki uses fluently
+is not thereby a term the subject uses, and nothing in the writing marks the
+difference.** A reader arriving here would have no way to tell whether
+"exocortex" is his vocabulary or ours, and the answer turns out to be ours.
+
+His own names for the same thing, counted in his own prompts:
+
+| his term | texting | ChatGPT prompts | Gemini prompts |
+|---|---:|---:|---:|
+| cognitive prosthetic | 5 | 0 | 29 |
+| emotional metabolizing / metabolizer | 2 | 0 | 20 |
+| taboo-mining | 2 | 0 | 8 |
+| daemon mirror | 0 | 0 | 4 |
+| co-processor | 0 | 0 | 3 |
+| emotional debugger | 0 | 0 | 3 |
+| ideation engine | 0 | 0 | 1 |
+| **exocortex** | **0** | **0** | **0** |
+
+Note the second column. Every one of these is a **Gemini** word: across
+614,070 characters of ChatGPT prompts, the same man in overlapping years
+with a machine on the other end either way, the count is zero for all of
+them. The vocabulary for the apparatus was built in the sessions where he
+was using it on himself, and the sessions where he was using it for
+anything else never heard it. Full tables and method on
+[[wiki/interests/language/measured-vocabulary]]; the provenance argument is
+[[wiki/interests/language/personal-lexicon]].
 
 ---
 

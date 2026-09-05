@@ -5,7 +5,7 @@ title: "Linguistic Profile — Voice, Register, Stylometrics"
 aliases: ["voice", "stylometrics", "forensic intimacy"]
 status: stable
 date_created: 2026-07-13
-date_modified: 2026-08-27
+date_modified: 2026-09-05
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/dox-scan/Dan Profile.txt
@@ -48,6 +48,9 @@ connections:
   - page: wiki/interests/language/personal-lexicon
     type: contains
     claim: "This page measures how the sentences are built; that one records the nouns they reach for, and finds a single load-bearing modifier — 'recursive' attaches to the self-label, to the AI metaphor and to the working method, with no competing modifier (iterative, reflexive, nested) appearing anywhere in the corpus."
+  - page: wiki/interests/language/measured-vocabulary
+    type: evidenced-by
+    claim: "'Forensic intimacy' is described qualitatively here and turns out to be measurable as subordination: 'the fact that' 254 to 34, 'whether or not' 158 to 2, 'that you're' 346 to 17 against the 130,402 messages he received — roughly six times his interlocutors' rate for embedding a proposition in a that-clause, and rising across the record rather than holding steady."
 ---
 
 # Linguistic Profile — Voice, Register, Stylometrics
@@ -63,6 +66,48 @@ is **"forensic intimacy"**: clinical detachment fused with raw personal
 confession, optimized for information density and emotional precision, with
 a near-total absence of social filler. The idiom was already present in 2009
 tweets — it is architecture, not platform artifact.
+
+## Forensic intimacy is subordination, and it can be counted
+
+This page names the signature idiom and describes it. `bin/wiki-lexicon`
+measures what it is made of, scoring every word and phrase in Dan's sent
+messages against the same phrases in the **130,402 messages he received**:
+
+| construction | Dan | others | ratio | 2015 rate | 2026 rate |
+|---|---:|---:|---:|---:|---:|
+| `the fact that` | 254 | 34 | 6.0× | 1.1 | 3.1 |
+| `whether or not` | 158 | 2 | 63× | 0.2 | 2.3 |
+| `that you're` | 346 | 17 | 16× | | |
+| `some kind of` | 167 | 19 | 7.0× | | |
+| `that this is` | 149 | 15 | 8.0× | | |
+
+(Ratios are of raw counts against a contrast corpus 80% the size of his own;
+the per-year figures are rates per 10,000 of his tokens in that year. Method
+and full tables: [[wiki/interests/language/measured-vocabulary]].)
+
+**The register is a syntactic habit, not a lexical one.** He embeds
+propositions inside `that`-clauses at roughly six times his interlocutors'
+rate — *the fact that*, *whether or not*, *that this is* — which is what
+makes a sentence sound like a finding rather than a remark. It is not
+achieved with elevated words: measured against the 200 curated terms on
+[[wiki/interests/language/vocabulary-lexicon]], 47 of the 91 single words
+appear at all in 1,334,932 texting tokens and 510 of the 781 occurrences are
+`perfect`.
+
+**And it rises.** Every subordinator above roughly triples between 2015 and
+2026, against a `u`-for-*you* rate that falls 44-fold over the same span and
+a `lol` rate that halves. [[wiki/mind/profile/texting-deviance-audit]]
+independently finds words-per-turn going 15.65 → 35.41 across those years;
+this is the same event measured at the word rather than the turn, and it
+means the baseline this page calls "fixed mechanics that never change" is
+fixed in kind and **not** in degree.
+
+**The one place it does not hold is the emphasis marker.** `can't` 1,344 ·
+`cannot` **6** · `i can not` 145 against 2 from everyone else. He almost
+never writes the formal one-word negation; he splits the contraction to
+shout — *"I can not WAIT"*, *"I CAN NOT focus on anything else today at
+all"* — and that habit is newer than the rest, running 0.1–0.7 per 10k
+through 2024 and then 1.7 in 2025 and 3.1 in 2026.
 
 ## Measured fingerprint
 

@@ -25,6 +25,7 @@ related: []
 ## language
 
 - [[wiki/interests/language/personal-lexicon]] — the custom-language layer with its provenance restored: six competing names for what an AI is to him, the one modifier ("recursive") that carries all of them, the banned meta-language, and the corpus check that found the source document's central term wrong.
+- [[wiki/interests/language/measured-vocabulary]] — the third lexicon, and the only counted one: every word and phrase in Dan's sent messages scored against the 130,402 he received, plus the two registers he writes in and how both drifted 2015–2026.
 - [[wiki/interests/language/vocabulary-lexicon]] — two curated word batches from a single 2026-08-26 session, both graded by mechanism rather than synonymy: [[wiki/mind/concepts/the-cool-metric|the cool metric]] run on language itself, ending on "aesthetic felony."
 
 ## favorites

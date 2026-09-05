@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-09-05
-499 pages, ~1,920,992 tokens.
+500 pages, ~1,931,841 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -7754,6 +7754,7 @@ related: []
 ## language
 
 - [[wiki/interests/language/personal-lexicon]] — the custom-language layer with its provenance restored: six competing names for what an AI is to him, the one modifier ("recursive") that carries all of them, the banned meta-language, and the corpus check that found the source document's central term wrong.
+- [[wiki/interests/language/measured-vocabulary]] — the third lexicon, and the only counted one: every word and phrase in Dan's sent messages scored against the 130,402 he received, plus the two registers he writes in and how both drifted 2015–2026.
 - [[wiki/interests/language/vocabulary-lexicon]] — two curated word batches from a single 2026-08-26 session, both graded by mechanism rather than synonymy: [[wiki/mind/concepts/the-cool-metric|the cool metric]] run on language itself, ending on "aesthetic felony."
 
 ## favorites
@@ -7815,6 +7816,330 @@ related: []
 
 
 ========================================================================
+PAGE: wiki/interests/language/measured-vocabulary.md
+========================================================================
+
+---
+domain: interests
+page_type: dataset
+title: "Measured Vocabulary — the words Dan actually uses"
+aliases: ["measured vocabulary", "the distinctive words", "lexicon measurements"]
+status: active
+knowledge: derived
+date_created: 2026-09-05
+date_modified: 2026-09-05
+sources:
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
+  - raw/self/message-csv/imessage_export_deep_20260813.csv
+  - raw/self/chatgpt-export/dfrank-chatgpt-conversations-2022-2025.json
+tags: [language, vocabulary, forensic-analysis]
+chart:
+  kind: line
+  title: "Dan's register drift, 2015-2026 — rate per 10,000 of his own tokens"
+  x: { label: "Year", type: category }
+  y: { label: "Occurrences per 10,000 tokens", type: number }
+  series:
+    - name: "u (for 'you')"
+      points:
+        "2015": 25.2
+        "2016": 39.0
+        "2017": 149.4
+        "2018": 68.9
+        "2019": 58.2
+        "2020": 17.3
+        "2024": 4.4
+        "2025": 3.5
+        "2026": 7.3
+    - name: "lol"
+      points:
+        "2015": 17.5
+        "2016": 23.8
+        "2017": 19.0
+        "2018": 22.8
+        "2019": 26.7
+        "2020": 25.4
+        "2024": 15.8
+        "2025": 12.5
+        "2026": 8.9
+    - name: "fucking"
+      points:
+        "2015": 5.7
+        "2016": 15.2
+        "2017": 22.2
+        "2018": 23.3
+        "2019": 23.1
+        "2020": 28.3
+        "2024": 14.7
+        "2025": 34.4
+        "2026": 54.8
+    - name: "literally"
+      points:
+        "2015": 3.7
+        "2016": 4.2
+        "2017": 5.2
+        "2018": 7.3
+        "2019": 6.1
+        "2020": 11.3
+        "2024": 9.6
+        "2025": 12.3
+        "2026": 12.3
+connections:
+  - page: wiki/interests/language/personal-lexicon
+    type: evidences
+    claim: "This is the measurement that page said the lexicon needed and did not have: every term scored against a contrast corpus rather than recalled, which is how the difference between a word Dan uses and a word he liked became checkable."
+  - page: wiki/interests/language/vocabulary-lexicon
+    type: evidences
+    claim: "The curated 'pretty' and 'stupid' batches are measured here against both of Dan's first-party registers, which settles that page's open question about whether its words are used: they are not, in either register, and the head of its own Axis A is the emptiest part of it."
+  - page: wiki/mind/synthesis/supply-network
+    type: evidences
+    claim: "The network's canonical speech act, counted: 'can you stop by' and its variants run 527 to 62 against everyone Dan has ever texted and 'i'm home on ___' 211 to 0, with 333 of his 442 summons falling in the two hours 17:00-18:59 and the per-year rate spiking to 17.1 and 19.7 per 10k in 2019 and 2024 alone."
+  - page: wiki/mind/profile/linguistic-profile
+    type: evidences
+    claim: "'Forensic intimacy' turns out to be subordination and to be countable: 'the fact that' 254 to 34, 'whether or not' 158 to 2, 'that you're' 346 to 17 — roughly six times his interlocutors' rate for embedding a proposition in a that-clause, and rising across the record rather than holding steady."
+  - page: wiki/mind/synthesis/message-circadian-latency
+    type: parallels
+    claim: "A lexical rhythm that page's hour-of-day cut does not reach: the supply summons is 442 of Dan's messages, 333 of them (75%) inside the two hours 17:00-18:59 — far tighter than his general circadian profile, and set by somebody else's shift rather than his own sleep."
+  - page: wiki/mind/profile/texting-deviance-audit
+    type: parallels
+    claim: "That page measures the turn — how long Dan's utterances are against his interlocutors'. This measures the word inside it, on the same corpus and with the same contrast, and the two series move together: turns lengthen as the abbreviations die."
+---
+
+<!-- generated by bin/wiki-lexicon page — do not hand-edit -->
+
+# Measured Vocabulary — the words Dan actually uses
+
+**This page is generated. Do not hand-edit it** — run `bin/wiki-lexicon mine` then `bin/wiki-lexicon page`. It states no finding: it is the arithmetic, and a conclusion drawn from it reaches an ordinary page through the normal operations.
+
+Every other lexicon in this wiki records words somebody *chose* — the 200 curated terms on [[wiki/interests/language/vocabulary-lexicon]], the ~25 recalled coinages on [[wiki/interests/language/personal-lexicon]]. This one records words somebody *counted*, against a contrast corpus, so that "distinctive" means something a reader can check.
+
+## Coverage
+
+| | |
+|---|---|
+| Messages Dan sent | 131,196 |
+| Messages Dan received (the contrast corpus) | 130,402 |
+| Dan's texting tokens | 1,334,932 |
+| Their tokens | 1,063,405 |
+| Dan's AI-prompt turns (ChatGPT export, 2022–2025) | 1,456 |
+| Dan's AI-prompt tokens | 93,798 |
+
+Rows by export, after deduplication on (date, time, direction, text): **csv** 55,194, **dump** 206,404. Neither export covers the record alone — the dump stops in 2025 and the CSV is thin on 2024 — so both are read and the union is what is counted.
+
+## What marks his speech
+
+Log-odds ratio with an informative Dirichlet prior, Dan's sent text against everything he received. The score is a z-statistic, so a rare word cannot outrank a common one on ratio alone. Counts are raw occurrences.
+
+### Words
+
+| z | term | Dan | others |
+|---:|---|---:|---:|
+| 24.0 | `that` | 21,225 | 10,364 |
+| 21.0 | `you're` | 5,361 | 1,555 |
+| 18.9 | `you` | 54,029 | 34,633 |
+| 17.4 | `annie` | 2,064 | 315 |
+| 17.3 | `u` | 4,512 | 1,504 |
+| 16.8 | `not` | 11,516 | 5,759 |
+| 13.4 | `thing` | 2,314 | 700 |
+| 13.0 | `even` | 3,690 | 1,489 |
+| 12.6 | `like` | 9,698 | 5,340 |
+| 12.4 | `or` | 6,989 | 3,597 |
+| 12.2 | `there's` | 1,376 | 314 |
+| 12.0 | `you've` | 972 | 145 |
+| 11.4 | `about` | 6,466 | 3,398 |
+| 11.0 | `something` | 3,309 | 1,457 |
+| 10.9 | `than` | 2,014 | 716 |
+| 10.9 | `imessage` | 1,886 | 647 |
+| 10.5 | `feel` | 2,955 | 1,290 |
+| 10.4 | `and` | 28,490 | 19,231 |
+| 10.3 | `being` | 2,071 | 795 |
+| 10.2 | `to` | 45,659 | 32,075 |
+| 10.1 | `stuff` | 1,629 | 563 |
+| 10.0 | `any` | 2,789 | 1,232 |
+| 10.0 | `would` | 4,791 | 2,494 |
+| 9.8 | `don't` | 8,573 | 5,067 |
+| 9.7 | `me` | 18,662 | 12,237 |
+| 9.7 | `this` | 9,727 | 5,869 |
+| 9.7 | `really` | 3,723 | 1,841 |
+| 9.4 | `of` | 12,445 | 7,855 |
+| 9.2 | `gonna` | 2,690 | 1,246 |
+| 9.1 | `i've` | 1,975 | 824 |
+| 9.1 | `think` | 3,963 | 2,065 |
+| 9.0 | `suz` | 500 | 63 |
+| 8.7 | `make` | 3,461 | 1,782 |
+| 8.7 | `https` | 2,073 | 916 |
+| 8.5 | `might` | 1,143 | 393 |
+| 8.4 | `how` | 4,867 | 2,735 |
+| 8.4 | `rdy` | 276 | 0 |
+| 8.1 | `as` | 3,645 | 1,965 |
+| 8.0 | `who` | 2,124 | 998 |
+| 7.9 | `girlfriend` | 476 | 85 |
+
+### Two-word
+
+| z | term | Dan | others |
+|---:|---|---:|---:|
+| 16.3 | `that you` | 2,170 | 405 |
+| 12.1 | `that i` | 2,434 | 825 |
+| 9.7 | `don't know` | 1,462 | 476 |
+| 9.7 | `you don't` | 1,811 | 665 |
+| 9.5 | `to make` | 1,500 | 510 |
+| 9.3 | `you to` | 1,807 | 685 |
+| 9.2 | `stop by` | 527 | 62 |
+| 8.9 | `if you` | 3,712 | 1,855 |
+| 8.7 | `i'm gonna` | 1,077 | 330 |
+| 8.7 | `can u` | 397 | 28 |
+| 8.5 | `if you're` | 562 | 97 |
+| 8.5 | `that you're` | 346 | 17 |
+| 8.1 | `you're not` | 471 | 73 |
+| 7.9 | `you stop` | 347 | 31 |
+| 7.8 | `that i'm` | 533 | 107 |
+| 7.8 | `to be` | 3,513 | 1,845 |
+| 7.8 | `you that` | 613 | 145 |
+| 7.7 | `me that` | 626 | 154 |
+| 7.7 | `when you're` | 382 | 49 |
+| 7.5 | `someone who` | 354 | 42 |
+| 7.5 | `to me` | 1,595 | 685 |
+| 7.5 | `the only` | 655 | 175 |
+| 7.5 | `can not` | 248 | 7 |
+| 7.4 | `i'm not` | 1,921 | 885 |
+| 7.4 | `that this` | 316 | 32 |
+| 7.3 | `https www` | 769 | 240 |
+| 7.2 | `me feel` | 464 | 95 |
+| 7.2 | `to say` | 744 | 230 |
+| 7.2 | `annie i` | 240 | 9 |
+| 7.0 | `to you` | 1,536 | 681 |
+
+### Three-word
+
+| z | term | Dan | others |
+|---:|---|---:|---:|
+| 10.0 | `i don't know` | 1,228 | 330 |
+| 8.2 | `you stop by` | 284 | 1 |
+| 8.1 | `can you stop` | 306 | 10 |
+| 7.1 | `i'm home on` | 211 | 0 |
+| 6.5 | `can u stop` | 178 | 0 |
+| 6.2 | `u stop by` | 161 | 0 |
+| 6.1 | `the fact that` | 254 | 34 |
+| 6.0 | `whether or not` | 158 | 2 |
+| 5.8 | `want you to` | 657 | 234 |
+| 5.8 | `www youtube com` | 192 | 17 |
+| 5.8 | `i can not` | 145 | 2 |
+| 5.7 | `and i don't` | 469 | 139 |
+| 5.7 | `https www youtube` | 190 | 17 |
+| 5.6 | `youtube com watch` | 179 | 15 |
+| 5.6 | `com watch v` | 179 | 15 |
+| 5.6 | `of my life` | 232 | 36 |
+| 5.6 | `that you don't` | 184 | 18 |
+| 5.5 | `me that you` | 182 | 18 |
+| 5.5 | `to know that` | 236 | 39 |
+| 5.5 | `you to know` | 234 | 39 |
+| 5.4 | `in the world` | 241 | 44 |
+| 5.3 | `you don't want` | 322 | 80 |
+| 5.2 | `not going to` | 445 | 143 |
+| 5.2 | `by the way` | 179 | 22 |
+| 5.2 | `love you too` | 240 | 47 |
+
+## The second register
+
+Dan writes first-party prose in two places the archive can separate: messages to people, and prompts to models. These are the words that mark the prompts against the messages — same author, same years, different addressee.
+
+| z | term | AI prompts | texting |
+|---:|---|---:|---:|
+| 15.4 | `trump` | 309 | 145 |
+| 13.5 | `aug` | 166 | 3 |
+| 12.1 | `of` | 2,162 | 12,445 |
+| 11.5 | `the` | 3,917 | 29,713 |
+| 11.2 | `user` | 132 | 24 |
+| 11.1 | `fri` | 114 | 3 |
+| 9.9 | `pm` | 213 | 265 |
+| 9.7 | `hearings` | 85 | 1 |
+| 9.6 | `political` | 124 | 64 |
+| 9.3 | `const` | 79 | 2 |
+| 9.2 | `width` | 80 | 4 |
+| 9.1 | `dan` | 218 | 346 |
+| 8.9 | `their` | 225 | 390 |
+| 8.8 | `election` | 108 | 61 |
+| 8.5 | `trump's` | 67 | 3 |
+| 8.3 | `presidential` | 65 | 3 |
+| 8.3 | `approximately` | 65 | 4 |
+| 8.2 | `attorney` | 68 | 10 |
+| 8.1 | `pattern` | 66 | 8 |
+| 7.9 | `write` | 110 | 99 |
+| 7.9 | `boxes` | 72 | 22 |
+| 7.8 | `others` | 78 | 34 |
+| 7.6 | `ulmer` | 108 | 107 |
+| 7.5 | `patterns` | 54 | 4 |
+| 7.5 | `emotional` | 94 | 78 |
+| 7.4 | `lip` | 52 | 3 |
+| 7.4 | `response` | 103 | 103 |
+| 7.3 | `donald` | 68 | 30 |
+| 7.2 | `systems` | 59 | 16 |
+| 7.2 | `model` | 86 | 70 |
+| 7.1 | `shape` | 66 | 32 |
+| 7.0 | `px` | 61 | 24 |
+| 7.0 | `style` | 70 | 41 |
+| 7.0 | `defined` | 52 | 11 |
+| 6.9 | `pennsylvania` | 61 | 26 |
+
+## The lexicon's own terms, by voice
+
+[[wiki/interests/language/personal-lexicon]] is built on these terms. A corpus-wide `grep` counts both voices in a transcript and reads as his usage; these are counted only in text the export can attribute to **him** — his ChatGPT user turns, and the prompt half of each Gemini activity cell.
+
+| term | texting (6,855,043 chars) | ChatGPT prompts (614,070) | Gemini prompts (4,729,703) |
+|---|---:|---:|---:|
+| `co-processor` | 0 | 0 | 3 |
+| `cognitive prosthetic` | 5 | 0 | 29 |
+| `daemon mirror` | 0 | 0 | 4 |
+| `emotional debugger` | 0 | 0 | 3 |
+| `emotional metabolizer` | 0 | 0 | 1 |
+| `emotional metabolizing` | 2 | 0 | 19 |
+| `epistemic` | 2 | 1 | 48 |
+| `exocortex` | 0 | 0 | 0 |
+| `ideation engine` | 0 | 0 | 1 |
+| `recursive` | 3 | 6 | 229 |
+| `recursive cognitive prosthetic` | 2 | 0 | 10 |
+| `recursive symbolic architect` | 0 | 0 | 7 |
+| `symbolic architect` | 0 | 0 | 12 |
+| `taboo-mining` | 2 | 0 | 8 |
+
+**The Gemini column is not clean and cannot be made clean.** His Gemini prompts average ~1,186 characters against ChatGPT's ~422 because he pastes documents into them; a ranked word list over that corpus returns `div`, `class`, `null` and `data-v-` at the top. An exact match on a multi-word term is immune to that and a frequency ranking is not, which is why this tool computes the first and refuses the second.
+
+## Rate by year
+
+Per 10,000 of Dan's own tokens in that year. A year under 20,000 tokens is omitted rather than shown as noise.
+
+| term | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 | 2024 | 2025 | 2026 |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| `u` | 25.2 | 39.0 | 149.4 | 68.9 | 58.2 | 17.3 | 4.4 | 3.5 | 7.3 |
+| `you` | 461.7 | 447.2 | 246.6 | 313.4 | 350.9 | 262.9 | 334.4 | 461.4 | 557.8 |
+| `lol` | 17.5 | 23.8 | 19.0 | 22.8 | 26.7 | 25.4 | 15.8 | 12.5 | 8.9 |
+| `i` | 547.6 | 559.7 | 395.7 | 425.5 | 383.4 | 370.0 | 394.1 | 481.2 | 407.8 |
+| `fucking` | 5.7 | 15.2 | 22.2 | 23.3 | 23.1 | 28.3 | 14.7 | 34.4 | 54.8 |
+| `literally` | 3.7 | 4.2 | 5.2 | 7.3 | 6.1 | 11.3 | 9.6 | 12.3 | 12.3 |
+| `actually` | 6.2 | 3.9 | 6.1 | 6.8 | 6.4 | 7.3 | 9.9 | 13.8 | 14.3 |
+| `love` | 78.3 | 76.1 | 14.3 | 9.4 | 10.0 | 8.9 | 4.7 | 34.8 | 26.5 |
+| `sorry` | 19.3 | 22.3 | 13.6 | 15.8 | 16.5 | 9.5 | 9.3 | 17.7 | 16.4 |
+| `think` | 24.6 | 26.3 | 24.0 | 26.3 | 31.2 | 32.1 | 31.7 | 33.9 | 29.4 |
+| `know` | 63.2 | 60.6 | 47.0 | 55.9 | 47.6 | 39.6 | 45.4 | 61.7 | 57.6 |
+| `gonna` | 23.9 | 35.1 | 30.0 | 26.0 | 22.1 | 12.6 | 27.0 | 12.4 | 9.0 |
+
+| tokens | 54,434 | 135,914 | 88,744 | 212,669 | 111,439 | 54,810 | 98,377 | 383,648 | 172,866 |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+
+## Captured words
+
+Words Dan entered himself, through the portal, into `lexicon/words/`. A capture is a word he wanted kept, which is a different fact from a word he uses — and the reading on each one says which it turned out to be.
+
+| word | captured | status | reading |
+|---|---|---|---|
+| `off-rip` | 2026-08-27 | analyzed | Standard forms are off rip and off the rip — African-American English, |
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/language/personal-lexicon|The Personal Lexicon]]
+
+
+========================================================================
 PAGE: wiki/interests/language/personal-lexicon.md
 ========================================================================
 
@@ -7868,6 +8193,9 @@ connections:
   - page: wiki/self/concepts/llm
     type: contextualizes
     claim: "Four of the corpus's six names for what an LLM is to Dan are prosthetic metaphors and two are diagnostic ones ('daemon mirror', 'emotional debugger'), and he uses them interchangeably — the vocabulary does not distinguish a tool that extends him from a tool that inspects him."
+  - page: wiki/interests/language/measured-vocabulary
+    type: evidenced-by
+    claim: "The measurement this page said the lexicon needed. It also corrects this page's own first version: the cognitive-instrument counts published here were corpus-wide greps over a transcript carrying both voices, and splitting Gemini's export on its Prompted boundary gives 'cognitive prosthetic' 29 times in Dan's prompts against 100 in the model's replies, with zero in the ChatGPT export where the split is structural."
 ---
 
 # The Personal Lexicon — custom terms, and where each one actually came from
@@ -7889,6 +8217,32 @@ where neither party could be said to have gone first. The third class is
 real and the second class is much larger than anyone assumes. The page that
 follows records each term with what settled its origin, and marks the ones
 the corpus cannot settle as unsettled rather than guessing.
+
+**There are now three lexicons in this wiki and they barely overlap.**
+[[wiki/interests/language/vocabulary-lexicon]] holds 200 words Dan
+**selected** as pleasing. This page holds ~25 terms an assistant
+**recalled** him using. [[wiki/interests/language/measured-vocabulary]] —
+built after this page, because of what writing this page exposed — holds the
+words a corpus **counted**, scored against everything he received, across
+1,334,932 tokens of his own texting and 4.7 million characters of his own
+AI prompts. Selected, recalled, counted: three different questions, three
+different answers, and the disagreements between them are the most
+informative thing here.
+
+> **CORRECTION [2026-09-05]:** the first version of this page, written the
+> same day, published occurrence counts for the cognitive-instrument cluster
+> — *"recursive cognitive prosthetic (132), emotional metabolizer (49),
+> taboo-mining (42)"* — drawn from a `grep` over `Gemini Activity.html`.
+> **Those are corpus-wide counts over a transcript that interleaves Dan's
+> prompts with the model's replies, and they read as his usage.** Splitting
+> that export on its own `Prompted` boundary — which `bin/wiki-lexicon` now
+> does — gives *cognitive prosthetic* **29 times in his prompts against 100
+> in the replies**, and the ChatGPT export, the one corpus where the split is
+> structural rather than parsed, has **zero**. The corrected figures are in
+> the by-voice table below. The error is exactly the class this page was
+> written to document, committed by this page, one layer down: a string count
+> in a mixed-voice corpus is not a usage count, and nothing about the number
+> announces which it is.
 
 ## The document that prompted this, and the error in it
 
@@ -7932,6 +8286,172 @@ lexicon maintained by query does not, and everything below is the query.
 > source — it is a model reporting conversations Dan was in — and its error
 > is itself the evidence for how this layer degrades. The corpus form is the
 > one to use.
+
+## Layer 0 — what the corpus says he actually says
+
+Everything below this section is a term somebody chose or remembered. This
+section is the one nobody chose. `bin/wiki-lexicon` scores every word,
+two-word and three-word sequence in Dan's sent messages against the same
+sequences in the **130,402 messages he received** — log-odds ratio with an
+informative Dirichlet prior, so a rare word cannot outrank a common one on
+ratio alone. 1,334,932 of his tokens against 1,063,405 of theirs. The full
+tables regenerate onto
+[[wiki/interests/language/measured-vocabulary]]; the findings are here.
+
+**None of the 25 terms this page was written about appear anywhere in the
+result.** That is not a refutation of them — they live in AI sessions, and
+this measures texting — but it is the scale of the gap: the vocabulary the
+audit recovered and the vocabulary that actually marks his speech are
+disjoint sets.
+
+### The most Dan-distinctive phrase in 100,000 messages is a summons
+
+| phrase | Dan | everyone else |
+|---|---:|---:|
+| `you stop by` | 284 | 1 |
+| `can you stop` | 306 | 10 |
+| `i'm home on` | 211 | 0 |
+| `can u stop` | 178 | 0 |
+| `u stop by` | 161 | 0 |
+
+Nothing else in the corpus is this lopsided. *"Can you stop by"* and its
+variants run **527 to 62** as a bigram, and the three-word forms are
+effectively unreciprocated — 211 instances of *"I'm home on ___"* against
+zero. The content is not ambiguous:
+
+> *"Can you stop by when you're done? I have some money to help you get rid
+> of the not-so-good stuff"* (2016-01-30) · *"Can you stop by for the money
+> on your way. I can wait for the whole thing"* (2018-11-16) · *"Can you
+> stop by when you get started"* · *"Can u stop by when you get going"*
+
+**442 of these are Dan's, and 333 of them — 75% — fall in the two hours
+17:00–18:59**, 213 in the single hour 18:00–18:59. By year the rate per 10,000 tokens is 0.9 · 2.1 · 1.2 · 1.3 ·
+**17.1** · 2.7 · **19.7** · 1.3 · 0.1, which is not a habit but **two
+discrete regimes**, 2019 and 2024, with near-silence on either side and
+nothing in 2026. No synonym absorbs it: `come by` totals 12 across eleven
+years, `swing by` 18.
+
+This is [[wiki/mind/synthesis/supply-network]]'s market seen from inside the
+grammar. That page models the network by node, reliability and cost; this is
+the **speech act the whole structure runs on**, and it turns out to have one
+canonical form, a two-hour window, and an on/off history that the node
+succession does not obviously explain. *"When you get started"* and *"when
+you get going"* are the tell — the summons is timed to somebody else's shift,
+which is what makes it a delivery request and not an invitation.
+
+### He declares uncertainty far more than the people he is talking to
+
+`i don't know` is the single most distinctive trigram in the corpus:
+**1,228 to 330**, a rate ratio near 3×, with `don't know what` (347/99),
+`don't know how`, `don't know why` and `i'm not sure` behind it. Read
+against [[wiki/mind/concepts/calibrated-confidence]] this cuts both ways and
+should: the page describes a man who attaches explicit confidence to
+claims, and the most common thing he attaches is *low*.
+
+### The forensic register is subordination, and it is measurable
+
+| construction | Dan | others | 2015 rate | 2026 rate |
+|---|---:|---:|---:|---:|
+| `the fact that` | 254 | 34 | 1.1 | 3.1 |
+| `whether or not` | 158 | 2 | 0.2 | 2.3 |
+| `that you're` | 346 | 17 | | |
+| `some kind of` | 167 | 19 | | |
+| `that this is` | 149 | 15 | | |
+
+[[wiki/mind/profile/linguistic-profile]] calls the signature idiom *forensic
+intimacy* and describes it qualitatively. This is what it is made of: he
+embeds propositions inside `that`-clauses at roughly six times the rate of
+the people answering him, and the rate **rises across the record** rather
+than holding steady.
+
+### `I can not` — emphasis by decontraction
+
+`can't` 1,344 · `cannot` **6** · `i can not` 51 in the dump, 145 across the
+full corpus against 2 from everyone else. He almost never writes the formal
+one-word form; he splits the contraction to shout:
+
+> *"I can not WAIT"* · *"I CAN NOT focus on anything else today at all"* ·
+> *"I can not believe I'm in a situation where my GIRLFRIEND runs and yells"*
+
+And it is **new**: 0.1–0.7 per 10k through 2015–2024, then 1.7 in 2025 and
+**3.1 in 2026**, a tenfold rise. The elevated register everyone assumes he
+has is not built from elevated words. It is built from an ordinary word
+taken apart.
+
+### The register drifted, hard, and the direction is legible
+
+Rate per 10,000 of his own tokens:
+
+| | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 | 2024 | 2025 | 2026 |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| `u` (for *you*) | 25.2 | 39.0 | **149.4** | 68.7 | 57.6 | 16.4 | 3.4 | 3.4 | 5.2 |
+| `lol` | 17.5 | 23.8 | 19.2 | 22.8 | 26.7 | 25.4 | 15.8 | 12.5 | 8.9 |
+| `fucking` | 5.7 | 15.2 | 22.2 | 23.3 | 23.1 | 28.3 | 14.7 | 34.5 | **54.8** |
+| `literally` | 3.7 | 4.2 | 5.2 | 7.3 | 6.1 | 11.3 | 9.6 | 12.3 | 12.3 |
+| `actually` | 6.2 | 3.9 | 6.1 | 6.8 | 7.3 | 7.3 | 9.9 | 13.8 | 14.3 |
+| `love` | 78.3 | 76.2 | 14.3 | 9.4 | 9.8 | 9.1 | **4.7** | 35.0 | 26.6 |
+
+**`u` collapses 44-fold** between 2017 and 2025 and does not come back.
+`lol` halves. `fucking` rises tenfold while `fuck` stays flat — it is
+functioning as an intensifier, not an expletive. The stance adverbs
+(`literally`, `actually`, `honestly`) roughly triple. And `love` falls to
+**6% of its 2015 rate by 2024** before recovering sevenfold in 2025.
+
+[[wiki/mind/profile/texting-deviance-audit]] measures the same corpus by
+turn length and finds 15.65 words per turn in 2015–2019 rising to 35.41 in
+2026. **The two series are the same event seen twice**: the turns get longer
+because the abbreviations die and the subordination arrives. That page has
+the shape; this has the mechanism.
+
+### Two registers, and the elevated one is not where anybody thought
+
+Dan writes first-party prose in two places the archive can separate —
+messages to people, and prompts to models. The contrast is almost entirely
+**pronominal**. Texting: `i` (39,852), `you`, `me`, `my`, `i'm`, `i'll`,
+`lol` (1,842). AI prompts: `of`, `the`, `their`, `others`, `which`,
+`between`, `pattern`, `systems`, `analysis`, `defined`, `approximately`.
+`lol` appears **6 times in 93,798 AI-prompt tokens**. `pattern` runs 0.1 per
+10k in every year of his texting and **7.2 in his prompts** — a 70-fold gap,
+and the cleanest single marker of the split.
+
+**Texting Dan addresses a person. Prompting Dan addresses a subject
+matter.** That is the whole difference, and it is not a difference of
+vocabulary size.
+
+**But the analytic register is not confined to the machines, and this is the
+part that inverts the obvious story.** `the fact that` runs 0.6 per 10k in
+his AI prompts and **3.1 in his 2026 texting**; `whether or not` 0.6 against
+**2.3**. By 2026 he is writing *more* subordinated prose to people than he
+ever wrote to a model. The apparatus did not keep the analytic voice. It
+leaked.
+
+### The curated vocabulary is used in neither register
+
+[[wiki/interests/language/vocabulary-lexicon]]'s Gaps ask whether its 200
+selected words are ever used. Measured against both of his first-party
+registers, the 91 single words from those lists:
+
+| | present | occurrences | tokens | per 10k |
+|---|---:|---:|---:|---:|
+| texting | 47 / 91 | 781 | 1,334,932 | 5.85 |
+| AI prompts | 25 / 91 | 84 | 93,798 | 8.96 |
+
+510 of the 781 texting occurrences are the word **`perfect`**. Strip it and
+the rates are 2.03 against 7.68 — **the curated vocabulary is 3.8× denser in
+his prompts to machines than in his messages to people**, which is a real
+result and a small one, because the absolute numbers are tiny either way.
+The head of the list is emptier still: **39 of the 91 words are absent from
+both registers entirely**, including `sublime` — term #1, and the word the
+audit records him completing "Ally is absolutely ___" with — along with
+`resplendent`, `exquisite`, `luminous`, `incandescent`, `numinous`,
+`effulgent`, `aureate`, `diaphanous`, `gossamer`, `beatific`, `seraphic` and
+`preternatural`. What *does* appear is the middle band — `dangerous` (40),
+`unreasonable` (16), `compelling` (12), `criminal` (3), `spectacular` (3) —
+elevated but usable.
+
+**So the elevated lexicon is real, is his, and stops at the point where a
+word would be conspicuous.** He selected a hundred words for their archaism
+and then used the twenty that would survive being said out loud.
 
 ## Layer 1 — hard constraints
 
@@ -7989,19 +8509,77 @@ he falls into. This would be the first one he can call.
 
 This is the corpus-heavy half of the lexicon and the half the audit
 under-reported. Dan has **six** competing names for what an AI is to him,
-not one, and they are not synonyms — each specifies a different job:
+not one, and they are not synonyms — each specifies a different job. The
+counts below are **by voice**, which is the only way to count them honestly:
+his ChatGPT user turns and the prompt half of each Gemini activity cell,
+never a `grep` over a transcript that carries both sides.
 
-| Term | Occurrences (Gemini export) | The job it names |
-|---|---|---|
-| recursive cognitive prosthetic | 132 (as "cognitive prosthetic") | extension — a missing capacity supplied |
-| emotional metabolizer / metabolizing | 49 | digestion — feeling processed into something usable |
-| taboo-mining | 42 | excavation — going where he cannot go alone |
-| co-processor | 10 | parallelism — a second unit on the same problem |
-| daemon mirror | 6 | reflection with agency — it looks back |
-| emotional debugger | 4 | fault-finding — the instrument as diagnostician |
-| ideation engine | 5 | generation — output rather than analysis |
+| Term | texting | ChatGPT prompts | Gemini prompts | The job it names |
+|---|---:|---:|---:|---|
+| cognitive prosthetic | 5 | 0 | 29 | extension — a missing capacity supplied |
+| *— of which* recursive cognitive prosthetic | 2 | 0 | 10 | |
+| recursive symbolic architect | 0 | 0 | 7 | the self-label |
+| symbolic architect (any modifier) | 0 | 0 | 12 | |
+| emotional metabolizing / metabolizer | 2 | 0 | 20 | digestion — feeling processed into something usable |
+| taboo-mining | 2 | 0 | 8 | excavation — going where he cannot go alone |
+| daemon mirror | 0 | 0 | 4 | reflection with agency — it looks back |
+| co-processor | 0 | 0 | 3 | parallelism — a second unit on the same problem |
+| emotional debugger | 0 | 0 | 3 | fault-finding — the instrument as diagnostician |
+| ideation engine | 0 | 0 | 1 | generation — output rather than analysis |
+| epistemic | 2 | 1 | 48 | the demand made of a system |
+| recursive | 3 | 6 | 229 | the modifier the whole set runs on |
+| exocortex | 0 | 0 | 0 | *the wiki's word for the apparatus, never his* |
 
-**He uses them interchangeably, and that is the finding.** His own
+Corpus sizes: 6,855,043 characters of Dan's texting · 614,070 of his
+ChatGPT prompts · 4,729,703 of his Gemini prompts. Generated by
+`bin/wiki-lexicon mine`; the live table is on
+[[wiki/interests/language/measured-vocabulary]].
+
+**Three things fall out of that table that no recall could have produced.**
+
+**One: the lexicon is platform-specific, not personal.** Every term in the
+cluster is a *Gemini* word. Across 614,070 characters of ChatGPT prompts —
+the same man, overlapping years, a machine on the other end either way — the
+count is **zero for all of them**, and `recursive` appears six times in
+ordinary senses. He did not carry the vocabulary from one model to the next.
+He built it in the sessions where he was doing self-analysis, and the
+sessions where he was doing something else never heard it.
+
+**Two: `exocortex` is the wiki's word, not his.** It has a page
+([[wiki/mind/concepts/exocortex]]), it is the corpus's standing name for the
+whole apparatus, and Dan has never typed it — not to a person, not to
+ChatGPT, not to Gemini. That is not an error on that page, which never
+claimed the word was his. It is a warning about every other page: **a term
+the wiki uses fluently is not thereby a term the subject uses**, and nothing
+in the writing marks the difference.
+
+**Three: one term escaped into ordinary speech, and it is the one that
+matters.** *Cognitive prosthetic* is the only member of the cluster with a
+non-zero texting count, and the instances are not quotations. On
+**2026-03-24**, to a person, unprompted, mid-conversation about configuring
+their own assistant:
+
+> *"again though this just tickles my autistic itch for a cognitive
+> prosthetic. And getting them aligned to you personally matters."*
+
+That single sentence does more work than the other 29 occurrences combined.
+It is the term used **referentially rather than declaratively** — not "I use
+you as a cognitive prosthetic," which is a specification he wrote into a
+profile field, but "my itch *for* a cognitive prosthetic," which treats the
+thing as a category that already exists and needs no introduction. And it
+attaches a self-model to it: *autistic itch*, his own word for the drive,
+which makes the term a diagnosis rather than a metaphor. The same evening he
+is pasting his persona configuration to two different threads and telling
+them *"trust me it will totally change the responses."* **The exocortex is
+being evangelised**, in ordinary text messages, in March 2026 — which is
+also the first evidence anywhere in the corpus that the apparatus has a
+second user.
+
+> Only reachable through the deep CSV export. The iMessage dump stops in
+> 2025 and does not contain these messages at all, which is why the first
+> version of this page said the term had never left the AI sessions.
+
+**He uses the six interchangeably, and that is the second finding.** His own
 ChatGPT custom-instructions field, quoted back at him inside the Gemini
 export, stacks three of them in one sentence: *"I use you as a recursive
 cognitive prosthetic, emotional metabolizer, and ideation engine."* Four of
@@ -8013,13 +8591,13 @@ analysed it.
 
 **The load-bearing word in the whole lexicon is `recursive`.** It attaches
 to the self-label (Recursive Symbolic Architect), to the AI metaphor
-(recursive cognitive prosthetic), and to the working method. No competing
-modifier appears anywhere — not *iterative*, not *reflexive*, not *nested*.
-"Iterative", the audit's substitution, is the interesting near-miss:
-iteration is repetition toward a target, recursion is a thing that contains
-itself. The corpus consistently chose the second, and the second is the one
-that describes a person building a wiki about himself that he then reads to
-find out what he is like.
+(recursive cognitive prosthetic), and to the working method — 229 times in
+his own Gemini prompts. No competing modifier appears anywhere — not
+*iterative*, not *reflexive*, not *nested*. "Iterative", the audit's
+substitution, is the interesting near-miss: iteration is repetition toward a
+target, recursion is a thing that contains itself. The corpus consistently
+chose the second, and the second is the one that describes a person building
+a wiki about himself that he then reads to find out what he is like.
 
 ### Recursive Symbolic Architect — model-coined, then self-adopted
 
@@ -8349,6 +8927,9 @@ connections:
   - page: wiki/interests/language/personal-lexicon
     type: parallels
     claim: "Both pages record vocabulary rather than behaviour and fail in opposite directions: these 200 words were selected as pleasing and occur nowhere in the message corpus, while that page's cognitive-instrument terms occur 132, 49 and 42 times and were never selected at all — two of the heaviest ('Recursive Symbolic Architect', 'recursive cognitive prosthetic') were coined by models describing Dan and adopted afterwards, a provenance class this page has no slot for."
+  - page: wiki/interests/language/measured-vocabulary
+    type: evidenced-by
+    claim: "This page's open question — are the 200 curated words ever used — is now measured in both of Dan's first-party registers. Of its 91 single words, 47 appear in 1,334,932 texting tokens and 25 in 93,798 AI-prompt tokens; 510 of the 781 texting occurrences are the word 'perfect'. Stripped of it the rates are 2.03 against 7.68 per 10k, 3.8x denser in prompts to machines. Thirty-nine of the 91 are absent from both registers entirely, 'sublime' — term #1 — among them."
 ---
 
 # The Vocabulary Lexicon
@@ -8369,6 +8950,40 @@ because its subject is word-choice as a taste signal, and it is linked from
 master filter applied to language. It does not assert that these words are
 used in the corpus; it records that they were *selected* as pleasing, which
 is a different and smaller claim.
+
+> **GAP CLOSED [2026-09-05]:** this page said it "does not assert that these
+> words are used in the corpus" and left open whether any of them are.
+> Measured against both of Dan's first-party registers by `bin/wiki-lexicon
+> registers --page`, of the **91 single words** on the two axes:
+>
+> | | present | occurrences | tokens | per 10k |
+> |---|---:|---:|---:|---:|
+> | texting | 47 / 91 | 781 | 1,334,932 | 5.85 |
+> | AI prompts | 25 / 91 | 84 | 93,798 | 8.96 |
+>
+> **510 of the 781 texting occurrences are the single word `perfect`.**
+> Strip it and the rates are **2.03 against 7.68** — the curated vocabulary
+> is **3.8× denser in his prompts to machines than in his messages to
+> people**, which is a real result and a small one, because the absolute
+> numbers are tiny either way.
+>
+> **The head of Axis A is the emptiest part of it.** Across 996,000 tokens of
+> his own writing, `sublime` — term #1, the word this page's own
+> [[wiki/interests/language/personal-lexicon|companion page]] records him
+> completing "Ally is absolutely ___" with — appears **zero** times. So do
+> `resplendent`, `exquisite`, `luminous`, `incandescent`, `numinous`,
+> `effulgent`, `aureate`, `diaphanous`, `gossamer`, `beatific`, `seraphic`,
+> `preternatural` and 27 more — **39 of the 91 are absent from both
+> registers entirely**. What does appear is the middle band: `perfect`
+> (510), `dangerous` (40), `unreasonable` (16), `compelling` (12),
+> `criminal` (3), `spectacular` (3).
+>
+> **The selection is real and it stops where a word would be conspicuous.**
+> He graded a hundred terms for archaism and then used the twenty that
+> survive being said out loud. That is not a failed vocabulary — it is the
+> [[wiki/mind/concepts/the-cool-metric|cool metric]] with a usability
+> constraint the grading itself never mentions, and it is only visible by
+> counting. Full method: [[wiki/interests/language/measured-vocabulary]].
 
 **And there is a third class this page has no slot for.**
 [[wiki/interests/language/personal-lexicon]] documents terms that are used
@@ -11824,8 +12439,8 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 | | |
 |---|---|
-| Pages | 499 |
-| Pages touched in the last 14 days | 229 |
+| Pages | 500 |
+| Pages touched in the last 14 days | 230 |
 | Pages reasoning from other pages (`synthesizes:`) | 79 |
 | Live contradictions | 51 |
 | Open gaps | 720 |
@@ -11836,7 +12451,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | Domain | Pages |
 |---|---|
 | people | 175 |
-| interests | 97 |
+| interests | 98 |
 | mind | 78 |
 | self | 60 |
 | timeline | 42 |
@@ -11850,7 +12465,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 | Status | Pages |
 |---|---|
-| active | 193 |
+| active | 194 |
 | stable | 166 |
 | closed | 101 |
 | archived | 29 |
@@ -11858,12 +12473,13 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-09-05** — 9 pages
+**2026-09-05** — 14 pages
   - connect | meta | the wiki names 570 things it does not link — 344 of them now clickable
   - connect | meta | 453 of 497 pages were one-way doors
   - ingest | interests | personal lexicon — the custom-language layer, corpus-checked
+  - ingest | interests | the lexicon, counted — `bin/wiki-lexicon` and the measured vocabulary
 
-**2026-09-04** — 104 pages
+**2026-09-04** — 102 pages
   - lint | meta | the crosslink campaign had been counting a link that isn't one
   - connect | people | 79 lines had been written about a 1,789-message thread
   - connect | people | the handles were on the pages all along, and the guard could not see nine of them
@@ -13571,7 +14187,7 @@ chart:
         "Free lane": 38
         "Held (people)": 94
         "Too thin": 47
-        "Withheld": 217
+        "Withheld": 218
 sources: []
 ---
 
@@ -13597,7 +14213,7 @@ This page is the campaign to write one for every entry.
 |---|---|
 | Entries with a plain-English edition | **28** |
 | Entries eligible for one | 280 |
-| Withheld under the standing directive | 217 |
+| Withheld under the standing directive | 218 |
 | Coverage | 10.0% |
 
 ## The two lanes
@@ -13710,21 +14326,26 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-05 — 9 pages
+## 2026-09-05 — 14 pages
 
 | Page | Domain | What moved |
 |---|---|---|
+| [[wiki/interests/language/measured-vocabulary]] | interests | — |
 | [[wiki/interests/language/personal-lexicon]] | interests | _(carries a CONTRADICTION)_ |
-| [[wiki/interests/language/vocabulary-lexicon]] | interests | — |
+| [[wiki/interests/language/vocabulary-lexicon]] | interests | **GAP CLOSED** — this page said it "does not assert that these words are used in the corpus" and left open whether any of them are. Measured against both of Dan's first-party registers by `bin/wiki-lexicon registers - |
 | [[wiki/meta/digest]] | meta | — |
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
-| [[wiki/meta/recent-activity]] | meta | _(carries a RE-CHECKED)_ |
+| [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
 | [[wiki/meta/testimony-veracity]] | meta | — |
+| [[wiki/mind/concepts/calibrated-confidence]] | mind | _(carries a CORRECTED from 2026-08-23)_ |
+| [[wiki/mind/concepts/exocortex]] | mind | — |
 | [[wiki/mind/profile/lexicon]] | mind | — |
+| [[wiki/mind/profile/linguistic-profile]] | mind | _(carries a GAP CLOSED from 2026-08-27)_ |
 | [[wiki/mind/profile/voice-modes]] | mind | _(carries a CONTRADICTION)_ |
+| [[wiki/mind/synthesis/supply-network]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/people/ally-lubin]] | people | _(carries a CORRECTED from 2026-08-22)_ |
 
-## 2026-09-04 — 104 pages
+## 2026-09-04 — 102 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -13745,7 +14366,6 @@ simply listed.
 | [[wiki/interests/the-office]] | interests | — |
 | [[wiki/meta/readers-digest]] | meta | — |
 | [[wiki/mind/concepts/acquisition-drive]] | mind | _(carries a CONTRADICTION from 2026-08-02)_ |
-| [[wiki/mind/concepts/calibrated-confidence]] | mind | _(carries a CORRECTED from 2026-08-23)_ |
 | [[wiki/mind/concepts/chaos-preference]] | mind | **RE-CHECKED** — the-cool-metric gained a section showing the received-versus-sought sort aimed at an already-admitted person: a six-year partner whose public register goes ironic and then silent. This page's axis is  |
 | [[wiki/mind/concepts/contact-gini]] | mind | _(carries a REVISED from 2026-08-20)_ |
 | [[wiki/mind/concepts/the-cool-metric]] | mind | _(carries a RE-CHECKED from 2026-08-23)_ |
@@ -13761,7 +14381,6 @@ simply listed.
 | [[wiki/mind/synthesis/intensity-is-no-longer-the-only-mode]] | mind | **RE-CHECKED** — ally-and-dan-love-as-destiny moved on 2026-09-04 solely by having `destiny`, `the love story`, `ally-dan timeline`, `the courtship` and `the case` removed from its frontmatter. All five were invention |
 | [[wiki/mind/synthesis/single-channel]] | mind | **RE-CHECKED** — the-cool-metric gained a section measuring the public register on the six-year partner: affection at 12 of 32 mentions in 2010, 3 of 47 across 2011-2014, then zero for the relationship's last twenty-f |
 | [[wiki/mind/synthesis/spatial-behavior]] | mind | **RE-CHECKED** — 2017-poverty-floor moved for the vaughn re-derivation, gaining 156 May 2017 messages of primary-record texture. The new material is almost entirely about **transport as the binding constrain |
-| [[wiki/mind/synthesis/supply-network]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/mind/synthesis/the-binary-verdict]] | mind | **RE-CHECKED** — the-cool-metric gained a section showing the sorting metric run on a six-year live-in partner: affection in the public register falls from 12 of 32 mentions in 2010 to 3 of 47 across 2011-2014, the la |
 | [[wiki/mind/synthesis/the-deferred-audit]] | mind | **RE-CHECKED** — the-cool-metric moved on 2026-09-04 by gaining a substantive section, not a re-check note: the twitter archive shows *splitting via irony* aimed at a six-year live-in partner rather than at strangers, |
 | [[wiki/mind/synthesis/the-embedded-objective]] | mind | **RE-CHECKED** — nemacolin-caddying moved for the vaughn re-derivation. This page treats the caddying tenure as its weakest positive instance, on the grounds that the private status ladder it credits is *inferred from |
@@ -13917,14 +14536,13 @@ simply listed.
 | [[wiki/mind/synthesis/the-serial-monogamist]] | mind | — |
 | [[wiki/people/zach-clingan]] | people | **GAP CLOSED** — The 2014 "drug people" taxonomy and the December 2015 "my arch rival" outburst (below) both assume a rupture the corpus had never actually recorded. A 2026-08-27 operator capture (`raw/people/captures |
 
-## 2026-08-27 — 2 pages
+## 2026-08-27 — 1 page
 
 | Page | Domain | What moved |
 |---|---|---|
-| [[wiki/mind/profile/linguistic-profile]] | mind | **GAP CLOSED** — the operator volunteered the full "words for stupid" list against this page. It was not a gap this page had stated — unprompted material, staged here for the ingest to place. Placed here, in Lexical f |
 | [[wiki/places/117-belmont-circle]] | places | **GAP CLOSED** — the page previously said *"whether the sale actually closed, when, to whom and for how much is undocumented; the record stops at 'pending.'"* Two of those four are now answered — **when** (summer 2019 |
 
-## 2026-08-26 — 41 pages
+## 2026-08-26 — 40 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -13937,7 +14555,6 @@ simply listed.
 | [[wiki/mind/concepts/bunker-core]] | mind | — |
 | [[wiki/mind/concepts/conflict-architecture]] | mind | _(carries a REVISED from 2026-07-18)_ |
 | [[wiki/mind/concepts/erotic-architecture]] | mind | — |
-| [[wiki/mind/concepts/exocortex]] | mind | — |
 | [[wiki/mind/concepts/forensic-method]] | mind | _(carries a CORRECTED from 2026-08-18)_ |
 | [[wiki/mind/index]] | mind | — |
 | [[wiki/mind/politics/axioms]] | mind | **RE-CHECKED** — flagged stale against intp (2026-08-26), which added a documented interruption of the Fe-adjudication pattern (an Ally Lubin exchange) and removed its `sage_pending` staging. This page reasons from th |
@@ -15305,7 +15922,7 @@ status: active
 importance: high
 knowledge: earned
 date_created: 2026-08-02
-date_modified: 2026-09-04
+date_modified: 2026-09-05
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/twitter/archive.jsonl
@@ -15350,6 +15967,9 @@ connections:
   - page: wiki/self/twitter/replies
     type: evidenced-by
     claim: "Policing other people's calibration is not a behaviour the corpus holds a few instances of — across 186 new replies it is the dominant register: 'that's just polling averages, not a forecast model', 'that....not socialism', 'I don't like the way this data is being presented'."
+  - page: wiki/interests/language/measured-vocabulary
+    type: contextualizes
+    claim: "'i don't know' is the single most distinctive three-word sequence in Dan's corpus — 1,228 against 330 — with 'don't know what' (347/99), 'don't know how' and \"i'm not sure\" behind it. The graded-credence habit this page documents sits on top of a base rate of explicit uncertainty about three times his interlocutors', which bounds the capability claim: the calibration is real and the most frequent value it takes is low."
 ---
 
 # Calibrated Confidence
@@ -15363,6 +15983,33 @@ could go"* — 43 times. Across the 110,944 inbound messages from 503 other
 handles, it happens **twice**.
 
 The raw ratio understates it, and the interesting number is a different one.
+
+## The base rate underneath the habit
+
+The graded-credence residue this page is built on is rare by construction —
+that is what makes it a capability claim. Underneath it sits something far
+more common and pointing the other way. **`i don't know` is the single most
+distinctive three-word sequence in Dan's corpus**: 1,228 occurrences against
+330 from the 130,402 messages sent to him, roughly a 3× rate, with
+`don't know what` (347/99), `don't know how`, `don't know why` and
+`i'm not sure` immediately behind it
+([[wiki/interests/language/measured-vocabulary]]).
+
+**This bounds the claim rather than breaking it.** The two are compatible and
+arguably the same disposition: a man who reaches for a number when he has one
+is the same man who says so plainly when he does not, and both are the
+opposite of the confident default. What it forbids is the flattering
+paraphrase — that he is unusually *certain*, or that graded confidence is a
+way of sounding authoritative. **The most frequent value his confidence takes
+is low, and he says it in the ordinary words.** The 24 graded credences are
+the tail of a distribution whose bulk is *"i don't know"*.
+
+It also sharpens the untested half. This page is explicit that expression is
+measured and accuracy is not; `bin/wiki-testimony`'s ledger is where accuracy
+gets settled. A base rate of stated uncertainty three times his
+interlocutors' is a prediction about that ledger — hedged claims should be
+over-represented among his misses, and the calibration score should look
+better than the raw veracity score. Neither has been checked.
 
 ## The measurement
 
@@ -17185,7 +17832,7 @@ title: "The Exocortex (Bootloaders & Master Prompts)"
 aliases: ["CATO", "operating manual", "master forensic prompt", "MAX"]
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-08-26
+date_modified: 2026-09-05
 sources:
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
   - raw/self/dox-md/CATO_conflict_architecture.md
@@ -17256,6 +17903,9 @@ connections:
   - page: wiki/interests/language/personal-lexicon
     type: contains
     claim: "The vocabulary the exocortex is named in is itself evidence about it: the corpus holds six competing names for what an AI is to Dan — recursive cognitive prosthetic, emotional metabolizer, taboo-mining, co-processor, daemon mirror, emotional debugger, ideation engine — four of them prosthetic metaphors and two diagnostic ones, and his own custom-instructions field stacks three in a single sentence, so the naming does not distinguish a tool that extends him from a tool that inspects him."
+  - page: wiki/interests/language/measured-vocabulary
+    type: contextualizes
+    claim: "Dan has never typed the word 'exocortex' — zero occurrences in 6.9M characters of his texting, 614k of his ChatGPT prompts and 4.7M of his Gemini prompts. This page never claimed otherwise, but the measurement generalises past it: a term the wiki uses fluently is not thereby a term the subject uses, and nothing in the prose marks the difference. His own names for the apparatus are 'cognitive prosthetic' (29 in his Gemini prompts), 'emotional metabolizing' (20), 'taboo-mining' (8), 'daemon mirror' (4)."
 ---
 
 
@@ -17349,6 +17999,44 @@ writing, exactly how he wants to be seen and argued with.
 how often the bootloaders are actually loaded (versus maintained) is
 undocumented; MAX's full spec lives in its own raw sources and is thinner in
 the corpus than CATO's.
+
+## The word is this wiki's, not his
+
+`bin/wiki-lexicon` counts the terms in every corpus that can be split by
+voice — his ChatGPT user turns, the prompt half of each Gemini activity
+cell, and 6.9 million characters of his texting. **"Exocortex" occurs zero
+times in all three.** It is the corpus's standing name for this apparatus,
+it titles this page, and Dan has never typed it.
+
+That is not an error here — this page never claimed the word was his, and
+its `aliases:` name the artifacts (CATO, MAX, the operating manual) rather
+than the concept. But the measurement generalises past this page and is
+worth stating where somebody will find it: **a term the wiki uses fluently
+is not thereby a term the subject uses, and nothing in the writing marks the
+difference.** A reader arriving here would have no way to tell whether
+"exocortex" is his vocabulary or ours, and the answer turns out to be ours.
+
+His own names for the same thing, counted in his own prompts:
+
+| his term | texting | ChatGPT prompts | Gemini prompts |
+|---|---:|---:|---:|
+| cognitive prosthetic | 5 | 0 | 29 |
+| emotional metabolizing / metabolizer | 2 | 0 | 20 |
+| taboo-mining | 2 | 0 | 8 |
+| daemon mirror | 0 | 0 | 4 |
+| co-processor | 0 | 0 | 3 |
+| emotional debugger | 0 | 0 | 3 |
+| ideation engine | 0 | 0 | 1 |
+| **exocortex** | **0** | **0** | **0** |
+
+Note the second column. Every one of these is a **Gemini** word: across
+614,070 characters of ChatGPT prompts, the same man in overlapping years
+with a machine on the other end either way, the count is zero for all of
+them. The vocabulary for the apparatus was built in the sessions where he
+was using it on himself, and the sessions where he was using it for
+anything else never heard it. Full tables and method on
+[[wiki/interests/language/measured-vocabulary]]; the provenance argument is
+[[wiki/interests/language/personal-lexicon]].
 
 ---
 
@@ -21024,7 +21712,7 @@ title: "Linguistic Profile — Voice, Register, Stylometrics"
 aliases: ["voice", "stylometrics", "forensic intimacy"]
 status: stable
 date_created: 2026-07-13
-date_modified: 2026-08-27
+date_modified: 2026-09-05
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/dox-scan/Dan Profile.txt
@@ -21067,6 +21755,9 @@ connections:
   - page: wiki/interests/language/personal-lexicon
     type: contains
     claim: "This page measures how the sentences are built; that one records the nouns they reach for, and finds a single load-bearing modifier — 'recursive' attaches to the self-label, to the AI metaphor and to the working method, with no competing modifier (iterative, reflexive, nested) appearing anywhere in the corpus."
+  - page: wiki/interests/language/measured-vocabulary
+    type: evidenced-by
+    claim: "'Forensic intimacy' is described qualitatively here and turns out to be measurable as subordination: 'the fact that' 254 to 34, 'whether or not' 158 to 2, 'that you're' 346 to 17 against the 130,402 messages he received — roughly six times his interlocutors' rate for embedding a proposition in a that-clause, and rising across the record rather than holding steady."
 ---
 
 # Linguistic Profile — Voice, Register, Stylometrics
@@ -21082,6 +21773,48 @@ is **"forensic intimacy"**: clinical detachment fused with raw personal
 confession, optimized for information density and emotional precision, with
 a near-total absence of social filler. The idiom was already present in 2009
 tweets — it is architecture, not platform artifact.
+
+## Forensic intimacy is subordination, and it can be counted
+
+This page names the signature idiom and describes it. `bin/wiki-lexicon`
+measures what it is made of, scoring every word and phrase in Dan's sent
+messages against the same phrases in the **130,402 messages he received**:
+
+| construction | Dan | others | ratio | 2015 rate | 2026 rate |
+|---|---:|---:|---:|---:|---:|
+| `the fact that` | 254 | 34 | 6.0× | 1.1 | 3.1 |
+| `whether or not` | 158 | 2 | 63× | 0.2 | 2.3 |
+| `that you're` | 346 | 17 | 16× | | |
+| `some kind of` | 167 | 19 | 7.0× | | |
+| `that this is` | 149 | 15 | 8.0× | | |
+
+(Ratios are of raw counts against a contrast corpus 80% the size of his own;
+the per-year figures are rates per 10,000 of his tokens in that year. Method
+and full tables: [[wiki/interests/language/measured-vocabulary]].)
+
+**The register is a syntactic habit, not a lexical one.** He embeds
+propositions inside `that`-clauses at roughly six times his interlocutors'
+rate — *the fact that*, *whether or not*, *that this is* — which is what
+makes a sentence sound like a finding rather than a remark. It is not
+achieved with elevated words: measured against the 200 curated terms on
+[[wiki/interests/language/vocabulary-lexicon]], 47 of the 91 single words
+appear at all in 1,334,932 texting tokens and 510 of the 781 occurrences are
+`perfect`.
+
+**And it rises.** Every subordinator above roughly triples between 2015 and
+2026, against a `u`-for-*you* rate that falls 44-fold over the same span and
+a `lol` rate that halves. [[wiki/mind/profile/texting-deviance-audit]]
+independently finds words-per-turn going 15.65 → 35.41 across those years;
+this is the same event measured at the word rather than the turn, and it
+means the baseline this page calls "fixed mechanics that never change" is
+fixed in kind and **not** in degree.
+
+**The one place it does not hold is the emphasis marker.** `can't` 1,344 ·
+`cannot` **6** · `i can not` 145 against 2 from everyone else. He almost
+never writes the formal one-word negation; he splits the contraction to
+shout — *"I can not WAIT"*, *"I CAN NOT focus on anything else today at
+all"* — and that habit is newer than the rest, running 0.1–0.7 per 10k
+through 2024 and then 1.7 in 2025 and 3.1 in 2026.
 
 ## Measured fingerprint
 
@@ -21629,6 +22362,9 @@ connections:
   - page: wiki/self/message-corpora/master-message-dump
     type: component-of
     claim: "A structural cut of the master corpora — turn-level rather than message-level — computed from the 2026-08-13 deep export because it is the only sender-tagged file that reaches past 2025."
+  - page: wiki/interests/language/measured-vocabulary
+    type: parallels
+    claim: "This page measures the turn and finds 15.65 words in 2015-2019 rising to 35.41 in 2026; that one measures the words inside it on the same corpus and supplies the mechanism — 'u' collapses 44-fold from 149.4 per 10k in 2017 to 3.4 by 2024, 'lol' halves, and the stance adverbs and that-clause subordinators roughly triple. The turns lengthen because the abbreviations die and the subordination arrives."
 ---
 
 # Texting Deviance Audit — What Is Actually Abnormal About How Dan Texts
@@ -31433,6 +32169,9 @@ connections:
   - page: wiki/mind/profile/texting-deviance-audit
     type: parallels
     claim: "Same corpus, orthogonal instrument: this page measures when he writes and how fast the channel turns around, that one measures how much he writes per turn. Both find a 2025-26 inflection, and the length series carries the remediation target — turns of 11-20 words are answered 93.8% against 54.7% above 200 words."
+  - page: wiki/interests/language/measured-vocabulary
+    type: parallels
+    claim: "That page finds a lexical rhythm this one's hour-of-day analysis does not reach: the supply summons ('can you stop by' and variants) is 442 messages of Dan's, 333 of them (75%) inside the two hours 17:00-18:59 and 213 in the single hour 18:00-18:59, which is a far tighter window than anything in his general circadian profile and is set by somebody else's shift rather than his own sleep."
 ---
 
 
@@ -34434,7 +35173,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-09-04
+date_modified: 2026-09-05
 sources:
   - raw/people/captures/2026-08-02_010509_jay-lauer-death.md
   - "raw/self/dox-md/MAX_PRIME.md"
@@ -34553,6 +35292,9 @@ connections:
   - page: wiki/mind/synthesis/the-deferred-audit
     type: parallels
     claim: "This page's reliability inversion is the domain-general audit-timing rule that page states, run on suppliers specifically: Tom already appears on that page's own two-clocks table as a chosen object whose model was revised only after an eighteen-year lag, and Menore's professional distance is the imposed-object case run on the same market."
+  - page: wiki/interests/language/measured-vocabulary
+    type: evidenced-by
+    claim: "The network has one canonical speech act and it is the most Dan-distinctive phrase in the whole corpus: 'can you stop by' and its variants run 527 to 62 against everyone he has ever texted, with 'i'm home on ___' at 211 to 0. 442 are his, 333 of them (75%) in the two hours 17:00-18:59, and the per-year rate is two discrete spikes — 17.1 per 10k in 2019 and 19.7 in 2024 — against near-silence either side and 0.1 in 2026."
 ---
 
 # The Supply Network
@@ -34764,6 +35506,69 @@ failures had to accumulate past the point of undeniability before the audit
 that had always been available finally ran. The friend does not get a more
 forgiving standard. He gets the standard applied on a schedule set by
 provenance, exactly as the parent rule predicts.
+
+## The grammar of the summons
+
+Everything above models the network by node, reliability and cost. It can
+also be read from inside the sentences, and the sentences turn out to be
+extraordinarily uniform. **The most Dan-distinctive phrase in the entire
+message corpus is a delivery request.**
+
+| phrase | Dan | everyone else |
+|---|---:|---:|
+| `can you stop` | 306 | 10 |
+| `you stop by` | 284 | 1 |
+| `i'm home on` | 211 | 0 |
+| `can u stop` | 178 | 0 |
+| `u stop by` | 161 | 0 |
+
+Nothing else in 1.3 million of his tokens is this lopsided against the
+1.06 million he received. Measured on
+[[wiki/interests/language/measured-vocabulary]] by log-odds against the
+130,402 messages sent to him, `stop by` is the seventh-ranked two-word
+sequence in his speech overall, and the three-word forms around it are
+effectively unreciprocated. The content is never ambiguous:
+
+> *"Can you stop by when you're done? I have some money to help you get rid
+> of the not-so-good stuff"* (2016-01-30) · *"Can you stop by for the money
+> on your way. I can wait for the whole thing"* (2018-11-16) · *"Can you
+> stop by when you get started"* · *"Can u stop by when you get going"*
+
+**Two hours carry it.** 442 of these are Dan's, and **333 — 75% — fall in
+the two hours 17:00–18:59**, 213 of them in the single hour 18:00–18:59; widen the window by
+one more hour and it is 389, or 88%. That is
+a far tighter window than anything in his general circadian profile
+([[wiki/mind/synthesis/message-circadian-latency]]), and *"when you get
+started"* / *"when you get going"* says why: the summons is timed to
+somebody else's shift, not to his own day. It is what distinguishes a
+delivery request from an invitation, and it is in the wording rather than
+in the timestamp.
+
+**The rate is not a habit; it is two regimes.** Per 10,000 of his own
+tokens, by year:
+
+| 2015 | 2016 | 2017 | 2018 | 2019 | 2020 | 2024 | 2025 | 2026 |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 0.9 | 2.1 | 1.2 | 1.3 | **17.1** | 2.7 | **19.7** | 1.3 | 0.1 |
+
+Two spikes an order of magnitude above the baseline, five years apart, with
+near-silence on either side — and **effectively nothing in 2026**, the year
+this page's own account runs to a May collapse. No synonym absorbs it:
+`come by` totals 12 across eleven years, `swing by` 18, `front me` 3. The
+phrase did not get replaced; the *speech act* stopped.
+
+> **What this does not settle, and should not be made to.** Three readings
+> fit the same numbers and the corpus does not choose between them: the
+> delivery direction reversed (he went to them), the channel moved off
+> iMessage, or the 2019 and 2024 spikes are two specific counterparties
+> whose service model happened to be doorstep and whose predecessors' and
+> successors' was not. The node succession above does not obviously predict
+> the shape — Menore's 458 requests span 6.5 years continuously, and this
+> series does not. **A measured discontinuity in how supply was *asked for*
+> is not a discontinuity in supply**, and reading it as one would be the
+> error this section exists to avoid. What is established is narrower and
+> still worth having: the network ran on one canonical sentence, inside a
+> two-hour window, in two bursts, and by 2026 that sentence was gone.
 
 ## What node failure costs
 
@@ -107299,7 +108104,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,778 events** across **80 years** (1796–2027), drawn from **392 pages**. Tier 1 730 · Tier 2 466 · Tier 3 2,582.
+**3,782 events** across **80 years** (1796–2027), drawn from **393 pages**. Tier 1 730 · Tier 2 466 · Tier 3 2,586.
 
 ## What counts as an event here
 
@@ -109067,7 +109872,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2013-11-29** — The silence begins on 29 November 2013, roughly three months *before* the March 2014 eviction of the first account and more than nine before the window of the second.  
   ↳ [[wiki/people/alexis-armel]] · What this does not establish, stated because it is the tempting move
 - · **2013-11-29** — bond switch 2015 — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 104 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 102 pages
 - · **December 2013** — The Diary of Dan Frank* is an autobiographical claim attached to a trap mix; *Betty Draper* and *A BRIEF HISTORY OF TIME AND BASS* are the same pun-on-a-cultural-object habit the office documents running on television; *helterskelter: race riot music* is a nineteen-sixties reference nobody in that…  
   ↳ [[wiki/interests/music/aliases/sloppp]] · The titles are a source in their own right
 - · **December 2013** — 2 Chainz – Netflix ft. Fergie (SLOPPPED N SCREWED Rework) — Rework (Twitter)  
@@ -110579,9 +111384,9 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **May 2017** — What can be said is narrower and firmer than the arc: **on one dated evening in May 2017 the man himself put the number at roughly a gram a day, and he priced grams at $100 in the same channel nine months later.  
   ↳ [[wiki/health/cocaine]] · The one dollar figure, and it disagrees with the arc
 - · **May 2017** — spatial behavior — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 104 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 102 pages
 - · **May 2017** — location history — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 104 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 102 pages
 - · **May 2017** — Davey Fitzpatrick was Dan's coworker, then boss, and by the end genuine friend across the two Nemacolin caddying seasons (`+17249639933`, 382 messages, May 2017 – November 2018): a fellow caddie in 2017 who came back for 2018 as **assistant caddie master** — "I'm actually gonna be assistant caddie…  
   ↳ [[wiki/people/davey-fitzpatrick]] · Davey Fitzpatrick
 - · **May 2017** — Eric Jester is a Full Sail film-school friend (contacts notes: "sandwich eater. dream killer.") whose message thread spans nearly a decade (`+14137703708`, 103 messages, May 2017 – August 2025) — sparse check-ins that resurface every year or two, each one picking back up exactly where the last left…  
@@ -110790,7 +111595,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **January 2018** — The first is **0% confident** (January 2018) — the scale runs downward as well as upward, which an intensifier cannot do.  
   ↳ [[wiki/mind/concepts/calibrated-confidence]] · What it means
 - · **2018-01-06** — block unblock loop — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 104 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 102 pages
 - · **2018-01-06** — ← Rick — *"I'm tired of u treating me or thinking about me like Rod Banks or Fred Adams"  
   ↳ [[wiki/people/fred-adams]] · The contemporaneous record — sixteen dated rows nobody had read
 - · **2018-01-06** — And Rick put him in a category.** 2018-01-06, from Rick: *"I'm tired of u treating me or thinking about me like Rod Banks or Fred Adams.  
@@ -111362,7 +112167,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2018-11-05** — Photo: November 5, 2018 birthday-night scene** (taken from vlcsnap-2026-08-09-16h22m50s481.png)  
   ↳ [[wiki/timeline/events/annie-alexis-reunion-november-2018]] · Visual Atmosphere
 - · **2018-11-05** — suzanne frank personality assessment — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 104 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 102 pages
 - · **2018-11-05** — ← Suz — *"I'm going to have to go see judge Adams tomorrow because I'm not going to make it until my next closing"  
   ↳ [[wiki/people/fred-adams]] · The contemporaneous record — sixteen dated rows nobody had read
 - · **2018-11-05** — On **2018-11-05** she goes to him for money to cover an overdraft — *"I'm going to have to go see judge Adams tomorrow because I'm not going to make it until my next closing.  
@@ -111775,7 +112580,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **July 2019** — suzanne frank** — **What happened to the $14,000?** Was any of the remaining ~$10,000 ever repaid, in cash or in kind, after July 2019?  
   ↳ [[wiki/meta/open-questions]] · people (217)
 - · **Summer 2019** — 117 belmont circle — places  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-27 — 2 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-27 — 1 page
 - · **Summer 2019** — t005 — date, quantity — confident — unfalsifiable — Uncorroborated in the message record, which never returns to the subject after Danny's 11 July line. Buyer unknown. A deed search would settle it.  
   ↳ [[wiki/meta/testimony-veracity]] · The record
 - · **July 2019** — The engagement shape is exactly what the rule predicts for an unhostable assignment: dense April–July 2019, near-silent August through November, scattered orders in March 2020, one final burst in April 2020.  
@@ -112176,7 +112981,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2020-05-24** — And on **2020-05-24** at 07:24 she is the one who reports his death: *"I don't know if you will read this or not but Jsyk I found out last night, quite by coincidence, that judge Adams died several days ago."* The corpus has no other record of it.  
   ↳ [[wiki/people/suzanne-frank]] · Her channel is the only record of the man who held the money
 - · **2020-05-24** — annual volume suz — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 104 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 102 pages
 - · **2020-05-26** — Last exchange on **this handle** May 26, 2020 ("text Annie when ready");  
   ↳ [[wiki/people/menore]] · Timeline & Phases
 - ★ **June 2020** — whether contact continued past that point, and whether it survived the eventual end of the Dan/Annie relationship, is undocumented.  
@@ -113813,6 +114618,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/annie-ulmer]] · Third movement — eighteen minutes after the goodbye (July 26 – August 2)
 - ★ **March 2026** — It settles that June 1 was not a severance and July 26 was not an ending.** Two goodbyes are now on record, fifty-two days apart, followed by the highest-density contact period since March 2026.  
   ↳ [[wiki/timeline/events/july-august-2026-reentanglement]] · What this settles
+- · **March 2026** — The same evening he is pasting his persona configuration to two different threads and telling them *"trust me it will totally change the responses."* **The exocortex is being evangelised**, in ordinary text messages, in March 2026 — which is also the first evidence anywhere in the corpus that the…  
+  ↳ [[wiki/interests/language/personal-lexicon]] · Layer 2 — the cognitive-instrument cluster, and the word "recursive"
 - · **March 2026** — The March 2026 DnB remixes are described as the first shipped music of the new era.  
   ↳ [[wiki/mind/synthesis/failure-to-launch]] · Credential and output
 - · **March 2026** — A managed "sweet" persona Annie maintained with Dan's mother converted his most natural ally into an asset working against him: by March 2026 he was actively lying to his own mother to protect Annie's image ("I've been FUCKING LYING for you") while the underlying deception continued.  
@@ -113887,6 +114694,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/profile/texting-deviance-audit]] · The seven turn-modes, and the one that matters
 - · **2026-03-21** — Last message: 2026-03-21 (gap since February spike suggests lower contact post-winter)  
   ↳ [[wiki/people/jason-bermejo]] · Notes & Gaps
+- · **2026-03-24** — On **2026-03-24**, to a person, unprompted, mid-conversation about configuring their own assistant:  
+  ↳ [[wiki/interests/language/personal-lexicon]] · Layer 2 — the cognitive-instrument cluster, and the word "recursive"
 - · **2026-03-26** — In a 2026-03-26 exchange with Tom (the phloxenheim thread, 00:47–00:49), Dan articulated the division of labor himself: *"take the analysis and upload it to gemini. / Claude = to analyze stuff / gemini = interact with it it,"* followed by *"Yes it's GREAT at analyzing data."* This is not a trivial…  
   ↳ [[wiki/self/concepts/claude]] · The reputation
 - · **2026-03-26** — Dan's own summary is the canonical description, given to Tom on 2026-03-26: "Claude = to analyze stuff / gemini = interact with it." Where Claude produces forensic analysis, Gemini produces conversation, design, and interaction at scale.  
@@ -114258,7 +115067,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2026-07-13** — Whether Target G is the same person as Tuquick is explicitly unresolved — an operator correction on file (2026-07-13) confirms only that Tuquick is the person Annie left Dan for and the person the June closure happened with, and states plainly "we do not know" whether he is also Target G.  
   ↳ [[wiki/people/annie-ulmer]] · A separate thread: Target G
 - · **2026-07-13** — franki faris — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 104 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 102 pages
 - · **2026-07-13** — The page for Franki has carried a standing note since 2026-07-13 that the "July 4" framing used elsewhere in the corpus **had no source anywhere in the archive** and was flagged rather than adopted.  
   ↳ [[wiki/timeline/events/franki-fireworks-day-2013]] · The fireworks date the day, almost
 - · **2026-07-13** — Financial substrate (final dossiers, added 2026-07-13):** the terminal-phase dependency structure — Dan controlling the drug supply while Annie was unemployed and dependent — was the latest of three rotations, per the accepted amendments: Dan funded the early NYC years; Dan worked through the 2023…  
@@ -114328,7 +115137,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2026-07-18** — Intervention by her parents and sister; rehab placement refused; car taken  
   ↳ [[wiki/people/annie-ulmer]] · Chronology
 - · **2026-07-18** — conflict architecture — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 40 pages
 - · **2026-07-18** — Love affirmations from Annie to Dan — 299  
   ↳ [[wiki/mind/concepts/attachment-model]] · Quantitative Corpus Indicators
 - · **2026-07-18** — "Worthless" instances — 11  
@@ -114340,13 +115149,13 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-18** — 02 — Au Za'atar Volume I: Tarik, dimitri — Dimitri, DJ, valeria iglesias cid — Valeria, shed build  
   ↳ [[wiki/self/gemini-activity/gemini-activity]] · Session Index
 - · **2026-07-19** — new jim shaffer — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 104 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 102 pages
 - · **2026-07-19** — steve kezmarsky — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 104 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 102 pages
 - · **2026-07-19** — The vigil page has carried "fire alarm? staff incident?" as an open question since 2026-07-19.  
   ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · The Uniontown Hospital Vape Alarm (early April 2018)
 - ★ **2026-07-20** — open questions — meta  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-05 — 9 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-05 — 14 pages
 - ◆ **2026-07-20** — intake constancy** — > **CONTRADICTION [2026-07-20], operator-clarified same day:** an extended YouTube export (through July 2026, filed to youtube-watch-history) showed essentially zero real YouTube watches for ~100 days, Nov 8 2025 - Feb 15 2026 — one genuine video against 78 ad  
   ↳ [[wiki/meta/open-questions]] · mind (174)
 - ◆ **2026-07-20** — The full per-contact export (filed 2026-07-20, superseding the earlier 28-message partial pull from the unreliable-direction master CSV) shows a real two-way conversation, not a one-sided text: Mike opens July 28 asking how Dan is feeling about Kamala's chances, then the substantive exchange runs…  
@@ -114498,7 +115307,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2026-08-02** — A first-person operator capture written on 2026-08-02 supplies the day this relationship consists of, documented in full at franki fireworks day 2013.  
   ↳ [[wiki/people/franki-faris]] · The day itself, and what a 2026 capture settled
 - ◆ **2026-08-02** — teen concert years — timeline  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 40 pages
 - ◆ **2026-08-02** — As of 2026-08-02 it is also known to have a jurisdiction: food and diet shows the axis is never applied to food, which out-mentions music in the message corpus and holds zero of the 2,016 entries in the curated favorites record.  
   ↳ [[wiki/mind/synthesis/single-channel]] · Gaps
 - · **2026-08-02** — Its correction of 2026-08-02 is the hinge: the earlier reading held that food was simply never evaluated, and what replaced it was that food is not *ranked* but is *specified*, totally, with the refusal list consisting precisely of the three items that cannot be picked off afterwards.  
@@ -114510,9 +115319,9 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-02** — jerel coles** — 4. **What load broke a thirteen-day-held off-switch?** Test the hypothesis above against the 2026-08-02 → 08-08 logs.  
   ↳ [[wiki/meta/open-questions]] · people (217)
 - · **2026-08-02** — acquisition drive — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 104 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 102 pages
 - · **2026-08-02** — fran coldren — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 40 pages
 - · **2026-08-02** — big five psychometrics — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 17 pages
 - · **2026-08-02** — ~~**No audit has been run.**~~ **CLOSED 2026-08-02** — see the enumeration  
@@ -114568,9 +115377,9 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ◆ **2026-08-09** — The childhood-friend layer is documented in the 2026-08-09 extreme-sports capture: Tancredi Calabrese was one of the friends who planned summer ski-camp trips to Windell's in Whistler BC — the month-long destination camp that represented a step up from the regional Seven Springs terrain parks.  
   ↳ [[wiki/people/tan-calabrese]] · Childhood context
 - · **2026-08-09** — tan calabrese — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 104 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 102 pages
 - · **2026-08-09** — the unnamed man — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 104 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 102 pages
 - · **2026-08-09** — tuquick 17248123683 — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 13 pages
 - · **2026-08-09** — 113 — 105 — 5.2 — the read-receipt night  
@@ -114622,7 +115431,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-11** — Suz to Dan: *"It's time for you to go."* — the newest datapoint on his housing, from the person who controls it (suzanne frank)  
   ↳ [[wiki/legal/463-morgantown]] · Timeline
 - · **2026-08-11** — rick frank — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 104 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 102 pages
 - · **2026-08-11** — What the qualification is.** The right distinction is between *volume* and *dependability*, and the mother channel fails the second test on its own record: it alternates rescue with an itemised bill, it produced a $14,000 dispute that ran unresolved for seven years, and on 11 August 2026 it…  
   ↳ [[wiki/mind/synthesis/single-channel]] · RE-CHECKED [2026-08-18]
 - · **2026-08-11** — Confirmation, downgraded 2026-08-11 — the amputation operation.** The  
@@ -114724,11 +115533,11 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-17** — jerel coles** — 6. **What is *"stuff to ruin you and your mom"* (2026-08-17 12:48)?** The only threat aimed at Suz in the corpus that has no named content. Bluster is the parsimonious reading and there is nothing in `raw/` either way.  
   ↳ [[wiki/meta/open-questions]] · people (217)
 - · **2026-08-17** — casey bondarenka — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 104 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 102 pages
 - · **2026-08-17** — kristin — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 40 pages
 - · **2026-08-17** — milo — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 40 pages
 - · **2026-08-17** — ellen ulmer — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 13 pages
 - · **2026-08-17** — 374 — 210 — 4.9 — the seventy-hour campaign opens  
@@ -114770,9 +115579,9 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-17** — The operator (2026-08-17) places it *"in the text logs on 26 July 2026 at around 7am"*, along with the threatening messages sent from Annie's number in the hours before.  
   ↳ [[wiki/timeline/events/july-august-2026-reentanglement]] · Gaps
 - ★ **2026-08-18** — forensic method — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 40 pages
 - ★ **2026-08-18** — fran death vigil — timeline  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 40 pages
 - ★ **2026-08-18** — On August 18, 2026, 21:07:43–21:09:11, in the Ally channel: she challenges (*"You just love bomb"*), he runs the redefinition move (*"But love bomb is like a malicious tactic and there very little malice"*), she narrows rather than escalates (*"I didn't say malicious"*), and he concedes in six…  
   ↳ [[wiki/mind/concepts/conflict-architecture]] · The one completed refusal, and how it ends
 - ◆ **2026-08-18** — Clause 3 — "complicit in the length and depth" — gets its clearest single instance, and it is worse than anything previously on the ledger.** On 2026-08-18 at 19:35 Dan told Annie he had sent the recording to her parents; three minutes later he told her he had not, and why: *"it wasn't actually…  
@@ -114792,7 +115601,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-18** — nothing in the message record speaks to the supply side after 2025-02-20. **How Dan knows is itself unrecorded** — the answer implies some awareness channel (co  
   ↳ [[wiki/meta/open-questions]] · people (217)
 - · **2026-08-18** — john felix — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 104 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 102 pages
 - · **2026-08-18** — 337 saratoga drive — places  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-22 — 4 pages
 - · **2026-08-18** — 463 morgantown — legal  
@@ -114864,7 +115673,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-19** — august 2026 morgantown call** — **Did the block hold?** The export ends 2026-08-19 15:15:33, eight minutes after it. Every previous block in this record has a documented reversal.  
   ↳ [[wiki/meta/open-questions]] · timeline (95)
 - · **2026-08-19** — enneagram 5w4 — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 40 pages
 - · **2026-08-19** — The strongest is the **asymmetric clearing** — on 2026-08-19 at 06:33 Annie publicly cleared Coles of rape in a group chat, having agreed by phone to do the same for Dan, and did not.  
   ↳ [[wiki/mind/synthesis/august-grievance-verdict]] · LLM Quick Brief
 - · **2026-08-19** — The strongest — Annie publicly clearing Coles of rape in a group chat on 2026-08-19 at 06:33 having agreed by phone to clear Dan and not doing so — is the cleanest documented wrong in the corpus, because it required no interpretation: one act was performed and its promised counterpart was not.  
@@ -114892,11 +115701,11 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ◆ **2026-08-20** — iMessage triple-handle archive on disk  
   ↳ [[wiki/people/annie-ulmer]] · By the numbers
 - · **2026-08-20** — contact gini — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 104 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 102 pages
 - · **2026-08-20** — james dee — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 104 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 102 pages
 - · **2026-08-20** — arrangement history — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 40 pages
 - · **2026-08-20** — alexander jackson — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 13 pages
 - · **2026-08-20** — arnu — people  
@@ -114918,7 +115727,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-21** — Her own page carries the correction: two independent 2026-08-21 passes concluded she has no type at all, a finding that could only be made once the datum stopped living only on a five-day rebound's page and was carried on her own page as well.  
   ↳ [[wiki/meta/journeys/the-type-machine]] · The control case: typed, then found untyped
 - · **2026-08-21** — fastly fsly — work  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 40 pages
 - · **2026-08-21** — wiki brain — self  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-21 — 6 pages
 - · **2026-08-21** — The trend-detection lead is the same function seen from outside, and Dan prices it precisely in the love letter of 2026-08-21 — the only document in the corpus where he states what the attraction actually is:  
@@ -114934,29 +115743,29 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2026-08-22** — The charging documents were real.** The summons surfaced 2026-08-22: a Fayette County summary non-traffic case, docket MJ-14101-NT-0000082-2018, **filed April 5, 2018 — the day after Fran died** — before Magisterial District Judge Michael M.  
   ↳ [[wiki/timeline/events/fran-death-vigil]] · Sequence
 - · **2026-08-22** — ally lubin — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-05 — 9 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-05 — 14 pages
 - · **2026-08-22** — 155 virginia ave — places  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 104 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 102 pages
 - · **2026-08-22** — deviance mapping — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 40 pages
 - · **2026-08-22** — attachment model — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 15 pages
 - · **2026-08-22** — It does not settle *when* beyond "recent," and it does not answer the transmission question the gap also asked: whether Ally sent the screenshot to Dan directly, or he obtained it some other way, is still undocumented. "Recent" against a 2026-08-22 capture puts the test somewhere in mid-2026 and no…  
   ↳ [[wiki/people/ally-lubin-cognitive-profile]] · The instrument, and what it is worth
 - ★ **2026-08-23** — the cool metric — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 104 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 102 pages
 - ◆ **2026-08-23** — The replacement gap is narrower and answerable by a decision rather than a query: *will such a log be kept, starting when?* 2. ~~**No release catalogue, no platform links, no streaming figures** for any of the four music aliases.~~ **CLOSED [2026-08-23], and it changed Part VI as predicted — in the…  
   ↳ [[wiki/mind/synthesis/failure-to-launch]] · Gaps
 - ◆ **2026-08-23** — The other is not, and no page models what happens when the remaining one carries the whole load. 6. ~~**The 127/110 exit-declaration pair is dossier arithmetic.**~~ **CLOSED [2026-08-23]** — see Part I½. 129 episodes derived independently, 128 of 128 resumed, median gap 36 seconds, all-time maximum…  
   ↳ [[wiki/mind/synthesis/the-rescue-premise]] · Gaps
 - · **2026-08-23** — calibrated confidence — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 104 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-05 — 14 pages
 - · **2026-08-23** — overview — interests  
   ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 27 pages
 - · **2026-08-23** — closing the set — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 40 pages
 - · **2026-08-23** — annie ulmer personality assessment — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 40 pages
 - · **2026-08-23** — johnny dealer — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 15 pages
 - · **2026-08-23** — 1. ~~**No calibration test has been run**, though the data for it exists.~~ **CLOSED [2026-08-23], as a negative result.** The data does not exist: of 24 strict graded credences across eleven years, one is resolvable and it resolved false.  
@@ -114972,11 +115781,11 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-26** — Read against the two curated batches above (Axis A "pretty," Axis B "stupid"), the analyst profile, and the Battery, three structures repeat across all of them and are the actual finding of the 2026-08-26 session:  
   ↳ [[wiki/interests/language/vocabulary-lexicon]] · Full cross-cutting analysis
 - · **2026-08-26** — supply network — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 104 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-05 — 14 pages
 - · **2026-08-26** — suzanne frank — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 104 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 102 pages
 - · **2026-08-26** — ally and dan love as destiny — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 104 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 102 pages
 - · **2026-08-26** — dan annie fallout verdict — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 13 pages
 - · **2026-08-26** — fayette return — mind  
@@ -114986,15 +115795,15 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-26** — read receipt forensics — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 13 pages
 - · **2026-08-26** — axioms — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 40 pages
 - · **2026-08-26** — the cato seat — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 40 pages
 - · **2026-08-26** — jerad friedline — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 40 pages
 - · **2026-08-26** — astrology star signs — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 40 pages
 - · **2026-08-26** — 2020 2021 market era — timeline  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 40 pages
 - · **2026-08-26** — On 2026-08-26 he ran a session generating graded insult and praise batches and then selected from the pool, and the selections are recorded in full at vocabulary lexicon.  
   ↳ [[wiki/mind/profile/linguistic-profile]] · The insult register is built, not reached for
 - · **2026-08-26** — The August 26, 2026 update introduces a potentially important counterexample.  
@@ -115003,10 +115812,14 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/franki-faris]] · The five days (summer 2013)
 - ★ **2026-08-27** — Alexis had, in the interim, confronted him — the source material points to a (not yet located verbatim) message along the lines of "I know you're with Franki" in the early-July window — and by the time Dan tried to return, she had already moved on to another man, described as "fully invested" (the…  
   ↳ [[wiki/people/franki-faris]] · The five days (summer 2013)
+- · **2026-08-27** — analyzed — Standard forms are off rip and off the rip — African-American English,  
+  ↳ [[wiki/interests/language/measured-vocabulary]] · Captured words
 - · **2026-08-27** — That file was captured on **2026-08-27**, records the phrase **"off-rip"** with the note *"at the beignning of something"* (the typo is in the capture), and its `status:` has said `pending` and its `## Reading` section has said *"Not yet analysed"* for nine days.  
   ↳ [[wiki/interests/language/personal-lexicon]] · Layer 5 — the dictionary this repository already has and does not use
 - · **2026-08-27** — ally lubin cognitive profile** — **Did she report the result herself, or was it forwarded?** The visible page is the results email, which implies she had the account. The 2026-08-27 operator answer confirms the result is hers but says nothing about how the screenshot reached Dan, so this stay  
   ↳ [[wiki/meta/open-questions]] · people (217)
+- · **2026-08-27** — linguistic profile — mind  
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-05 — 14 pages
 - · **2026-08-27** — t019 — Fran's house, listed at 350000 dollars, will sell for between 250000 and 300000 — quantity — hedged — confirmed  
   ↳ [[wiki/meta/testimony-veracity]] · The record
 - · **2026-08-27** — The 2026-08-27 operator answer confirms the result is hers but says nothing about how the screenshot reached Dan, so this stays open.  
@@ -115018,13 +115831,13 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-28** — Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`.  
   ↳ [[wiki/interests/food-and-diet]] · The constitution pass
 - · **2026-08-28** — chemical architecture — health  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 104 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 102 pages
 - · **2026-08-28** — cocaine — health  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 104 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 102 pages
 - · **2026-08-28** — estate money spine — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 104 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 102 pages
 - · **2026-08-28** — the unbroken bond — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 104 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 102 pages
 - · **2026-08-28** — alias as periodization — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 13 pages
 - · **2026-08-28** — august grievance verdict — mind  
@@ -115090,11 +115903,11 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-09-02** — The git log read as a record of *operations* rather than saves  
   ↳ [[wiki/meta/instruments/index]] · The measures
 - · **2026-09-02** — sloppp — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 104 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 102 pages
 - · **2026-09-02** — alexis armel — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 104 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 102 pages
 - · **2026-09-02** — eric jester — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 104 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 102 pages
 - · **2026-09-02** — 2020 left turn — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 27 pages
 - · **2026-09-02** — chatgpt — self  
@@ -115114,7 +115927,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-09-02** — The `@danfrank` Twitter account was recovered thirteen months further back on 2026-09-02 (2008), and it opens on **24 September 2008**, the day Dan arrives in Winter Park.  
   ↳ [[wiki/timeline/periods/dark-era-2007-2008]] · The period's exit, in his own words, on the day it happened
 - · **2026-09-03** — opie and anthony — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 104 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 102 pages
 - · **2026-09-03** — Reading all nineteen years in full (2026-09-03) sharpens that into something a reader must know before using any of these pages, because the naive reading of the volume curve is not merely imprecise — it is **inverted**.  
   ↳ [[wiki/self/twitter]] · The blackouts, and why the volume curve cannot be read as a life curve
 - ◆ **2026-09-04** — A second contemporaneous figure now exists, from a thread the same 2026-09-04 sweep opened (new jim shaffer), and it is not addressed to anybody selling anything.  
@@ -115126,9 +115939,9 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-09-04** — Assembled 2026-09-04 from the twitter archive.  
   ↳ [[wiki/health/chemical-architecture]] · Nicotine: eighteen years, five delivery systems, and no interruption
 - · **2026-09-04** — intensity is no longer the only mode — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 104 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 102 pages
 - · **2026-09-04** — the deferred audit — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 104 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 102 pages
 - · **2026-09-04** — As of 2026-09-04 it holds **12 settled claims on 35.0 weight**:  
   ↳ [[wiki/mind/concepts/calibrated-confidence]] · Accuracy is no longer untested — but read what was tested
 - · **2026-09-04** — Added 2026-09-04, from the vaughn re-derivation.  
@@ -115159,7 +115972,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ---
 
-*Generated by `bin/wiki-timeline` from 392 wiki pages. 3,929 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 393 wiki pages. 3,932 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
 
 
 ========================================================================

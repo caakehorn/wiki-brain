@@ -15,7 +15,7 @@ Nothing here blocks a commit. The gates print what is outstanding and pass
 anyway; a question asked on Tuesday must not stand in the way of Thursday's
 typo fix.
 
-## Obligations (120)
+## Obligations (131)
 
 Somebody or something is waiting on each of these. Drain from the top.
 
@@ -126,7 +126,18 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 | 3 | stale | premise wiki/self/context-core.md moved 2026-09-04, after this page's 2026-08-26 | `wiki/work/fastly-fsly.md` | 2026-09-04 |
 | 3 | stale | premise wiki/self/context-core.md moved 2026-09-04, after this page's 2026-08-28 | `wiki/mind/synthesis/instrument-is-subject.md` | 2026-09-04 |
 | 3 | stale | premise wiki/self/twitter/2024.md moved 2026-09-04, after this page's 2026-09-03 | `wiki/mind/synthesis/twitter-2024-cognitive-state.md` | 2026-09-04 |
+| 3 | stale | premise wiki/mind/concepts/calibrated-confidence.md moved 2026-09-05, after this page's 202… | `wiki/mind/synthesis/failure-to-launch.md` | 2026-09-05 |
+| 3 | stale | premise wiki/mind/concepts/calibrated-confidence.md moved 2026-09-05, after this page's 202… | `wiki/mind/synthesis/the-binary-verdict.md` | 2026-09-05 |
+| 3 | stale | premise wiki/mind/concepts/exocortex.md moved 2026-09-05, after this page's 2026-08-26 | `wiki/mind/synthesis/ai-collaborative-analysis.md` | 2026-09-05 |
+| 3 | stale | premise wiki/mind/concepts/exocortex.md moved 2026-09-05, after this page's 2026-08-28 | `wiki/mind/synthesis/instrument-is-subject.md` | 2026-09-05 |
+| 3 | stale | premise wiki/mind/concepts/exocortex.md moved 2026-09-05, after this page's 2026-09-04 | `wiki/mind/synthesis/failure-to-launch.md` | 2026-09-05 |
+| 3 | stale | premise wiki/mind/profile/linguistic-profile.md moved 2026-09-05, after this page's 2026-08… | `wiki/mind/synthesis/the-commissioned-self.md` | 2026-09-05 |
+| 3 | stale | premise wiki/mind/profile/linguistic-profile.md moved 2026-09-05, after this page's 2026-09… | `wiki/mind/synthesis/failure-to-launch.md` | 2026-09-05 |
 | 3 | stale | premise wiki/mind/profile/voice-modes.md moved 2026-09-05, after this page's 2026-08-28 | `wiki/mind/synthesis/the-commissioned-self.md` | 2026-09-05 |
+| 3 | stale | premise wiki/mind/synthesis/supply-network.md moved 2026-09-05, after this page's 2026-09-04 | `wiki/health/cocaine.md` | 2026-09-05 |
+| 3 | stale | premise wiki/mind/synthesis/supply-network.md moved 2026-09-05, after this page's 2026-09-04 | `wiki/health/the-configured-body.md` | 2026-09-05 |
+| 3 | stale | premise wiki/mind/synthesis/supply-network.md moved 2026-09-05, after this page's 2026-09-04 | `wiki/mind/synthesis/intake-constancy.md` | 2026-09-05 |
+| 3 | stale | premise wiki/mind/synthesis/supply-network.md moved 2026-09-05, after this page's 2026-09-04 | `wiki/mind/synthesis/totality-themes.md` | 2026-09-05 |
 | 3 | stale | premise wiki/people/ally-lubin.md moved 2026-09-05, after this page's 2026-08-26 | `wiki/self/concepts/astrology-star-signs.md` | 2026-09-05 |
 | 3 | stale | premise wiki/people/ally-lubin.md moved 2026-09-05, after this page's 2026-08-28 | `wiki/mind/synthesis/no-platonic-channel.md` | 2026-09-05 |
 | 3 | stale | premise wiki/people/ally-lubin.md moved 2026-09-05, after this page's 2026-09-04 | `wiki/mind/synthesis/intensity-is-no-longer-the-only-mode.md` | 2026-09-05 |

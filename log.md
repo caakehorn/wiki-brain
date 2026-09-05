@@ -9996,3 +9996,96 @@ again.
 `bin/wiki-check` clean · 499 pages, 0 errors · reciprocal debt 0 on the new page
 · two candidates to `skills/INBOX.md` (model-recall drift; the undocumented
 capture path), neither promoted — one occurrence each.
+
+## [2026-09-05] ingest | interests | the lexicon, counted — `bin/wiki-lexicon` and the measured vocabulary
+
+**Operator:** *"the work on this was started but there is WAY more to do... do
+the full ingest so that my vocab lexicon is a big part of this project."*
+
+The morning's pass documented a requirement it did not build. The audit it was
+written from closed by saying the lexical corpus "should become something the
+system can systematically extract and maintain, rather than relying on
+conversational recall" — and the pass wrote that down, agreed with it, and
+shipped a page still made of recall. This is the extraction.
+
+**`bin/wiki-lexicon`** — new tool, 442 tests (19 new). Log-odds ratio with an
+informative Dirichlet prior over Dan's sent messages against the **130,402 he
+received**: 1,334,932 of his tokens against 1,063,405 of theirs, plus 614,070
+characters of his ChatGPT prompts and 4,729,703 of his Gemini prompts.
+
+**Three traps, all of which had already produced a wrong number.**
+
+1. **The two message exports are in different time zones.** The dump is US
+   Eastern, the deep CSV is UTC — measured on 60,495 messages present in both:
+   36,716 differ by +4h, 23,624 by +5h. A union keyed on the timestamp matches
+   nothing, and the tool's first run reported **188,445 sent messages against
+   the dump's 106,629**. Fixed by converting to `America/New_York` and matching
+   on (direction, normalised text) in a ±6h window; the union is 131,196 sent,
+   55,194 rows from the CSV alone — close to the 50,396 `bin/mine-messages`
+   documents, which is the check that it works.
+2. **A count over a transcript is not a usage count.** `Gemini Activity.html`
+   interleaves prompts and replies. Splitting on its `Prompted` boundary:
+   *cognitive prosthetic* **29 in his prompts, 100 in the replies**. **This
+   morning's page published 132 as his usage.** Corrected on the page with a
+   flagged block, and the failure is the exact class that page was written to
+   document, committed by that page one layer down.
+3. **His Gemini prompts contain pasted documents** — ~1,186 chars each against
+   ChatGPT's ~422. A frequency ranking over them returns `div`, `class`,
+   `null`, `data-v-`. Exact multi-word matching is immune; the tool computes
+   that and **refuses to publish the ranking**.
+
+**What the corpus turned out to say.**
+
+- **The most Dan-distinctive phrase in 100,000 messages is a supply summons.**
+  `can you stop` 306/10 · `you stop by` 284/1 · `i'm home on` 211/**0**.
+  442 are his, **333 (75%) in the two hours 17:00–18:59**, 213 in 18:00–18:59.
+  Per-year it is not a habit but **two discrete regimes** — 17.1 and 19.7 per
+  10k in 2019 and 2024 against ~1 either side and **0.1 in 2026**. No synonym
+  absorbs it (`come by` 12, `swing by` 18). Written into `supply-network` with
+  the three readings that fit and the note that a discontinuity in how supply
+  was *asked for* is not a discontinuity in supply.
+- **`i don't know` is the top trigram, 1,228/330.** Written into
+  `calibrated-confidence` as a bound rather than a refutation: the graded
+  credences are the tail of a distribution whose bulk is explicit uncertainty.
+- **"Forensic intimacy" is subordination and is countable.** `the fact that`
+  254/34, `whether or not` 158/2, `that you're` 346/17 — ~6× his
+  interlocutors', and **rising** across the record.
+- **`I can not` — emphasis by decontraction.** `can't` 1,344 · `cannot` **6** ·
+  `i can not` 145/2, and it is new: 0.1–0.7 per 10k to 2024, then 1.7 and 3.1.
+- **The register drifted 44-fold.** `u` 149.4 (2017) → 3.4 (2024). `lol` halves.
+  `fucking` 5.7 → 54.8 while `fuck` stays flat. `love` falls to **6%** of its
+  2015 rate by 2024, then recovers sevenfold. `texting-deviance-audit`'s
+  15.65 → 35.41 words per turn is the same event measured at the turn.
+- **`pattern` runs 0.1 per 10k in his texting every year and 7.2 in his
+  prompts** — 70×, the cleanest marker of the two-register split. But the
+  analytic register **leaked back**: `the fact that` is 0.6 in his prompts and
+  3.1 in his 2026 texting.
+- **`exocortex` is this wiki's word, not his** — zero across all three corpora.
+  Written into that page: a term the wiki uses fluently is not thereby a term
+  the subject uses, and nothing in the prose marks the difference.
+- **One term escaped.** *Cognitive prosthetic* is the only cluster member with
+  a non-zero texting count, and on **2026-03-24**, to a person, unprompted:
+  *"this just tickles my autistic itch for a cognitive prosthetic. And getting
+  them aligned to you personally matters."* Referential, not declarative, with
+  a self-model attached — and the same evening he is pasting his persona config
+  to two threads. **The exocortex is being evangelised.** Only reachable
+  through the CSV, which is why the morning's page said it had never left the
+  AI sessions.
+- **`vocabulary-lexicon`'s open question, closed.** Of its 91 single words, 47
+  appear in his texting and 25 in his prompts; **510 of the 781 texting
+  occurrences are `perfect`**. Stripped: 2.03 vs 7.68 per 10k, **3.8× denser in
+  prompts to machines**. **39 of 91 are absent from both registers** — `sublime`
+  (term #1) among them. The selection is real and stops where a word would be
+  conspicuous.
+
+**Writes.** `bin/wiki-lexicon` + `tests/test_wiki_lexicon.py` (19 tests) ·
+`lexicon/measured.json` · generated `wiki/interests/language/measured-vocabulary`
+(`page_type: dataset`, chart block, 4 typed edges) · gate wired into
+`bin/wiki-check` · `lexicon/` documented in `CLAUDE.md` with a tools row and a
+gate line · typed edges onto 8 pages, prose write-backs on 6
+(`supply-network`, `exocortex`, `linguistic-profile`, `calibrated-confidence`,
+`vocabulary-lexicon` as a `> **GAP CLOSED**`, `personal-lexicon` as a
+`> **CORRECTION**` plus a new Layer 0).
+
+`bin/wiki-check` clean · 500 pages, 0 errors · 442 tests green · reciprocal
+debt 0 on both new pages.

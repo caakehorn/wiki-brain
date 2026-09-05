@@ -19,7 +19,7 @@ chart:
         "Free lane": 38
         "Held (people)": 94
         "Too thin": 47
-        "Withheld": 217
+        "Withheld": 218
 sources: []
 ---
 
@@ -45,7 +45,7 @@ This page is the campaign to write one for every entry.
 |---|---|
 | Entries with a plain-English edition | **28** |
 | Entries eligible for one | 280 |
-| Withheld under the standing directive | 217 |
+| Withheld under the standing directive | 218 |
 | Coverage | 10.0% |
 
 ## The two lanes

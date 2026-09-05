@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-09-04
+date_modified: 2026-09-05
 sources:
   - raw/people/captures/2026-08-02_010509_jay-lauer-death.md
   - "raw/self/dox-md/MAX_PRIME.md"
@@ -123,6 +123,9 @@ connections:
   - page: wiki/mind/synthesis/the-deferred-audit
     type: parallels
     claim: "This page's reliability inversion is the domain-general audit-timing rule that page states, run on suppliers specifically: Tom already appears on that page's own two-clocks table as a chosen object whose model was revised only after an eighteen-year lag, and Menore's professional distance is the imposed-object case run on the same market."
+  - page: wiki/interests/language/measured-vocabulary
+    type: evidenced-by
+    claim: "The network has one canonical speech act and it is the most Dan-distinctive phrase in the whole corpus: 'can you stop by' and its variants run 527 to 62 against everyone he has ever texted, with 'i'm home on ___' at 211 to 0. 442 are his, 333 of them (75%) in the two hours 17:00-18:59, and the per-year rate is two discrete spikes — 17.1 per 10k in 2019 and 19.7 in 2024 — against near-silence either side and 0.1 in 2026."
 ---
 
 # The Supply Network
@@ -334,6 +337,69 @@ failures had to accumulate past the point of undeniability before the audit
 that had always been available finally ran. The friend does not get a more
 forgiving standard. He gets the standard applied on a schedule set by
 provenance, exactly as the parent rule predicts.
+
+## The grammar of the summons
+
+Everything above models the network by node, reliability and cost. It can
+also be read from inside the sentences, and the sentences turn out to be
+extraordinarily uniform. **The most Dan-distinctive phrase in the entire
+message corpus is a delivery request.**
+
+| phrase | Dan | everyone else |
+|---|---:|---:|
+| `can you stop` | 306 | 10 |
+| `you stop by` | 284 | 1 |
+| `i'm home on` | 211 | 0 |
+| `can u stop` | 178 | 0 |
+| `u stop by` | 161 | 0 |
+
+Nothing else in 1.3 million of his tokens is this lopsided against the
+1.06 million he received. Measured on
+[[wiki/interests/language/measured-vocabulary]] by log-odds against the
+130,402 messages sent to him, `stop by` is the seventh-ranked two-word
+sequence in his speech overall, and the three-word forms around it are
+effectively unreciprocated. The content is never ambiguous:
+
+> *"Can you stop by when you're done? I have some money to help you get rid
+> of the not-so-good stuff"* (2016-01-30) · *"Can you stop by for the money
+> on your way. I can wait for the whole thing"* (2018-11-16) · *"Can you
+> stop by when you get started"* · *"Can u stop by when you get going"*
+
+**Two hours carry it.** 442 of these are Dan's, and **333 — 75% — fall in
+the two hours 17:00–18:59**, 213 of them in the single hour 18:00–18:59; widen the window by
+one more hour and it is 389, or 88%. That is
+a far tighter window than anything in his general circadian profile
+([[wiki/mind/synthesis/message-circadian-latency]]), and *"when you get
+started"* / *"when you get going"* says why: the summons is timed to
+somebody else's shift, not to his own day. It is what distinguishes a
+delivery request from an invitation, and it is in the wording rather than
+in the timestamp.
+
+**The rate is not a habit; it is two regimes.** Per 10,000 of his own
+tokens, by year:
+
+| 2015 | 2016 | 2017 | 2018 | 2019 | 2020 | 2024 | 2025 | 2026 |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 0.9 | 2.1 | 1.2 | 1.3 | **17.1** | 2.7 | **19.7** | 1.3 | 0.1 |
+
+Two spikes an order of magnitude above the baseline, five years apart, with
+near-silence on either side — and **effectively nothing in 2026**, the year
+this page's own account runs to a May collapse. No synonym absorbs it:
+`come by` totals 12 across eleven years, `swing by` 18, `front me` 3. The
+phrase did not get replaced; the *speech act* stopped.
+
+> **What this does not settle, and should not be made to.** Three readings
+> fit the same numbers and the corpus does not choose between them: the
+> delivery direction reversed (he went to them), the channel moved off
+> iMessage, or the 2019 and 2024 spikes are two specific counterparties
+> whose service model happened to be doorstep and whose predecessors' and
+> successors' was not. The node succession above does not obviously predict
+> the shape — Menore's 458 requests span 6.5 years continuously, and this
+> series does not. **A measured discontinuity in how supply was *asked for*
+> is not a discontinuity in supply**, and reading it as one would be the
+> error this section exists to avoid. What is established is narrower and
+> still worth having: the network ran on one canonical sentence, inside a
+> two-hour window, in two bursts, and by 2026 that sentence was gone.
 
 ## What node failure costs
 

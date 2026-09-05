@@ -23,21 +23,26 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-05 — 9 pages
+## 2026-09-05 — 14 pages
 
 | Page | Domain | What moved |
 |---|---|---|
+| [[wiki/interests/language/measured-vocabulary]] | interests | — |
 | [[wiki/interests/language/personal-lexicon]] | interests | _(carries a CONTRADICTION)_ |
-| [[wiki/interests/language/vocabulary-lexicon]] | interests | — |
+| [[wiki/interests/language/vocabulary-lexicon]] | interests | **GAP CLOSED** — this page said it "does not assert that these words are used in the corpus" and left open whether any of them are. Measured against both of Dan's first-party registers by `bin/wiki-lexicon registers - |
 | [[wiki/meta/digest]] | meta | — |
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
-| [[wiki/meta/recent-activity]] | meta | _(carries a RE-CHECKED)_ |
+| [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
 | [[wiki/meta/testimony-veracity]] | meta | — |
+| [[wiki/mind/concepts/calibrated-confidence]] | mind | _(carries a CORRECTED from 2026-08-23)_ |
+| [[wiki/mind/concepts/exocortex]] | mind | — |
 | [[wiki/mind/profile/lexicon]] | mind | — |
+| [[wiki/mind/profile/linguistic-profile]] | mind | _(carries a GAP CLOSED from 2026-08-27)_ |
 | [[wiki/mind/profile/voice-modes]] | mind | _(carries a CONTRADICTION)_ |
+| [[wiki/mind/synthesis/supply-network]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/people/ally-lubin]] | people | _(carries a CORRECTED from 2026-08-22)_ |
 
-## 2026-09-04 — 104 pages
+## 2026-09-04 — 102 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -58,7 +63,6 @@ simply listed.
 | [[wiki/interests/the-office]] | interests | — |
 | [[wiki/meta/readers-digest]] | meta | — |
 | [[wiki/mind/concepts/acquisition-drive]] | mind | _(carries a CONTRADICTION from 2026-08-02)_ |
-| [[wiki/mind/concepts/calibrated-confidence]] | mind | _(carries a CORRECTED from 2026-08-23)_ |
 | [[wiki/mind/concepts/chaos-preference]] | mind | **RE-CHECKED** — the-cool-metric gained a section showing the received-versus-sought sort aimed at an already-admitted person: a six-year partner whose public register goes ironic and then silent. This page's axis is  |
 | [[wiki/mind/concepts/contact-gini]] | mind | _(carries a REVISED from 2026-08-20)_ |
 | [[wiki/mind/concepts/the-cool-metric]] | mind | _(carries a RE-CHECKED from 2026-08-23)_ |
@@ -74,7 +78,6 @@ simply listed.
 | [[wiki/mind/synthesis/intensity-is-no-longer-the-only-mode]] | mind | **RE-CHECKED** — ally-and-dan-love-as-destiny moved on 2026-09-04 solely by having `destiny`, `the love story`, `ally-dan timeline`, `the courtship` and `the case` removed from its frontmatter. All five were invention |
 | [[wiki/mind/synthesis/single-channel]] | mind | **RE-CHECKED** — the-cool-metric gained a section measuring the public register on the six-year partner: affection at 12 of 32 mentions in 2010, 3 of 47 across 2011-2014, then zero for the relationship's last twenty-f |
 | [[wiki/mind/synthesis/spatial-behavior]] | mind | **RE-CHECKED** — 2017-poverty-floor moved for the vaughn re-derivation, gaining 156 May 2017 messages of primary-record texture. The new material is almost entirely about **transport as the binding constrain |
-| [[wiki/mind/synthesis/supply-network]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/mind/synthesis/the-binary-verdict]] | mind | **RE-CHECKED** — the-cool-metric gained a section showing the sorting metric run on a six-year live-in partner: affection in the public register falls from 12 of 32 mentions in 2010 to 3 of 47 across 2011-2014, the la |
 | [[wiki/mind/synthesis/the-deferred-audit]] | mind | **RE-CHECKED** — the-cool-metric moved on 2026-09-04 by gaining a substantive section, not a re-check note: the twitter archive shows *splitting via irony* aimed at a six-year live-in partner rather than at strangers, |
 | [[wiki/mind/synthesis/the-embedded-objective]] | mind | **RE-CHECKED** — nemacolin-caddying moved for the vaughn re-derivation. This page treats the caddying tenure as its weakest positive instance, on the grounds that the private status ladder it credits is *inferred from |
@@ -230,14 +233,13 @@ simply listed.
 | [[wiki/mind/synthesis/the-serial-monogamist]] | mind | — |
 | [[wiki/people/zach-clingan]] | people | **GAP CLOSED** — The 2014 "drug people" taxonomy and the December 2015 "my arch rival" outburst (below) both assume a rupture the corpus had never actually recorded. A 2026-08-27 operator capture (`raw/people/captures |
 
-## 2026-08-27 — 2 pages
+## 2026-08-27 — 1 page
 
 | Page | Domain | What moved |
 |---|---|---|
-| [[wiki/mind/profile/linguistic-profile]] | mind | **GAP CLOSED** — the operator volunteered the full "words for stupid" list against this page. It was not a gap this page had stated — unprompted material, staged here for the ingest to place. Placed here, in Lexical f |
 | [[wiki/places/117-belmont-circle]] | places | **GAP CLOSED** — the page previously said *"whether the sale actually closed, when, to whom and for how much is undocumented; the record stops at 'pending.'"* Two of those four are now answered — **when** (summer 2019 |
 
-## 2026-08-26 — 41 pages
+## 2026-08-26 — 40 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -250,7 +252,6 @@ simply listed.
 | [[wiki/mind/concepts/bunker-core]] | mind | — |
 | [[wiki/mind/concepts/conflict-architecture]] | mind | _(carries a REVISED from 2026-07-18)_ |
 | [[wiki/mind/concepts/erotic-architecture]] | mind | — |
-| [[wiki/mind/concepts/exocortex]] | mind | — |
 | [[wiki/mind/concepts/forensic-method]] | mind | _(carries a CORRECTED from 2026-08-18)_ |
 | [[wiki/mind/index]] | mind | — |
 | [[wiki/mind/politics/axioms]] | mind | **RE-CHECKED** — flagged stale against intp (2026-08-26), which added a documented interruption of the Fe-adjudication pattern (an Ally Lubin exchange) and removed its `sage_pending` staging. This page reasons from th |

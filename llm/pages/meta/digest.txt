@@ -21,8 +21,8 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 | | |
 |---|---|
-| Pages | 499 |
-| Pages touched in the last 14 days | 229 |
+| Pages | 500 |
+| Pages touched in the last 14 days | 230 |
 | Pages reasoning from other pages (`synthesizes:`) | 79 |
 | Live contradictions | 51 |
 | Open gaps | 720 |
@@ -33,7 +33,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | Domain | Pages |
 |---|---|
 | people | 175 |
-| interests | 97 |
+| interests | 98 |
 | mind | 78 |
 | self | 60 |
 | timeline | 42 |
@@ -47,7 +47,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 | Status | Pages |
 |---|---|
-| active | 193 |
+| active | 194 |
 | stable | 166 |
 | closed | 101 |
 | archived | 29 |
@@ -55,12 +55,13 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-09-05** — 9 pages
+**2026-09-05** — 14 pages
   - connect | meta | the wiki names 570 things it does not link — 344 of them now clickable
   - connect | meta | 453 of 497 pages were one-way doors
   - ingest | interests | personal lexicon — the custom-language layer, corpus-checked
+  - ingest | interests | the lexicon, counted — `bin/wiki-lexicon` and the measured vocabulary
 
-**2026-09-04** — 104 pages
+**2026-09-04** — 102 pages
   - lint | meta | the crosslink campaign had been counting a link that isn't one
   - connect | people | 79 lines had been written about a 1,789-message thread
   - connect | people | the handles were on the pages all along, and the guard could not see nine of them

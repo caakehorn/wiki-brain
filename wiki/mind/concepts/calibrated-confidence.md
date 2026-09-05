@@ -7,7 +7,7 @@ status: active
 importance: high
 knowledge: earned
 date_created: 2026-08-02
-date_modified: 2026-09-04
+date_modified: 2026-09-05
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/twitter/archive.jsonl
@@ -52,6 +52,9 @@ connections:
   - page: wiki/self/twitter/replies
     type: evidenced-by
     claim: "Policing other people's calibration is not a behaviour the corpus holds a few instances of — across 186 new replies it is the dominant register: 'that's just polling averages, not a forecast model', 'that....not socialism', 'I don't like the way this data is being presented'."
+  - page: wiki/interests/language/measured-vocabulary
+    type: contextualizes
+    claim: "'i don't know' is the single most distinctive three-word sequence in Dan's corpus — 1,228 against 330 — with 'don't know what' (347/99), 'don't know how' and \"i'm not sure\" behind it. The graded-credence habit this page documents sits on top of a base rate of explicit uncertainty about three times his interlocutors', which bounds the capability claim: the calibration is real and the most frequent value it takes is low."
 ---
 
 # Calibrated Confidence
@@ -65,6 +68,33 @@ could go"* — 43 times. Across the 110,944 inbound messages from 503 other
 handles, it happens **twice**.
 
 The raw ratio understates it, and the interesting number is a different one.
+
+## The base rate underneath the habit
+
+The graded-credence residue this page is built on is rare by construction —
+that is what makes it a capability claim. Underneath it sits something far
+more common and pointing the other way. **`i don't know` is the single most
+distinctive three-word sequence in Dan's corpus**: 1,228 occurrences against
+330 from the 130,402 messages sent to him, roughly a 3× rate, with
+`don't know what` (347/99), `don't know how`, `don't know why` and
+`i'm not sure` immediately behind it
+([[wiki/interests/language/measured-vocabulary]]).
+
+**This bounds the claim rather than breaking it.** The two are compatible and
+arguably the same disposition: a man who reaches for a number when he has one
+is the same man who says so plainly when he does not, and both are the
+opposite of the confident default. What it forbids is the flattering
+paraphrase — that he is unusually *certain*, or that graded confidence is a
+way of sounding authoritative. **The most frequent value his confidence takes
+is low, and he says it in the ordinary words.** The 24 graded credences are
+the tail of a distribution whose bulk is *"i don't know"*.
+
+It also sharpens the untested half. This page is explicit that expression is
+measured and accuracy is not; `bin/wiki-testimony`'s ledger is where accuracy
+gets settled. A base rate of stated uncertainty three times his
+interlocutors' is a prediction about that ledger — hedged claims should be
+over-represented among his misses, and the calibration score should look
+better than the raw veracity score. Neither has been checked.
 
 ## The measurement
 

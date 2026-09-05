@@ -4,6 +4,60 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-09-05c] - Session: the lexicon, counted (Claude Opus 5)
+
+* **Branch:** `claude/wiki-personal-lexicon-t50l6y` · `bin/wiki-check` clean ·
+  500 pages, 0 errors · **442 tests** (19 new).
+* **Trigger:** operator — *"WAY more to do... do the full ingest so that my
+  vocab lexicon is a big part of this project."*
+
+**New subsystem: `bin/wiki-lexicon` + `lexicon/measured.json` +
+`wiki/interests/language/measured-vocabulary` (generated) + a gate in
+`bin/wiki-check`.** Documented in `CLAUDE.md`. Read the tool's module
+docstring before touching it — it carries three traps that each produced a
+wrong number first.
+
+**The three traps, in the order they will bite again:**
+
+1. **The dump is Eastern local; the deep CSV is UTC.** Measured on 60,495
+   shared messages: 36,716 at +4h, 23,624 at +5h. The first run reported
+   188,445 sent against the dump's 106,629. Any future union of these two
+   exports must convert before keying.
+2. **A `grep` over `Gemini Activity.html` counts both voices.** *cognitive
+   prosthetic*: 29 in his prompts, 100 in the model's replies. The morning's
+   page published 132 as his usage; corrected there with a flagged block.
+3. **His Gemini prompts contain pasted documents.** A frequency ranking over
+   them returns `div`, `class`, `null`. Exact-term matching only — the tool
+   refuses to publish the ranking, deliberately.
+
+**Headline findings, all written back in prose:** the most Dan-distinctive
+phrase in the corpus is a supply summons (`i'm home on` 211 to **0**; 333 of
+442 inside 17:00–18:59; two regimes, 2019 and 2024, nothing in 2026) ·
+`i don't know` is the top trigram 1,228/330 · "forensic intimacy" is
+subordination and rises across the record · `u` collapses 44-fold while
+`fucking` rises tenfold · `exocortex` is this wiki's word and Dan has never
+typed it · *cognitive prosthetic* escaped into a text message on 2026-03-24
+with a self-model attached.
+
+#### What is next, in order
+
+1. **`bin/wiki-lexicon mine` is NOT in `bin/wiki-check`'s generate list** —
+   ~90s over four corpora. Rerun it by hand when a corpus changes, then
+   `page`. The gate only catches drift, not staleness against `raw/`.
+2. **The twitter archive is unmined for vocabulary.** `load_texting()` reads
+   messages only; `raw/self/twitter/archive.jsonl` is a third first-party
+   register (broadcast, not addressed) and would test whether the
+   two-register split is really about *addressee* or about *medium*.
+3. **The supply-summons discontinuity is unexplained.** Three readings fit
+   and the corpus does not choose; the node succession on `supply-network`
+   does not obviously predict the 2019/2024 shape.
+4. **`lexicon/words/` still has no `bin/wiki-work` row.** It is documented
+   now and gated for well-formedness, but a pending capture is a warning, not
+   an obligation the one list surfaces.
+5. Previous sessions' items below are untouched — 99 `unlinked` candidates,
+   35 of 37 re-derivations, the staleness-cascade diagnosis, 97 handle-less
+   people pages.
+
 ### [2026-09-05b] - Session: the personal lexicon, and the term that was not there (Claude Opus 5)
 
 * **Branch:** `claude/wiki-personal-lexicon-t50l6y` from `main` ·

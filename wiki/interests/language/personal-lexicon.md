@@ -48,6 +48,9 @@ connections:
   - page: wiki/self/concepts/llm
     type: contextualizes
     claim: "Four of the corpus's six names for what an LLM is to Dan are prosthetic metaphors and two are diagnostic ones ('daemon mirror', 'emotional debugger'), and he uses them interchangeably — the vocabulary does not distinguish a tool that extends him from a tool that inspects him."
+  - page: wiki/interests/language/measured-vocabulary
+    type: evidenced-by
+    claim: "The measurement this page said the lexicon needed. It also corrects this page's own first version: the cognitive-instrument counts published here were corpus-wide greps over a transcript carrying both voices, and splitting Gemini's export on its Prompted boundary gives 'cognitive prosthetic' 29 times in Dan's prompts against 100 in the model's replies, with zero in the ChatGPT export where the split is structural."
 ---
 
 # The Personal Lexicon — custom terms, and where each one actually came from
@@ -69,6 +72,32 @@ where neither party could be said to have gone first. The third class is
 real and the second class is much larger than anyone assumes. The page that
 follows records each term with what settled its origin, and marks the ones
 the corpus cannot settle as unsettled rather than guessing.
+
+**There are now three lexicons in this wiki and they barely overlap.**
+[[wiki/interests/language/vocabulary-lexicon]] holds 200 words Dan
+**selected** as pleasing. This page holds ~25 terms an assistant
+**recalled** him using. [[wiki/interests/language/measured-vocabulary]] —
+built after this page, because of what writing this page exposed — holds the
+words a corpus **counted**, scored against everything he received, across
+1,334,932 tokens of his own texting and 4.7 million characters of his own
+AI prompts. Selected, recalled, counted: three different questions, three
+different answers, and the disagreements between them are the most
+informative thing here.
+
+> **CORRECTION [2026-09-05]:** the first version of this page, written the
+> same day, published occurrence counts for the cognitive-instrument cluster
+> — *"recursive cognitive prosthetic (132), emotional metabolizer (49),
+> taboo-mining (42)"* — drawn from a `grep` over `Gemini Activity.html`.
+> **Those are corpus-wide counts over a transcript that interleaves Dan's
+> prompts with the model's replies, and they read as his usage.** Splitting
+> that export on its own `Prompted` boundary — which `bin/wiki-lexicon` now
+> does — gives *cognitive prosthetic* **29 times in his prompts against 100
+> in the replies**, and the ChatGPT export, the one corpus where the split is
+> structural rather than parsed, has **zero**. The corrected figures are in
+> the by-voice table below. The error is exactly the class this page was
+> written to document, committed by this page, one layer down: a string count
+> in a mixed-voice corpus is not a usage count, and nothing about the number
+> announces which it is.
 
 ## The document that prompted this, and the error in it
 
@@ -112,6 +141,172 @@ lexicon maintained by query does not, and everything below is the query.
 > source — it is a model reporting conversations Dan was in — and its error
 > is itself the evidence for how this layer degrades. The corpus form is the
 > one to use.
+
+## Layer 0 — what the corpus says he actually says
+
+Everything below this section is a term somebody chose or remembered. This
+section is the one nobody chose. `bin/wiki-lexicon` scores every word,
+two-word and three-word sequence in Dan's sent messages against the same
+sequences in the **130,402 messages he received** — log-odds ratio with an
+informative Dirichlet prior, so a rare word cannot outrank a common one on
+ratio alone. 1,334,932 of his tokens against 1,063,405 of theirs. The full
+tables regenerate onto
+[[wiki/interests/language/measured-vocabulary]]; the findings are here.
+
+**None of the 25 terms this page was written about appear anywhere in the
+result.** That is not a refutation of them — they live in AI sessions, and
+this measures texting — but it is the scale of the gap: the vocabulary the
+audit recovered and the vocabulary that actually marks his speech are
+disjoint sets.
+
+### The most Dan-distinctive phrase in 100,000 messages is a summons
+
+| phrase | Dan | everyone else |
+|---|---:|---:|
+| `you stop by` | 284 | 1 |
+| `can you stop` | 306 | 10 |
+| `i'm home on` | 211 | 0 |
+| `can u stop` | 178 | 0 |
+| `u stop by` | 161 | 0 |
+
+Nothing else in the corpus is this lopsided. *"Can you stop by"* and its
+variants run **527 to 62** as a bigram, and the three-word forms are
+effectively unreciprocated — 211 instances of *"I'm home on ___"* against
+zero. The content is not ambiguous:
+
+> *"Can you stop by when you're done? I have some money to help you get rid
+> of the not-so-good stuff"* (2016-01-30) · *"Can you stop by for the money
+> on your way. I can wait for the whole thing"* (2018-11-16) · *"Can you
+> stop by when you get started"* · *"Can u stop by when you get going"*
+
+**442 of these are Dan's, and 333 of them — 75% — fall in the two hours
+17:00–18:59**, 213 in the single hour 18:00–18:59. By year the rate per 10,000 tokens is 0.9 · 2.1 · 1.2 · 1.3 ·
+**17.1** · 2.7 · **19.7** · 1.3 · 0.1, which is not a habit but **two
+discrete regimes**, 2019 and 2024, with near-silence on either side and
+nothing in 2026. No synonym absorbs it: `come by` totals 12 across eleven
+years, `swing by` 18.
+
+This is [[wiki/mind/synthesis/supply-network]]'s market seen from inside the
+grammar. That page models the network by node, reliability and cost; this is
+the **speech act the whole structure runs on**, and it turns out to have one
+canonical form, a two-hour window, and an on/off history that the node
+succession does not obviously explain. *"When you get started"* and *"when
+you get going"* are the tell — the summons is timed to somebody else's shift,
+which is what makes it a delivery request and not an invitation.
+
+### He declares uncertainty far more than the people he is talking to
+
+`i don't know` is the single most distinctive trigram in the corpus:
+**1,228 to 330**, a rate ratio near 3×, with `don't know what` (347/99),
+`don't know how`, `don't know why` and `i'm not sure` behind it. Read
+against [[wiki/mind/concepts/calibrated-confidence]] this cuts both ways and
+should: the page describes a man who attaches explicit confidence to
+claims, and the most common thing he attaches is *low*.
+
+### The forensic register is subordination, and it is measurable
+
+| construction | Dan | others | 2015 rate | 2026 rate |
+|---|---:|---:|---:|---:|
+| `the fact that` | 254 | 34 | 1.1 | 3.1 |
+| `whether or not` | 158 | 2 | 0.2 | 2.3 |
+| `that you're` | 346 | 17 | | |
+| `some kind of` | 167 | 19 | | |
+| `that this is` | 149 | 15 | | |
+
+[[wiki/mind/profile/linguistic-profile]] calls the signature idiom *forensic
+intimacy* and describes it qualitatively. This is what it is made of: he
+embeds propositions inside `that`-clauses at roughly six times the rate of
+the people answering him, and the rate **rises across the record** rather
+than holding steady.
+
+### `I can not` — emphasis by decontraction
+
+`can't` 1,344 · `cannot` **6** · `i can not` 51 in the dump, 145 across the
+full corpus against 2 from everyone else. He almost never writes the formal
+one-word form; he splits the contraction to shout:
+
+> *"I can not WAIT"* · *"I CAN NOT focus on anything else today at all"* ·
+> *"I can not believe I'm in a situation where my GIRLFRIEND runs and yells"*
+
+And it is **new**: 0.1–0.7 per 10k through 2015–2024, then 1.7 in 2025 and
+**3.1 in 2026**, a tenfold rise. The elevated register everyone assumes he
+has is not built from elevated words. It is built from an ordinary word
+taken apart.
+
+### The register drifted, hard, and the direction is legible
+
+Rate per 10,000 of his own tokens:
+
+| | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 | 2024 | 2025 | 2026 |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| `u` (for *you*) | 25.2 | 39.0 | **149.4** | 68.7 | 57.6 | 16.4 | 3.4 | 3.4 | 5.2 |
+| `lol` | 17.5 | 23.8 | 19.2 | 22.8 | 26.7 | 25.4 | 15.8 | 12.5 | 8.9 |
+| `fucking` | 5.7 | 15.2 | 22.2 | 23.3 | 23.1 | 28.3 | 14.7 | 34.5 | **54.8** |
+| `literally` | 3.7 | 4.2 | 5.2 | 7.3 | 6.1 | 11.3 | 9.6 | 12.3 | 12.3 |
+| `actually` | 6.2 | 3.9 | 6.1 | 6.8 | 7.3 | 7.3 | 9.9 | 13.8 | 14.3 |
+| `love` | 78.3 | 76.2 | 14.3 | 9.4 | 9.8 | 9.1 | **4.7** | 35.0 | 26.6 |
+
+**`u` collapses 44-fold** between 2017 and 2025 and does not come back.
+`lol` halves. `fucking` rises tenfold while `fuck` stays flat — it is
+functioning as an intensifier, not an expletive. The stance adverbs
+(`literally`, `actually`, `honestly`) roughly triple. And `love` falls to
+**6% of its 2015 rate by 2024** before recovering sevenfold in 2025.
+
+[[wiki/mind/profile/texting-deviance-audit]] measures the same corpus by
+turn length and finds 15.65 words per turn in 2015–2019 rising to 35.41 in
+2026. **The two series are the same event seen twice**: the turns get longer
+because the abbreviations die and the subordination arrives. That page has
+the shape; this has the mechanism.
+
+### Two registers, and the elevated one is not where anybody thought
+
+Dan writes first-party prose in two places the archive can separate —
+messages to people, and prompts to models. The contrast is almost entirely
+**pronominal**. Texting: `i` (39,852), `you`, `me`, `my`, `i'm`, `i'll`,
+`lol` (1,842). AI prompts: `of`, `the`, `their`, `others`, `which`,
+`between`, `pattern`, `systems`, `analysis`, `defined`, `approximately`.
+`lol` appears **6 times in 93,798 AI-prompt tokens**. `pattern` runs 0.1 per
+10k in every year of his texting and **7.2 in his prompts** — a 70-fold gap,
+and the cleanest single marker of the split.
+
+**Texting Dan addresses a person. Prompting Dan addresses a subject
+matter.** That is the whole difference, and it is not a difference of
+vocabulary size.
+
+**But the analytic register is not confined to the machines, and this is the
+part that inverts the obvious story.** `the fact that` runs 0.6 per 10k in
+his AI prompts and **3.1 in his 2026 texting**; `whether or not` 0.6 against
+**2.3**. By 2026 he is writing *more* subordinated prose to people than he
+ever wrote to a model. The apparatus did not keep the analytic voice. It
+leaked.
+
+### The curated vocabulary is used in neither register
+
+[[wiki/interests/language/vocabulary-lexicon]]'s Gaps ask whether its 200
+selected words are ever used. Measured against both of his first-party
+registers, the 91 single words from those lists:
+
+| | present | occurrences | tokens | per 10k |
+|---|---:|---:|---:|---:|
+| texting | 47 / 91 | 781 | 1,334,932 | 5.85 |
+| AI prompts | 25 / 91 | 84 | 93,798 | 8.96 |
+
+510 of the 781 texting occurrences are the word **`perfect`**. Strip it and
+the rates are 2.03 against 7.68 — **the curated vocabulary is 3.8× denser in
+his prompts to machines than in his messages to people**, which is a real
+result and a small one, because the absolute numbers are tiny either way.
+The head of the list is emptier still: **39 of the 91 words are absent from
+both registers entirely**, including `sublime` — term #1, and the word the
+audit records him completing "Ally is absolutely ___" with — along with
+`resplendent`, `exquisite`, `luminous`, `incandescent`, `numinous`,
+`effulgent`, `aureate`, `diaphanous`, `gossamer`, `beatific`, `seraphic` and
+`preternatural`. What *does* appear is the middle band — `dangerous` (40),
+`unreasonable` (16), `compelling` (12), `criminal` (3), `spectacular` (3) —
+elevated but usable.
+
+**So the elevated lexicon is real, is his, and stops at the point where a
+word would be conspicuous.** He selected a hundred words for their archaism
+and then used the twenty that would survive being said out loud.
 
 ## Layer 1 — hard constraints
 
@@ -169,19 +364,77 @@ he falls into. This would be the first one he can call.
 
 This is the corpus-heavy half of the lexicon and the half the audit
 under-reported. Dan has **six** competing names for what an AI is to him,
-not one, and they are not synonyms — each specifies a different job:
+not one, and they are not synonyms — each specifies a different job. The
+counts below are **by voice**, which is the only way to count them honestly:
+his ChatGPT user turns and the prompt half of each Gemini activity cell,
+never a `grep` over a transcript that carries both sides.
 
-| Term | Occurrences (Gemini export) | The job it names |
-|---|---|---|
-| recursive cognitive prosthetic | 132 (as "cognitive prosthetic") | extension — a missing capacity supplied |
-| emotional metabolizer / metabolizing | 49 | digestion — feeling processed into something usable |
-| taboo-mining | 42 | excavation — going where he cannot go alone |
-| co-processor | 10 | parallelism — a second unit on the same problem |
-| daemon mirror | 6 | reflection with agency — it looks back |
-| emotional debugger | 4 | fault-finding — the instrument as diagnostician |
-| ideation engine | 5 | generation — output rather than analysis |
+| Term | texting | ChatGPT prompts | Gemini prompts | The job it names |
+|---|---:|---:|---:|---|
+| cognitive prosthetic | 5 | 0 | 29 | extension — a missing capacity supplied |
+| *— of which* recursive cognitive prosthetic | 2 | 0 | 10 | |
+| recursive symbolic architect | 0 | 0 | 7 | the self-label |
+| symbolic architect (any modifier) | 0 | 0 | 12 | |
+| emotional metabolizing / metabolizer | 2 | 0 | 20 | digestion — feeling processed into something usable |
+| taboo-mining | 2 | 0 | 8 | excavation — going where he cannot go alone |
+| daemon mirror | 0 | 0 | 4 | reflection with agency — it looks back |
+| co-processor | 0 | 0 | 3 | parallelism — a second unit on the same problem |
+| emotional debugger | 0 | 0 | 3 | fault-finding — the instrument as diagnostician |
+| ideation engine | 0 | 0 | 1 | generation — output rather than analysis |
+| epistemic | 2 | 1 | 48 | the demand made of a system |
+| recursive | 3 | 6 | 229 | the modifier the whole set runs on |
+| exocortex | 0 | 0 | 0 | *the wiki's word for the apparatus, never his* |
 
-**He uses them interchangeably, and that is the finding.** His own
+Corpus sizes: 6,855,043 characters of Dan's texting · 614,070 of his
+ChatGPT prompts · 4,729,703 of his Gemini prompts. Generated by
+`bin/wiki-lexicon mine`; the live table is on
+[[wiki/interests/language/measured-vocabulary]].
+
+**Three things fall out of that table that no recall could have produced.**
+
+**One: the lexicon is platform-specific, not personal.** Every term in the
+cluster is a *Gemini* word. Across 614,070 characters of ChatGPT prompts —
+the same man, overlapping years, a machine on the other end either way — the
+count is **zero for all of them**, and `recursive` appears six times in
+ordinary senses. He did not carry the vocabulary from one model to the next.
+He built it in the sessions where he was doing self-analysis, and the
+sessions where he was doing something else never heard it.
+
+**Two: `exocortex` is the wiki's word, not his.** It has a page
+([[wiki/mind/concepts/exocortex]]), it is the corpus's standing name for the
+whole apparatus, and Dan has never typed it — not to a person, not to
+ChatGPT, not to Gemini. That is not an error on that page, which never
+claimed the word was his. It is a warning about every other page: **a term
+the wiki uses fluently is not thereby a term the subject uses**, and nothing
+in the writing marks the difference.
+
+**Three: one term escaped into ordinary speech, and it is the one that
+matters.** *Cognitive prosthetic* is the only member of the cluster with a
+non-zero texting count, and the instances are not quotations. On
+**2026-03-24**, to a person, unprompted, mid-conversation about configuring
+their own assistant:
+
+> *"again though this just tickles my autistic itch for a cognitive
+> prosthetic. And getting them aligned to you personally matters."*
+
+That single sentence does more work than the other 29 occurrences combined.
+It is the term used **referentially rather than declaratively** — not "I use
+you as a cognitive prosthetic," which is a specification he wrote into a
+profile field, but "my itch *for* a cognitive prosthetic," which treats the
+thing as a category that already exists and needs no introduction. And it
+attaches a self-model to it: *autistic itch*, his own word for the drive,
+which makes the term a diagnosis rather than a metaphor. The same evening he
+is pasting his persona configuration to two different threads and telling
+them *"trust me it will totally change the responses."* **The exocortex is
+being evangelised**, in ordinary text messages, in March 2026 — which is
+also the first evidence anywhere in the corpus that the apparatus has a
+second user.
+
+> Only reachable through the deep CSV export. The iMessage dump stops in
+> 2025 and does not contain these messages at all, which is why the first
+> version of this page said the term had never left the AI sessions.
+
+**He uses the six interchangeably, and that is the second finding.** His own
 ChatGPT custom-instructions field, quoted back at him inside the Gemini
 export, stacks three of them in one sentence: *"I use you as a recursive
 cognitive prosthetic, emotional metabolizer, and ideation engine."* Four of
@@ -193,13 +446,13 @@ analysed it.
 
 **The load-bearing word in the whole lexicon is `recursive`.** It attaches
 to the self-label (Recursive Symbolic Architect), to the AI metaphor
-(recursive cognitive prosthetic), and to the working method. No competing
-modifier appears anywhere — not *iterative*, not *reflexive*, not *nested*.
-"Iterative", the audit's substitution, is the interesting near-miss:
-iteration is repetition toward a target, recursion is a thing that contains
-itself. The corpus consistently chose the second, and the second is the one
-that describes a person building a wiki about himself that he then reads to
-find out what he is like.
+(recursive cognitive prosthetic), and to the working method — 229 times in
+his own Gemini prompts. No competing modifier appears anywhere — not
+*iterative*, not *reflexive*, not *nested*. "Iterative", the audit's
+substitution, is the interesting near-miss: iteration is repetition toward a
+target, recursion is a thing that contains itself. The corpus consistently
+chose the second, and the second is the one that describes a person building
+a wiki about himself that he then reads to find out what he is like.
 
 ### Recursive Symbolic Architect — model-coined, then self-adopted
 
