@@ -118,7 +118,7 @@ own dedicated sub-pages and its own function.
 | Mau P | 6 |
 
 **Experimental/abrasive hip-hop** (JPEGMAFIA, Kanye West, and a longer
-tail including A$AP Rocky, Lil Wayne, Tyler the Creator, Atmosphere,
+tail including A$AP Rocky, [[wiki/interests/favorites/music/artists/lil-wayne|Lil Wayne]], Tyler the Creator, Atmosphere,
 Lupe Fiasco) is dense, confrontational, self-produced-adjacent work — see
 [[wiki/interests/favorites/music/artists/jpegmafia]] for the fullest
 treatment of why this cluster in particular maps onto the production

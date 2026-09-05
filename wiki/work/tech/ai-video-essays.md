@@ -44,7 +44,7 @@ is unusually strong evidence because it comes at the *expense* of the medium
 Dan is otherwise most invested in.
 
 On **8 April 2024**, having just read the standard modern syllabus on the fall
-of the Roman Republic — Tom Holland, four Adrian Goldsworthy volumes, Michael
+of the Roman Republic — Tom Holland, four [[wiki/interests/favorites/books/authors/adrian-goldsworthy|Adrian Goldsworthy]] volumes, Michael
 Parenti, Plutarch, all rated 4 or 5
 ([[wiki/interests/roman-republic]]) — he wrote:
 

@@ -17,7 +17,7 @@ changelog:
 
 # Adrian Goldsworthy
 
-British military historian, Oxford-trained, whose career has been organized around a single sustained argument: that the Roman Republic fell not because of structural rot, but because it produced men too exceptional to operate within failing institutions. His biographies of Caesar, Scipio, and Pompey are less about individual greatness than about the tragedy of competence in a collapsing system.
+British military historian, Oxford-trained, whose career has been organized around a single sustained argument: that the [[wiki/interests/roman-republic|Roman Republic]] fell not because of structural rot, but because it produced men too exceptional to operate within failing institutions. His biographies of Caesar, Scipio, and Pompey are less about individual greatness than about the tragedy of competence in a collapsing system.
 
 ## In Favorites
 

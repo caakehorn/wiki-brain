@@ -108,4 +108,4 @@ Sporadic, low-effort check-ins follow ("You working today dude?", "You duckin me
   a phone call and is never restated in text. Look: Dec 1–3 for a retelling.
 - **Who told Ellen Ulmer about the car.** Casey is blamed by both parties and
   never confirmed.
-- Relationship to Vanessa Frank beyond the smoking incident is undocumented.
+- Relationship to [[wiki/people/vanessa-frank|Vanessa Frank]] beyond the smoking incident is undocumented.

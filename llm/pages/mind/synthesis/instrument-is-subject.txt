@@ -85,7 +85,7 @@ connections:
 > rederived. Recorded rather than date-bumped, per `CLAUDE.md` §3.
 
 This wiki is written by a large language model, about a person for whom large
-language models are a documented daily cognitive organ, using an evidentiary
+[[wiki/self/concepts/llm|language models]] are a documented daily cognitive organ, using an evidentiary
 standard that person wrote. Those three facts are each recorded separately
 elsewhere in the repository and have never been put in the same sentence. Put
 together they produce the governing methodological constraint of the whole

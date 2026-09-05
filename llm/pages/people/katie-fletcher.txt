@@ -94,7 +94,7 @@ nothing in the public record reaches them, which is what one would expect.
 ## The Oddball night (August 30, 2013)
 
 Dan took Katie to the Oddball Comedy Festival at First Niagara Pavilion
-(Burgettstown, outside Pittsburgh) — the night after Dave Chappelle's
+(Burgettstown, outside Pittsburgh) — the night after [[wiki/interests/concert-record/performers/dave-chappelle|Dave Chappelle]]'s
 infamous Hartford meltdown. Chappelle delivered what Dan describes as an
 "H-Bomb" redemption set. Dan experienced it elevated on ketamine, mid-show
 realized he had lost his car keys, sprinted back through the gravel lot to

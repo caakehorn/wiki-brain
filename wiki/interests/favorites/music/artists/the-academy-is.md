@@ -27,7 +27,7 @@ All dates, venues, cities, and notes below are taken from the source table and p
 
 | Date | Show / Context | Venue | City | Note |
 |------|---------------|-------|------|------|
-| May 4, 2008 | Multi-act show | Meadowlands Sports Complex | East Rutherford, NJ | Panic! at the Disco & Coheed and Cambria co-headlined. Also: Paramore, Gym Class Heroes, Cobra Starship, The Academy Is. |
+| May 4, 2008 | Multi-act show | Meadowlands Sports Complex | East Rutherford, NJ | Panic! at the Disco & [[wiki/interests/favorites/music/artists/coheed-and-cambria|Coheed and Cambria]] co-headlined. Also: Paramore, [[wiki/interests/favorites/music/artists/gym-class-heroes|Gym Class Heroes]], [[wiki/interests/favorites/music/artists/cobra-starship|Cobra Starship]], The Academy Is. |
 | Dec 12, 2008 | Multi-act show | House of Blues | Orlando, FL | Resolved. XL 106.7 'XL-ent Electric Xmas'. |
 
 ## Notes per appearance
@@ -35,4 +35,4 @@ All dates, venues, cities, and notes below are taken from the source table and p
 - **May 4, 2008** — Multi-act show, Meadowlands Sports Complex, East Rutherford, NJ. Panic! at the Disco & Coheed and Cambria co-headlined. Also: Paramore, Gym Class Heroes, Cobra Starship, The Academy Is.
   Co-billed with: Panic! at the Disco, Coheed and Cambria, Paramore, Gym Class Heroes, Cobra Starship.
 - **Dec 12, 2008** — Multi-act show, House of Blues, Orlando, FL. Resolved. XL 106.7 'XL-ent Electric Xmas'.
-  Co-billed with: Fall Out Boy, We The Kings.
+  Co-billed with: Fall Out Boy, [[wiki/interests/favorites/music/artists/we-the-kings|We The Kings]].

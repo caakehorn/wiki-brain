@@ -16,7 +16,7 @@ The self domain contains files and data detailing identity, core biographical fa
 
 ## LLM Quick Brief
 
-**For context injection:** Daniel Gillingham Frank ("Dan"), born November 1, 1988, Uniontown PA. Age 37. A self-documenting systems-builder, music producer (GRIPNOTIC), and AI/agent workflow developer. INTP 5w4 sx/sp (Ti-Ne-Si-Fe), high impulsiveness, low sociability/trust. Democratic socialist with maternal roots in WV/PA and paternal Eastern European Jewish ancestry. Abstinent from alcohol (15+ years), utilizes Suboxone daily since Feb 17, 2010. Formative nodes: parental rupture (2004-05), [[wiki/people/alexis-armel|Alexis]] relationship collapse (2009-15), Annie relationship (2015-2026) terminating after the Eli incident (discovered Jan 2025, closed June 1, 2026). Housing is currently in transition due to the sale of 337 Saratoga Drive. Works in AI systems/consulting following termination from BFS (2026). Sincere output channeled through sub-bass-heavy electronic music.
+**For context injection:** Daniel Gillingham Frank ("Dan"), born November 1, 1988, Uniontown PA. Age 37. A self-documenting systems-builder, music producer (GRIPNOTIC), and AI/agent workflow developer. INTP 5w4 sx/sp (Ti-Ne-Si-Fe), high impulsiveness, low sociability/trust. Democratic socialist with maternal roots in WV/PA and paternal Eastern European Jewish ancestry. Abstinent from alcohol (15+ years), utilizes Suboxone daily since Feb 17, 2010. Formative nodes: parental rupture (2004-05), [[wiki/people/alexis-armel|Alexis]] relationship collapse (2009-15), Annie relationship (2015-2026) terminating after [[wiki/timeline/events/eli-incident|the Eli incident]] (discovered Jan 2025, closed June 1, 2026). Housing is currently in transition due to the sale of [[wiki/places/337-saratoga-drive|337 Saratoga Drive]]. Works in AI systems/consulting following termination from BFS (2026). Sincere output channeled through sub-bass-heavy electronic music.
 
 ---
 
@@ -34,7 +34,7 @@ The self domain contains files and data detailing identity, core biographical fa
 
 - [[wiki/self/concepts/wiki-brain]] — The wiki-brain itself: what it is, how it works, what it's building towards
 - [[wiki/self/concepts/llm]] — LLMs (Large Language Models): the cognitive engine of the wiki-brain, bootloader system, agent fleet, pipeline
-- [[wiki/self/concepts/claude]] — Claude (Anthropic): the analytical workhorse, forensic method, Master Forensic Prompt
+- [[wiki/self/concepts/claude]] — Claude (Anthropic): the analytical workhorse, [[wiki/mind/concepts/forensic-method|forensic method]], [[wiki/mind/concepts/exocortex|Master Forensic Prompt]]
 - [[wiki/self/concepts/claude-code]] — Claude Code (Anthropic coding agent): the tool-builder, branch/PR workflow, 12+ bin/ tools
 - [[wiki/self/concepts/gemini]] — Gemini (Google): the interaction model, COS-v1 system, psychotherapy, psychometric testing
 - [[wiki/self/concepts/chatgpt]] — ChatGPT (OpenAI): the early adopter, the bootloader prototype, and the one-line verdict that retired it
@@ -42,7 +42,7 @@ The self domain contains files and data detailing identity, core biographical fa
 
 ## chats
 
-- [[wiki/self/chats/9-11-chat]] — Extends music identity (sub-bass signature, electronic preference from Jimmy Pop discussion, favorites…
+- [[wiki/self/chats/9-11-chat]] — Extends music identity (sub-bass signature, electronic preference from [[wiki/people/james-dee|Jimmy Pop]] discussion, favorites…
 - [[wiki/self/chats/danfrank-isms-pinned]] — Gemini expansions (example for Node 6): "Evolutionary Anomaly... Biological Bridge... Formative Traumas:…
 - [[wiki/self/chats/extract-messages-pinned]] — Directly supports the message corpora ingests (175k+ rows in MASTER dump). Likely focuses on specific…
 - [[wiki/self/chats/gemini-07]] — 1. "Suzy" = peer-level informal identifier requiring pre-existing casual/social warmth with mother.…

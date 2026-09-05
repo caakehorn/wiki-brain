@@ -175,7 +175,7 @@ documented cycle: discovery (an obscure topic with sufficient mystery
 captures total attention) → consumption (days-to-months immersion, sleep
 lost, resources devoured, 45-minute unprompted monologues) → synthesis
 (original creative or analytical output) → abrupt abandonment once the
-mystery is solved, then the next fixation. Corpus examples: Roman Republic
+mystery is solved, then the next fixation. Corpus examples: [[wiki/interests/roman-republic|Roman Republic]]
 (hard stop at Augustus), J6 raw footage, market trading, AI agent pipelines,
 this wiki.
 
@@ -328,7 +328,7 @@ believing.
 
 Recorded because the next pass will make the same class of mistake. The first
 run scored **Trust 9** and **Modesty 5** as predicting *less* suspicion and
-*less* self-elevation. Both are backwards: a low trust score predicts **more**
+*less* self-elevation. Both are backwards: a low [[wiki/meta/testimony-veracity|trust score]] predicts **more**
 suspicion, a low modesty score **more** self-elevation. Both produced a
 confident `INVERTED` verdict that was an artefact of the prediction table rather
 than anything in the corpus. Fixed before any of the above was written; Trust

@@ -25,7 +25,7 @@ All dates, venues, cities, and notes below are taken from the source table and p
 | Date | Show / Context | Venue | City | Note |
 |------|---------------|-------|------|------|
 | ~2006 | Gym Class Heroes | California University of PA | California, PA | Still open -- no primary campus listing located. |
-| May 4, 2008 | Multi-act show | Meadowlands Sports Complex | East Rutherford, NJ | Panic! at the Disco & Coheed and Cambria co-headlined. Also: Paramore, Gym Class Heroes, Cobra Starship, The Academy Is. |
+| May 4, 2008 | Multi-act show | Meadowlands Sports Complex | East Rutherford, NJ | Panic! at the Disco & [[wiki/interests/favorites/music/artists/coheed-and-cambria|Coheed and Cambria]] co-headlined. Also: Paramore, Gym Class Heroes, [[wiki/interests/favorites/music/artists/cobra-starship|Cobra Starship]], [[wiki/interests/favorites/music/artists/the-academy-is|The Academy Is]]. |
 
 ## Notes per appearance
 

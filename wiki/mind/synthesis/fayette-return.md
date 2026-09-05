@@ -151,7 +151,7 @@ its own title. **Two of his life periods are literally named for coming back.**
 Three falsifiers, each checkable against the GEDCOM and the census record:
 
 1. **A line member who left and died elsewhere.** Any sibling, cousin or
-   collateral relative in the 515-individual family tree whose terminus is
+   collateral relative in the 515-individual [[wiki/self/lineage/family-tree|family tree]] whose terminus is
    outside Fayette County breaks the claim as stated — and the collaterals have
    not been checked, which is the most likely place for this to fail.
 2. **Morley's Seattle move turning out to be administrative** — a brief
@@ -256,7 +256,7 @@ solid.
 - **Champion, Pennsylvania is the nearest thing to a falsifier on the board.**
   Morley holds a Champion address in the 1996–99 directories, concurrently with
   Hopwood rather than instead of it. If Champion lies outside Fayette County — it
-  is the Seven Springs resort town, and the check has not been run — it is the
+  is the [[wiki/places/seven-springs|Seven Springs]] resort town, and the check has not been run — it is the
   line's only attested out-of-county residence in four generations, though he
   dies and is buried in Hopwood regardless, so the rule survives it either way.
 - **No control group.** Fayette County out-migration in this period was

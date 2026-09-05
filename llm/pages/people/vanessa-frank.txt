@@ -168,7 +168,7 @@ silence is itself worth noting rather than explaining away.
 
 ## Notes and gaps
 
-The behavioral spine lists her as "Vail, ski-school," which the message
+The [[wiki/self/context-core|behavioral spine]] lists her as "Vail, ski-school," which the message
 corpus neither confirms nor contradicts — the thread is about politics and
 family, not her location or work, so the Colorado detail is carried forward as
 unverified. Her birth record is from the ancestry GEDCOM. Everything else here is from

@@ -19,7 +19,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,768 events** across **80 years** (1796–2027), drawn from **388 pages**. Tier 1 727 · Tier 2 460 · Tier 3 2,581.
+**3,776 events** across **80 years** (1796–2027), drawn from **390 pages**. Tier 1 729 · Tier 2 466 · Tier 3 2,581.
 
 ## What counts as an event here
 
@@ -443,7 +443,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/legal/2015-possession-arrest]] · Case timeline
 - ★ **1988-11-01** — Dan born, Uniontown  
   ↳ [[wiki/people/suzanne-frank]] · Timeline
-- ★ **1988-11-01** — "Born November 1, 1988. ... Uniontown, Pennsylvania." Suzanne (real estate), Rick (auto), Vanessa. Skate + Pikewood/Nemacolin caddying.  
+- ★ **1988-11-01** — "Born November 1, 1988. ... Uniontown, Pennsylvania." Suzanne (real estate), Rick (auto), Vanessa. Skate + Pikewood/nemacolin caddying — Nemacolin caddying.  
   ↳ [[wiki/self/chats/gemini-18]] · _18 Stats + Full Bio Timeline Table (2026-06-23 analysis)
 - ★ **1988-11-01** — For context injection:** Daniel Gillingham Frank ("Dan"), born November 1, 1988, Uniontown PA (age from DOB — do not carry a hardcoded number).  
   ↳ [[wiki/self/context-core]] · LLM Quick Brief
@@ -544,25 +544,29 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/concert-record/festivals/rolling-rock-town-fair]] · Editions
 - ★ **2001-08-04** — 1 — Rolling Rock Town Fair — Westmoreland Fairgrounds — Latrobe / Mt. Pleasant, PA — Confirmed.  
   ↳ [[wiki/interests/concert-record/index]] · Master event list
-- ★ **2001-08-04** — Rolling Rock Town Fair — Westmoreland Fairgrounds — Latrobe / Mt. Pleasant, PA — Confirmed.  
+- ★ **2001-08-04** — rolling rock town fair — Rolling Rock Town Fair — Westmoreland Fairgrounds — Latrobe / Mt. Pleasant, PA — Confirmed.  
   ↳ [[wiki/interests/favorites/music/artists/incubus]] · Live appearances
-- ★ **2001-08-04** — 1 — Rolling Rock Town Fair 2 — STP, Deftones, Incubus, Live, Oleander, Staind, Tantric — Westmoreland Fairgrounds — Latrobe / Mt. Pleasant, PA — Confirmed  
+- ★ **2001-08-04** — Rolling Rock Town Fair, Westmoreland Fairgrounds, Latrobe / Mt. Pleasant, PA. Confirmed.  
+  ↳ [[wiki/interests/favorites/music/artists/incubus]] · Notes per appearance
+- ★ **2001-08-04** — 1 — rolling rock town fair — Rolling Rock Town Fair 2 — STP, Deftones, Incubus, Live, Oleander, Staind, Tantric — Westmoreland Fairgrounds — Latrobe / Mt. Pleasant, PA — Confirmed  
   ↳ [[wiki/timeline/events/teen-concert-years]] · The researched record (36 shows, 2001–2019)
 
 ### 2002
 
-- ◆ **2002-07-24** — Multi-act show — Post-Gazette Pavilion — Burgettstown, PA — Vertical Horizon credited opener that night (Guster co-billed other years).  
+- ◆ **2002-07-24** — Multi-act show — Post-Gazette Pavilion — Burgettstown, PA — vertical horizon — Vertical Horizon credited opener that night (Guster co-billed other years).  
   ↳ [[wiki/interests/favorites/music/artists/barenaked-ladies]] · Live appearances
 - · **2002-07-24** — 2 — Barenaked Ladies, Guster, Vertical Horizon — Post-Gazette Pavilion — Burgettstown, PA — Vertical Horizon credited opener that night (Guster co-billed other years).  
   ↳ [[wiki/interests/concert-record/index]] · Master event list
-- · **2002-07-24** — 17 — Barenaked Ladies / Guster — Post-Gazette Pavilion — Burgettstown, PA — Vertical Horizon credited opener  
+- · **2002-07-24** — 17 — barenaked ladies — Barenaked Ladies / Guster — Post-Gazette Pavilion — Burgettstown, PA — vertical horizon — Vertical Horizon credited opener  
   ↳ [[wiki/timeline/events/teen-concert-years]] · The researched record (36 shows, 2001–2019)
 - ★ **2002-07-27** — Westmoreland Fairgrounds — Latrobe / Mt. Pleasant, PA — Alien Ant Farm cancelled (bus accident)  
   ↳ [[wiki/interests/concert-record/festivals/rolling-rock-town-fair]] · Editions
 - ★ **2002-07-27** — 3 — Rolling Rock Town Fair — Westmoreland Fairgrounds — Latrobe / Mt. Pleasant, PA — Alien Ant Farm cancelled (bus accident)  
   ↳ [[wiki/interests/concert-record/index]] · Master event list
-- ★ **2002-07-27** — Rolling Rock Town Fair — Westmoreland Fairgrounds — Latrobe / Mt. Pleasant, PA — Alien Ant Farm cancelled (bus accident)  
+- ★ **2002-07-27** — rolling rock town fair — Rolling Rock Town Fair — Westmoreland Fairgrounds — Latrobe / Mt. Pleasant, PA — Alien Ant Farm cancelled (bus accident)  
   ↳ [[wiki/interests/favorites/music/artists/default]] · Live appearances
+- ★ **2002-07-27** — Rolling Rock Town Fair, Westmoreland Fairgrounds, Latrobe / Mt. Pleasant, PA. Alien Ant Farm cancelled (bus accident)  
+  ↳ [[wiki/interests/favorites/music/artists/default]] · Notes per appearance
 - ★ **2002-07-27** — 2 — Rolling Rock Town Fair 3 — Godsmack, Outkast, Nickelback, P.O.D., Sevendust, Default, Injected, Tommy Lee — Westmoreland Fairgrounds — Latrobe / Mt. Pleasant, PA — Alien Ant Farm cancelled (bus accident)  
   ↳ [[wiki/timeline/events/teen-concert-years]] · The researched record (36 shows, 2001–2019)
 - · **2002-07-27** — Tommy Lee filled in.  
@@ -584,7 +588,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/favorites/music/artists/john-mayer]] · Live appearances
 - · **2003-08-14** — Aug 14, 2003 (or Aug 11, 2004, or Aug 20, 2008)** — John Mayer, Post-Gazette Pavilion, Burgettstown, PA. Three viable matches  
   ↳ [[wiki/interests/favorites/music/artists/john-mayer]] · Notes per appearance
-- · **2003-08-14** — 32 — John Mayer — Post-Gazette Pavilion — Burgettstown, PA — Three viable matches  
+- · **2003-08-14** — 32 — john mayer — John Mayer — Post-Gazette Pavilion — Burgettstown, PA — Three viable matches  
   ↳ [[wiki/timeline/events/teen-concert-years]] · The researched record (36 shows, 2001–2019)
 
 ### 2004
@@ -593,7 +597,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/favorites/music/artists/the-early-november]] · Live appearances
 - · **2004** — 6 — The Early November, Ace Enders — Small venue — Pittsburgh, PA — Still open.  
   ↳ [[wiki/interests/concert-record/index]] · Master event list
-- · **2004** — 24 — The Early November / Ace Enders — Small venue — Pittsburgh, PA — **Still open  
+- · **2004** — 24 — the early november — The Early November / Ace Enders — Small venue — Pittsburgh, PA — **Still open  
   ↳ [[wiki/timeline/events/teen-concert-years]] · The researched record (36 shows, 2001–2019)
 - ★ **2004-04-21** — 7 — HIM — The Rock Club (Station Square) — Pittsburgh, PA — Resolved. Love Metal Tour. (Later return Nov 18, 2004 also documented.).  
   ↳ [[wiki/interests/concert-record/index]] · Master event list
@@ -627,14 +631,14 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/concert-record/index]] · Master event list
 - · **2004-10-10** — 4 — Incubus (w/ Ben Kweller) — A.J. Palumbo Center — Pittsburgh, PA — Confirmed  
   ↳ [[wiki/timeline/events/teen-concert-years]] · The researched record (36 shows, 2001–2019)
-- ◆ **2004-10-22** — 22 — My Chemical Romance / Anberlin — Nintendo Fusion Tour — Rostraver Ice Garden — Belle Vernon, PA — Confirmed via routing  
+- ◆ **2004-10-22** — 22 — My Chemical Romance / Anberlin — nintendo fusion tour — Nintendo Fusion Tour — Rostraver Ice Garden — Belle Vernon, PA — Confirmed via routing  
   ↳ [[wiki/timeline/events/teen-concert-years]] · The researched record (36 shows, 2001–2019)
 
 ### 2005
 
 - ★ **2005** — Relationship begins; Uniontown baseline — HTML bio; context-core  
   ↳ [[wiki/people/danielle-onesi]] · Timeline
-- · **2005-04-23** — Green Day / My Chemical Romance — Mellon Arena  
+- · **2005-04-23** — Green Day / my chemical romance — My Chemical Romance — Mellon Arena  
   ↳ [[wiki/timeline/events/teen-concert-years]] · The record
 - ◆ **2005-06-15** — robotussin s last dance** — The Post-Gazette Pavilion's sold-out Tom Petty date of June 15 2005 has not been independently verified against tour records.  
   ↳ [[wiki/meta/open-questions]] · timeline (81)
@@ -652,9 +656,11 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/concert-record/festivals/vans-warped-tour]] · Editions
 - ◆ **2005-08-01** — 13 — Vans Warped Tour — Post-Gazette Pavilion — Burgettstown, PA — Warped Tour date. Lineup included Fall Out Boy, Alexisonfire, Gogol Bordello, Hawthorne Heights.  
   ↳ [[wiki/interests/concert-record/index]] · Master event list
-- ◆ **2005-08-01** — Vans Warped Tour — Post-Gazette Pavilion — Burgettstown, PA — Warped Tour date. Lineup included Fall Out Boy, Alexisonfire, Gogol Bordello, Hawthorne Heights.  
+- ◆ **2005-08-01** — Vans Warped Tour — Post-Gazette Pavilion — Burgettstown, PA — Warped Tour date. Lineup included Fall Out Boy, Alexisonfire, Gogol Bordello, hawthorne heights — Hawthorne Heights.  
   ↳ [[wiki/interests/favorites/music/artists/fall-out-boy]] · Concert record — supplementary appearances (from the 2001-2019 log)
-- ◆ **2005-08-01** — 8 — Vans Warped Tour 2005 — Post-Gazette Pavilion — Burgettstown, PA — FOB, Alexisonfire, Gogol Bordello, Hawthorne Heights  
+- ◆ **2005-08-01** — vans warped tour — Vans Warped Tour — Post-Gazette Pavilion — Burgettstown, PA — Warped Tour date. Lineup included Fall Out Boy, Alexisonfire, Gogol Bordello, Hawthorne Heights.  
+  ↳ [[wiki/interests/favorites/music/artists/hawthorne-heights]] · Live appearances
+- ◆ **2005-08-01** — 8 — vans warped tour — Vans Warped Tour 2005 — Post-Gazette Pavilion — Burgettstown, PA — FOB, Alexisonfire, Gogol Bordello, hawthorne heights — Hawthorne Heights  
   ↳ [[wiki/timeline/events/teen-concert-years]] · The researched record (36 shows, 2001–2019)
 - ◆ **2005-08-11** — 14 — Coldplay, Rilo Kiley — Post-Gazette Pavilion — Burgettstown, PA — Twisted Logic Tour w/ Rilo Kiley. Only confirmed outdoor Coldplay date at venue.  
   ↳ [[wiki/interests/concert-record/index]] · Master event list
@@ -700,6 +706,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/favorites/music/artists/fall-out-boy]] · Concert record — supplementary appearances (from the 2001-2019 log)
 - ◆ **2005-11-23** — Sep 28 - Nov 23, 2005** — Nintendo Fusion Tour, Various (tour), Multiple cities. Confirmed tour window.  
   ↳ [[wiki/interests/favorites/music/artists/fall-out-boy]] · Concert record — supplementary appearances (from the 2001-2019 log)
+- ◆ **2005-11-23** — nintendo fusion tour — Nintendo Fusion Tour — Various (tour) — Multiple cities — Confirmed tour window.  
+  ↳ [[wiki/interests/favorites/music/artists/motion-city-soundtrack]] · Live appearances
 
 ### 2006
 
@@ -711,7 +719,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/concert-record/index]] · Master event list
 - · **2006** — Gym Class Heroes — California University of PA — California, PA — Still open -- no primary campus listing located.  
   ↳ [[wiki/interests/favorites/music/artists/gym-class-heroes]] · Live appearances
-- · **2006** — 15 — Gym Class Heroes — California University of PA — California, PA — **Still open  
+- · **2006** — 15 — gym class heroes — Gym Class Heroes — California University of PA — California, PA — **Still open  
   ↳ [[wiki/timeline/events/teen-concert-years]] · The researched record (36 shows, 2001–2019)
 - · **2006** — 35 — Taking Back Sunday — College campus — Pittsburgh, PA — **Still open  
   ↳ [[wiki/timeline/events/teen-concert-years]] · The researched record (36 shows, 2001–2019)
@@ -727,8 +735,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/concert-record/festivals/vans-warped-tour]] · Editions
 - ◆ **2006-07-27** — 20 — Vans Warped Tour — Post-Gazette Pavilion — Burgettstown, PA — Warped Tour date. Lineup included AFI, Rise Against, Thursday, Motion City Soundtrack, NOFX.  
   ↳ [[wiki/interests/concert-record/index]] · Master event list
-- ◆ **2006-07-27** — Vans Warped Tour — Post-Gazette Pavilion — Burgettstown, PA — Warped Tour date. Lineup included AFI, Rise Against, Thursday, Motion City Soundtrack, NOFX.  
+- ◆ **2006-07-27** — vans warped tour — Vans Warped Tour — Post-Gazette Pavilion — Burgettstown, PA — Warped Tour date. Lineup included AFI, Rise Against, Thursday, motion city soundtrack — Motion City Soundtrack, NOFX.  
   ↳ [[wiki/interests/favorites/music/artists/afi]] · Live appearances
+- ◆ **2006-07-27** — Vans Warped Tour, Post-Gazette Pavilion, Burgettstown, PA. Warped Tour date. Lineup included AFI, Rise Against, Thursday, Motion City Soundtrack, NOFX.  
+  ↳ [[wiki/interests/favorites/music/artists/afi]] · Notes per appearance
 - ◆ **2006-07-27** — 9 — Vans Warped Tour 2006 — Post-Gazette Pavilion — Burgettstown, PA — AFI, Rise Against, Thursday, MCS, NOFX  
   ↳ [[wiki/timeline/events/teen-concert-years]] · The researched record (36 shows, 2001–2019)
 
@@ -786,9 +796,11 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/concert-record/festivals/vans-warped-tour]] · Editions
 - ◆ **2007-08-08** — 22 — Vans Warped Tour — Post-Gazette Pavilion — Burgettstown, PA — Warped Tour date. Lineup included Paramore, Coheed & Cambria, All Time Low, Bad Religion.  
   ↳ [[wiki/interests/concert-record/index]] · Master event list
-- ◆ **2007-08-08** — Vans Warped Tour — Post-Gazette Pavilion — Burgettstown, PA — Warped Tour date. Lineup included Paramore, Coheed & Cambria, All Time Low, Bad Religion.  
+- ◆ **2007-08-08** — vans warped tour — Vans Warped Tour — Post-Gazette Pavilion — Burgettstown, PA — Warped Tour date. Lineup included Paramore, Coheed & Cambria, All Time Low, Bad Religion.  
   ↳ [[wiki/interests/favorites/music/artists/all-time-low]] · Live appearances
-- ◆ **2007-08-08** — 10 — Vans Warped Tour 2007 — Post-Gazette Pavilion — Burgettstown, PA — Paramore, Coheed, All Time Low, Bad Religion  
+- ◆ **2007-08-08** — Vans Warped Tour, Post-Gazette Pavilion, Burgettstown, PA. Warped Tour date. Lineup included Paramore, Coheed & Cambria, All Time Low, Bad Religion.  
+  ↳ [[wiki/interests/favorites/music/artists/all-time-low]] · Notes per appearance
+- ◆ **2007-08-08** — 10 — Vans Warped Tour 2007 — Post-Gazette Pavilion — Burgettstown, PA — Paramore, Coheed, all time low — All Time Low, Bad Religion  
   ↳ [[wiki/timeline/events/teen-concert-years]] · The researched record (36 shows, 2001–2019)
 - ◆ **November 2007** — The opiate arc that follows has one new, specific, dated event: a November 2007 trip to Las Vegas (age 19) is named as the point physical opiate dependence became undeniable — the problem shifting from "how to be cool" to "how to function without getting sick." The following winter (2008), he tried…  
   ↳ [[wiki/health/chemical-architecture]] · System genesis: a phased history
@@ -841,11 +853,11 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/events/teen-concert-years]] · The record
 - · **2008-05-03** — Bamboozle — Meadowlands, NJ  
   ↳ [[wiki/timeline/events/teen-concert-years]] · The record
-- ◆ **2008-05-04** — Multi-act show — Meadowlands Sports Complex — East Rutherford, NJ — Panic! at the Disco & Coheed and Cambria co-headlined. Also: Paramore, Gym Class Heroes, Cobra Starship, The Academy Is.  
+- ◆ **2008-05-04** — Multi-act show — Meadowlands Sports Complex — East Rutherford, NJ — Panic! at the Disco & coheed and cambria — Coheed and Cambria co-headlined. Also: Paramore, gym class heroes — Gym Class Heroes, Cobra Starship, the academy is — The Academy Is.  
   ↳ [[wiki/interests/favorites/music/artists/cobra-starship]] · Live appearances
 - · **2008-05-04** — 26 — Panic! at the Disco, Coheed and Cambria, Paramore, Gym Class Heroes, Cobra Starship, The Academy Is... — Meadowlands Sports Complex — East Rutherford, NJ — Panic! at the Disco & Coheed and Cambria co-headlined. Also: Paramore, Gym Class Heroes, Cobra Starship, The Academy Is.  
   ↳ [[wiki/interests/concert-record/index]] · Master event list
-- · **2008-05-04** — 12 — The Bamboozle 2008 — Panic! & Coheed headline — Meadowlands Sports Complex — East Rutherford, NJ — Paramore, Gym Class Heroes, Cobra Starship, The Academy Is…  
+- · **2008-05-04** — 12 — The Bamboozle 2008 — Panic! & Coheed headline — Meadowlands Sports Complex — East Rutherford, NJ — Paramore, Gym Class Heroes, cobra starship — Cobra Starship, the academy is — The Academy Is…  
   ↳ [[wiki/timeline/events/teen-concert-years]] · The researched record (36 shows, 2001–2019)
 - ◆ **2008-07-29** — Post-Gazette Pavilion — Burgettstown, PA — Warped Tour date. Lineup included Anberlin, All Time Low, Against Me!, 3OH!3.  
   ↳ [[wiki/interests/concert-record/festivals/vans-warped-tour]] · Editions
@@ -853,6 +865,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/concert-record/index]] · Master event list
 - ◆ **2008-07-29** — Vans Warped Tour — Post-Gazette Pavilion — Burgettstown, PA — Warped Tour date. Lineup included Anberlin, All Time Low, Against Me!, 3OH!3.  
   ↳ [[wiki/interests/favorites/music/artists/all-time-low]] · Live appearances
+- ◆ **2008-07-29** — vans warped tour — Vans Warped Tour — Post-Gazette Pavilion — Burgettstown, PA — Warped Tour date. Lineup included Anberlin, all time low — All Time Low, Against Me!, 3OH!3.  
+  ↳ [[wiki/interests/favorites/music/artists/anberlin]] · Live appearances
 - ◆ **2008-07-29** — 11 — Vans Warped Tour 2008 — Post-Gazette Pavilion — Burgettstown, PA — Anberlin, All Time Low, Against Me!, 3OH!3  
   ↳ [[wiki/timeline/events/teen-concert-years]] · The researched record (36 shows, 2001–2019)
 - ★ **August 2008** — Gaps:** exact acquisition day (bounded to "the day after" arriving in Orlando, August 2008); confirmation of the November 2023 death date over the stated "November 2003"; resolution of the MAX_PRIME tense contradiction above.  
@@ -927,6 +941,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/concert-record/index]] · Master event list
 - · **2008-10-18** — All Time Low / The Maine — Yes, row 28 — *"all time lowww/the maine"* — same-day, exact-date corroboration  
   ↳ [[wiki/interests/concert-record/index]] · The twitter cross-check — the table is a purchase record, not an attendance record
+- · **2008-10-18** — 28 — All Time Low / mayday parade — Mayday Parade / The Maine / Every Avenue — House of Blues — Orlando, FL — Resolved — joint fall 2008 package  
+  ↳ [[wiki/timeline/events/teen-concert-years]] · The researched record (36 shows, 2001–2019)
 - · **2008-10-26** — Two months earlier the same account had made the cat a WoW joke: *"my new kitten and your new puppy shall duel. be forewarned that my kitten is a level 70 mage"* (26 October 2008), and level 70 was the cap in that expansion.  
   ↳ [[wiki/interests/video-games]] · 2008: fourteen hours in twenty-four
 - ★ **2008-10-31** — Traffic — turning movements / required signal — 1 — unavailable  
@@ -943,7 +959,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/favorites/music/artists/jedi-mind-tricks]] · Live appearances
 - · **2008-11-17** — "Jedi mind tricks"  
   ↳ [[wiki/interests/favorites/music/artists/jedi-mind-tricks]] · Notes per appearance
-- · **2008-11-17** — 26 — Jedi Mind Tricks (w/ Outerspace, Reef the Lost Cause) — The Social — Orlando, FL — Resolved  
+- · **2008-11-17** — 26 — jedi mind tricks — Jedi Mind Tricks (w/ Outerspace, Reef the Lost Cause) — The Social — Orlando, FL — Resolved  
   ↳ [[wiki/timeline/events/teen-concert-years]] · The researched record (36 shows, 2001–2019)
 - · **2008-11-18** — "holy fuck, jedi mind tricks are so fucking scary."  
   ↳ [[wiki/interests/favorites/music/artists/jedi-mind-tricks]] · Notes per appearance
@@ -959,7 +975,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/concert-record/index]] · Master event list
 - · **2008-12-12** — Fall Out Boy / TAI / We The Kings — Yes, row 29 — *"fall out boy/TAI/WTK - @houseofblues"* — the three-act bill, day-of  
   ↳ [[wiki/interests/concert-record/index]] · The twitter cross-check — the table is a purchase record, not an attendance record
-- · **2008-12-12** — 29 — Fall Out Boy / The Academy Is… / We The Kings — House of Blues — Orlando, FL — Resolved — XL 106.7 "XL-ent Electric Xmas"  
+- · **2008-12-12** — 29 — Fall Out Boy / The Academy Is… / we the kings — We The Kings — House of Blues — Orlando, FL — Resolved — XL 106.7 "XL-ent Electric Xmas"  
   ↳ [[wiki/timeline/events/teen-concert-years]] · The researched record (36 shows, 2001–2019)
 - · **2008-12-19** — "I don't want to go to cold, lame PA. Be back on the 28th for hey Monday :)"  
   ↳ [[wiki/mind/concepts/acquisition-drive]] · A dated instance of the young form, from the trivial end
@@ -1002,7 +1018,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/favorites/music/artists/flight-of-the-conchords]] · Live appearances
 - ◆ **2009-04-08** — The concert is 8 April 2009 at the UCF Arena.  
   ↳ [[wiki/interests/favorites/music/artists/flight-of-the-conchords]] · Before the ticket
-- ◆ **2009-04-08** — 30 — Flight of the Conchords — UCF Arena — Orlando, FL — Confirmed  
+- ◆ **2009-04-08** — 30 — flight of the conchords — Flight of the Conchords — UCF Arena — Orlando, FL — Confirmed  
   ↳ [[wiki/timeline/events/teen-concert-years]] · The researched record (36 shows, 2001–2019)
 - ★ **2009-06-13** — Vehicle equipment — render inoperative — 1 — **guilty plea  
   ↳ [[wiki/people/jerel-coles]] · The record, 2008–2025
@@ -1326,7 +1342,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/concert-record/index]] · Master event list
 - ◆ **2011-04-02** — 21 — LCD Soundsystem — "final" show — Madison Square Garden — New York, NY — Billed as last ever; reunited 2016  
   ↳ [[wiki/timeline/events/teen-concert-years]] · The researched record (36 shows, 2001–2019)
-- · **2011-04-29** — 13 — The Bamboozle 2011 — New Meadowlands Stadium — East Rutherford, NJ — Lil Wayne, Mötley Crüe, TBS, A Day to Remember  
+- · **2011-04-29** — 13 — the bamboozle 2011 — The Bamboozle 2011 — New Meadowlands Stadium — East Rutherford, NJ — lil wayne — Lil Wayne, Mötley Crüe, TBS, A Day to Remember  
   ↳ [[wiki/timeline/events/teen-concert-years]] · The researched record (36 shows, 2001–2019)
 - ★ **May 2011** — She appears on both ends of the relationship's documented arc: in May 2011 she sent Dan his own non-disclosure/non-compete agreement to sign ("Here is the non-disclosure/non-compete agreement for CL.  
   ↳ [[wiki/people/katherine-palakovich]] · Katherine Palakovich ("Kittie")
@@ -1336,10 +1352,12 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/concert-record/festivals/the-bamboozle-2011]] · Editions
 - ◆ **2011-05-01** — 33 — The Bamboozle 2011 — New Meadowlands Stadium — East Rutherford, NJ — Festival edition. Lineup included Lil Wayne, Motley Crue, Taking Back Sunday, A Day to Remember.  
   ↳ [[wiki/interests/concert-record/index]] · Master event list
-- ◆ **2011-05-01** — The Bamboozle 2011 — New Meadowlands Stadium — East Rutherford, NJ — Festival edition. Lineup included Lil Wayne, Motley Crue, Taking Back Sunday, A Day to Remember.  
+- ◆ **2011-05-01** — the bamboozle 2011 — The Bamboozle 2011 — New Meadowlands Stadium — East Rutherford, NJ — Festival edition. Lineup included lil wayne — Lil Wayne, Motley Crue, Taking Back Sunday, A Day to Remember.  
   ↳ [[wiki/interests/favorites/music/artists/a-day-to-remember]] · Live appearances
 - ◆ **2011-05-01** — Apr 29 - May 1, 2011** — The Bamboozle 2011, New Meadowlands Stadium, East Rutherford, NJ. Festival edition. Lineup included Lil Wayne, Motley Crue, Taking Back Sunday, A Day to Remember.  
   ↳ [[wiki/interests/favorites/music/artists/a-day-to-remember]] · Notes per appearance
+- ◆ **2011-05-01** — The Bamboozle 2011 — New Meadowlands Stadium — East Rutherford, NJ — Festival edition. Lineup included Lil Wayne, Motley Crue, Taking Back Sunday, A Day to Remember.  
+  ↳ [[wiki/interests/favorites/music/artists/lil-wayne]] · Live appearances
 - ◆ **2011-05-20** — The Facebook takeout shows the approach as a slow, one-directional accretion: nine documented interactions from Dan to her content between **May 20, 2011** and **August 15, 2013** — seven likes and two comments — before the first exchange.  
   ↳ [[wiki/people/ally-lubin]] · The eighteen-year approach
 - · **2011-05-20** — First documented contact  
@@ -1485,7 +1503,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/shane-brannan]] · What they talked about
 - · **2012-07-20** — "the worst part is that the character model is so bad…but it's still scary as fuck when you turn and it's there"  
   ↳ [[wiki/people/shane-brannan]] · What they talked about
-- ◆ **2012-08-07** — 23 — Bloc Party — Terminal 5 — New York, NY — Three-night sold-out *Four* run (recalled as "Terminal 9")  
+- ◆ **2012-08-07** — 23 — bloc party — Bloc Party — Terminal 5 — New York, NY — Three-night sold-out *Four* run (recalled as "Terminal 9")  
   ↳ [[wiki/timeline/events/teen-concert-years]] · The researched record (36 shows, 2001–2019)
 - ◆ **2012-08-21** — "last week's episode with Duncan is, in my opinion, the new high water mark for JRE."  
   ↳ [[wiki/self/twitter/2012]] · The prior pipeline, named — and the ideological distance flagged from the start
@@ -1584,7 +1602,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/periods/uniontown-return-2013-2015]] · The return
 - ◆ **May 2013** — Annie begins Thanksgiving 2015  
   ↳ [[wiki/self/context-core]] · Residence timeline (canonical) [DOC/MEM]
-- · **May 2013** — Uniontown — 337 Saratoga → 155 Virginia Ave — SLOPPP (2013–14) → MOGZART (2014–16)  
+- · **May 2013** — Uniontown — 337 Saratoga → 155 virginia ave — 155 Virginia Ave — SLOPPP (2013–14) → MOGZART (2014–16)  
   ↳ [[wiki/self/context-core]] · Residence timeline (canonical) [DOC/MEM]
 - · **May 2013** — poverty floor 2017, deep cycle 2018  
   ↳ [[wiki/self/context-core]] · Residence timeline (canonical) [DOC/MEM]
@@ -1654,8 +1672,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/music/aliases/sloppp]] · The twitter archive roughly triples the documented 2013 output
 - · **August 2013** — twitter** — 2009 through 2012, January–mid-August 2013, and some 2026 days between the spreadsheet end and the live scrape are still being walked from X in batches of ten. Each incomplete yearly page states that on its face. The spreadsheet span 2013-08-17 through 2026-04  
   ↳ [[wiki/meta/open-questions]] · self (165)
-- · **August 2013** — Comedy / other — Scattered  
-  ↳ [[wiki/self/facebook/interests]] · Event Responses (2008–2020)
 - · **August 2013** — Years before the spreadsheet, the mid-August 2013 days before it starts, and 2026 after 7 April are filled from live X search and will grow as further batches are committed on this branch.  
   ↳ [[wiki/self/twitter]] · Twitter / X Activity (@danfrank)
 - · **August 2013** — 2009 through 2012, January–mid-August 2013, and some 2026 days between the spreadsheet end and the live scrape are still being walked from X in batches of ten.  
@@ -3477,7 +3493,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/health/cocaine]] · The supply chain
 - · **2018** — al — Al ("Socialist") — Parallel Uniontown dealer — Explicit cocaine  
   ↳ [[wiki/health/cocaine]] · The supply chain
-- · **2018** — Second dealer (+17243233522) — Uniontown — Parallel node in the deep cycle (operating manual)  
+- · **2018** — Second dealer (+17243233522) — Uniontown — Parallel node in the deep cycle (exocortex — operating manual)  
   ↳ [[wiki/mind/synthesis/supply-network]] · The succession of nodes
 - · **2018** — Arrangement formalized; smashonista confirmed (Aug 18); Patreon Oct 2019  
   ↳ [[wiki/people/annie-ulmer]] · Chronology
@@ -4077,7 +4093,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/eric-jester]] · The relationship
 - · **2018-11-16** — The earliest dated sighting outside this thread is November 16, 2018, in Eric's thread: "Dunn is down in that neighborhood right now.  
   ↳ [[wiki/people/matt-dunn]] · What the wider record shows
-- · **2018-11-27** — 1 — In-person drop at 155 Virginia Ave  
+- · **2018-11-27** — 1 — In-person drop at 155 virginia ave — 155 Virginia Ave  
   ↳ [[wiki/people/emaly-minerd]] · Master timeline
 - · **2018-11-27** — Emaly: "you are a nice guy, and dare I even say sweet"  
   ↳ [[wiki/people/emaly-minerd]] · Master timeline
@@ -4141,10 +4157,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/suzanne-frank]] · Gambling, drinking, and the Uniontown supply economy
 - · **December 2018** — She was still forwarding chain-mail conservative content in December 2018 (a "Proposed 28th Amendment" petition).  
   ↳ [[wiki/people/suzanne-frank]] · Politics
-- · **December 2018** — 2018 (peak 254 events): Multiple dealers (Johnny +17243223678), financial velocity (Cash App limits, ATM 1am), Annie shifts  
-  ↳ [[wiki/timeline/events/timeline]] · Major Periods (cross-checked with core residence and data)
-- · **December 2018** — per operating Dec 2018 deep cycle.  
-  ↳ [[wiki/timeline/events/timeline]] · Major Periods (cross-checked with core residence and data)
 - · **December 2018** — Per operating: Dec 2018 deep cycle notes.  
   ↳ [[wiki/timeline/periods/2018-deep-cycle]] · 2018 Deep Cycle
 - · **December 2018** — Key events (expanded):** Multiple dealers (Johnny +17243223678 etc), financial velocity (Cash App, ATM 1am runs); Annie shifts "I made it b"; per operating Dec 2018 deep cycle; Ally Lubin; mom "around when need money".  
@@ -4360,8 +4372,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/failure-to-launch]] · Employment
 - · **April 2019** — Phase 3: Plateau & secondary associate (Mar–Apr 2019)  
   ↳ [[wiki/people/menore]] · Timeline & Phases
-- · **April 2019** — Music / rave / DJ — EDM/rave cluster 2014–2019, Pittsburgh + NYC  
-  ↳ [[wiki/self/facebook/interests]] · Event Responses (2008–2020)
 - · **April 2019** — Reddit r/nycr4r link (Apr 2019)  
   ↳ [[wiki/self/facebook/messages]] · Ally Lubin (dark humor peripheral, 2013)
 - · **April 2019** — It stands as the earliest well-specified instance of the couple's non-monogamous arrangement running with a woman from Dan's own romantic history, predating the April 2019 Shelbie threesome by five months.  
@@ -4404,8 +4414,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/concert-record/festivals/high-tide-4]] · Editions
 - · **2019-04-20** — 36 — High Tide 4 — Hornblower Infinity Yacht — New York, NY — Boarded at 353 West St.  
   ↳ [[wiki/interests/concert-record/index]] · Master event list
-- · **2019-04-20** — High Tide 4 — Hornblower Infinity Yacht — New York, NY — Boarded at 353 West St.  
+- · **2019-04-20** — high tide 4 — High Tide 4 — Hornblower Infinity Yacht — New York, NY — Boarded at 353 West St.  
   ↳ [[wiki/interests/favorites/music/artists/wiki]] · Live appearances
+- · **2019-04-20** — High Tide 4, Hornblower Infinity Yacht, New York, NY. Boarded at 353 West St.  
+  ↳ [[wiki/interests/favorites/music/artists/wiki]] · Notes per appearance
 - · **2019-04-20** — 14 — Freddie Gibbs — "High Tide" 4/20 cruise (w/ Wiki, Kota the Friend) — Hornblower Infinity Yacht — New York, NY — Boarded at 353 West St.  
   ↳ [[wiki/timeline/events/teen-concert-years]] · The researched record (36 shows, 2001–2019)
 - · **2019-04-29** — Chris DiStefano  
@@ -5202,6 +5214,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/tarik-fallous]] · Timeline
 - · **Spring 2021** — interior renovation delayed ~9 months  
   ↳ [[wiki/people/tarik-fallous]] · Timeline
+- · **April 2021** — Work history — au zaatar — Creative License (2011–12, NYC)  
+  ↳ [[wiki/self/facebook]] · Identity & Profile Data (2022 snapshot, self-reported)
+- · **April 2021** — Ishlab Studio (Mar 2010–Feb 2011, Brooklyn)  
+  ↳ [[wiki/self/facebook]] · Identity & Profile Data (2022 snapshot, self-reported)
 - · **April 2021** — "Didn't know you were doing TikTok", missed call Apr 2021  
   ↳ [[wiki/self/facebook/messages]] · RJ Ritchey (golf + politics)
 - · **2021-04-24** — An April 24, 2021 aside is a useful late check-in on the 2020 left turn: "i'm fully aware that i've made a big time lefty heel turn recently but i still think it's pretty dishonest not to" [call out performative centrism] — eight months after the documented August 2020 conversion, confirming it had…  
@@ -5439,7 +5455,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/events/timeline]] · Major Periods (cross-checked with core residence and data)
 - · **2024** — Political obsession (Trump attempt 800 msgs in 6wks with Jerad); 55 events.  
   ↳ [[wiki/timeline/events/timeline]] · Major Periods (cross-checked with core residence and data)
-- ★ **January 2024** — Death Throes of the Republic (Hardcore History #34–39) — Dan Carlin — 5  
+- ★ **January 2024** — Death Throes of the Republic (Hardcore History #34–39) — dan carlin — Dan Carlin — 5  
   ↳ [[wiki/interests/roman-republic]] · The 2024 reading binge — dated, not vague
 - · **January 2024** — Manhunt: The 12-Day Chase for Lincoln's Killer — Swanson, James L. — ★★★★☆ — american-history, crime, history, non-fiction, top-shelf  
   ↳ [[wiki/interests/favorites/books]] · Detailed Books Snapshot (from FAVORITES DATA (2).md)
@@ -5473,7 +5489,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/roman-republic]] · It became something he pushed on people
 - · **Spring 2024** — In spring 2024 he is actively proselytizing it:  
   ↳ [[wiki/interests/roman-republic]] · It became something he pushed on people
-- · **2024-04-07** — Rubicon: The Last Years of the Roman Republic — Holland, Tom — ★★★★★ — ancient-history, caesar, history, non-fiction, politics, roman-republic, top-shelf, war  
+- · **2024-04-07** — Rubicon: The Last Years of the roman republic — Roman Republic — Holland, Tom — ★★★★★ — ancient-history, caesar, history, non-fiction, politics, roman-republic, top-shelf, war  
   ↳ [[wiki/interests/favorites/books]] · Detailed Books Snapshot (from FAVORITES DATA (2).md)
 - · **2024-04-07** — Rubicon: The Last Years of the Roman Republic — Tom Holland — 5  
   ↳ [[wiki/interests/roman-republic]] · The 2024 reading binge — dated, not vague
@@ -5559,7 +5575,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/roman-republic]] · The 2024 reading binge — dated, not vague
 - · **2024-07-31** — Caesar: Life of a Colossus — Goldsworthy, Adrian — ★★★★★ — ancient-history, biography, caesar, great-man-theory, history, non-fiction, philosophy, roman-republic, top-shelf  
   ↳ [[wiki/interests/favorites/books]] · Detailed Books Snapshot (from FAVORITES DATA (2).md)
-- · **2024-07-31** — Caesar: Life of a Colossus — Adrian Goldsworthy — 5  
+- · **2024-07-31** — Caesar: Life of a Colossus — adrian goldsworthy — Adrian Goldsworthy — 5  
   ↳ [[wiki/interests/roman-republic]] · The 2024 reading binge — dated, not vague
 - ★ **August 2024** — Set that against Au Za'atar, where the employer spent June, July and August 2024 cutting his hours in a pattern he read in real time as an attempt to force a quit — and he did not quit.  
   ↳ [[wiki/mind/synthesis/the-embedded-objective]] · The controls
@@ -5828,7 +5844,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/places/the-unpapered-address]] · Seven addresses, one structure
 - ★ **February 2025** — Connection to other arcs:** Post-separation (Feb 2025 PA move per profile/operating/LIFE); mom co-residence implied (337 Saratoga); prefigures 2026 closure.  
   ↳ [[wiki/self/chats/gemini-07]] · Gemini Session 07 (Suzy Call & Blackout / Target G Forensic)
-- ★ **February 2025** — Uniontown PA · 337 Saratoga Drive — Returned Feb 22, 2025; Annie closure June 1, 2026; **house sold ~June 2026 ($465k)**; music reactivation, agent/AI work  
+- ★ **February 2025** — Uniontown PA · 337 saratoga drive — 337 Saratoga Drive — Returned Feb 22, 2025; Annie closure June 1, 2026; **house sold ~June 2026 ($465k)**; music reactivation, agent/AI work  
   ↳ [[wiki/self/context-core]] · Residence timeline (canonical) [DOC/MEM]
 - ★ **February 2025** — Current / post-closure**: Low 2024 counts may reflect data export cutoff, phone changes, or reduced travel after return to Uniontown Feb 2025 and major life events (Annie closure June 2026). 337 Saratoga remains high-signal home base. Ties 2025 collapse.  
   ↳ [[wiki/self/location-history]] · Relation to Self Model
@@ -7859,4 +7875,4 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ---
 
-*Generated by `bin/wiki-timeline` from 388 wiki pages. 3,927 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 390 wiki pages. 3,928 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*

@@ -74,8 +74,8 @@ personality tests, but **"an unusual amount of instrumentation."** Seven
 independent frameworks have been run over him — MBTI with function
 percentages, Enneagram with wing and instinct stack, Big Five/Big30 with a
 SLOAN code, a personality-disorder vector, Socionics, Attitudinal Psyche, a
-moral alignment — plus a stylometric analysis, a deviance audit against a
-demographic baseline, and a composite voice model. The page's own governing
+moral alignment — plus a stylometric analysis, a [[wiki/mind/profile/deviance-mapping|deviance audit]] against a
+demographic baseline, and a [[wiki/mind/profile/voice-modes|composite voice model]]. The page's own governing
 line: *"Dan knows himself the way he knows a stranger: by running an
 instrument over the evidence and reading the output."* The 2013 batch is not
 an outlier next to this. It is the prototype.

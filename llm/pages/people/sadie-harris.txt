@@ -32,7 +32,7 @@ infobox:
 # Sadie Harris
 
 Sadie Harris (later Sadie Frank) is Dan's paternal great-grandmother and, on
-the documentary record, the most immobile person in his family tree. She was
+the documentary record, the most immobile person in his [[wiki/self/lineage/family-tree|family tree]]. She was
 born in Austria on 14 December 1900, arrived in the United States as part of
 the Eastern European Jewish immigration, and by 1920 was living in Brownsville,
 Fayette County, Pennsylvania — where the census and city-directory record then

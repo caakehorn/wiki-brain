@@ -38,7 +38,7 @@ connections:
 
 # Claude Code (Anthropic Coding Agent)
 
-Claude Code is the coding-agent deployment of the Claude model — the same analytical engine that powers the wiki's forensic analysis, but with shell access, file-system control, and the ability to execute its conclusions as code. If Claude is the analyst, Claude Code is the engineer. It is the agent that built every tool in the wiki's `bin/` directory, maintains every page in `wiki/`, and runs the gates that keep the system honest. Without Claude Code, [[wiki/self/concepts/wiki-brain|the wiki-brain]] would be a design document. With it, it is a functioning second brain.
+Claude Code is the coding-agent deployment of the Claude model — the same analytical engine that powers the wiki's [[wiki/mind/concepts/forensic-method|forensic analysis]], but with shell access, file-system control, and the ability to execute its conclusions as code. If Claude is the analyst, Claude Code is the engineer. It is the agent that built every tool in the wiki's `bin/` directory, maintains every page in `wiki/`, and runs the gates that keep the system honest. Without Claude Code, [[wiki/self/concepts/wiki-brain|the wiki-brain]] would be a design document. With it, it is a functioning second brain.
 
 ## The relationship to Claude
 

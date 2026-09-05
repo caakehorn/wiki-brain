@@ -9757,3 +9757,76 @@ sources never included the archive).
 
 `excluded_under_directive: 5` — @Lo_weez rows, dropped at transcription, not
 summarised or counted into any band.
+
+## [2026-09-05] connect | meta | the wiki names 570 things it does not link — 344 of them now clickable
+
+**The measurement the campaign never took.** Every instrument built for the
+crosslink campaign points *outward*, at `raw/`: which entities does a source
+name that the page it fed never learned about? The operator's complaint on
+2026-09-04 — clicking the 2026 twitter page and finding SLOPPP unlinked at the
+top of it — was the inward question, and nothing here could ask it. **Does a
+page link the things it already says?**
+
+It does not. Measured across 497 pages: **570 high-confidence names written in
+the wiki's own prose, on 262 pages, with no link on them.** Not names a source
+suggested and nobody has weighed — names the wiki typed itself, deliberately,
+about entities it has pages for. `wiki/interests/favorites/music/artists/
+paramore` is 1KB naming six sibling artist pages and linking none of them.
+
+**Why this went unmeasured for the whole campaign, and it is not the same
+defect as yesterday's.** Yesterday's was a bug: `linked_targets` counted a
+backticked path as a link. This is an absence — there was no code that read a
+page against the rest of the wiki, because every question the tool knew how to
+ask needed a corpus. The two failures compound: the campaign reported the
+twitter tree fully cross-linked because it was counting the wrong thing, and
+had it counted the right thing it still would not have looked here.
+
+**`bin/wiki-crosslink unlinked [--apply]`.** Wiki against wiki, no corpus read,
+1.4s. Body `[[wikilinks]]` only — a typed edge is frontmatter and the reader
+never sees it, which is the opposite of `linked_targets`' rule and deliberately
+so. 344 links written across 186 pages; **10,660 body wikilinks now against
+10,316 before**, and pages with no link at all fall from 53 to 27.
+
+**Four refusals, each one a measured failure of the version without it:**
+
+- **Never into a quotation, and the mask is computed over the whole body.**
+  The first cut masked line by line and wrote a wikilink into the middle of a
+  quoted tweet — `at least I got the [[wiki/self/twitter|@danfrank]] handle"*`,
+  opening quote two lines up. Prose here hard-wraps at ~78 columns, so any
+  quotation of length spans lines and a per-line mask sees only its tail: the
+  one case the mask exists for is the one it could not see. Headings,
+  blockquotes, fenced and inline code, and existing links are masked the same
+  way. Audited after the run: 344 new links, **0 inside a quotation.**
+- **A phrase said by more than 20 pages is refused, but only if it is an
+  alias.** `the wiki` → `wiki/self/concepts/wiki-brain` fired **104 times**, and
+  in none of them is it a name: "the wiki records 17 February" means *this
+  document*. The first cut of the cap took `fall out boy` with it — a real band
+  on 21 pages, because he is a fan. Title versus alias separates them and
+  nothing else tried did: dispersion says how loud a string is, not whether it
+  is a name.
+- **A common phrase is demoted to its page's exact display form, not refused.**
+  `mark_common_phrases` is calibrated on the message corpus, where "say
+  anything" is 134 rows and none of them the band. Porting the refusal here
+  would discard five real bands to catch one room, so a flagged name must
+  appear exactly as its own page writes it: `Say Anything` links, `say
+  anything` does not.
+- **Dispersion is computed over the whole corpus even when one page is named on
+  the command line.** Otherwise `--apply <page>` writes links `--apply`
+  refuses — the tool disagreeing with itself by invocation.
+
+**Two aliases deleted from `wiki/self/concepts/wiki-brain`: `the wiki` and `the
+repository`.** Both are self-references in this corpus. `the repository` had
+slipped under the cap at six and produced a link that is simply wrong —
+*"...is **not in [[the repository]]**"*, in `message-circadian-latency`, means
+the git repo. An alias that names the document the reader is holding is not an
+alias.
+
+**No `date_modified` was bumped.** Adding a link is not a revision of the
+argument, and bumping 186 pages would have cleared the staleness warnings on
+every page reasoning from any of them — rule 3, at scale, by accident.
+
+`bin/wiki-lint`'s edges-and-no-links warning is at **0** (`wiki/people/teddy`
+hand-linked; `twitter-2024-cognitive-state` took two). 99 candidates remain, all
+of them contested between two pages or single-token, and they are a reading job.
+50 tests in `tests/test_wiki_crosslink.py`, 13 of them new and every one pinning
+a refusal — a refusal that stops working reports *more* links and stays green.

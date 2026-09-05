@@ -53,7 +53,7 @@ Dan's language is one of the most-measured things about him: two independent
 corpora (97,199 sent iMessages 2015–2025 and the @danfrank Twitter archive
 back to 2009) confirm a single stable voice, and the commissioned stylometric
 analyses placed it at the 99th percentile for lexical diversity and syntactic
-complexity — "a custom-built fork of English," per the deviance audit, which
+complexity — "a custom-built fork of English," per the [[wiki/mind/profile/deviance-mapping|deviance audit]], which
 scores linguistic deviance 97/100. **The lexical-diversity half of that claim is
 retracted below**; the syntactic half survives and is larger than the analyses said. The signature register the analyses name
 is **"forensic intimacy"**: clinical detachment fused with raw personal

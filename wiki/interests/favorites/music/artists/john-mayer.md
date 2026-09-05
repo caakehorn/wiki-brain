@@ -43,7 +43,7 @@ stuck.
 Thirteen and fifteen months after the show, unprompted, from Orlando. The
 second is addressed to a dedicated John Mayer fan account, which places him
 inside that fandom's social layer rather than adjacent to it — and it sits in
-the same autumn as the emo, pop-punk and Jedi Mind Tricks material on
+the same autumn as the emo, pop-punk and [[wiki/interests/favorites/music/artists/jedi-mind-tricks|Jedi Mind Tricks]] material on
 [[wiki/self/twitter/2009]], which is a wider taste at twenty than either page
 suggests alone.
 

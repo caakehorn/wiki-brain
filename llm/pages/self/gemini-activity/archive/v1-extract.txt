@@ -45,7 +45,7 @@ The extraction's substance was distributed to these pages (read them, not this i
 | Bacharach neighborhood glitch, Exterior Shell | [[wiki/self/chats/gemini-13]], [[wiki/people/jacob-bacharach]] |
 | Profile lock / bio dump for Grok transfer | [[wiki/self/chats/gemini-18]], [[wiki/mind/concepts/node-locking]] |
 | Music-guy analysis, jailbreak lab, injection concepts | [[wiki/self/chats/gemini-21]], [[wiki/people/danielle-onesi]], [[wiki/people/james-dee]] |
-| Early NYC / ishlab / Creative License / Menore | [[wiki/self/chats/gemini-58]] |
+| Early NYC / ishlab / [[wiki/work/creative-license|Creative License]] / Menore | [[wiki/self/chats/gemini-58]] |
 | J6 / Psyop forensic | [[wiki/mind/synthesis/political-psyops]], [[wiki/self/chats/j6-chat]] |
 | Forensic method (invariant across subjects) | [[wiki/mind/concepts/forensic-method]] |
 | AI collaborative use (node logging, injection lab) | [[wiki/mind/synthesis/ai-collaborative-analysis]] |

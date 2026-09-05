@@ -33,14 +33,14 @@ tags: [ai-collaboration, nyc-era, addiction-recovery, music-production, personal
 | Lines | 1535 |
 | Exchanges | ~30 full cycles |
 | Style | "NYC ARCHIVE: VOLUME I", system status blocks, "Deep Architecture", "Radical Skepticism", "Forensic Over-explanation", "INTP", "prophet-level insight" |
-| Dominant | Jamin/Ishlab; Creative License (Kevin/KTM); Lex/Alexis; Menore (CSV verbatim); Rick (dad); Bellator licensing; MIM/Mixi.fm; Franki; Suboxone |
+| Dominant | Jamin/Ishlab; [[wiki/work/creative-license|Creative License]] (Kevin/KTM); Lex/Alexis; Menore (CSV verbatim); Rick (dad); Bellator licensing; MIM/Mixi.fm; Franki; Suboxone |
 
 **Timeline / Verbatim Highlights (tables first, from full chunked parse):**
 - Feb 17 2010: Suboxone streak "MOMENT" start.
-- Feb 18 2010: Train w/ Rick + apt hunt (424 Bedford Ave, Apt 6C Williamsburg). Rick offer "$2000 a month while you intern" (Entourage WeHo alt).
+- Feb 18 2010: Train w/ Rick + apt hunt ([[wiki/places/424-bedford-ave|424 Bedford Ave]], Apt 6C Williamsburg). Rick offer "$2000 a month while you intern" (Entourage WeHo alt).
 - Mar 2010: ishlab (10 Jay St); indefinite unpaid internship → full-time PA in ~3mo. Bellator licensing war (Corey Humpage MSG; PRO clearances ASCAP/BMI/SESAC for Garden/CitiCenter Apr-May events). "Email Heard Round the World"; Rick: "I'm proud of you, boy!".
 - Jan 18 2011: Shared drive "refused to mount"; Jamin "copy and paste the line over the 'a' in his name on Bandcamp" (same day).
-- 2011-12 CL: "THEY SEE ME TROLLIN' THEY HATIN'." (Renae Holland?); "BEST OF KTM VOICEMAILS.mp3"; airfare fraud as quit ground; W-2 "in the mail" hostage w/ Marty.
+- 2011-12 CL: "THEY SEE ME TROLLIN' THEY HATIN'." ([[wiki/people/renae-holland|Renae Holland]]?); "BEST OF KTM VOICEMAILS.mp3"; airfare fraud as quit ground; W-2 "in the mail" hostage w/ Marty.
 - MIM/Mixi: Auto-tagger project (waveform analysis); 2013 Jamin reunion; later "EIGHTH GRADE (2018) ... Executive Producer".
 - Summer 2013: Franki 5-day; "I KNOW YOU'RE WITH FRANKI"; later reflection "I really didn't have the romantic feelings... I wasn't even able to kiss anyone".
 - Menore: "Text here bro new number. Is menor." (2018 recon); 2025 final "Fent be extra careful"; user thanks + "If the number ever changes PLEASE make sure to update me".

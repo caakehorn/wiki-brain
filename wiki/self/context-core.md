@@ -152,7 +152,7 @@ changelog:
 - **Location:** Uniontown / Leith-Hatfield, Fayette County, SW PA (current); NYC as punk identity anchor [DOC]
 - **Occupation:** Independent music producer + label; parallel AI-consulting / multi-agent pipeline work [DOC/MEM]
 - **Politics:** Democratic socialist [DOC] · **Religion:** Atheist since 2007, raised Presbyterian [DOC] · **Heritage:** paternal line Jewish — load-bearing to politics [DOC/MEM]
-- **Typology:** INTP · Enneagram 5w4 sx/sp · Attitudinal Psyche FLEV/VLEF · Socionics ILI-Ni [DOC for core; function percentages largely inferred]
+- **Typology:** INTP · [[wiki/mind/profile/enneagram-5w4|Enneagram 5w4]] sx/sp · Attitudinal Psyche FLEV/VLEF · Socionics ILI-Ni [DOC for core; function percentages largely inferred]
 
 **Cognitive stack** [DOC]: Ti-dominant (reality parsed as high-fidelity system, frameworks from first principles), Ne-auxiliary (cross-domain pattern recognition), Si-tertiary (high-fidelity archival recall), Fe-inferior (craves connection, distrusts emotional read). Methodology is domain-invariant "find where it breaks": hinge-instants over resolved states, anomaly detection as default. Metacognitive accuracy ~82nd percentile — the failure mode is never ignorance but the diagnosis-to-behavior gap. Self-deprecation sets the floor low so being right reads as surprise; the same mechanism that makes him updateable makes him chronically undersell competence. Threat model: "competence correctly deployed, outcome still catastrophic."
 
@@ -274,9 +274,9 @@ Lower-resolution contacts with known gaps: Chris James. (The former "Ismaila" ga
 | 1996–Sep 2008 | Uniontown PA · 337 Saratoga Dr | Ski identity; Republican household. **Hinge Nov 2005:** parental rupture (father rehab + mother affair) |
 | Sep 2008–Mar 2010 | Winter Park FL (Full Sail) | AS Recording Arts, top 5% (ceremony Oct 2, 2009); Pro Tools HD 7 certified Feb 2010; Suboxone day-zero Feb 17, 2010; Danielle ends, Alexis begins |
 | Apr 2010–May 2013 | NYC — Brooklyn 424 Bedford → Manhattan UES | Studio-work era; Twitter voice weaponized |
-| May 2013–Feb 2019 | Uniontown — 337 Saratoga → 155 Virginia Ave | SLOPPP (2013–14) → MOGZART (2014–16); Annie begins Thanksgiving 2015; poverty floor 2017, deep cycle 2018 |
+| May 2013–Feb 2019 | Uniontown — 337 Saratoga → [[wiki/places/155-virginia-ave|155 Virginia Ave]] | SLOPPP (2013–14) → MOGZART (2014–16); Annie begins Thanksgiving 2015; poverty floor 2017, deep cycle 2018 |
 | Feb 2019–Feb 2025 | Manhattan · 307 E 76th St | Hard-left turn 2019 (Bernie + Chapo); market era 2020–21; Eli affair autumn 2024, discovered Jan 2025 |
-| Feb 2025–~Jun 2026 | Uniontown PA · 337 Saratoga Drive | Returned Feb 22, 2025; Annie closure June 1, 2026; **house sold ~June 2026 ($465k)**; music reactivation, agent/AI work |
+| Feb 2025–~Jun 2026 | Uniontown PA · [[wiki/places/337-saratoga-drive|337 Saratoga Drive]] | Returned Feb 22, 2025; Annie closure June 1, 2026; **house sold ~June 2026 ($465k)**; music reactivation, agent/AI work |
 | ~Jun 2026–present | Uniontown PA · [[wiki/legal/463-morgantown|463 Morgantown St]] | Dan and Suz land here on no signed lease and no confirmed power of attorney; owner is [[wiki/people/alexander-jackson]]. **Occupancy documented, move-in date not fixed in the record** — the transition is described prospectively on the source page and no message or record yet pins the day. Annie reopens Aug 2026 |
 
 NYC was two distinct chapters split by a six-year Uniontown stretch; the producer development and deep-cycle years happened in Uniontown.
@@ -307,13 +307,13 @@ NYC was two distinct chapters split by a six-year Uniontown stretch; the produce
 
 **[[wiki/mind/concepts/dans-law]]** [DOC]: when a coincidence cluster requires every element to be simultaneously innocent and the joint probability is near zero, assume real signal — but treat one or two elements as parasitic noise; find the irreducible load-bearing element.
 
-**Trauma nodes** [DOC]: parental rupture ~2004–05 (paternal-authority wound) · Alexis collapse 2009–2015 · Eli incident late 2024 (the central harm was the gaslighting).
+**Trauma nodes** [DOC]: parental rupture ~2004–05 (paternal-authority wound) · Alexis collapse 2009–2015 · [[wiki/timeline/events/eli-incident|Eli incident]] late 2024 (the central harm was the gaslighting).
 
 **Known gaps:** the 2021–2022 near-silence in the corpus is uncharacterized; no sustained non-crisis baseline register has been captured.
 
 ## Political and intellectual profile
 
-Trajectory [DOC]: Republican (parroted) → leaves 2006 → diffuse liberal → hard-left 2019 (Bernie + Chapo). Frame: democratic socialist, vertical-authority-skeptic, lateral-solidarity-privileging; politics as primary entertainment and near-total ideological pursuit. Settled positions: Israel ≠ Judaism, Zionism ≠ Judaism, anti-ethnostate, full Palestinian sovereignty — "everyone is in the wrong, then score who is *more* wrong." J6 is CONCLUDED as a hybrid organic event + intelligence co-opt, with the "tourist-wandering" behavioral signature as key evidentiary anchor ([[wiki/mind/synthesis/political-psyops]]). Intellectual spine: Majority Report, Chapo, ContraPoints, RLM, hbomberguy; Goodreads ~97.8% nonfiction; Roman Republic deep interest with a hard stop at Augustus; pays for Nate Silver.
+Trajectory [DOC]: Republican (parroted) → leaves 2006 → diffuse liberal → hard-left 2019 (Bernie + Chapo). Frame: democratic socialist, vertical-authority-skeptic, lateral-solidarity-privileging; politics as primary entertainment and near-total ideological pursuit. Settled positions: Israel ≠ Judaism, Zionism ≠ Judaism, anti-ethnostate, full Palestinian sovereignty — "everyone is in the wrong, then score who is *more* wrong." J6 is CONCLUDED as a hybrid organic event + intelligence co-opt, with the "tourist-wandering" behavioral signature as key evidentiary anchor ([[wiki/mind/synthesis/political-psyops]]). Intellectual spine: Majority Report, Chapo, ContraPoints, RLM, hbomberguy; Goodreads ~97.8% nonfiction; [[wiki/interests/roman-republic|Roman Republic]] deep interest with a hard stop at Augustus; pays for Nate Silver.
 
 ## Shibboleths
 

@@ -126,7 +126,7 @@ Claude's documented weaknesses in the corpus:
 
 ## The relationship with Claude Code
 
-Claude Code is the coding-agent deployment of the Claude model — the same analytical engine with shell access and file-system control. The relationship is explicit in `PIPELINE_NOTES.md`: Claude Code runs the `CATO_COMPACT` persona block, calls OpenRouter (default model Claude for analysis), and executes the forensic method through shell commands.
+Claude Code is the coding-agent deployment of the Claude model — the same analytical engine with shell access and file-system control. The relationship is explicit in `PIPELINE_NOTES.md`: Claude Code runs the `CATO_COMPACT` persona block, calls OpenRouter (default model Claude for analysis), and executes [[wiki/mind/concepts/forensic-method|the forensic method]] through shell commands.
 
 The distinction matters: when Dan wants to understand something, he uses Claude (the chat model). When Dan wants to build something, he uses Claude Code (the coding agent). The two share the same analytical engine, the same bootloader system, the same honesty standard — but they operate in different modes. Claude analyzes; Claude Code builds.
 
@@ -228,15 +228,15 @@ Claude will remain the analytical workhorse for as long as it remains willing to
 
 Claude's analytical work is documented across hundreds of sessions. Key examples:
 
-**The Suzanne Frank rewrite (2026-08-18):** Claude rebuilt the page from primary sources, expanding it from 28KB to 58KB. The key finding: the family's largest internal capital movement runs the wrong way on every page that carried it. Not "$750/week from her to him" but **~$14,000 from Dan to her in Aug–Oct 2018**, drawn against an estate that distributed in Sept 2020. Claude found the error, flagged it, and corrected it across three pages.
+**The [[wiki/people/suzanne-frank|Suzanne Frank]] rewrite (2026-08-18):** Claude rebuilt the page from primary sources, expanding it from 28KB to 58KB. The key finding: the family's largest internal capital movement runs the wrong way on every page that carried it. Not "$750/week from her to him" but **~$14,000 from Dan to her in Aug–Oct 2018**, drawn against an estate that distributed in Sept 2020. Claude found the error, flagged it, and corrected it across three pages.
 
-**The Kristin Prentiss analysis (2026-08-16):** Claude analyzed 22,018 messages and found the relationship ended in November, not December. The $40 dispute is a November event, not the December trigger the page described. December is a failed reactivation of a dormant channel. Claude's analysis reorganized the page around the correct chronology.
+**The [[wiki/people/kristin|Kristin Prentiss]] analysis (2026-08-16):** Claude analyzed 22,018 messages and found the relationship ended in November, not December. The $40 dispute is a November event, not the December trigger the page described. December is a failed reactivation of a dormant channel. Claude's analysis reorganized the page around the correct chronology.
 
 **The Annie Ulmer corpus merge (2026-08-15):** Claude merged ten sources, de-duped, and recovered 12,000 messages from handles the single-export analysis missed. True coverage: 97,768 unique messages across four handles.
 
 **The totality-themes re-derivation (2026-08-11):** Claude read 27 T2/T3 synthesis pages and found the same mechanism recurring under different names across four pages that never cited each other. Unified into one rule: "The Irreversibility Firewall."
 
-**The Rick Frank correction (2026-08-11):** A per-contact CSV export, trusted as complete because its filename said "all_now," held 43 of the channel's actual 1,600+ messages. The published "12-day burst, then a decade of silence" was false. Claude found the error and corrected it across three pages.
+**The [[wiki/people/rick-frank|Rick Frank]] correction (2026-08-11):** A per-contact CSV export, trusted as complete because its filename said "all_now," held 43 of the channel's actual 1,600+ messages. The published "12-day burst, then a decade of silence" was false. Claude found the error and corrected it across three pages.
 
 ## The correction record
 

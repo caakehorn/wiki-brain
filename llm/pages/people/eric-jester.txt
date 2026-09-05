@@ -87,7 +87,7 @@ Eric is the **second-most-addressed handle in the entire tweet archive** —
 That is not a check-in pattern. It is daily banter — Steelers trash talk
 (*"alice doesn't like when you trash talk teh stillerz"*, 22 Nov 2009), a
 Pro Tools lab boast from inside the Full Sail rooms (*"I'm in the control24
-rooms right now. PT1 bitch"*, 24 Nov 2009), *Flight of the Conchords*
+rooms right now. PT1 bitch"*, 24 Nov 2009), *[[wiki/interests/favorites/music/artists/flight-of-the-conchords|Flight of the Conchords]]*
 (*"slapa da bass mon!"*), *The Office*, an aborted potato-famine joke
 because *"I wouldn't be able to stand the grim reply i'd get from
 @ericjester"* (31 Aug 2010), and the needling that dates his own life

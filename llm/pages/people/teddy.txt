@@ -42,7 +42,10 @@ house, Fairchance, and other local landmarks; extended credit or held stock;
 and periodically disclosed the fines, probation, family obligations, and
 cash shortages that made his supply work precarious. He belongs in the
 substance-use record as a local supply node, not as a close friend or a
-reliable biographical narrator.
+reliable biographical narrator — one node of the
+[[wiki/mind/synthesis/supply-network|supply network]] alongside
+[[wiki/people/johnny-dealer|Johnny]], across the
+[[wiki/timeline/periods/2018-deep-cycle|2018 deep cycle]].
 
 ## Supply relationship
 

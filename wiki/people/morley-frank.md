@@ -98,7 +98,7 @@ outside Fayette County anywhere in the line since his father's New York years,
 and it is the closest the record comes to a falsifier for the Fayette rule
 without actually being one: he dies and is buried in Hopwood regardless.
 
-Champion is the resort town at Seven Springs. `CONTEXT_CORE_EXPANDED.md` records
+Champion is the resort town at [[wiki/places/seven-springs|Seven Springs]]. `CONTEXT_CORE_EXPANDED.md` records
 Dan's origin period (1988–2008) as carrying a **ski identity — "Seven Springs,
 every weekend"** — and the Champion listings fall inside it, when Dan was eight
 to eleven years old. A family address in the resort town during exactly the

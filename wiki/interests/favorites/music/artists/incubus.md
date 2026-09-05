@@ -24,7 +24,7 @@ All dates, venues, cities, and notes below are taken from the source table and p
 
 | Date | Show / Context | Venue | City | Note |
 |------|---------------|-------|------|------|
-| Aug 4, 2001 | Rolling Rock Town Fair | Westmoreland Fairgrounds | Latrobe / Mt. Pleasant, PA | Confirmed. |
+| Aug 4, 2001 | [[wiki/interests/concert-record/festivals/rolling-rock-town-fair|Rolling Rock Town Fair]] | Westmoreland Fairgrounds | Latrobe / Mt. Pleasant, PA | Confirmed. |
 | Oct 10, 2004 | Multi-act show | A.J. Palumbo Center | Pittsburgh, PA | With Ben Kweller. Confirmed; only Pittsburgh stop that era. |
 
 ## Notes per appearance

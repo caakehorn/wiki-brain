@@ -2,7 +2,7 @@
 domain: self
 page_type: concept
 title: "The Wiki-Brain"
-aliases: ["wiki-brain", "the wiki", "second brain", "the repository"]
+aliases: ["wiki-brain", "second brain"]
 status: active
 knowledge: earned
 date_created: 2026-08-19

@@ -50,7 +50,7 @@ Every other page here argues; these measure. Tools built to read something
 about Dan out of first-party dated data, publishing **evidence and no finding**,
 generated so a hand-edit fails the gate, and each stating what it structurally
 cannot see. The section is the catalogue over them — the pages themselves live
-in the domains they belong to, an intake ledger in `health` and a testimony
+in the domains they belong to, an [[wiki/health/intake-ledger|intake ledger]] in `health` and a testimony
 ledger in `meta`.
 
 - [[wiki/meta/instruments/index]] — the ledgers, the measures, what the layer as a whole is blind to, and how to add one

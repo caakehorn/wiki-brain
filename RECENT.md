@@ -8,7 +8,13 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-04 — 108 pages
+## 2026-09-05 — 1 page
+
+| Page | Domain | What moved |
+|---|---|---|
+| [[wiki/meta/testimony-veracity]] | meta | — |
+
+## 2026-09-04 — 107 pages
 
 - **Session log:** lint | meta | the crosslink campaign had been counting a link that isn't one
 - **Session log:** connect | people | 79 lines had been written about a 1,789-message thread
@@ -43,7 +49,6 @@ simply listed.
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
 | [[wiki/meta/readers-digest]] | meta | — |
 | [[wiki/meta/recent-activity]] | meta | _(carries a RE-CHECKED)_ |
-| [[wiki/meta/testimony-veracity]] | meta | — |
 | [[wiki/mind/concepts/acquisition-drive]] | mind | _(carries a CONTRADICTION from 2026-08-02)_ |
 | [[wiki/mind/concepts/calibrated-confidence]] | mind | _(carries a CORRECTED from 2026-08-23)_ |
 | [[wiki/mind/concepts/chaos-preference]] | mind | **RE-CHECKED** — the-cool-metric gained a section showing the received-versus-sought sort aimed at an already-admitted person: a six-year partner whose public register goes ironic and then silent. This page's axis is  |
@@ -565,12 +570,4 @@ simply listed.
 |---|---|---|
 | [[wiki/self/lineage/23andme-genomics]] | self | **CORRECTED** — The previous version of this page claimed the source PDFs were "image-based without an extractable text layer" and that "specific percentage values are not digitally recorded." This was wrong. All thr |
 | [[wiki/self/lineage/hybrid-analysis]] | self | — |
-
-## 2026-08-13 — 1 page
-
-- **Session log:** correction | mind, people | the June 1 closing line is Dan's — logged retroactively 2026-08-14
-
-| Page | Domain | What moved |
-|---|---|---|
-| [[wiki/people/john-paci]] | people | **REVISED** — the version of this page written on 2026-08-10 described a warm, long-suffering landlord and an eviction that simply happened to him and to his tenants. The eviction was staged at Dan's request. The r |
 

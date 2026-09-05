@@ -701,7 +701,7 @@ Menore control, or any prediction this page tracks.
 [[wiki/mind/concepts/attachment-model]], all of which moved on 2026-08-18.
 **All four moved by typed-edge addition only**, and the diffs are worth naming
 precisely so the next pass does not re-open them: `tom` and `july-2026-recontact`
-gained edges into the new James Dee arc; `attachment-model` gained a `parallels`
+gained edges into the new [[wiki/people/james-dee|James Dee]] arc; `attachment-model` gained a `parallels`
 edge to [[wiki/mind/concepts/the-handed-mirror]]; `annie-ulmer` gained one
 `evidenced-by` edge recording that Suz witnessed the relationship's physical
 conflict in writing in September 2020. No body text moved on any of them. **No
@@ -789,5 +789,5 @@ citation to stand, since they are dated residue. **What the pass added:** a
 sourced mechanism for a phrase this page already used ("exhaustible Fe
 function") and a formal link to the identical two-function account already
 established elsewhere this session for the same underlying phenomenon.
-**What it did not do:** say anything new about Annie, or manufacture a
+**What it did not do:** [[wiki/interests/favorites/music/artists/say-anything|say anything]] new about Annie, or manufacture a
 connection to a register that does not bear on channel-state mechanics.

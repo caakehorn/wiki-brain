@@ -329,7 +329,7 @@ grader looks like.
 
 **This page is about a specific verbal habit**: 43 instances of a *numeric*
 probability attached to an assertion in a text message, against 2 in 110,944
-inbound. **The ledger scores a different set**: first-person claims of any kind,
+inbound. **[[wiki/health/intake-ledger|The ledger]] scores a different set**: first-person claims of any kind,
 with confidence recorded on a four-band ordinal scale (`certain`/`confident`/
 `hedged`/`unsure`) assigned at record time. The two overlap — both are him
 signalling how sure he is — and they are not the same population, so **the

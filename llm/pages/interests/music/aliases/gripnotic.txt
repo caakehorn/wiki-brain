@@ -77,7 +77,7 @@ heavily.
 
 | Tool | Role | Source |
 |------|------|--------|
-| Numark NS7 | Core hardware artifact — origin of production identity | Context Core (gifted by Fran Whyel) |
+| Numark NS7 | Core hardware artifact — origin of production identity | [[wiki/self/context-core|Context Core]] (gifted by Fran Whyel) |
 | DAW | Unknown — needs ingest | — |
 | Plugin stack | Unknown — needs ingest | — |
 
@@ -100,7 +100,7 @@ heavily.
 
 ## Narrative
 
-GRIPNOTIC emerged from the MOGZART era (~2016) as the consolidated identity for Dan's electronic production. Where the earlier aliases (SLOPPP, MOGZART, Mogged Up) tracked an arc of experimentation and style consolidation across the Uniontown years, GRIPNOTIC represents the arrived form — a name tied to a specific aesthetic rather than a developmental stage.
+GRIPNOTIC emerged from the MOGZART era (~2016) as the consolidated identity for Dan's electronic production. Where the earlier aliases (SLOPPP, MOGZART, [[wiki/interests/music/aliases/mogged-up|Mogged Up]]) tracked an arc of experimentation and style consolidation across the Uniontown years, GRIPNOTIC represents the arrived form — a name tied to a specific aesthetic rather than a developmental stage.
 
 The name operates in the bass house / tech house corridor, but the involuntary sub-bass signature means the output skews heavier than genre labels suggest. The 63–85% sub-bass presence documented across all aliases isn't a choice made fresh for each release; it's structural, probably tied to the production environment and the NS7 as the ear-training instrument.
 

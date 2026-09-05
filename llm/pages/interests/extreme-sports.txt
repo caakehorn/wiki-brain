@@ -55,7 +55,7 @@ By the 2006 season, Seven Springs had become the "premiere terrain park of the m
 
 ## The 4Bi9 thread
 
-Tom Wallisch — the skier who would define the 2007–2012 era of freeskiing — showed up at Seven Springs a few times a year and, in the capture's framing, "made a MESS of the park for a day" before deciding that the less-developed parks at Roundtop and Liberty were preferable because of their scene culture. That scene culture — the "vibrant collection of people" at Roundtop and Liberty — is what became **4Bi9 Media**, the film crew that would take the sport by storm. Wallisch himself is named as the shredder they would get to know, the person who was already showing up at Seven Springs before he was famous.
+[[wiki/people/tom-wallisch|Tom Wallisch]] — the skier who would define the 2007–2012 era of freeskiing — showed up at Seven Springs a few times a year and, in the capture's framing, "made a MESS of the park for a day" before deciding that the less-developed parks at Roundtop and Liberty were preferable because of their scene culture. That scene culture — the "vibrant collection of people" at Roundtop and Liberty — is what became **4Bi9 Media**, the film crew that would take the sport by storm. Wallisch himself is named as the shredder they would get to know, the person who was already showing up at Seven Springs before he was famous.
 
 ## Rollerblading: Vans Skatepark and Woodward
 
@@ -75,4 +75,4 @@ The capture explicitly flags the Vans Skatepark trip sequence as a class-signali
 
 ## Corpus gaps
 
-No intake-digital record (YouTube watch history, social media posts) documents this era in the corpus — it predates the Twitter record (2009) and the iMessage record (2015). The reconstruction is built entirely from this one manual capture. Specific dating of the 2001–2003 Vans trips, the exact years of the Woodward attendance, and the 2006 terrain-park expansion at Seven Springs are not independently confirmed outside this source.
+No intake-digital record ([[wiki/self/youtube-watch-history|YouTube watch history]], social media posts) documents this era in the corpus — it predates the Twitter record (2009) and the iMessage record (2015). The reconstruction is built entirely from this one manual capture. Specific dating of the 2001–2003 Vans trips, the exact years of the Woodward attendance, and the 2006 terrain-park expansion at Seven Springs are not independently confirmed outside this source.

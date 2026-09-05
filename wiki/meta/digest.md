@@ -5,7 +5,7 @@ title: "Wiki Digest"
 status: active
 knowledge: derived
 date_created: 2026-08-26
-date_modified: 2026-09-04
+date_modified: 2026-09-05
 sources: []
 ---
 
@@ -22,7 +22,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | | |
 |---|---|
 | Pages | 498 |
-| Pages touched in the last 14 days | 234 |
+| Pages touched in the last 14 days | 228 |
 | Pages reasoning from other pages (`synthesizes:`) | 79 |
 | Live contradictions | 49 |
 | Open gaps | 609 |
@@ -55,7 +55,9 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-09-04** — 108 pages
+**2026-09-05** — 1 page
+
+**2026-09-04** — 107 pages
   - lint | meta | the crosslink campaign had been counting a link that isn't one
   - connect | people | 79 lines had been written about a 1,789-message thread
   - connect | people | the handles were on the pages all along, and the guard could not see nine of them
@@ -108,10 +110,6 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - ingest | self | the backend backfill — a first year recovered, and a published lean corrected
 
 **2026-09-01** — 2 pages
-
-**2026-08-31** — 2 pages
-  - ingest | health | the intake ledger's first export (2026-08-30/31)
-  - ingest | health | the ledger gets an entry page
 
 ## Pages that reason from other pages
 

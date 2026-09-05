@@ -40,7 +40,7 @@ no framework dependencies**.
 ## Context
 
 The games sit in the same 2025–26 tool-building wave as the iMessage
-analysis toolkit, Bunker Core, and the MAX interview system — the period
+analysis toolkit, [[wiki/mind/concepts/bunker-core|Bunker Core]], and the MAX interview system — the period
 context-core logs as "vibe-coding (Matter.js), agent/AI build work, music
 reactivation." They are the purest example in the record of the
 conceptual-director work pattern: total creative sovereignty, zero

@@ -73,10 +73,10 @@ related: []
 - [[wiki/people/fran-coldren]] — Maternal great-grandmother (Whyel line) of Dan Frank. Born 15 August 1920, Fort Martin, West Virginia.…
 - [[wiki/people/franki-faris]] — the five-day 2013 rebound during a brief split from Alexis; later became Dan's own shorthand for the pattern he saw repeat with Annie.
 - [[wiki/people/garrett]] — Claire's husband, father of Alice and Otto; ten mentions in eleven years, works at Jim Shorkey, and the reason four pages here are filed under single names — the corpus never records his surname.
-- [[wiki/people/gabe]] — Dan's cat, named for Cobra Starship/Midtown singer Gabe Saporta; other half of the Milo/Gabe/Max naming pattern.
+- [[wiki/people/gabe]] — Dan's cat, named for [[wiki/interests/favorites/music/artists/cobra-starship|Cobra Starship]]/Midtown singer Gabe Saporta; other half of the Milo/Gabe/Max naming pattern.
 - [[wiki/people/ismaila-barry]] — "DJ": Senegalese best friend from the Shed; the Triad's other constant.
 - [[wiki/people/jack-rusko]] — Fellow Nemacolin caddy and friend, 2017-2018; a two-month laptop-loan saga.
-- [[wiki/people/jacob-bacharach]] — Uniontown-raised novelist and childhood neighbour; the other half of the Uniontown Glitch, the corpus's flagship demonstration of the forensic method.
+- [[wiki/people/jacob-bacharach]] — Uniontown-raised novelist and childhood neighbour; the other half of the Uniontown Glitch, the corpus's flagship demonstration of [[wiki/mind/concepts/forensic-method|the forensic method]].
 - [[wiki/people/jajuan-davis]] — 2018-19 winter dealer contact, second active source alongside Johnny.
 - [[wiki/people/james]] — Contact +18782477198. Self-ID: "Hey dan it james, Danielles working and im with the kids till like 4. But…
 - [[wiki/people/jaredtricia]] — Married couple who booked Annie (as "Hazel") for paid group encounters, June 2019.

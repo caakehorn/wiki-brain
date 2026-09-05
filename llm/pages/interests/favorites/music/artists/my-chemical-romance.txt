@@ -32,7 +32,7 @@ down, an album entirely about dying with an audience watching.
 ## In Favorites
 
 Nine tracks — the third-highest count in the whole 1,477-artist library,
-behind only JPEGMAFIA and Kanye West. The selection skews deliberately
+behind only JPEGMAFIA and [[wiki/interests/favorites/music/artists/kanye-west|Kanye West]]. The selection skews deliberately
 away from the one genuinely inescapable single ("Welcome to the Black
 Parade" isn't here) toward the album's internal architecture and the
 earlier catalog: "The Sharpest Lives," "Headfirst For Halos," "The End,"

@@ -61,7 +61,7 @@ connections:
 
 # Danielle Onesi ("Dee")
 
-Dan's first girlfriend (~2005–2009), Uniontown origin, and a figure who has quietly remained in his life ever since — not as a romantic presence but as his mother Suzanne's closest friend. The relationship ended badly: Dan cheated in Orlando toward the end of his time at Full Sail, with a girl from Baltimore he met through Jack from All Time Low. He owns this in the CATO bootloader ("regret"). Despite that, Danielle never fully left the picture. She picked out [[wiki/people/gabe|Gabe]] the cat the day after Dan arrived in Orlando in August 2008, and paid for his euthanasia in November 2023 when Dan couldn't afford it. Dan has said he has "always maintained" he owes her for that. As of 2025–2026, she shows up at family Christmas and is a constant in the Suzanne orbit. The current relationship is friendly, structurally entangled through his mother, and complicated: her boyfriend James tried to buy cocaine through Annie, Dan said nothing to protect the family node, and the whole situation gets analyzed at length in the Gemini activity as a test of restraint and Game Theory.
+Dan's first girlfriend (~2005–2009), Uniontown origin, and a figure who has quietly remained in his life ever since — not as a romantic presence but as his mother Suzanne's closest friend. The relationship ended badly: Dan cheated in Orlando toward the end of his time at Full Sail, with a girl from Baltimore he met through Jack from [[wiki/interests/favorites/music/artists/all-time-low|All Time Low]]. He owns this in the CATO bootloader ("regret"). Despite that, Danielle never fully left the picture. She picked out [[wiki/people/gabe|Gabe]] the cat the day after Dan arrived in Orlando in August 2008, and paid for his euthanasia in November 2023 when Dan couldn't afford it. Dan has said he has "always maintained" he owes her for that. As of 2025–2026, she shows up at family Christmas and is a constant in the Suzanne orbit. The current relationship is friendly, structurally entangled through his mother, and complicated: her boyfriend James tried to buy cocaine through Annie, Dan said nothing to protect the family node, and the whole situation gets analyzed at length in the Gemini activity as a test of restraint and Game Theory.
 
 ## Background
 
@@ -81,7 +81,7 @@ Danielle went with Dan to the shelter the day after he arrived in Orlando in Aug
 
 ## NYC Arrival (2010)
 
-The _58 Gemini source flags an anomaly: on May 1, 2010 — Dan's birthday, the day he framed as his "I arrived" shot — he's photographed in front of the Brooklyn Bridge with Suzanne and Danielle. This is the NYC arrival moment, the move to 424 Bedford Ave. That Danielle is there (alongside his mother) at this pivot is notable: the romantic relationship is already over, but she's present for the hinge. From this point the Lex era takes over.
+The _58 Gemini source flags an anomaly: on May 1, 2010 — Dan's birthday, the day he framed as his "I arrived" shot — he's photographed in front of the Brooklyn Bridge with Suzanne and Danielle. This is the NYC arrival moment, the move to [[wiki/places/424-bedford-ave|424 Bedford Ave]]. That Danielle is there (alongside his mother) at this pivot is notable: the romantic relationship is already over, but she's present for the hinge. From this point the Lex era takes over.
 
 ## 2025–2026: James, Game Theory, and the Christmas Node
 
