@@ -58,7 +58,7 @@ mechanism behind both relationship intensity and betrayal severity (the
 [[wiki/people/eli|Eli]] incident as "temple desecration," not disappointment).
 The theory is single-source and AI-authored; the *practice* has a decade of
 primary corpus support: the smashonista camming era, the Trinity St. Clair
-and Kelly Johansson paid bookings, the Shelbie Breakiron and Annie/Alexis
+and [[wiki/people/kelly-johansson|Kelly Johansson]] paid bookings, the [[wiki/people/shelbie-breakiron|Shelbie Breakiron]] and Annie/Alexis
 threesome-adjacent events, and the Kristin "purity test" architecture are
 all independently documented in message threads, not just described in
 retrospective analysis. Detail pages: [[wiki/mind/psychosexual/orchestration-and-voyeurism]],
@@ -73,7 +73,7 @@ retrospective analysis. Detail pages: [[wiki/mind/psychosexual/orchestration-and
 |------|--------|--------------------|
 | [[wiki/mind/psychosexual/orchestration-and-voyeurism]] | The "director, not participant" pattern; the jealousy kink; the Annie/Alexis facilitated reunion as the flagship case | Theory: single AI source. Practice: primary message corpus, extensively corroborated |
 | [[wiki/mind/psychosexual/taboo-and-boundary-testing]] | Orientation-violation fascination; taboo as "ontology rupture" rather than transgression-seeking | Theory: single AI source (elaborated, not corroborated, by a second dossier). Practice: one documented instance, the October 2019 Bryan MMF |
-| [[wiki/mind/psychosexual/emotional-imprinting]] | "Unemotional sex is a myth"; crush-activation-on-contact; the Eli incident reframed through this lens | Theory: single AI source, but converges with the independently-documented attachment pattern on [[wiki/mind/concepts/attachment-model]] |
+| [[wiki/mind/psychosexual/emotional-imprinting]] | "Unemotional sex is a myth"; crush-activation-on-contact; [[wiki/timeline/events/eli-incident|the Eli incident]] reframed through this lens | Theory: single AI source, but converges with the independently-documented attachment pattern on [[wiki/mind/concepts/attachment-model]] |
 | [[wiki/mind/psychosexual/arrangement-history]] | The decade-long real-world record: camming, paid bookings, facilitated encounters, dated and named | Primary: message threads, largely already synthesized into individual people/event pages |
 | [[wiki/mind/psychosexual/developmental-origins]] | The 2005 parental rupture's intimacy-abandonment axiom; the 2005–2010 emo/pop-punk "romantic collapse fantasy" imprinting era; the sx/sp instinctual fusion drive | Mixed: primary biographical record plus AI interpretive framing |
 

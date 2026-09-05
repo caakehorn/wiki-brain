@@ -49,7 +49,7 @@ Data record includes raw escalation from logistics/denial fragments to final myt
 ## Related events
 - [[wiki/timeline/events/group-chat-closure]] (overlaps; this is the detailed fight thread feeding the group confirmation)
 - [[wiki/timeline/events/eli-incident]] (the sustained third-party relationship confirmed here)
-- Dec 2025 spike (last high mutual investment before this breakdown)
+- [[wiki/timeline/periods/dec-2025-spike|Dec 2025 spike]] (last high mutual investment before this breakdown)
 - 2025-08 separation and 2026-02 denial (context for "you will never unring this bell")
 
 ## Data Record

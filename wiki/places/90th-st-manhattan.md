@@ -38,7 +38,7 @@ Side, was Dan and [[wiki/people/alexis-armel|Alexis]]'s final New York
 address — the third and last year of the **NYC-1** period, following
 two years at [[wiki/places/424-bedford-ave|424 Bedford Ave]] in
 Williamsburg. They moved March 1, 2012 and returned to Uniontown
-(337 Saratoga Drive) exactly thirteen months later, on April 1, 2013.
+([[wiki/places/337-saratoga-drive|337 Saratoga Drive]]) exactly thirteen months later, on April 1, 2013.
 Like Bedford Ave, the address itself is thinly documented — no rent,
 lease, or physical description survives — but the year it anchors
 contains two of the period's most consequential events.

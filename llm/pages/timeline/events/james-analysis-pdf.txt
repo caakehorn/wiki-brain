@@ -47,7 +47,7 @@ connections:
 # The James Analysis PDF — 2025-07-11
 
 At 5:23 pm on Friday 2025-07-11 Dan sent [[wiki/people/james-dee|James]] a
-file called `James Analysis.pdf`: a ChatGPT-generated psychological profile of
+file called `James Analysis.pdf`: a ChatGPT-generated [[wiki/mind/profile/index|psychological profile]] of
 James, built by pasting their private text log into the model along with links
 to James's music and interviews. Four minutes later he added that he had sent
 the same document to [[wiki/people/danielle-onesi|Danielle]], James's

@@ -210,7 +210,7 @@ inquiry.
 | Butler: The Near Assassination of Donald Trump | Zito, Salena | 4.55 |
 | Six Seconds in Dallas | Thompson, Josiah | 4.31 |
 | On the Trail of the Assassins | Garrison, Jim | 4.06 |
-| Shakespeare and the Fall of the Roman Republic | Gray, Patrick | 4.00 |
+| Shakespeare and the Fall of the [[wiki/interests/roman-republic|Roman Republic]] | Gray, Patrick | 4.00 |
 | History as Mystery | Parenti, Michael | 4.19 |
 | Revenge: Trump's Return to Power | Isenstadt, Alex | 3.82 |
 | Why We're Getting Poorer | Moran, Cahal | 4.01 |

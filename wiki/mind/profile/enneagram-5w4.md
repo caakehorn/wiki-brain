@@ -173,7 +173,7 @@ the Annie bond open for a decade without a severance signal are the same
 machinery, formalized at [[wiki/mind/concepts/attachment-model]].
 
 **Gaps:** tritype and instinct-stacking granularity vary between sources
-(sx/sp vs. one sx/so notation in the operating manual — the sx/sp reading is
+(sx/sp vs. one sx/so notation in the [[wiki/mind/concepts/exocortex|operating manual]] — the sx/sp reading is
 better supported); no dated instrument result exists, only convergent
 AI-era analyses.
 

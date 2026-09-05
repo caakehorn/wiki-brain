@@ -224,7 +224,7 @@ and self-serving. The wiki flags the fit: a person whose psychometrics suit
 independent observation over team participation
 ([[wiki/mind/profile/big-five-psychometrics]]) has adopted a self-theory in
 which standing outside and recording is the generation's highest calling.
-The data volume is real either way — the message corpus, location history,
+The data volume is real either way — the message corpus, [[wiki/self/location-history|location history]],
 watch history, and life-events calendar are the witness function executed at
 scale ([[wiki/mind/synthesis/totality-themes]]).
 

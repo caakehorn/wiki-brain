@@ -67,7 +67,7 @@ connections:
 
 James Spiker — historically represented in the corpus as **James Dee**, **Jimi Pop**, **Jimmy Pop**, "the Dude," and the erroneous "Max (Danielle's boyfriend)" — is [[wiki/people/danielle-onesi|Danielle Onesi's]] live-in boyfriend, a Pittsburgh-area musician roughly Dan's own age, and, for eight weeks in summer 2025, the closest thing to a new friend the corpus records Dan making in years.
 
-He arrived asking for recording help, became an unpaid confidant, and the friendship ruptured **twelve minutes** after Dan delivered a ChatGPT-generated psychological profile and disclosed that he had also sent it to Danielle. The relationship is fifty-six days long and is a particularly clean case of Dan's analytical apparatus being pointed at a live human being who did not commission it.
+He arrived asking for recording help, became an unpaid confidant, and the friendship ruptured **twelve minutes** after Dan delivered a ChatGPT-generated [[wiki/mind/profile/index|psychological profile]] and disclosed that he had also sent it to Danielle. The relationship is fifty-six days long and is a particularly clean case of Dan's analytical apparatus being pointed at a live human being who did not commission it.
 
 ## Identity — surname now resolved
 

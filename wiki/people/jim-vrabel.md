@@ -29,7 +29,7 @@ infobox:
 > promoted the same day. **The prose below was written against the one-sided
 > thread and has not been re-derived.**
 
-Jim Vrabel was a marijuana dealer and, over two and a half years, something closer to a regular late-night hangout than a pure transaction (`+17247074184`, 313 messages, March 2018 – September 2020). He lives with his mother, works nights (mountain/resort-adjacent shift work, likely Seven Springs), bowls in a league, and coordinates near-nightly visits around her sleep schedule — "my mom is still up so I'll meet up in the alley."
+Jim Vrabel was a marijuana dealer and, over two and a half years, something closer to a regular late-night hangout than a pure transaction (`+17247074184`, 313 messages, March 2018 – September 2020). He lives with his mother, works nights (mountain/resort-adjacent shift work, likely [[wiki/places/seven-springs|Seven Springs]]), bowls in a league, and coordinates near-nightly visits around her sleep schedule — "my mom is still up so I'll meet up in the alley."
 
 ## Texture
 

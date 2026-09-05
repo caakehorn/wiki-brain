@@ -89,7 +89,7 @@ opportunity. Verbatim (2021-02-04, Sent):
 
 He was still watching it into 2021: "FSLY earnings tomorrow" (2021-02-17). The
 takeaway — sell strength, don't marry the thesis — is the same market-era
-insight the operating manual states plainly: cultural-trend sensing had
+insight the [[wiki/mind/concepts/exocortex|operating manual]] states plainly: cultural-trend sensing had
 overtaken fundamentals, and the skill was reading the crowd, not the balance
 sheet.
 

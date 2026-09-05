@@ -51,7 +51,7 @@ himself, in his own words, in a session with an AI persona he was using
 at the time (raw/self/dox-md/Max.md): "my cat gabe was named for
 douchebag cobra starship singer and fucking rad midtown singer Gabe
 Saporta." Saporta fronted Midtown (a band Dan describes with real
-affection — "fucking rad") before pivoting to Cobra Starship's
+affection — "fucking rad") before pivoting to [[wiki/interests/favorites/music/artists/cobra-starship|Cobra Starship]]'s
 high-gloss pop version of the same persona (which Dan calls out as the
 "douchebag" turn) — Dan's own summary of the naming logic is that he
 picked it for the pivot itself, not for either version alone.

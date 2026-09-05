@@ -27,7 +27,7 @@ infobox:
 > withdrawn. The contractor exposure and the unreachability since March 2026 are untouched.
 
 
-**Role:** Contractor at 463 Morgantown St. Unreachable; work ~10-20% complete. Parallel mentions of Carney's Auto Repair Services in location history (possible variant or same network).
+**Role:** Contractor at 463 Morgantown St. Unreachable; work ~10-20% complete. Parallel mentions of Carney's Auto Repair Services in [[wiki/self/location-history|location history]] (possible variant or same network).
 
 ## Roles, Dates, Evidence, Ties Table
 

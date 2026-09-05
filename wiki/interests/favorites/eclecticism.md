@@ -248,8 +248,8 @@ years. A closed set does not keep admitting new members at that rate.
 
 **The library is two ingestion waves, not one accumulation.** "MUSIC LIST
 (start-2024)" is a manually curated 463-track list that contains the
-entire emo/pop-punk cluster (Fall Out Boy, My Chemical Romance, Say
-Anything, Taking Back Sunday, New Found Glory). Someone sat down and
+entire emo/pop-punk cluster (Fall Out Boy, [[wiki/interests/favorites/music/artists/my-chemical-romance|My Chemical Romance]], Say
+Anything, Taking Back Sunday, [[wiki/interests/favorites/music/artists/new-found-glory|New Found Glory]]). Someone sat down and
 archived a decade-old attachment. "SPOTIFY LIKED 2025–2026" is the live
 feed (1,384 tracks) and contains nearly all of the electronic/bass
 cluster (LYNY, Knock2, Effin, Mau P, PEEKABOO, Levity). The 2024 manual
@@ -257,10 +257,10 @@ list is Architecture B's *archival* half; the 2025–26 feed is its *live*
 half. They are not two tastes. They are two jobs.
 
 **The three clusters are maintained in parallel, each ~5% of the library,
-none dominant.** Experimental/abrasive hip-hop (JPEGMAFIA, Kanye West, a
-tail of A$AP Rocky, Lil Wayne, Tyler the Creator, Atmosphere, Lupe
+none dominant.** Experimental/abrasive hip-hop (JPEGMAFIA, [[wiki/interests/favorites/music/artists/kanye-west|Kanye West]], a
+tail of A$AP Rocky, [[wiki/interests/favorites/music/artists/lil-wayne|Lil Wayne]], Tyler the Creator, Atmosphere, Lupe
 Fiasco). Emo/pop-punk/indie rock (MCR, New Found Glory, Fall Out Boy,
-Taking Back Sunday, Say Anything, Elliott Smith, plus Bloc Party, Death
+Taking Back Sunday, Say Anything, [[wiki/interests/favorites/music/artists/elliott-smith|Elliott Smith]], plus [[wiki/interests/favorites/music/artists/bloc-party|Bloc Party]], Death
 Cab, Manchester Orchestra, The Mars Volta). Electronic/bass/modern dance
 (LYNY, Knock2, Effin, Mau P, rSUN, oskar med k, borne, A.M.C). Closing-
 the-set's observational domains run one set at a time and terminate at
@@ -451,8 +451,8 @@ it needed was one directory away.
 | 5. Security and prosperity | **Checked, dates B's live half, does not create it.** The 2025-collapse / Dec-2025-spike / Pennsylvania-return window lines up with 530 tracks from 2025 and the GRIPNOTIC reactivation. Volume is reactivation. Cluster identity is older. [[wiki/mind/synthesis/estate-money-spine]] does not bear on how a CSV is sampled. |
 | 6. Health | **Checked, does not bear.** [[wiki/mind/synthesis/intake-constancy]] is already a premise of closing-the-set (rate fixed, subject the free variable). It explains why Architecture A runs one set at a time. It does not explain Architecture B's parallel clusters, and forcing it to would flatten the split this page exists for. Not a member. |
 | 7. Romantic and relational state | **Checked, does not bear, and the Annie moratorium binds.** Music-as-identity's 2015–16 happiness-ranking handover is already on that page and is not needed for the dual-architecture claim. Not reached. No new narrative, no new dated line. |
-| 8. Age and upbringing | **Checked, already inside Architecture B's archival cluster.** The 2005–2010 emo imprinting window and the teen concert years are on [[wiki/interests/favorites/music]] and [[wiki/mind/synthesis/music-as-identity]]. They date the freeze; they do not create the A/B split. |
-| 9. Geographic and ethnic culture | **Checked, dates the electronic conversion, does not move the rule.** Uniontown → Brooklyn 2010 (Electric Zoo, Ishlab Studio) is when bass culture enters the public record. Fayette return 2025 is when the live feed spikes. Geography times Architecture B's layers. It does not explain why the book shelf triangulates. |
+| 8. Age and upbringing | **Checked, already inside Architecture B's archival cluster.** The 2005–2010 emo imprinting window and the [[wiki/timeline/events/teen-concert-years|teen concert years]] are on [[wiki/interests/favorites/music]] and [[wiki/mind/synthesis/music-as-identity]]. They date the freeze; they do not create the A/B split. |
+| 9. Geographic and ethnic culture | **Checked, dates the electronic conversion, does not move the rule.** Uniontown → Brooklyn 2010 (Electric Zoo, Ishlab Studio) is when bass culture enters the public record. [[wiki/mind/synthesis/fayette-return|Fayette return]] 2025 is when the live feed spikes. Geography times Architecture B's layers. It does not explain why the book shelf triangulates. |
 | 10. Religious and ideological programming | **Checked, already Architecture A pointed at the state.** Democratic-socialist / forensic reading of power is why the observational sets are of collapsing systems (a presidency, a republic) rather than of cuisine or sport. [[wiki/mind/synthesis/the-cato-seat]] already parallels closing-the-set on this. Not independently re-derived. |
 | 11. Axiomatic politics | **Checked, left standing, not load-bearing for the split.** The power axiom and the Cato-seat "accurate, early, unable to intervene" template explain *which* sets Architecture A selects. They do not explain why music refuses to be a set. Declined rather than forced. |
 | 12. Other — commissioned provenance | **Checked, recorded above.** The psychometric and cognitive-stack members are commissioned; the CSV, the Facebook dates, and the two ingestion waves are not. The rule is built so that it survives the instruments being wrong. |

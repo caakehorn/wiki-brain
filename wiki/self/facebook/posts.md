@@ -61,7 +61,7 @@ your_posts_1.html reveals raw 2007- voice immediately post-account creation (fir
 - Nov 25: "is the patron saint of liars and fakes"
 - Nov 26: "is a New Jersey success story"
 
-Themes: Music obsession (FOB, Say Anything, Radiohead, Lil Wayne), gaming (Halo, Xbox, Mario Galaxy, lvl'ing), self-deprecating humor ("dead", "in paaain", "spun", "patron saint of liars and fakes"), NYC aspiration, teen/early adult life. This is pre-armor raw material that seeds "ihatedanfrank" ironic persona + groups posts (scam awareness + Say Anything nerdery).
+Themes: Music obsession (FOB, Say Anything, Radiohead, [[wiki/interests/favorites/music/artists/lil-wayne|Lil Wayne]]), gaming (Halo, Xbox, Mario Galaxy, lvl'ing), self-deprecating humor ("dead", "in paaain", "spun", "patron saint of liars and fakes"), NYC aspiration, teen/early adult life. This is pre-armor raw material that seeds "ihatedanfrank" ironic persona + groups posts (scam awareness + Say Anything nerdery).
 
 ## Later Posts / Archive (political + commentary)
 your_posts / archive.html samples:

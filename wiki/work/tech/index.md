@@ -22,7 +22,7 @@ Personal technology projects: agent tooling, message-forensics pipelines, and re
 
 ## Prehistory: one day in February 2013
 
-Everything on this page is 2026 work, built with AI agents. The obvious
+Everything on this page is 2026 work, built with [[wiki/self/concepts/llm|AI agents]]. The obvious
 question about it — whether Dan had ever tried to learn to program before the
 tools arrived that meant he did not have to — has an answer in the tweet
 archive, and it is a narrow one.

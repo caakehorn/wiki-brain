@@ -159,7 +159,7 @@ and personal was porous from multiple directions, not just Dan's. Third,
 **the documented instances cluster in bursts** (late 2018; spring–fall
 2019; the Kristin inversion in 2025) rather than running as a continuous
 background practice — consistent with the "burst event" pattern already
-documented in the Annie relationship's conflict architecture, though no
+documented in the Annie relationship's [[wiki/mind/concepts/conflict-architecture|conflict architecture]], though no
 source in the corpus explicitly connects the two.
 
 Two further properties emerge from a full-corpus word-frequency check rather

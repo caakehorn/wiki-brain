@@ -234,7 +234,7 @@ Au Za'atar fills what the timeline otherwise records as the 2021–2023
 employment block: he was employed, at volume, the whole time — the block was
 about trajectory, not idleness. And unlike the BFS dispute
 ([[wiki/work/bfs-foods]]), where Dan documents himself as the wronged party,
-here the same forensic method is turned on his own conduct: unreliable
+here the same [[wiki/mind/concepts/forensic-method|forensic method]] is turned on his own conduct: unreliable
 narrator, saboteur, and beneficiary of the exact off-books logic he condemns
 elsewhere. The two pages together are the strongest evidence that the
 methodology is genuinely domain-invariant rather than self-serving.

@@ -42,7 +42,7 @@ Five words, and the only evidence in the corpus that this band was ever more
 to him than a name on the 2005 Nintendo Fusion Tour lineup. It is posted three
 years after that show and during the band's hiatus, from Orlando, in the middle
 of the autumn that [[wiki/self/twitter/2008]] documents as saturated with
-current pop-punk — All Time Low, Cobra Starship, Hey Monday, Fall Out Boy. He
+current pop-punk — [[wiki/interests/favorites/music/artists/all-time-low|All Time Low]], [[wiki/interests/favorites/music/artists/cobra-starship|Cobra Starship]], Hey Monday, Fall Out Boy. He
 is nineteen and already nostalgic for a scene he is still standing in.
 
 That is the same operation as *"It's like 2005 again. Fobz and panic both in

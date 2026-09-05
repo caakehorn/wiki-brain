@@ -184,7 +184,7 @@ transfers along the way.
 | [[wiki/people/zachariah-harshman]] | 2014–2015 | Uniontown | High-school-friend supplier; wax, dabs, flower priced by cut/quarter; earliest dated Uniontown node, predates Johnny/Teddy by 3 years |
 | [[wiki/people/vaughn]] | 2017–2018 | Uniontown / the caddie yard | Two-product middleman (weed and cocaine); $100/g; carless, borrowed Dan's scale; **the succession's only 2017 node** |
 | [[wiki/people/johnny-dealer]] | 2018–2019 | Uniontown | Primary deep-cycle dealer; strips ($15/8mg, $20/12mg), "b's"; fronts |
-| Second dealer (+17243233522) | 2018 | Uniontown | Parallel node in the deep cycle (operating manual) |
+| Second dealer (+17243233522) | 2018 | Uniontown | Parallel node in the deep cycle ([[wiki/mind/concepts/exocortex|operating manual]]) |
 | [[wiki/people/teddy]] | 2018–2020 | Uniontown/Fairchance | Parallel informal supplier; strips, pills; credit and holds |
 | [[wiki/people/menore]] | 2013?, 2018–2025 (continuous; handle changes mid-run) | NYC | Professional delivery operator; 99.3% availability, median 7-min reply; still operating 2026 |
 | Tim | ~2020s | undocumented | Named in the MAX_PRIME succession; no thread yet identified |
@@ -244,7 +244,7 @@ expressed in the material world: the appetite is constant, so the
 architecture that feeds it must be too, and it is the *nodes* that are
 disposable.
 
-Second, **redundancy decayed monotonically.** The 2018 deep cycle ran
+Second, **redundancy decayed monotonically.** The [[wiki/timeline/periods/2018-deep-cycle|2018 deep cycle]] ran
 multiple parallel dealers (Johnny, the second handle, Teddy) — a
 supplier failure was an inconvenience. NYC ran on Menore's near-perfect
 uptime. But by 2025 the whole load sat on one friendship-embedded node,

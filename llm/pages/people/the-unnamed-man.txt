@@ -218,7 +218,7 @@ to.
 His name, age, occupation, relationship history with Annie, and how they met
 are all unknown. The duration of the relationship is unknown; the earliest
 event attributed to him is the finger injury around late May 2026, which would
-place its start at or before the end fight. Whether the harassment campaign
+place its start at or before the [[wiki/timeline/events/end-fight|end fight]]. Whether the harassment campaign
 against Dan and Suz has continued past August 1 is unknown — the last
 reference is an ambiguous incident that evening which Annie attributes to an
 accidental call from her recent-calls list. No source in `raw/` contains his

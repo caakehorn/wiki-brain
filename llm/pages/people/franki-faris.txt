@@ -47,7 +47,7 @@ real, named person, but one who appears in the record almost entirely as a
 retrospective data point rather than through any surviving direct
 correspondence. (Two independent operator statements, 2026-08-02 and
 2026-08-27, corrected the standing "five-day rebound" framing: the five
-days belong to Alexis's displacement to 155 Virginia Ave in the same
+days belong to Alexis's displacement to [[wiki/places/155-virginia-ave|155 Virginia Ave]] in the same
 episode, not to Franki's own tenure, which collapsed faster than that.) She
 has no message corpus of her own; everything known
 about her comes from Dan's later AI-assisted self-narration (the
@@ -184,7 +184,7 @@ his behaviour. The discovery was detection, not chance.
 **Closed — how they knew each other, and who she was.** Franki was not a
 stranger or a rebound found after the split: Dan knew her *"from highschool and
 junior high."* Her parents' house was 15 Holly Lane, Uniontown; she had her own
-apartment in Somerset, near Seven Springs, where she worked as a **ropes-course
+apartment in Somerset, near [[wiki/places/seven-springs|Seven Springs]], where she worked as a **ropes-course
 attendant at the resort**. That places her inside the Seven Springs orbit that
 [[wiki/timeline/events/bald-eagle-cummings]] establishes as the source of most of
 Dan's non-school friendships.

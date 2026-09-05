@@ -29,4 +29,4 @@ All dates, venues, cities, and notes below are taken from the source table and p
 ## Notes per appearance
 
 - **Jul 24, 2002** — Multi-act show, Post-Gazette Pavilion, Burgettstown, PA. Vertical Horizon credited opener that night (Guster co-billed other years).
-  Co-billed with: Barenaked Ladies, Guster.
+  Co-billed with: [[wiki/interests/favorites/music/artists/barenaked-ladies|Barenaked Ladies]], Guster.

@@ -44,7 +44,7 @@ The surface subjects vary wildly: Electoral College arithmetic, Biden and Trump,
 
 This was not primarily a year of producing positions. It was a year of repeatedly interrogating the gap between **what institutions, factions, and individuals say they believe** and **how they behave when those beliefs become inconvenient**.
 
-The corpus therefore documents an already-developed cognitive style that later becomes explicit infrastructure in Wiki Brain. In 2024, synthesis is performed manually and episodically in public. By 2026, the project is to externalize that same process into a persistent system capable of storing evidence, preserving chronology, exposing contradictions, and checking whether remembered insight was genuine foresight or retrospective self-flattery.
+The corpus therefore documents an already-developed cognitive style that later becomes explicit infrastructure in [[wiki/self/concepts/wiki-brain|Wiki Brain]]. In 2024, synthesis is performed manually and episodically in public. By 2026, the project is to externalize that same process into a persistent system capable of storing evidence, preserving chronology, exposing contradictions, and checking whether remembered insight was genuine foresight or retrospective self-flattery.
 
 The strongest single label for the year's public cognitive posture is **The Adversarial Historian**: a person who treats the present as an unfolding historical system whose participants usually understand less about the forces governing them than they think they do.
 

@@ -85,7 +85,7 @@ meaning.
 ## The production-practice connection
 
 This trait has a direct, previously unremarked-on echo in Dan's own
-output. Across all four production aliases — SLOPPP, MOGZART, Mogged Up,
+output. Across all four production aliases — SLOPPP, MOGZART, [[wiki/interests/music/aliases/mogged-up|Mogged Up]],
 and GRIPNOTIC, thirteen years of releases — there is no original sung
 songwriting anywhere in the documented catalog. The work is
 instrumental: bootlegs, edits, reworks, VIP remixes, mix series. GRIPNOTIC

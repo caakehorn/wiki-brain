@@ -45,7 +45,7 @@ tags: [relationships, infidelity, financial-stress, career, ai-collaboration]
 - 2016-01: Quit Job; Breakup comms with Annie; Holiday gathering (Caitlin cousin); Road trip refs; Major Decision "You know that you've changed my life"; Engagement tease Valentine's; Fran hospitalized; Moved mentions.
 - 2017-01: Debt/Financial Crisis (overdrawn $600 by Annie acct refs); Flight/Airport shooter ref; Death threat message; Moved to Virginia Ave with Annie/Lex prior; First Date.
 - 2017-04: Breakup; Pet Loss (Sabrina put down); Major Decision on protecting relationship. Ties ancestry Fran (nosebleeds), Tom supply.
-- 2018 (peak 254 events): Multiple dealers (Johnny +17243223678), financial velocity (Cash App limits, ATM 1am), Annie shifts; per operating Dec 2018 deep cycle.
+- 2018 (peak 254 events): Multiple dealers (Johnny +17243223678), financial velocity (Cash App limits, ATM 1am), Annie shifts; per operating Dec [[wiki/timeline/periods/2018-deep-cycle|2018 deep cycle]].
 - 2020-21: Market era (FSLY tip from Jerad, GME/AMC, CCIV loss $6k day) per operating; 68 events. Ties FB/ancestry?
 - 2024: Political obsession (Trump attempt 800 msgs in 6wks with Jerad); 55 events.
 - 2025-08+: Terminal collapse: Cheating accusation; Burning ritual ("One more load to burn..."); Wall of Despair; Unconditional love monologues; GPS proxy; drug tether; 259 events (Aug 30, Sep 97, Oct 58).

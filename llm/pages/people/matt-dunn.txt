@@ -109,7 +109,7 @@ does not mean forgotten.
 | Metric | Value |
 |---|---|
 | Direct messages (Facebook Messenger) | 6, Feb 2012 – Mar 2022 |
-| Mentions, third-party threads | 4 (Eric Jester ×2, Jason Bermejo ×2) |
+| Mentions, third-party threads | 4 ([[wiki/people/eric-jester|Eric Jester]] ×2, Jason Bermejo ×2) |
 | Date range, all sources | 2012-02-01 – 2025-10-06 |
 
 **Gaps:** no phone number or iMessage thread for Dunn exists in the

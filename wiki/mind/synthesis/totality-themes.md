@@ -349,7 +349,7 @@ engine.
 **1. Nothing gets deleted; everything is retained with reactivation
 bandwidth.** [[wiki/mind/synthesis/dormancy-not-exit]] states this as its
 own rule — every relationship the corpus calls "over" has in fact changed
-role and stayed reachable, Danielle Onesi seventeen years on, the Menore
+role and stayed reachable, [[wiki/people/danielle-onesi|Danielle Onesi]] seventeen years on, the Menore
 supply line surviving a 2,044-day silence. [[wiki/mind/synthesis/the-unbroken-bond]]
 shows the same rule one level up: the primary romantic slot has been
 occupied without a gap longer than weeks for seventeen years, because
@@ -447,7 +447,7 @@ structures by installing a private objective inside them (41 months at Au
 Za'atar, 43 at Nemacolin — both driven by a smuggled personal payload, not
 the job) — but that page's own honest gap is that three purely *self-set*
 projects with no assignment to hide behind (MNEME, the DANMODEL blind
-evaluation, the AI video essays) never shipped either, and the page could
+evaluation, the [[wiki/work/tech/ai-video-essays|AI video essays]]) never shipped either, and the page could
 not explain why self-origination wasn't sufficient. The firewall answers
 it: self-origination defeats the *imposed*-audit risk (nobody handed him
 the goal, so failure isn't someone else's claim landing on him) but not the

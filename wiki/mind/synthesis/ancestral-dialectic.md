@@ -94,7 +94,7 @@ Psychogenealogical Architecture of Collapse and Recursion"* — built from
 the same underlying Pattern Mapping document behind several other
 DANSYNTH sessions, cross-referenced against published historical sources
 on pogrom-era Russia and Fayette County coal history — proposes a specific
-frame for why the psychological profile looks the way it does: two
+frame for why the [[wiki/mind/profile/index|psychological profile]] looks the way it does: two
 incompatible inherited "operating systems," one per parental line, forced
 into a single mind that never harmonized them. This page records the
 frame as **interpretive synthesis**, not fact — it is one AI report's

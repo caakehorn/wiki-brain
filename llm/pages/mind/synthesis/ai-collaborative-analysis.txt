@@ -149,7 +149,7 @@ DANFRANK-ISMS chat holds 77+ nodes; the activity archive shows ~403 node
 mentions and 1,041 profile references. The explicit constraint is the same
 one this wiki inherits: keep all information, never summarize away detail.
 
-**Forensic steelman with position updates.** In the J6 chat, Dan presented
+**Forensic steelman with position updates.** In the [[wiki/self/chats/j6-chat|J6 chat]], Dan presented
 his narrow hybrid-psyop hypothesis to a skeptical Claude, supplied
 procedural anomalies and ballistics evidence, and moved the model to
 "warrants genuine forensic investigation that has not occurred." He
@@ -381,7 +381,7 @@ Simulator, the MEGAMASTER report, two YouTube passes, the browser-history
 analysis, and this synthesis stack itself are all self-model). This document you
 are reading — an analysis *of* the analysis habit, produced by the recursion,
 about the recursion — is, by the allocation table, one more datapoint on the
-wrong side of the ledger it describes.
+wrong side of [[wiki/health/intake-ledger|the ledger]] it describes.
 
 The resolution is not to use the tool less. It is to treat the tool's output
 port the way the architecture demands: route the freed bandwidth to shipping

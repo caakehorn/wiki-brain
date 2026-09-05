@@ -40,7 +40,7 @@ The sub-bass signature is the defining acoustic fingerprint across all of Dan Fr
 | Metric | Value | Source |
 |--------|-------|--------|
 | Sub-bass presence across all aliases | 63–85% | FULL PROFILE 2026 / context-core |
-| Alias span confirmed | SLOPPP → MOGZART → GRIPNOTIC (~13 years) | Context Core biographical timeline |
+| Alias span confirmed | SLOPPP → MOGZART → GRIPNOTIC (~13 years) | [[wiki/self/context-core|Context Core]] biographical timeline |
 | Heritage origin artifact | Numark NS7 — gifted by Fran Whyel | Context Core §3 social graph |
 | Identification method | Post-hoc analysis (not deliberately set) | FULL PROFILE 2026 |
 | Genre scope | Bass house, tech house, DnB-adjacent, trap-adjacent, experimental | All alias pages |
@@ -49,9 +49,9 @@ The sub-bass signature is the defining acoustic fingerprint across all of Dan Fr
 
 The sub-bass signature is the clearest evidence that Dan's production identity is structural rather than stylistic. Producers often consciously define a frequency aesthetic early and apply it consistently. Here the pattern runs the other way — the signature was *discovered* across output that spanned multiple alias identities, different genre targets, and a 13-year span. It was there before anyone named it.
 
-The origin artifact is the Numark NS7, gifted by maternal great-grandmother [[wiki/people/fran-coldren]] — the person described in context-core as "the biggest life influence." Fran Whyel was a Fort Martin, WV woman who navigated coal-baron circles and outlived most of her contemporaries by decades. The NS7 as a gift connects the production identity directly to that lineage: the sincere output channel has a family tree anchor. See [[wiki/self/ancestry]] for the broader heritage synthesis.
+The origin artifact is the Numark NS7, gifted by maternal great-grandmother [[wiki/people/fran-coldren]] — the person described in context-core as "the biggest life influence." Fran Whyel was a Fort Martin, WV woman who navigated coal-baron circles and outlived most of her contemporaries by decades. The NS7 as a gift connects the production identity directly to that lineage: the sincere output channel has a [[wiki/self/lineage/family-tree|family tree]] anchor. See [[wiki/self/ancestry]] for the broader heritage synthesis.
 
-The Jimmy Pop data adds cultural context: the sub-bass direction wasn't a retreat from guitar music but a correct forward read. Guitar-dominated music lost streaming, sales, and chart share decisively post its 1963 cultural peak. The electronic direction — including the sub-bass emphasis — was where the authentic output channel and the correct cultural read coincided.
+The [[wiki/people/james-dee|Jimmy Pop]] data adds cultural context: the sub-bass direction wasn't a retreat from guitar music but a correct forward read. Guitar-dominated music lost streaming, sales, and chart share decisively post its 1963 cultural peak. The electronic direction — including the sub-bass emphasis — was where the authentic output channel and the correct cultural read coincided.
 
 ## Contradictions
 

@@ -19,7 +19,7 @@ Everything the [[wiki/self/facebook]] export records about taste, attendance, an
 
 | Cluster | Representative likes | Timing |
 |---------|---------------------|--------|
-| Music / electronic (core signal) | ODESZA, JAUZ, Borgore/Buygore, DIM MAK, Flying Lotus, Diplo, Zedd, Mad Decent, Spinnin' Records, Anamanaguchi, Elliott Smith, LCD Soundsystem, Bright Eyes, Tegan and Sara, Deerhunter, Wavves | Heavy 2012–2014 |
+| Music / electronic (core signal) | ODESZA, JAUZ, Borgore/Buygore, DIM MAK, Flying Lotus, Diplo, Zedd, Mad Decent, Spinnin' Records, Anamanaguchi, [[wiki/interests/favorites/music/artists/elliott-smith|Elliott Smith]], LCD Soundsystem, Bright Eyes, Tegan and Sara, Deerhunter, Wavves | Heavy 2012–2014 |
 | Comedy / skeptic | Gotham Comedy Club, Comedy Cellar, The Stand, Nathan For You, Comedy Bang Bang, Bill Burr, Jim Norton, George Carlin, Andy Kaufman, Tim and Eric, Penn Jillette | 2017–2020 cluster |
 | Politics / philosophy | Alexandria Ocasio-Cortez (Feb 2020), The Trump White House (Jan 2017, later archived), Richard Dawkins, Neil deGrasse Tyson, Sam Harris–adjacent skepticism | 2017–2020 |
 | Gaming / tech | World of Warcraft, League of Legends, Team Fortress 2, The Binding of Isaac, Starcraft, PlayStation, Spotify | Scattered |
@@ -31,9 +31,9 @@ Profile music adds (Apr 29, 2019): "Now You Do" by A-1 and "Press Rewind" by Del
 
 | Type | Events | Pattern |
 |------|--------|---------|
-| Music / rave / DJ | High Tide 4/20 Cruise w/ Freddie Gibbs (Apr 2019), Home Grown Vol 3 DJ Showcase (Mar 2015), United Ravers of America Festival (Jul 2014), Space Jesus / Minnesota, Shlump w/ Conrank, Thriftworks, Breakaway, Buku | EDM/rave cluster 2014–2019, Pittsburgh + NYC |
+| Music / rave / DJ | [[wiki/interests/concert-record/festivals/high-tide-4|High Tide 4]]/20 Cruise w/ Freddie Gibbs (Apr 2019), Home Grown Vol 3 DJ Showcase (Mar 2015), United Ravers of America Festival (Jul 2014), Space Jesus / Minnesota, Shlump w/ Conrank, Thriftworks, Breakaway, Buku | EDM/rave cluster 2014–2019, Pittsburgh + NYC |
 | Early rock era | Battle of the Bands @ Altar Bar Pittsburgh (Jan 2010), Fall Out Boy tours, "Welcome Back Blink-182" | 2008–2010 |
-| Comedy / other | Funny or Die Oddball Fest — Dave Chappelle, Flight of the Conchords (Aug 2013), Obama Facebook townhall (Apr 2011), "They Say Time Speeds Up As You Age" (Mar 2020) | Scattered |
+| Comedy / other | Funny or Die Oddball Fest — [[wiki/interests/concert-record/performers/dave-chappelle|Dave Chappelle]], [[wiki/interests/favorites/music/artists/flight-of-the-conchords|Flight of the Conchords]] (Aug 2013), Obama Facebook townhall (Apr 2011), "They Say Time Speeds Up As You Age" (Mar 2020) | Scattered |
 
 ## Groups (2007–2020)
 
@@ -46,7 +46,7 @@ Profile music adds (Apr 29, 2019): "Now You Do" by A-1 and "Press Rewind" by Del
 
 ## Ads Profile & Off-Facebook Tracking
 
-Facebook's derived ads-interest profile: electronic music, hip hop, concerts, video games, political philosophy, photography, NYC, elections/Congress/Constitution, survival horror, gambling, Las Vegas, weddings. 339 `your_off-facebook_activity` files document commercial tracking — GameStop page views (Nov 2020), repeated Domino's orders (2020–21), inman.com real-estate browsing (Sep 2020).
+Facebook's derived ads-interest profile: electronic music, hip hop, concerts, [[wiki/interests/video-games|video games]], political philosophy, photography, NYC, elections/Congress/Constitution, survival horror, gambling, Las Vegas, weddings. 339 `your_off-facebook_activity` files document commercial tracking — GameStop page views (Nov 2020), repeated Domino's orders (2020–21), inman.com real-estate browsing (Sep 2020).
 
 ## Narrative
 

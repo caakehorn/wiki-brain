@@ -96,7 +96,7 @@ resolution it doubted was wrong. Zachariah Harshman's real record is at
 ## 2009: the faun
 
 The earliest trace is not a message to him but a message about him. On
-**October 6, 2009**, writing to Stephanie Nalbone from Florida at eleven in
+**October 6, 2009**, writing to [[wiki/people/stephanie-nalbone|Stephanie Nalbone]] from Florida at eleven in
 the morning, Dan is watching *Pan's Labyrinth* instead of mixing tracks and
 reports that he is "trying to not imagine zach clingan as the creepy faun.
 they both lie about shit, so there's a literal connection too heh? heh?

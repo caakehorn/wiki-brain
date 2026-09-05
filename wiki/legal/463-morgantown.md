@@ -48,7 +48,7 @@ connections:
 # 463 Morgantown St
 
 463 Morgantown St, Uniontown PA is where Dan and his mother
-[[wiki/people/suzanne-frank|Suz]] are landing as 337 Saratoga Drive — his
+[[wiki/people/suzanne-frank|Suz]] are landing as [[wiki/places/337-saratoga-drive|337 Saratoga Drive]] — his
 childhood home and current residence — is sold. It is the live housing
 question of mid-2026, and it is legally messy: they moved in with no signed
 lease and no confirmed power of attorney, the owner is

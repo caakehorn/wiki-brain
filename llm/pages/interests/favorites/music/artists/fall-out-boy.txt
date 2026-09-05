@@ -167,7 +167,7 @@ the rest of the corpus.
 
 "What A Catch, Donnie" is the one worth stopping on. It's a *Folie à
 Deux* track built as a mock eulogy for Patrick Stump — a dozen peer-scene
-guest vocalists (Panic! at the Disco, Cobra Starship, Gym Class Heroes and
+guest vocalists (Panic! at the Disco, [[wiki/interests/favorites/music/artists/cobra-starship|Cobra Starship]], [[wiki/interests/favorites/music/artists/gym-class-heroes|Gym Class Heroes]] and
 others) singing tributes to a man who isn't dead, framed as if the band
 itself is already a legacy act being memorialized. It's a song about a
 band writing its own eulogy in advance, sincerely, while still very much
@@ -200,7 +200,7 @@ The following live appearances are drawn from the consolidated concert table and
 
 | Date | Context | Venue | City | Note |
 |------|---------|-------|------|------|
-| Aug 1, 2005 | Vans Warped Tour | Post-Gazette Pavilion | Burgettstown, PA | Warped Tour date. Lineup included Fall Out Boy, Alexisonfire, Gogol Bordello, Hawthorne Heights. |
+| Aug 1, 2005 | Vans Warped Tour | Post-Gazette Pavilion | Burgettstown, PA | Warped Tour date. Lineup included Fall Out Boy, Alexisonfire, Gogol Bordello, [[wiki/interests/favorites/music/artists/hawthorne-heights|Hawthorne Heights]]. |
 | Sep 28 - Nov 23, 2005 | Nintendo Fusion Tour | Various (tour) | Multiple cities | Confirmed tour window. |
 | Feb 6, 2007 | Fall Out Boy | Times Square (TRL) | New York, NY | Infinity On High release-day free show; same-day free shows also in Chicago & LA. |
 | Nov 19, 2007 | Fall Out Boy | Mohawk Place | Buffalo, NY | ~300-cap sellout under Office alias 'Schrute Farms'; full Take This to Your Grave; Keith Buckley guest on Pantera 'Walk'. |

@@ -584,7 +584,7 @@ better living" reading a bare dosage increase might otherwise invite.
   it is entirely self-directed and undocumented by any clinical source.
 - **Post-2026 dosage state**: partially answered, and narrowed rather than
   closed. The dosage arc is documented through the inheritance exhaustion
-  (~2020 onward) from self-report; the intake ledger now supplies one measured
+  (~2020 onward) from self-report; [[wiki/health/intake-ledger|the intake ledger]] now supplies one measured
   unit — 0.75 g over 9h 31m on 2026-08-30/31 — inside the stated 0.5–1 g/day
   band. What is still missing is any *rate*: one unit cannot say how many
   nights like it there are in a week, and the ledger's silence before

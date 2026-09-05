@@ -28,7 +28,7 @@ This is the dedicated category for personal favorites data from the master list 
 - **Music releases**: 2025 (530), 2026 (197), 2024 (145) dominant — aligns recent listening with [[wiki/timeline/periods/2025-collapse]] music reactivation.
 - **Books read**: Primarily 2024 (53), 2023 (16) — heavy non-fiction politics/history focus.
 - **Clusters (music)**: ~balanced experimental hip-hop, emo/punk/rock, electronic/bass (~90-96 tracks each indicative); high long-tail eclecticism.
-- **FB continuity**: Overlaps with [[wiki/self/facebook]] music likes (Elliott Smith 7, Fall Out Boy 6, Say Anything 6, Lil Wayne 5); 2007 status updates prefigure current top artists.
+- **FB continuity**: Overlaps with [[wiki/self/facebook]] music likes ([[wiki/interests/favorites/music/artists/elliott-smith|Elliott Smith]] 7, Fall Out Boy 6, Say Anything 6, [[wiki/interests/favorites/music/artists/lil-wayne|Lil Wayne]] 5); 2007 status updates prefigure current top artists.
 - No "sub-bass" or "Jimmy Pop" strings in CSV itself; those are contextual from chats + production spine.
 
 The list reflects an eclectic, high-intensity taste profile consistent with the behavioral spine in [[wiki/self/context-core]]: high Artistic Interests (81st), political focus, and music as a core sincere channel. See [[wiki/interests/favorites/eclecticism]], [[wiki/interests/favorites/taste-profile]].

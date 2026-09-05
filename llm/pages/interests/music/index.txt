@@ -29,7 +29,7 @@ related: []
 | [[wiki/interests/music/bands/batteries-not-included]] | closed | Lead songwriter (originals); hardcore/punk covers | High school, pre-2006 |
 
 ## Concepts
-- [[wiki/interests/music/concepts/sub-bass-signature]] — involuntary 63–85% sub-bass presence across all aliases, 13-year span; origin artifact: Numark NS7 (Fran Whyel)
+- [[wiki/interests/music/concepts/sub-bass-signature]] — involuntary 63–85% sub-bass presence across all aliases, 13-year span; origin artifact: Numark NS7 ([[wiki/people/fran-coldren|Fran Whyel]])
 - [[wiki/interests/music/concepts/lyrics-as-timbre]] — Dan does not process sung lyrics as language; words register as timbre, not semantic content. Reframes how to read every thematic/lyrical claim in the favorites cluster.
 
 ## Taste / Consumption

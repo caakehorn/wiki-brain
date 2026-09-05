@@ -549,7 +549,7 @@ her there while he was asleep, repeatedly enough to be a habit worth a joke.
   OkCupid line, the Eva Braun joke, *"catch a slug to the fvcε"* — and the
   corpus had only ever documented it aimed at strangers and at the audience.
 - **Health** ([[wiki/health/chemical-architecture]]) — checked, **cannot
-  answer**. 2014 is inside the blind window above; the ledger has no events and
+  answer**. 2014 is inside the blind window above; [[wiki/health/intake-ledger|the ledger]] has no events and
   the message corpora have no rows.
 - **Historical precedent** — checked, **left it standing.**
   [[wiki/mind/synthesis/dormancy-not-exit]] holds that nothing leaves the graph

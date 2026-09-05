@@ -76,7 +76,7 @@ check are flagged below.
 | Afternoon | Pickup at **15 Holly Lane**, Uniontown — Franki's parents' address, not where she lived |
 | ~10 minutes in | Alexis's text: *"I saw your messages. I know you're with Franki."* |
 | After | ATM withdrawal of **$350** from Suz's card; a **quarter ounce** of cocaine bought from [[wiki/people/joe-croftcheck|Joe Croftcheck]] |
-| Afternoon–evening | Driving between Uniontown and Franki's own apartment in Somerset, near Seven Springs, where she worked as a ropes-course attendant at the resort |
+| Afternoon–evening | Driving between Uniontown and Franki's own apartment in Somerset, near [[wiki/places/seven-springs|Seven Springs]], where she worked as a ropes-course attendant at the resort |
 | Dusk | Passing under a municipal **fireworks display** on the Rt 119 bypass near the Main Street exit, staged at the mall a few hundred yards off |
 | Somewhere in the mountains | Picking up **hitchhikers** near a campground, on the day's own logic |
 | ~Midnight, 10+ hours in | Franki's apartment in Somerset |
@@ -143,7 +143,7 @@ September, with another person publicly documented inside it.** That makes this
 the only interval in the six years where the relationship is not running.
 
 Two features of it bear on what this page argues. The gap was **filled almost
-immediately** — Katie Fletcher appears within two weeks of the earliest
+immediately** — [[wiki/people/katie-fletcher|Katie Fletcher]] appears within two weeks of the earliest
 single-status post. And the reconciliation is announced in the vocabulary of
 **relief rather than decision**: *"everything's okay now"*, not a statement
 that anything was resolved.

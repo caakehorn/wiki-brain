@@ -109,7 +109,7 @@ neurochemical engineering" ([[wiki/mind/profile/deviance-mapping]]).
 ### The stack, measured rather than described — 2026-08-30/31
 
 Every "Daily" in the table above is a description the corpus took from Dan's
-own account of his system. The intake ledger began recording on 2026-08-30 and
+own account of his system. [[wiki/health/intake-ledger|The intake ledger]] began recording on 2026-08-30 and
 supplies the first night where two rows of it were written down as they
 happened: one **0.75 g cocaine unit** worked over 9h 31m in six doses, and
 **three separate 0.05 g cannabis units** at 22:06, 00:37 and 02:36, each opened

@@ -71,7 +71,7 @@ titled "Experience Associate – Golf," **April 2016 – November 2019** per
 his resume — borrowing golf shoes for the interview on April 6, 2016. The
 role covered guest golf-round assistance, strategic course advice across
 Nemacolin's two courses, pace-of-play management during corporate and
-charity outings, and equipment logistics. His manager was Brad Hubeaut.
+charity outings, and equipment logistics. His manager was [[wiki/people/brad-hubeaut|Brad Hubeaut]].
 The job was not just income: it reignited his own playing and anchored
 the era in which [[wiki/interests/golf|golf]] was at once his sport, his
 social world, and his primary paycheck.
@@ -198,7 +198,7 @@ the weakest of the rule's three positive cases because it is inferred from
 what Dan chose to record rather than from any statement of intent.
 
 The caddying years run concurrent with the darkest financial stretch
-documented elsewhere in the wiki (the 2017 poverty floor, the 2018 deep
+documented elsewhere in the wiki (the [[wiki/timeline/periods/2017-poverty-floor|2017 poverty floor]], the 2018 deep
 cycle) and predate the [[wiki/work/au-zaatar|Au Za'atar]] era by three years — evidence that the
 2016–2019 window, often treated as background to the early [[wiki/people/annie-ulmer|Annie]]
 relationship, had its own steady, physically demanding income source

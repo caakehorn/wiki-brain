@@ -50,7 +50,7 @@ The central frame of this lens treats Dan's life as a self-engineering project. 
 
 ## Cognitive Function Mapping
 
-The lens assigns plain-language readings to the cognitive functions to explain how the system behaves:
+The lens assigns plain-language readings to the [[wiki/mind/profile/intp|cognitive functions]] to explain how the system behaves:
 
 The lead function, Ti, builds frameworks from first principles and trusts only what he can simulate in his own head. Under this function, truth is whatever holds up under stress-testing, not whatever wins social consensus. The exploratory function, Ne, scans for patterns and edge cases rather than spraying randomly. The memory function, Si, holds a vast, vivid record of past detail and also carries the trauma material — it is the seat of the pattern by which old betrayals get replayed onto new situations. The feeling function, Fe, is weak but craved: he wants emotional connection yet distrusts its irrationality, so he uses social charm tactically, which gives him high social intelligence but low emotional trust. Finally, a weak intuitive leak produces pattern-overfitting and a tendency to read coincidence as fate. The documented method of "Dan's Law" is the disciplined countermeasure to that specific leak.
 

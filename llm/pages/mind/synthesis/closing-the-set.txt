@@ -347,7 +347,7 @@ wiki producing that response.
 1. **A named favourite with sustained return traffic and no set behind it.** An
    artist, author or show that Dan comes back to repeatedly over years, where
    the repetition is not exhaustion of a discography or an archive. The
-   strongest candidate the corpus already contains is Elliott Smith (7 entries,
+   strongest candidate the corpus already contains is [[wiki/interests/favorites/music/artists/elliott-smith|Elliott Smith]] (7 entries,
    named on [[wiki/interests/music/overview]] as a private emotional
    regulator); if the listening record shows return rather than collection,
    that is one clean counterexample and the rule narrows to non-musical

@@ -175,7 +175,7 @@ not know he was not alive for it.
 
 This page's Gaps said *"the estate attorney reached in August 2020
 (`+17245706170`) is not established to be Adams or his office."* Three messages
-establish the office and a second Adams:
+establish [[wiki/interests/the-office|the office]] and a second Adams:
 
 - **2018-07-15**, from Suz: *"I told Jason Adams I would get them to him
   Monday"* — invoices.

@@ -49,7 +49,7 @@ Kevin McKiernan was Dan's employer — company president at
 [[wiki/work/creative-license|Creative License]], a celebrity-talent and
 licensed-music brokering company at 71 8th Ave in the West Village — from
 April 2011 to February 2012. He is the best-documented antagonist anywhere
-in the corpus below the 2026 BFS Foods dispute. Dan cited a travel-expense
+in the corpus below the 2026 [[wiki/work/bfs-foods|BFS Foods]] dispute. Dan cited a travel-expense
 billing irregularity as his stated reason for leaving, but the
 better-documented conduct is broader: using an employee's own account to
 pressure former staff, altering departing interns' contracts to silence

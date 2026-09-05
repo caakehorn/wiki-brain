@@ -41,7 +41,7 @@ connections:
 
 # Gemini (Google)
 
-Gemini is the interaction model in Dan's AI ecosystem. If Claude is the analyst and Claude Code is the engineer, Gemini is the interlocutor — the model Dan talks to for bootloader design, psychotherapy, creative projects, and the massive activity log that documents his AI usage. Dan's own summary is the canonical description, given to [[wiki/people/tom|Tom]] on 2026-03-26: "Claude = to analyze stuff / gemini = interact with it." Where Claude produces forensic analysis, Gemini produces conversation, design, and interaction at scale.
+Gemini is the interaction model in Dan's AI ecosystem. If Claude is the analyst and Claude Code is the engineer, Gemini is the interlocutor — the model Dan talks to for bootloader design, psychotherapy, creative projects, and the massive activity log that documents his AI usage. Dan's own summary is the canonical description, given to [[wiki/people/tom|Tom]] on 2026-03-26: "Claude = to analyze stuff / gemini = interact with it." Where Claude produces [[wiki/mind/concepts/forensic-method|forensic analysis]], Gemini produces conversation, design, and interaction at scale.
 
 ## The activity log
 

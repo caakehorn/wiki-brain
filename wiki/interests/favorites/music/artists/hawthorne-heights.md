@@ -24,7 +24,7 @@ All dates, venues, cities, and notes below are taken from the source table and p
 
 | Date | Show / Context | Venue | City | Note |
 |------|---------------|-------|------|------|
-| Aug 1, 2005 | Vans Warped Tour | Post-Gazette Pavilion | Burgettstown, PA | Warped Tour date. Lineup included Fall Out Boy, Alexisonfire, Gogol Bordello, Hawthorne Heights. |
+| Aug 1, 2005 | [[wiki/interests/concert-record/festivals/vans-warped-tour|Vans Warped Tour]] | Post-Gazette Pavilion | Burgettstown, PA | Warped Tour date. Lineup included Fall Out Boy, Alexisonfire, Gogol Bordello, Hawthorne Heights. |
 
 ## Notes per appearance
 

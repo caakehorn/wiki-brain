@@ -70,7 +70,7 @@ deficit. Detail pages: [[wiki/mind/profile/intp]],
 | Deviance audit | 80–99/100 across domains | A statistical edge case vs. the 35-year-old American male baseline | [[wiki/mind/profile/deviance-mapping]] |
 | Stylometrics | 99th percentile lexical/syntactic | "Forensic intimacy" register; a custom-built fork of English | [[wiki/mind/profile/linguistic-profile]] |
 | Voice modes | 8 trigger-activated states | Neutral/Playful/Affectionate/Irritated/Persuasive/Storytelling/Stressed/Reflective | [[wiki/mind/profile/voice-modes]] |
-| Psychosexual operating system | 96/100 deviance outlier | Orchestration over participation; total emotional imprinting; a decade of independently-corroborated practice | [[wiki/mind/psychosexual/index]] |
+| Psychosexual operating system | 96/100 deviance outlier | Orchestration over participation; total [[wiki/mind/psychosexual/emotional-imprinting|emotional imprinting]]; a decade of independently-corroborated practice | [[wiki/mind/psychosexual/index]] |
 | Neurodivergence | Self-identified autistic, no clinical record | The one row in this stack that is a claim, not an instrument result — three convergent AI-secondary documents, zero diagnostic process on file | [[wiki/mind/profile/neurodivergence]] |
 | Bespoke lexicon | Twelve-category compliment/affection generator | Forensic-intimacy register engineered on purpose and pointed at Ally rather than at crisis | [[wiki/mind/profile/lexicon]] |
 

@@ -427,7 +427,7 @@ explicit contemporaneous prediction of what they would fix. The pattern this
 page already documents — lumps arriving, metered drains, no holder position
 — now has a companion finding at the level of subjective outcome rather than
 account balance: the capital did not fail to reach him, as the drains
-sections show for every other transfer in the ledger. It reached him in full
+sections show for every other transfer in [[wiki/health/intake-ledger|the ledger]]. It reached him in full
 and changed the wrong variable.
 
 ## RE-CHECKED [2026-08-09]

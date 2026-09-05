@@ -27,7 +27,7 @@ tags: [ai-collaboration, legal, politics]
 ## Relation to Totality
 - Extends J6/9-11/psyop forensic lens to internet conspiracy archaeology.
 - Ties to "Psyop" branding and node-locking in Gemini Activity extract.
-- Overlaps with political skepticism (core §7), Dan's Law (coincidence clusters), procedural tells in mediated narratives.
+- Overlaps with political skepticism (core §7), Dan's Law (coincidence clusters), [[wiki/mind/concepts/forensic-method|procedural tells]] in mediated narratives.
 - "Max" connection possible to other pinned (Max pinned chat); social graph expansion.
 - Photo ingest theme links to visual analysis (prior "Analyzing images without web search.txt" in dox).
 

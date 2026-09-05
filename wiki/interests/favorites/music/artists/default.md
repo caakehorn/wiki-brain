@@ -24,7 +24,7 @@ All dates, venues, cities, and notes below are taken from the source table and p
 
 | Date | Show / Context | Venue | City | Note |
 |------|---------------|-------|------|------|
-| Jul 27, 2002 | Rolling Rock Town Fair | Westmoreland Fairgrounds | Latrobe / Mt. Pleasant, PA | Alien Ant Farm cancelled (bus accident); Tommy Lee filled in. |
+| Jul 27, 2002 | [[wiki/interests/concert-record/festivals/rolling-rock-town-fair|Rolling Rock Town Fair]] | Westmoreland Fairgrounds | Latrobe / Mt. Pleasant, PA | Alien Ant Farm cancelled (bus accident); Tommy Lee filled in. |
 
 ## Notes per appearance
 

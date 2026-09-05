@@ -54,7 +54,7 @@ connections:
 
 Daniel Gillingham Frank — Dan — was born November 1, 1988 in Uniontown,
 Fayette County, Pennsylvania, and at 37 he is living back in his childhood
-home at 337 Saratoga Drive while his mother sells it out from under him. He
+home at [[wiki/places/337-saratoga-drive|337 Saratoga Drive]] while his mother sells it out from under him. He
 is a music producer (currently under the MOGZART and GRIPNOTIC aliases), a
 self-taught AI-systems builder, a democratic socialist, an atheist of Jewish
 paternal descent, [[wiki/mind/profile/neurodivergence|self-identified autistic]], fifteen-plus years opioid-stable
@@ -86,7 +86,7 @@ the 181k-row message corpus.
 ## The arc
 
 **Uniontown origin (1988–2008).** A Republican, talk-radio household; ski
-identity at Seven Springs; 12 Bryer Ave then the family-built 337 Saratoga
+identity at [[wiki/places/seven-springs|Seven Springs]]; 12 Bryer Ave then the family-built 337 Saratoga
 Drive. The hinge is November 2005, age 17: his father entered rehab for
 cocaine, his mother's affair with the dealer surfaced, and the marriage
 ended — the template ("a trusted figure maintaining a concealed alternate
@@ -107,7 +107,7 @@ production aliases develop (SLOPPP 2013–15, MOGZART 2014–16 —
 Thanksgiving 2015**, nine months after the February 2015 possession arrest
 that ended in ARD and expungement
 ([[wiki/legal/2015-possession-arrest]]). Then the
-hard years: 2017 poverty floor (water shut off, free DJing, camming), 2018
+hard years: [[wiki/timeline/periods/2017-poverty-floor|2017 poverty floor]] (water shut off, free DJing, camming), 2018
 deep cycle (peak chaos, ~40k messages/year).
 
 **NYC II (2019–2025).** 307 E 76th St. Hard-left politicization in 2019
@@ -144,7 +144,7 @@ which each identity chapter gets sealed off from the next.
 
 The psychological profile is measured to an unusual depth and lives in its
 own cluster: [[wiki/mind/profile/index]] (INTP function stack, Enneagram
-5w4 sx/sp, Big30 extremes, deviance audit, linguistic fingerprint). The
+5w4 sx/sp, Big30 extremes, [[wiki/mind/profile/deviance-mapping|deviance audit]], linguistic fingerprint). The
 operating summary: a forensic, system-building mind that treats every
 domain — relationships, politics, work, its own history — as evidence to be
 audited ([[wiki/mind/concepts/forensic-method]]); trust extended laterally
@@ -158,13 +158,13 @@ graph, and residence timeline are maintained authoritatively at
 
 ## Heritage
 
-Dan self-identifies as a Scorpio and dates it precisely — *"I am super scorpio / Nov 1"* — and the corpus carries enough primary testimony from other contacts to make the zodiac an actual (small) dataset rather than a throwaway: see [[wiki/self/concepts/astrology-star-signs]], which records what is known, what is unknown for eighteen of the top twenty contacts, and the one pairing the corpus can say anything about.
+Dan self-identifies as a Scorpio and dates it precisely — *"I am super scorpio / Nov 1"* — and the corpus carries enough primary testimony from other contacts to make the zodiac an actual (small) dataset rather than a throwaway: see [[wiki/self/concepts/astrology-star-signs]], which records what is known, what is unknown for eighteen of the top twenty contacts, and the one pairing the corpus can [[wiki/interests/favorites/music/artists/say-anything|say anything]] about.
 
 
 Paternal line Eastern European Jewish — [[wiki/people/david-j-frank|David J. Frank]] (b. 1892, Russia) and
-[[wiki/people/sadie-harris|Sadie Harris]] (b. 1900, Austria) through Morley Jay Frank to Rick — heritage
+[[wiki/people/sadie-harris|Sadie Harris]] (b. 1900, Austria) through [[wiki/people/morley-frank|Morley Jay Frank]] to Rick — heritage
 documented as load-bearing to his politics. Maternal line WV/PA through
-great-grandmother Fran Whyel (1920–2018), his self-described biggest life
+great-grandmother [[wiki/people/fran-coldren|Fran Whyel]] (1920–2018), his self-described biggest life
 influence and the source of the Numark NS7 that seeded the production
 identity. Both lines concentrate in Fayette County. Full genealogy and DNA:
 [[wiki/self/ancestry]].

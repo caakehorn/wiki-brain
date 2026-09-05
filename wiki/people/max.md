@@ -41,7 +41,7 @@ infobox:
 
 ## Behavioral / Core Notes
 
-Implements [[wiki/mind/synthesis/ai-collaborative-analysis]] and vertical-authority via "adversarial" pressure for robustness. High-fidelity emotional imprinting + psychosexual OS per bootloader. Consistent with INTP + recursive logic loops in operating_manual.
+Implements [[wiki/mind/synthesis/ai-collaborative-analysis]] and vertical-authority via "adversarial" pressure for robustness. High-fidelity [[wiki/mind/psychosexual/emotional-imprinting|emotional imprinting]] + psychosexual OS per bootloader. Consistent with INTP + recursive logic loops in operating_manual.
 
 **Cross-references:** [[wiki/people/mary-kate]], [[wiki/people/jacob-bacharach]], [[wiki/work/tech/max-framework/overview]], [[wiki/self/context-core]], [[wiki/self/chats/danfrank-isms-pinned]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/mind/synthesis/ai-collaborative-analysis]], [[wiki/mind/concepts/exocortex]], [[wiki/mind/concepts/conflict-architecture]], [[wiki/self/facebook]] (social graph), master message corpora, [[wiki/people/danielle-onesi]], [[wiki/people/james-dee]] (the boyfriend analyzed in _21.md: "knife to a gunfight", 48 Laws, production house, American Fantasy concept, Pittsburgh/Live Nation — the subject of the analysis, not a second Max), [[wiki/self/chats/gemini-21]].
 

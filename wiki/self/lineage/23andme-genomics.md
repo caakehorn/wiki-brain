@@ -51,7 +51,7 @@ The primary ethnicity estimate breaks down as follows:
 
 Additional ancestry regions flagged as reflecting mixed ancestry or recent migration: Tidal Potomac River Early British/Irish Americans, European Diaspora.
 
-The 21.4% Ashkenazi figure is slightly below the ~25% expected from one fully-Jewish grandparent (Morley Jay Frank, whose parents were both Jewish immigrants). This is within normal variation for DNA inheritance — a grandparent contributes on average 25% of DNA but the actual amount varies due to recombination. The 55.8% British & Irish and 22.2% French & German together account for the maternal Appalachian and Anglo-Protestant lines, with the French & German component likely reflecting the Pennsylvania Dutch and German settler heritage on the Gillingham/Shrum side.
+The 21.4% Ashkenazi figure is slightly below the ~25% expected from one fully-Jewish grandparent ([[wiki/people/morley-frank|Morley Jay Frank]], whose parents were both Jewish immigrants). This is within normal variation for DNA inheritance — a grandparent contributes on average 25% of DNA but the actual amount varies due to recombination. The 55.8% British & Irish and 22.2% French & German together account for the maternal Appalachian and Anglo-Protestant lines, with the French & German component likely reflecting the Pennsylvania Dutch and German settler heritage on the Gillingham/Shrum side.
 
 The 0.2% Sub-Saharan African trace is small enough to be statistical noise or a distant ancestor several generations back. It does not appear in the documentary record and cannot be assigned to a specific line without further investigation.
 
@@ -65,7 +65,7 @@ The 0.2% Sub-Saharan African trace is small enough to be statistical noise or a 
 | British & Irish | 1–3 | 1900–1960 |
 | French & German | 2–4 | 1870–1930 |
 
-The Ashkenazi 1–3 generation range is consistent with the documentary record: David J. Frank (b. 1892) and Sadie Harris (b. 1900) are Dan's paternal great-grandparents, placing them 3 generations back. The British & Irish 1–3 range reflects the deep multi-generational presence of the Gillingham/Shrum/Coldren lines in Pennsylvania. The French & German 2–4 range is consistent with 18th- and 19th-century German Palatine and Pennsylvania Dutch immigration.
+The Ashkenazi 1–3 generation range is consistent with the documentary record: [[wiki/people/david-j-frank|David J. Frank]] (b. 1892) and [[wiki/people/sadie-harris|Sadie Harris]] (b. 1900) are Dan's paternal great-grandparents, placing them 3 generations back. The British & Irish 1–3 range reflects the deep multi-generational presence of the Gillingham/Shrum/Coldren lines in Pennsylvania. The French & German 2–4 range is consistent with 18th- and 19th-century German Palatine and Pennsylvania Dutch immigration.
 
 ## Haplogroups
 
