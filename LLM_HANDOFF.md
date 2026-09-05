@@ -4,6 +4,70 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-09-05] - Session: the wiki does not link what it says (Claude Opus 5)
+
+* **Branch:** `claude/crosslink-campaign-q9auor` from `main` after **#263
+  merged** · **PR #264 open (draft)** · `bin/wiki-check` clean · 417 tests green.
+* **Trigger:** operator — *"Just go"*, following the links complaint of
+  2026-09-04.
+
+**Read this before running any pass over the crosslink campaign.**
+
+#### What was done
+
+`bin/wiki-crosslink unlinked [--apply]` — a new subcommand and a question the
+campaign had never asked. Every other instrument here reads a **source corpus**
+and asks what a page never learned. This reads the **page's own prose** and asks
+whether a name it already wrote is something a reader can click. No corpus, 1.4s
+over 497 pages.
+
+**570 high-confidence names on 262 pages, unlinked.** 344 written across 186
+pages. Body wikilinks **10,316 → 10,660**; pages with no link at all **53 → 27**;
+`bin/wiki-lint`'s edges-and-no-links warning **2 → 0**. Full account in `log.md`
+and on #264.
+
+#### The two failed experiments before it — do not repeat these
+
+The session opened on the **alias gap** (390 pages carry no `aliases:`). Two
+mechanical routes to discovering what the record calls a thing, both near-empty,
+and the emptiness is the result:
+
+1. **Token over-representation per conversation.** For each of 518 handles, which
+   tokens are disproportionately frequent in that thread against the global rate,
+   over 265,180 deduped rows. For six people with known pages it produced
+   essentially nothing — `alexis-armel` → `alexa(4)`, the rest blank. **People do
+   not say each other's names in a 1:1 thread.** The corpus cannot tell you what
+   somebody is called by watching them be talked to.
+2. **Mining aliases out of page prose.** Regex for the shapes an alias is
+   introduced in — `— "X" —`, `known as "X"`, `self-styled "X"`, `aka X` — across
+   the first 1200 characters of all 390 alias-less pages. **Two hits total**:
+   `batteries-not-included` → "BNI", `matt-dunn` → "SHUT UP OSCAR".
+
+There is no cheap automated source for what the record calls a thing. The alias
+gap is hand work on the entity pages that earn it, or it is not work at all.
+
+#### What is next, in order
+
+1. **99 `unlinked` candidates remain**, all contested between two pages or
+   single-token. `bin/wiki-crosslink unlinked --low` is a reading job — roughly
+   every single-token match is a false positive and the year cross-references
+   (`2011`, `2014`, `2020` naming sibling twitter pages) are the real ones.
+2. **35 of 37 re-derivations still owed.** `davey-fitzpatrick` is next and has
+   proven yield — two of these have each produced a page-level finding.
+3. **The staleness cascade diagnosis in `skills/INBOX.md`** is two entries
+   describing one defect; promotion is blocked on a measurement needing
+   `git fetch --unshallow`.
+4. **97 people pages carry no handle** and no contacts export exists in `raw/`
+   to fix it.
+
+#### Flagged for the operator, not acted on
+
+`wiki/mind/synthesis/supply-network` prints a third-party mobile number in
+plain text, and `wiki/people/tuquick-17248123683` carries one in its **slug**.
+This repository is public and its history cannot be un-published, so redacting
+now buys little and would rewrite earned content unilaterally. It is the
+operator's call, and it is not mentioned anywhere else in the governing set.
+
 ### [2026-09-04e] - Session: the second re-derivation, and the coefficient gets a voice (Claude Opus 5)
 
 * **Branch:** `claude/crosslink-campaign-q9auor`, restarted from `main` after
