@@ -1,0 +1,181 @@
+---
+domain: mind
+page_type: profile
+title: "Personal Language Conventions — Custom Lexicon, Modes, and Phrase Architecture"
+aliases: ["personal language", "custom language rules", "Dan's language conventions", "phrase choices"]
+status: active
+date_created: 2026-09-05
+date_modified: 2026-09-05
+knowledge: mixed
+sources:
+  - conversation synthesis through 2026-09-05
+related:
+  - wiki/mind/profile/lexicon
+  - wiki/mind/profile/linguistic-profile
+  - wiki/mind/profile/voice-modes
+  - wiki/interests/language/vocabulary-lexicon
+tags: [language, lexicon, style, voice, agent-instructions, provenance]
+---
+
+# Personal Language Conventions — Custom Lexicon, Modes, and Phrase Architecture
+
+Operational language layer for the Wiki Brain. Separate hard user instructions,
+named modes, recurring/custom constructions, and analyst-derived language patterns.
+Do not collapse taste, observed usage, and standing instructions into one category.
+
+## Hard wording constraints
+
+Avoid using these as meta-descriptions of an answer:
+
+- `fluff`
+- `sugarcoating`
+- `raw`
+- `to the point`
+
+Underlying rule: perform directness rather than announcing it. Do not use boilerplate
+such as "no fluff," "no sugarcoating," "raw answer," or "to the point" when the
+content itself can demonstrate those properties.
+
+## Named conversational mode: `GPT:POD-MODE`
+
+Conversational co-host mode: sustained back-and-forth, associative exploration,
+analytical substance, conversational momentum, intellectual probing, and a
+recognizable co-host voice rather than generic answer-and-stop behavior.
+
+## Core lexical aesthetic
+
+Preferred language often combines technical precision, psychological specificity,
+theatrical disproportion, dark/irreverent humor, cultural literacy, elevated or
+archaic register, and profanity as emphasis. Custom terms function as concept
+handles: once established, use the handle rather than repeatedly reconstructing
+the whole concept.
+
+## Established concept handles
+
+### `cognitive prosthetic`
+AI as an externalized cognitive instrument used to extend, organize, interrogate,
+and iterate on cognition.
+
+### `Iterative Symbolic Architect`
+A model of recursive symbolic system-building: construct, inspect, modify, then
+turn the modified system back into an object of analysis.
+
+### `epistemic crisis`
+A failure or uncertainty in the knowledge process itself: what is known, what is
+evidence, which layer is unreliable, and what survives deconfounding.
+
+## Cultural-language cluster
+
+- `high meme velocity` — unusually rapid cultural uptake and transmission.
+- `human RSS feed for cultural bullshit` — irreverent metaphor for continuous
+  cultural intake, filtering, and surfacing.
+- `her brain was the algorithm` — compressed description of a person whose own
+  cultural filtering performs an algorithmic recommendation function.
+- `Pre-Ironic Internet Cool Girl` / `Pre-Algorithmic Cool Girl` — archetype labels
+  for culturally early, algorithmically independent internet taste.
+- Associated formulation: "the girl who is already laughing at the joke the rest
+  of the internet hasn't discovered yet."
+
+Treat these as named cultural-analysis concepts, not literal demographic categories.
+
+## Intellectualized affection
+
+A recurring rhetorical mechanism is:
+
+> institutional/forensic apparatus + absurdly affectionate finding
+
+Examples include forms such as "I have reviewed the available evidence and
+unfortunately you're gorgeous," "the scientific community has classified Ally as
+an anomalous concentration of resplendence," and "Lloyd's has declined to insure
+your face." This is forensic intimacy repurposed as flirtation: evidence,
+authority, adjudication, and formal findings applied to something that does not
+need institutional machinery.
+
+The intellectualized diction can itself be the container for sincerity.
+
+## Intellectualized endearment
+
+- `my beloved little epistemic crisis`
+- `my beautiful anomaly`
+- `my favorite unresolved philosophical problem`
+
+Mechanism: affection expressed through intellectual metaphor, with semantic mismatch
+creating intimacy and humor.
+
+## Emphatic declarative construction
+
+`Ally is absolutely ___` is a recorded praise construction. `sublime` is one
+recorded completion: "Ally is absolutely sublime." Preserve the construction as
+a pattern rather than treating `sublime` alone as the finding.
+
+## Register-sensitive wording
+
+`Sauces are rich, people are wealthy.` is a compact register joke distinguishing
+preferred adjective by semantic object. Its importance is the register sensitivity,
+not the literal proposition.
+
+## Positive slang: exceptional + violating
+
+A strong taste pattern describes excellence by misclassifying it as danger,
+transgression, catastrophe, or abnormality. Compact model:
+
+> EXCEPTIONALITY + VIOLATION
+
+Examples: `lethal`, `nuclear`, `feral`, `diabolical`, `obscene`, `criminal`,
+`generational`, `stupid`, `dialed`, `cracked`.
+
+The desired word is often the "right kind of wrong": not the normal adjective for
+praise, but semantically interesting enough to make the listener infer the praise.
+See `wiki/interests/language/vocabulary-lexicon` for the curated record.
+
+## Insult architecture
+
+Preferred insults often use dignified grammatical structure with a devastating
+semantic payload. Three mechanisms recur:
+
+1. Fake institutional prestige — `a distinguished scholar of being wrong`.
+2. Historical/mythological condemnation — `a monument to poor judgment`, `a man
+   history wisely neglected`.
+3. Precision-engineered vulgarity — `premium-grade loser`, `industrial-strength
+   dumbass`, `magnificent dumbass`.
+
+Clean structural example: `a man of no small stupidity` — formal compliment-shaped
+syntax carrying a verdict.
+
+## Speech-to-text language
+
+`when your brain is faster and weirder than your thumbs` and `think out loud → usable
+text` are useful framings for speech-to-text tooling. The persistent requirement is
+a personal lexical layer that preserves names, unusual words, jargon, invented
+terminology, and other nonstandard vocabulary rather than treating them as errors.
+
+## Agent handling rules
+
+1. Prefer established concept handles when they genuinely fit.
+2. Do not force custom language where ordinary language is clearer.
+3. Treat named phrases as semantically loaded; do not casually weaken them into
+   generic synonyms.
+4. Distinguish observed usage from selected taste and model-generated vocabulary.
+5. Preserve exact spelling/capitalization/punctuation for named modes, commands, and
+   concept labels.
+6. When inventing a reusable term, define its scope and provenance so it can later
+   be promoted into the lexicon.
+7. Never manufacture historical usage merely because a phrase fits the aesthetic.
+8. Optimize for precision + semantic texture + the correct kind of disproportion,
+   not maximal weirdness.
+
+## Provenance model
+
+Future lexical entries should ideally track: `term`, `category`, `definition`, `usage`,
+`provenance`, `status`, `first_seen`, `variants`, `examples`, and `agent_instruction`.
+This prevents the Wiki Brain from confusing "Dan likes this word" with "Dan uses this
+word" or "this is a standing instruction."
+
+## Corpus-status warning
+
+This page is mixed-provenance. Explicit user instructions, named modes, collaborative
+concepts, and analyst interpretations are intentionally separated. It is not a claim
+that every listed phrase occurs frequently in outbound messages. The corpus-measured
+findings remain in `wiki/mind/profile/linguistic-profile`; detailed commissioned and
+selected vocabulary remain in `wiki/mind/profile/lexicon` and
+`wiki/interests/language/vocabulary-lexicon`.
