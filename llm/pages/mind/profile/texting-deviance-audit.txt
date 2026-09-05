@@ -30,6 +30,9 @@ connections:
   - page: wiki/self/message-corpora/master-message-dump
     type: component-of
     claim: "A structural cut of the master corpora — turn-level rather than message-level — computed from the 2026-08-13 deep export because it is the only sender-tagged file that reaches past 2025."
+  - page: wiki/interests/language/measured-vocabulary
+    type: parallels
+    claim: "This page measures the turn and finds 15.65 words in 2015-2019 rising to 35.41 in 2026; that one measures the words inside it on the same corpus and supplies the mechanism — 'u' collapses 44-fold from 149.4 per 10k in 2017 to 3.4 by 2024, 'lol' halves, and the stance adverbs and that-clause subordinators roughly triple. The turns lengthen because the abbreviations die and the subordination arrives."
 ---
 
 # Texting Deviance Audit — What Is Actually Abnormal About How Dan Texts

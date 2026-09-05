@@ -15,7 +15,7 @@ Nothing here blocks a commit. The gates print what is outstanding and pass
 anyway; a question asked on Tuesday must not stand in the way of Thursday's
 typo fix.
 
-## Obligations (128)
+## Obligations (140)
 
 Somebody or something is waiting on each of these. Drain from the top.
 
@@ -44,7 +44,6 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 | 3 | stale | premise wiki/interests/roman-republic.md moved 2026-08-19, after this page's 2026-06-22 | `wiki/interests/favorites/books/topics/politics.md` | 2026-08-19 |
 | 3 | stale | premise wiki/mind/concepts/attachment-model.md moved 2026-08-23, after this page's 2026-08-… | `wiki/mind/synthesis/ancestral-dialectic.md` | 2026-08-23 |
 | 3 | stale | premise wiki/mind/concepts/conflict-architecture.md moved 2026-08-26, after this page's 202… | `wiki/self/youtube-watch-history.md` | 2026-08-26 |
-| 3 | stale | premise wiki/mind/profile/index.md moved 2026-08-26, after this page's 2026-06-23 | `wiki/interests/favorites/art-and-movies.md` | 2026-08-26 |
 | 3 | stale | premise wiki/mind/synthesis/closing-the-set.md moved 2026-08-26, after this page's 2026-08-… | `wiki/interests/favorites/books.md` | 2026-08-26 |
 | 3 | stale | premise wiki/mind/synthesis/closing-the-set.md moved 2026-08-26, after this page's 2026-08-… | `wiki/mind/synthesis/interests-as-era-markers.md` | 2026-08-26 |
 | 3 | stale | premise wiki/mind/synthesis/political-psyops.md moved 2026-08-26, after this page's 2026-08… | `wiki/self/youtube-watch-history.md` | 2026-08-26 |
@@ -126,11 +125,24 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 | 3 | stale | premise wiki/health/chemical-architecture.md moved 2026-09-05, after this page's 2026-09-04 | `wiki/health/cocaine.md` | 2026-09-05 |
 | 3 | stale | premise wiki/health/chemical-architecture.md moved 2026-09-05, after this page's 2026-09-04 | `wiki/health/the-configured-body.md` | 2026-09-05 |
 | 3 | stale | premise wiki/mind/concepts/calibrated-confidence.md moved 2026-09-05, after this page's 202… | `wiki/mind/synthesis/the-binary-verdict.md` | 2026-09-05 |
+| 3 | stale | premise wiki/mind/concepts/exocortex.md moved 2026-09-05, after this page's 2026-08-28 | `wiki/mind/synthesis/instrument-is-subject.md` | 2026-09-05 |
+| 3 | stale | premise wiki/mind/profile/index.md moved 2026-09-05, after this page's 2026-06-23 | `wiki/interests/favorites/art-and-movies.md` | 2026-09-05 |
+| 3 | stale | premise wiki/mind/profile/linguistic-profile.md moved 2026-09-05, after this page's 2026-08… | `wiki/mind/synthesis/the-commissioned-self.md` | 2026-09-05 |
+| 3 | stale | premise wiki/mind/profile/voice-modes.md moved 2026-09-05, after this page's 2026-08-28 | `wiki/mind/synthesis/the-commissioned-self.md` | 2026-09-05 |
 | 3 | stale | premise wiki/mind/synthesis/ai-collaborative-analysis.md moved 2026-09-05, after this page'… | `wiki/mind/synthesis/instrument-is-subject.md` | 2026-09-05 |
 | 3 | stale | premise wiki/mind/synthesis/ai-collaborative-analysis.md moved 2026-09-05, after this page'… | `wiki/mind/synthesis/millennial-digital-witness.md` | 2026-09-05 |
 | 3 | stale | premise wiki/mind/synthesis/ai-collaborative-analysis.md moved 2026-09-05, after this page'… | `wiki/mind/synthesis/single-channel.md` | 2026-09-05 |
 | 3 | stale | premise wiki/mind/synthesis/estate-money-spine.md moved 2026-09-05, after this page's 2026-… | `wiki/mind/synthesis/totality-themes.md` | 2026-09-05 |
 | 3 | stale | premise wiki/mind/synthesis/estate-money-spine.md moved 2026-09-05, after this page's 2026-… | `wiki/places/the-unpapered-address.md` | 2026-09-05 |
+| 3 | stale | premise wiki/mind/synthesis/supply-network.md moved 2026-09-05, after this page's 2026-09-04 | `wiki/health/cocaine.md` | 2026-09-05 |
+| 3 | stale | premise wiki/mind/synthesis/supply-network.md moved 2026-09-05, after this page's 2026-09-04 | `wiki/health/the-configured-body.md` | 2026-09-05 |
+| 3 | stale | premise wiki/mind/synthesis/supply-network.md moved 2026-09-05, after this page's 2026-09-04 | `wiki/mind/synthesis/intake-constancy.md` | 2026-09-05 |
+| 3 | stale | premise wiki/mind/synthesis/supply-network.md moved 2026-09-05, after this page's 2026-09-04 | `wiki/mind/synthesis/totality-themes.md` | 2026-09-05 |
+| 3 | stale | premise wiki/people/ally-lubin.md moved 2026-09-05, after this page's 2026-08-26 | `wiki/self/concepts/astrology-star-signs.md` | 2026-09-05 |
+| 3 | stale | premise wiki/people/ally-lubin.md moved 2026-09-05, after this page's 2026-08-28 | `wiki/mind/synthesis/no-platonic-channel.md` | 2026-09-05 |
+| 3 | stale | premise wiki/people/ally-lubin.md moved 2026-09-05, after this page's 2026-09-04 | `wiki/mind/synthesis/intensity-is-no-longer-the-only-mode.md` | 2026-09-05 |
+| 3 | stale | premise wiki/people/ally-lubin.md moved 2026-09-05, after this page's 2026-09-04 | `wiki/people/ally-lubin-cognitive-profile.md` | 2026-09-05 |
+| 3 | stale | premise wiki/people/ally-lubin.md moved 2026-09-05, after this page's 2026-09-04 | `wiki/self/concepts/ally-and-dan-love-as-destiny.md` | 2026-09-05 |
 | 3 | stale | premise wiki/people/suzanne-frank.md moved 2026-09-05, after this page's 2026-09-04 | `wiki/health/cocaine.md` | 2026-09-05 |
 | 3 | stale | premise wiki/people/suzanne-frank.md moved 2026-09-05, after this page's 2026-09-04 | `wiki/mind/synthesis/annual-volume-suz.md` | 2026-09-05 |
 | 3 | stale | premise wiki/people/suzanne-frank.md moved 2026-09-05, after this page's 2026-09-04 | `wiki/mind/synthesis/attachment-trauma-bond.md` | 2026-09-05 |

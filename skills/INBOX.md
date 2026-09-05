@@ -305,4 +305,92 @@ one file, introduced and caught in the same hour. **Leave it parked.** Promote
 on a second occurrence in a different tool, or if that count ever comes back
 non-zero on `main`.
 
+## A model's recall of its own conversations is a source class, and its nouns drift (2026-09-05)
+
+**What happened.** The operator pasted an assistant's audit of its own
+conversational history with him — a deliberate search for his custom-language
+layer, listing ~25 coined terms with provenance annotations. The document was
+carefully argued, explicitly warned that assistant-coined language must not be
+laundered into user-coined language, and closed by admitting it was running on
+recall rather than a corpus query.
+
+Checked term-by-term against `raw/`, its **central term was wrong**. It filed
+Dan's cognitive-style self-label as *"Iterative Symbolic Architect"*: **zero
+occurrences** anywhere in the archive. The corpus says *"Recursive Symbolic
+Architect"* — 35 in the Gemini activity export, 10 in `Dan Profile.txt`, hits
+in four more files. Same for the AI metaphor: the audit gave *"cognitive
+prosthetic"*, the corpus almost always says *"recursive cognitive prosthetic"*.
+Four more of its coinages returned zero, and one — *"human RSS feed for
+cultural bullshit"* — exists in the corpus **pointed the other way**, as a
+model's insult aimed at Dan rather than his phrase for somebody else.
+
+**Why it nearly shipped intact.** Nothing about the document reads as
+unreliable. It is better-reasoned than most `raw/` material, it is
+operator-endorsed, and its self-caveat makes it *look* like it has already
+priced in its own limits. The failure mode is narrow and specific: recall
+preserves the **shape** of a term and drifts on the **string** — a near-synonym
+gets substituted in the modifier slot. *Iterative* and *recursive* mean almost
+the same thing conversationally and nothing like the same thing here, where
+`recursive` turns out to be the load-bearing modifier across the whole lexicon
+and has no competitor anywhere in the corpus.
+
+**Candidate invariant.** A model reporting on conversations it participated in
+is neither T0 testimony nor corpus extraction, and `EXTRACTION_SPEC.md` has no
+tier for it. It is reliable about *that a term exists and what it does* and
+unreliable about *what the term is*. Any exact string taken from such a source
+— a name, a coinage, a quoted phrase, a command — must be grepped against
+`raw/` before it enters a page, and the occurrence count recorded next to it,
+because **0 is informative and is not the same as "never said."**
+
+**Candidate instruction.** When filing operator-pasted model recall: build the
+corroboration table first, before writing any prose. One column of counts
+against `raw/` reorders the entire entry — it turned an accepted inventory into
+a provenance audit, and the corrected term is the one the wiki now uses.
+
+**Validation.** One occurrence, caught pre-merge, written up as
+`wiki/interests/language/personal-lexicon`. **Promote on a second occurrence.**
+The obvious place to look is the existing corpus of AI-generated self-analysis
+already in `raw/self/dox-md/` and `raw/self/chats/`: several of those documents
+quote Dan's own phrasing back at him, and nobody has checked whether the quotes
+survive a grep. `wiki/mind/profile/lexicon` is the nearest existing page built
+from a single un-verified paste. Do not promote on this alone — one drifted
+modifier in one document is not yet a rule about a source class.
+
+- **Status:** inbox
+
+## A capture path with no operation behind it is a queue that only fills (2026-09-05)
+
+**What happened.** `lexicon/words/` is a real directory in this repository,
+written to from the portal, and named in `.github/workflows/notify-portal.yml`
+as one of the four read paths that trigger a portal sync. It is documented
+**nowhere else** — not in `CLAUDE.md`'s architecture section, not in the
+operations list, not in the tools table, not in `WORK.md`. It held exactly one
+file, captured 2026-08-27, `status: pending`, `## Reading` reading *"Not yet
+analysed."* for nine days. No session had ever looked at it, because nothing
+told any session it existed.
+
+`bin/wiki-work` could not have surfaced it: the tool aggregates parked `sage/`
+questions, staged gap answers, stale premises, unnormalised portal edits and
+four named queues, and `lexicon/words/` is none of those.
+
+**Candidate invariant.** The repository has a general shape — a capture front
+door, an obligation the queue reports, an operation that clears it — and this
+path has the first without the second or third. The *front door is the easy
+part*: it is one path in one workflow, and it can be built and shipped by a
+session that never gets round to the room behind it. Nothing in the gates
+detects a directory that only accumulates.
+
+**Candidate instruction.** When adding a write path that a human or the portal
+can feed, add the obligation in the same change — a `bin/wiki-work` source, or
+at minimum a documented operation in `CLAUDE.md`. Conversely: when picking up
+unfamiliar work, `git ls-files -- <dir>` over the paths named in
+`.github/workflows/notify-portal.yml` is a cheap check for a queue nobody is
+draining.
+
+**Validation.** One occurrence, nine days, one item. **Promote on a second
+undocumented capture path**, or on a measurement — a sweep of every directory
+written by the portal against what `bin/wiki-work` can see would settle whether
+this is a one-off or the shape of a recurring defect. It is one directory and
+one file; that is an observation, not yet an invariant.
+
 - **Status:** inbox

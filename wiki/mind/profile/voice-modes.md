@@ -5,7 +5,7 @@ title: "Voice Modes — Dan's Texting Register by Emotional State"
 aliases: ["mode activation", "composite voice model"]
 status: stable
 date_created: 2026-07-13
-date_modified: 2026-08-26
+date_modified: 2026-09-05
 sources:
   - raw/self/google-drive-export/Composite Voice Model for Dan Frank.md
 related:
@@ -26,6 +26,9 @@ connections:
   - page: wiki/mind/profile/lexicon
     type: contradicts
     claim: "This page states Affectionate mode suppresses cold, intellectualizing phrasing so sincerity can stand uncushioned; the bespoke lexicon's compliments to Ally do the opposite — maximally intellectualized, forensic-bureaucratic diction as the delivery mechanism for sincere affection, not a defense against it."
+  - page: wiki/interests/language/personal-lexicon
+    type: contradicts
+    claim: "That page records 'GPT:POD-MODE' as a named mode Dan established and can invoke — conversational co-host, exploratory, sustained rather than answer-and-stop. This page's eight modes are all states he falls into, derived from a commissioned Composite Voice Model, and none is invocable. The string has zero occurrences anywhere in raw/, so either this taxonomy is incomplete or the source that asserts it invented a command; the corpus cannot currently tell which."
 ---
 
 # Voice Modes — Dan's Texting Register by Emotional State
@@ -107,6 +110,21 @@ including psychological or philosophical terms, explicit self-labeling
 ("my 5w4 tendency to withdraw"). Defensive humor and performative persona
 are both suppressed — the mask comes down, and even swearing here serves
 sincerity rather than attack.
+
+> **CONTRADICTION:** [[wiki/interests/language/personal-lexicon]] records a
+> **ninth** mode that this taxonomy does not have and structurally cannot
+> hold: **GPT:POD-MODE**, described by its source as a mode Dan *established*
+> and can *invoke* by name — conversational co-host rather than assistant,
+> exploratory rather than resolving, analysis delivered without stopping the
+> conversation to deliver it. Every mode above is a state he falls into,
+> derived from a commissioned Composite Voice Model that describes involuntary
+> register shifts; an invocable mode is a different kind of object, and its
+> existence would mean this page is measuring only half the system. The string
+> has **zero occurrences anywhere in `raw/`**, and the archive's gap sits
+> exactly where it would live (the ChatGPT export ends in 2025). So the
+> corpus cannot currently distinguish an incomplete taxonomy from an invented
+> command, and neither reading is adopted here. Not resolved; see that page's
+> Layer 1.
 
 ## Finer-grained triggers (psych-driven modifiers)
 

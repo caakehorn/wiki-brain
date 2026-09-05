@@ -9,6 +9,8 @@ date_created: 2026-09-05
 date_modified: 2026-09-05
 knowledge: mixed
 sources:
+  - raw/self/captures/2026-09-05_personal-lexicon-audit.md
+synthesizes:
   - wiki/mind/profile/linguistic-profile
   - wiki/mind/profile/intp
   - wiki/mind/profile/big-five-psychometrics
@@ -30,10 +32,10 @@ related:
   - wiki/mind/profile/enneagram-5w4
   - wiki/mind/profile/voice-modes
   - wiki/mind/profile/lexicon
-tags: [personality-profile, language, cognition, idiolect, synthesis, agent-instructions]
+tags: [personality-profile, language, forensic-analysis]
 connections:
   - page: wiki/mind/profile/linguistic-profile
-    type: synthesizes
+    type: component-of
     claim: "The measured voice fingerprint supplies the behavioural substrate; this page interprets the persistent lexical and rhetorical choices as outputs of the personality architecture without upgrading interpretation into measurement."
   - page: wiki/mind/profile/intp
     type: evidences

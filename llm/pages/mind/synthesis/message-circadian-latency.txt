@@ -47,6 +47,9 @@ connections:
   - page: wiki/mind/profile/texting-deviance-audit
     type: parallels
     claim: "Same corpus, orthogonal instrument: this page measures when he writes and how fast the channel turns around, that one measures how much he writes per turn. Both find a 2025-26 inflection, and the length series carries the remediation target — turns of 11-20 words are answered 93.8% against 54.7% above 200 words."
+  - page: wiki/interests/language/measured-vocabulary
+    type: parallels
+    claim: "That page finds a lexical rhythm this one's hour-of-day analysis does not reach: the supply summons ('can you stop by' and variants) is 442 messages of Dan's, 333 of them (75%) inside the two hours 17:00-18:59 and 213 in the single hour 18:00-18:59, which is a far tighter window than anything in his general circadian profile and is set by somebody else's shift rather than his own sleep."
 ---
 
 

@@ -63,6 +63,9 @@ connections:
   - page: wiki/mind/synthesis/the-binary-verdict
     type: instantiates
     claim: "That page's constitution pass is a documented instance of this page's own standing instruction — 'any answer that draws a behavioral prediction from mind/profile/ should cite this page alongside it' — applied to itself: it leans most heavily on calibrated-confidence, the one profile-layer finding with no self-report origin, states plainly that Trust 9 is corpus-audited while the Ti/Fe function split is not, and treats the two as different-strength evidence rather than citing them at equal weight."
+  - page: wiki/interests/language/personal-lexicon
+    type: instance-of
+    claim: "The cycle runs to completion at the level of a single noun and every step survives in one file: a Gemini session manufactures the label ('a classification we shall refer to as the \"Recursive Symbolic Architect\"'), the same corpus later cites 'the self-identification as a Recursive Symbolic Architect', and later models quote it back as established profile data. Dan asked for a reading and received a name he now goes by."
 ---
 
 # The Commissioned Self

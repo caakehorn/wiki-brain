@@ -4,6 +4,120 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-09-05e] - Session: the lexicon, counted (Claude Opus 5)
+
+* **Branch:** `claude/wiki-personal-lexicon-t50l6y` · `bin/wiki-check` clean ·
+  500 pages, 0 errors · **442 tests** (19 new).
+* **Trigger:** operator — *"WAY more to do... do the full ingest so that my
+  vocab lexicon is a big part of this project."*
+
+**New subsystem: `bin/wiki-lexicon` + `lexicon/measured.json` +
+`wiki/interests/language/measured-vocabulary` (generated) + a gate in
+`bin/wiki-check`.** Documented in `CLAUDE.md`. Read the tool's module
+docstring before touching it — it carries three traps that each produced a
+wrong number first.
+
+**The three traps, in the order they will bite again:**
+
+1. **The dump is Eastern local; the deep CSV is UTC.** Measured on 60,495
+   shared messages: 36,716 at +4h, 23,624 at +5h. The first run reported
+   188,445 sent against the dump's 106,629. Any future union of these two
+   exports must convert before keying.
+2. **A `grep` over `Gemini Activity.html` counts both voices.** *cognitive
+   prosthetic*: 29 in his prompts, 100 in the model's replies. The morning's
+   page published 132 as his usage; corrected there with a flagged block.
+3. **His Gemini prompts contain pasted documents.** A frequency ranking over
+   them returns `div`, `class`, `null`. Exact-term matching only — the tool
+   refuses to publish the ranking, deliberately.
+
+**Headline findings, all written back in prose:** the most Dan-distinctive
+phrase in the corpus is a supply summons (`i'm home on` 211 to **0**; 333 of
+442 inside 17:00–18:59; two regimes, 2019 and 2024, nothing in 2026) ·
+`i don't know` is the top trigram 1,228/330 · "forensic intimacy" is
+subordination and rises across the record · `u` collapses 44-fold while
+`fucking` rises tenfold · `exocortex` is this wiki's word and Dan has never
+typed it · *cognitive prosthetic* escaped into a text message on 2026-03-24
+with a self-model attached.
+
+#### What is next, in order
+
+1. **`bin/wiki-lexicon mine` is NOT in `bin/wiki-check`'s generate list** —
+   ~90s over four corpora. Rerun it by hand when a corpus changes, then
+   `page`. The gate only catches drift, not staleness against `raw/`.
+2. **The twitter archive is unmined for vocabulary.** `load_texting()` reads
+   messages only; `raw/self/twitter/archive.jsonl` is a third first-party
+   register (broadcast, not addressed) and would test whether the
+   two-register split is really about *addressee* or about *medium*.
+3. **The supply-summons discontinuity is unexplained.** Three readings fit
+   and the corpus does not choose; the node succession on `supply-network`
+   does not obviously predict the 2019/2024 shape.
+4. **`lexicon/words/` still has no `bin/wiki-work` row.** It is documented
+   now and gated for well-formedness, but a pending capture is a warning, not
+   an obligation the one list surfaces.
+5. Previous sessions' items below are untouched — 99 `unlinked` candidates,
+   35 of 37 re-derivations, the staleness-cascade diagnosis, 97 handle-less
+   people pages.
+
+### [2026-09-05d] - Session: the personal lexicon, and the term that was not there (Claude Opus 5)
+
+* **Branch:** `claude/wiki-personal-lexicon-t50l6y` from `main` ·
+  `bin/wiki-check` clean · 499 pages, 0 errors.
+* **Trigger:** operator — an assistant's audit of Dan's custom-language layer,
+  pasted with *"I want ALL OF this information baked into the wiki brain."*
+
+#### What was done
+
+New page **`wiki/interests/language/personal-lexicon`** (30KB, 10 typed edges,
+all reciprocated). The source is filed at
+`raw/self/captures/2026-09-05_personal-lexicon-audit.md`.
+
+**Read this before trusting any operator-pasted model self-analysis.** The
+audit's central term does not exist: it files *"Iterative Symbolic Architect"*
+(**0** in `raw/`) where the corpus says *"Recursive Symbolic Architect"* (35 in
+the Gemini export, 10 in `Dan Profile.txt`, four more files). Six other
+coinages return zero; one exists **pointed the other way** — *"human RSS feed"*
+is a model's insult aimed at Dan, not his phrase for Ally. A model recalling
+conversations it was in preserves the *shape* of a term and drifts on the
+*string*, and the drift lands in the modifier slot. Corroboration counts were
+built before any prose was written, and doing so reordered the whole entry.
+
+**The corpus half the audit missed:** six non-synonymous names for what an AI
+is to Dan (recursive cognitive prosthetic 132, emotional metabolizer 49,
+taboo-mining 42, co-processor 10, daemon mirror 6, ideation engine 5, emotional
+debugger 4) — four prosthetic, two diagnostic, used interchangeably. The
+load-bearing modifier across the entire lexicon is **`recursive`**, with no
+competitor anywhere.
+
+#### What is next, in order
+
+1. **`lexicon/words/` has no operation and `bin/wiki-work` cannot see it.**
+   It is a live portal-fed capture path named only in
+   `.github/workflows/notify-portal.yml`. Its one word sat `pending` nine days
+   (now analysed: `off-rip`, 0 corpus occurrences — a *taste* artifact). Decide
+   whether it becomes a `bin/wiki-work` source, a `bin/wiki-lexicon`, or stays
+   hand-worked. **Do not build more front door before building the room.**
+2. **`GPT:POD-MODE` is asserted and uncorroborated** — the first *invocable*
+   mode in a corpus where `voice-modes`' eight are all states he falls into. A
+   `> **CONTRADICTION:**` block now sits on that page. A `raw/` transcript
+   containing the string settles it; nothing else will.
+3. **Six new stale warnings** from four honest `date_modified` bumps
+   (`mind/profile/lexicon`, `people/ally-lubin`,
+   `interests/language/vocabulary-lexicon`, `mind/profile/voice-modes`). Five
+   further pages gained only an inverse edge and **deliberately kept their
+   dates** — bumping all nine fired 21.
+4. **Two candidates in `skills/INBOX.md`**, neither promoted, one occurrence
+   each: model-recall string drift as a source class, and a capture path with
+   no obligation behind it.
+5. The previous session's four items below are **untouched** — 99 `unlinked`
+   candidates, 35 of 37 re-derivations, the staleness-cascade diagnosis, 97
+   handle-less people pages.
+
+#### Withheld under the standing directive
+
+*"Wispr Flow"* occurs exactly once in the message corpus, in a thread this wiki
+is closed to. Not read, not quoted, not dated. The entry records the fact so a
+later session does not spend the search again.
+
 ### [2026-09-05b] - Session: two re-derivations, and a ledger scoring 18 of 20 (Claude Opus 5)
 
 * **Branch:** `claude/crosslink-campaign-q9auor` from `main` after **#264 and

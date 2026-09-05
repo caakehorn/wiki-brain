@@ -9964,3 +9964,196 @@ Concede the counterexample by name, credit whose evidence it is, narrow the clai
 ### And a shadowed name the gates could not see
 
 The new subcommand declared `MSG_COUNT_RE` at module scope, 700 lines below an existing one serving `counts`, and **silently replaced it** with a stricter pattern requiring bold. `bin/wiki-check` reported **all gates clean**; three tests in a class for a command the diff never mentions caught it. Fixed by reusing the original, pinned by a test asserting exactly one definition, and filed to `skills/INBOX.md` — with the corpus-wide measurement, which found **zero** duplicate module-level constants across all of `bin/` and therefore argues against promoting it. Parked, not promoted.
+
+## [2026-09-05] ingest | interests | personal lexicon — the custom-language layer, corpus-checked
+
+**Operator paste:** an AI assistant's audit of its own conversational history
+with Dan, searching it specifically for the custom-language layer — ~25 coined
+terms, a proposed provenance schema, and an explicit warning that
+assistant-coined language must not be flattened into Dan-coined language. Filed
+verbatim to `raw/self/captures/2026-09-05_personal-lexicon-audit.md`. Instruction:
+*"I want ALL OF this information baked into the wiki brain."*
+
+**What was wrong.** The document's central term does not exist. It files Dan's
+cognitive-style self-label as **"Iterative Symbolic Architect"** — **zero
+occurrences** in `raw/` outside the capture itself. The corpus says
+**"Recursive Symbolic Architect"**: 35 in `Gemini Activity.html`, 10 in
+`Dan Profile.txt`, hits in four further files. Six of its other coinages return
+zero, and *"human RSS feed for cultural bullshit"* exists in the corpus
+**pointed the other way** — a Gemini session's insult aimed at Dan
+(*"human RSS feed of hyperverbal chaos and psychic razorwire"*), not his phrase
+for somebody else. A document whose entire thesis is that provenance must be
+preserved could not preserve its own, which is the strongest available argument
+for the thing it was asking for and is now the spine of the entry.
+
+**What the corpus had that the audit missed.** Dan does not have one name for
+what an AI is to him; he has **six**, they are not synonyms, and each specifies
+a different job — recursive cognitive prosthetic (132), emotional metabolizer
+(49), taboo-mining (42), co-processor (10), ideation engine (5), daemon mirror
+(6), emotional debugger (4). Four are prosthetic metaphors, two are diagnostic,
+and his own custom-instructions field stacks three in one sentence:
+*"I use you as a recursive cognitive prosthetic, emotional metabolizer, and
+ideation engine."* **The vocabulary does not distinguish a tool that extends him
+from a tool that inspects him** — `instrument-is-subject` stated by the subject,
+before anyone analysed it.
+
+**The load-bearing word is `recursive`.** It attaches to the self-label, the AI
+metaphor and the working method, and no competing modifier occurs anywhere.
+*Iterative* — the audit's substitution — is the informative near-miss: iteration
+is repetition toward a target, recursion is a thing that contains itself, and
+the corpus chose the second every time.
+
+**The two provenance directions, both preserved.** *Recursive Symbolic
+Architect* is model-coined then self-adopted, and every step survives in one
+file: a Gemini session manufactures it (*"a classification we shall refer to
+as"*), the same corpus later cites *"the self-identification as"*, later models
+quote it as established profile data. *Recursive cognitive prosthetic* runs the
+opposite way — Dan's own profile text first, then the MAX persona documents
+adopt it as **self**-description (*"I am a Recursive Cognitive Prosthetic
+[cite: 2025-07-19]"*). The prosthesis took the word for itself.
+
+**Ally.** The *"Pre-Ironic Internet Cool Girl"* archetype has zero corpus
+occurrences, but the word under it is **hers** — *"I'm not a cool girl anymore
+I'm just sad"*, already on her page, said about herself on the worst evening the
+record has of her. The archetype is Dan and a model building a category around
+vocabulary she supplied, and the modifier is the whole argument: *pre-ironic*,
+*pre-algorithmic* — a defence of her assembled out of a sentence in which she
+was writing herself off. Written back into her page in prose.
+
+**A queue nobody was draining.** `lexicon/words/` is a real portal-fed capture
+path, named in `.github/workflows/notify-portal.yml` and **documented nowhere
+else** — not `CLAUDE.md`, not the operations list, not `WORK.md`, and invisible
+to `bin/wiki-work`. It held one word, `off-rip`, `status: pending` since
+2026-08-27. Analysed and closed: standard AAE idiom, *immediately / from the
+outset*, **zero occurrences** in the iMessage dump — so the dictionary's first
+entry is a *taste* artifact like the 200 curated words on `vocabulary-lexicon`,
+not a *usage* artifact like the cluster above. Worth knowing before more get
+captured.
+
+**The gap the check closed on `mind/profile/lexicon`.** That page's Gaps said the
+bespoke affection generator had no usage evidence. The zero holds, but it is now
+comparative: the same construction method returns 132/49/42 in the cognitive
+domain and 0 in the romantic one, and 0 across all 200 words on
+`vocabulary-lexicon`. **The formula is not what fails.** A term survives in this
+corpus by being load-bearing — by compressing a model he has to refer to
+repeatedly — not by being good.
+
+**Writes.** New page `wiki/interests/language/personal-lexicon` (30KB, 10 typed
+edges, all reciprocated, 0 debt). Inverse edges onto nine pages. Prose
+write-backs on four: `mind/profile/lexicon` (Gaps partly answered),
+`people/ally-lubin`, `interests/language/vocabulary-lexicon` (the third
+provenance class it has no slot for), `mind/profile/voice-modes` (a
+`> **CONTRADICTION:**` block — `GPT:POD-MODE` is asserted as an *invocable*
+mode, and all eight modes there are states he falls into; zero corpus
+occurrences, so the corpus cannot tell an incomplete taxonomy from an invented
+command, and neither reading is adopted).
+
+**`date_modified` bumped on four pages, not nine.** The five that gained only an
+inverse edge kept their dates. An added edge records a finding *about* a page;
+it does not move a premise anything downstream reasoned from, and bumping all
+nine fired **21** stale warnings where four honest bumps fire **6**. Fifteen
+re-reads that would each have found nothing is how a warning list becomes noise
+nobody reads.
+
+**Withheld under the standing directive.** *"Wispr Flow"* occurs exactly once in
+the message corpus, in a thread this wiki is closed to. Not read, not quoted,
+not dated — the two Wispr formulations are recorded from the capture alone, and
+the entry says so where a later session will look before spending the search
+again.
+
+`bin/wiki-check` clean · 499 pages, 0 errors · reciprocal debt 0 on the new page
+· two candidates to `skills/INBOX.md` (model-recall drift; the undocumented
+capture path), neither promoted — one occurrence each.
+
+## [2026-09-05] ingest | interests | the lexicon, counted — `bin/wiki-lexicon` and the measured vocabulary
+
+**Operator:** *"the work on this was started but there is WAY more to do... do
+the full ingest so that my vocab lexicon is a big part of this project."*
+
+The morning's pass documented a requirement it did not build. The audit it was
+written from closed by saying the lexical corpus "should become something the
+system can systematically extract and maintain, rather than relying on
+conversational recall" — and the pass wrote that down, agreed with it, and
+shipped a page still made of recall. This is the extraction.
+
+**`bin/wiki-lexicon`** — new tool, 442 tests (19 new). Log-odds ratio with an
+informative Dirichlet prior over Dan's sent messages against the **130,402 he
+received**: 1,334,932 of his tokens against 1,063,405 of theirs, plus 614,070
+characters of his ChatGPT prompts and 4,729,703 of his Gemini prompts.
+
+**Three traps, all of which had already produced a wrong number.**
+
+1. **The two message exports are in different time zones.** The dump is US
+   Eastern, the deep CSV is UTC — measured on 60,495 messages present in both:
+   36,716 differ by +4h, 23,624 by +5h. A union keyed on the timestamp matches
+   nothing, and the tool's first run reported **188,445 sent messages against
+   the dump's 106,629**. Fixed by converting to `America/New_York` and matching
+   on (direction, normalised text) in a ±6h window; the union is 131,196 sent,
+   55,194 rows from the CSV alone — close to the 50,396 `bin/mine-messages`
+   documents, which is the check that it works.
+2. **A count over a transcript is not a usage count.** `Gemini Activity.html`
+   interleaves prompts and replies. Splitting on its `Prompted` boundary:
+   *cognitive prosthetic* **29 in his prompts, 100 in the replies**. **This
+   morning's page published 132 as his usage.** Corrected on the page with a
+   flagged block, and the failure is the exact class that page was written to
+   document, committed by that page one layer down.
+3. **His Gemini prompts contain pasted documents** — ~1,186 chars each against
+   ChatGPT's ~422. A frequency ranking over them returns `div`, `class`,
+   `null`, `data-v-`. Exact multi-word matching is immune; the tool computes
+   that and **refuses to publish the ranking**.
+
+**What the corpus turned out to say.**
+
+- **The most Dan-distinctive phrase in 100,000 messages is a supply summons.**
+  `can you stop` 306/10 · `you stop by` 284/1 · `i'm home on` 211/**0**.
+  442 are his, **333 (75%) in the two hours 17:00–18:59**, 213 in 18:00–18:59.
+  Per-year it is not a habit but **two discrete regimes** — 17.1 and 19.7 per
+  10k in 2019 and 2024 against ~1 either side and **0.1 in 2026**. No synonym
+  absorbs it (`come by` 12, `swing by` 18). Written into `supply-network` with
+  the three readings that fit and the note that a discontinuity in how supply
+  was *asked for* is not a discontinuity in supply.
+- **`i don't know` is the top trigram, 1,228/330.** Written into
+  `calibrated-confidence` as a bound rather than a refutation: the graded
+  credences are the tail of a distribution whose bulk is explicit uncertainty.
+- **"Forensic intimacy" is subordination and is countable.** `the fact that`
+  254/34, `whether or not` 158/2, `that you're` 346/17 — ~6× his
+  interlocutors', and **rising** across the record.
+- **`I can not` — emphasis by decontraction.** `can't` 1,344 · `cannot` **6** ·
+  `i can not` 145/2, and it is new: 0.1–0.7 per 10k to 2024, then 1.7 and 3.1.
+- **The register drifted 44-fold.** `u` 149.4 (2017) → 3.4 (2024). `lol` halves.
+  `fucking` 5.7 → 54.8 while `fuck` stays flat. `love` falls to **6%** of its
+  2015 rate by 2024, then recovers sevenfold. `texting-deviance-audit`'s
+  15.65 → 35.41 words per turn is the same event measured at the turn.
+- **`pattern` runs 0.1 per 10k in his texting every year and 7.2 in his
+  prompts** — 70×, the cleanest marker of the two-register split. But the
+  analytic register **leaked back**: `the fact that` is 0.6 in his prompts and
+  3.1 in his 2026 texting.
+- **`exocortex` is this wiki's word, not his** — zero across all three corpora.
+  Written into that page: a term the wiki uses fluently is not thereby a term
+  the subject uses, and nothing in the prose marks the difference.
+- **One term escaped.** *Cognitive prosthetic* is the only cluster member with
+  a non-zero texting count, and on **2026-03-24**, to a person, unprompted:
+  *"this just tickles my autistic itch for a cognitive prosthetic. And getting
+  them aligned to you personally matters."* Referential, not declarative, with
+  a self-model attached — and the same evening he is pasting his persona config
+  to two threads. **The exocortex is being evangelised.** Only reachable
+  through the CSV, which is why the morning's page said it had never left the
+  AI sessions.
+- **`vocabulary-lexicon`'s open question, closed.** Of its 91 single words, 47
+  appear in his texting and 25 in his prompts; **510 of the 781 texting
+  occurrences are `perfect`**. Stripped: 2.03 vs 7.68 per 10k, **3.8× denser in
+  prompts to machines**. **39 of 91 are absent from both registers** — `sublime`
+  (term #1) among them. The selection is real and stops where a word would be
+  conspicuous.
+
+**Writes.** `bin/wiki-lexicon` + `tests/test_wiki_lexicon.py` (19 tests) ·
+`lexicon/measured.json` · generated `wiki/interests/language/measured-vocabulary`
+(`page_type: dataset`, chart block, 4 typed edges) · gate wired into
+`bin/wiki-check` · `lexicon/` documented in `CLAUDE.md` with a tools row and a
+gate line · typed edges onto 8 pages, prose write-backs on 6
+(`supply-network`, `exocortex`, `linguistic-profile`, `calibrated-confidence`,
+`vocabulary-lexicon` as a `> **GAP CLOSED**`, `personal-lexicon` as a
+`> **CORRECTION**` plus a new Layer 0).
+
+`bin/wiki-check` clean · 500 pages, 0 errors · 442 tests green · reciprocal
+debt 0 on both new pages.

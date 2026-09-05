@@ -5,7 +5,7 @@ title: "Dan's Bespoke Lexicon"
 aliases: ["the bespoke lexicon", "affection lexicon", "slang generator"]
 status: active
 date_created: 2026-08-26
-date_modified: 2026-08-26
+date_modified: 2026-09-05
 sources:
   - raw/self/captures/2026-08-26_223221_dans-bespoke-lexicon-v1.md
 tags: [personality-profile, relationships]
@@ -32,6 +32,9 @@ connections:
   - page: wiki/mind/concepts/erotic-architecture
     type: parallels
     claim: "Both pages document the same disposition applied to a different object — this lexicon engineers how affection gets said, the ideal-face specification engineers what gets found attractive in the first place — neither domain is left to run on unexamined default."
+  - page: wiki/interests/language/personal-lexicon
+    type: parallels
+    claim: "The same construction habit applied to cognition rather than romance, and it supplies the usage evidence this page's Gaps section says it lacks: the affection generator's phrases return zero corpus hits, but the cognitive-instrument terms built the same way return 132, 49 and 42 — so the formula works, and what fails is the subject matter it was pointed at."
 ---
 
 # Dan's Bespoke Lexicon
@@ -127,6 +130,19 @@ plainly, because the plain version would be the "normie" one.
   rather than a documented practice, and the page should be revisited once
   (or if) deployment shows up in the record, to see whether the generator is
   actually used or stays a one-time artifact.
+
+  **Partly answered, 2026-09-05.** The zero holds, but it is now a
+  *comparative* zero rather than an isolated one.
+  [[wiki/interests/language/personal-lexicon]] runs the same corpus check
+  across Dan's other manufactured vocabulary and finds the generator's method
+  working at volume in a different domain: "recursive cognitive prosthetic"
+  and its family return 132, 49 and 42 occurrences, against zero for every
+  phrase built by this lexicon and zero for all 200 curated words on
+  [[wiki/interests/language/vocabulary-lexicon]]. So the formula is not what
+  fails. What separates the used vocabulary from the unused is that the used
+  terms compress a *model* he needs to refer to repeatedly, and the unused
+  ones compress a compliment he could pay in one word. A term survives in
+  this corpus by being load-bearing, not by being good.
 - **No date or model identity on the generating session.** The capture
   gives no timestamp beyond when it was pasted into this wiki, and the
   generating AI's identity is not stated in the paste itself.

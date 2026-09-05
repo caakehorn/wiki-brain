@@ -14,16 +14,16 @@ related:
   - wiki/mind/profile/linguistic-profile
   - wiki/mind/profile/voice-modes
   - wiki/interests/language/vocabulary-lexicon
-tags: [language, lexicon, style, voice, agent-instructions, provenance]
+tags: [language, vocabulary, taste, forensic-analysis]
 connections:
   - page: wiki/mind/profile/lexicon
-    type: extends
+    type: contextualizes
     claim: "The existing bespoke lexicon records a deliberately engineered affection/compliment register; this page generalizes the same treatment to hard wording constraints, conversational modes, rhetorical constructions, and provenance."
   - page: wiki/mind/profile/linguistic-profile
-    type: operationalizes
+    type: contextualizes
     claim: "The measured linguistic profile describes the broad voice fingerprint; this page records the persistent phrase-level rules and conventions an agent should apply when interacting with Dan."
   - page: wiki/interests/language/vocabulary-lexicon
-    type: distinguishes
+    type: contextualizes
     claim: "The vocabulary-lexicon page records selected words as taste evidence; this page separates taste from operational usage rules and observed/recognized phrase constructions."
 ---
 

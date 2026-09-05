@@ -9,6 +9,8 @@ date_created: 2026-09-05
 date_modified: 2026-09-05
 knowledge: mixed
 sources:
+  - raw/self/captures/2026-09-05_personal-lexicon-audit.md
+synthesizes:
   - wiki/mind/profile/linguistic-profile
   - wiki/mind/profile/language-personality-synthesis
   - wiki/mind/profile/intp
@@ -34,19 +36,19 @@ related:
   - wiki/mind/concepts/exocortex
 connections:
   - page: wiki/mind/profile/language-personality-synthesis
-    type: deepens
+    type: contextualizes
     claim: "The prior synthesis maps language onto personality architecture; this page moves one layer underneath it and asks what recurring linguistic choices appear to optimize, including distinctions the typology itself does not name."
   - page: wiki/mind/profile/linguistic-profile
     type: evidenced-by
     claim: "The latent tendencies are inferred from documented syntax, register switching, audience code-switching, graded confidence language, forensic intimacy, and the corrected stylometric record; the source page's retractions are treated as hard provenance boundaries."
   - page: wiki/mind/profile/intp
-    type: interprets
+    type: contextualizes
     claim: "Ti supplies the internal-verification impulse, Ne supplies cross-domain recombination and edge-condition generation, Si supplies archival persistence, and Fe's low valuing helps explain why relational calibration is often expressed through explicit language rather than assumed context."
   - page: wiki/mind/profile/big-five-psychometrics
-    type: converges-with
+    type: parallels
     claim: "High Intellect, Introspection, Liberalism and Self-Consciousness alongside very low Sociability, Trust and Assertiveness predict a language system optimized for resolution, self-monitoring and selective high-bandwidth channels rather than generalized social ease."
   - page: wiki/mind/profile/deviance-mapping
-    type: reframes
+    type: contextualizes
     claim: "The 98/100 recursive-self-analysis and 97/100 linguistic-style outliers are treated here as observable consequences of an optimization loop rather than as evidence that the commissioned audit's numerical percentiles are independently established."
   - page: wiki/mind/concepts/exocortex
     type: causes

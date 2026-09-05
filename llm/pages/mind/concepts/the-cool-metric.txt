@@ -65,6 +65,9 @@ connections:
   - page: wiki/mind/synthesis/the-binary-verdict
     type: component-of
     claim: "The metric outputs pass/fail on every input it touches and has exactly one documented ceiling (the Ally Skins exchange) rather than any documented middle value — a filter that sorts into two bins rather than a scale that scores distance from one."
+  - page: wiki/interests/language/personal-lexicon
+    type: instance-of
+    claim: "'High meme velocity' and 'her brain was the algorithm' restate this metric as a rate rather than a grade: cultural priority in time — being early to the joke — rather than inherited-versus-constructed taste. It is the first formulation in the corpus that would in principle be measurable, and being early is a different claim from being right."
 ---
 
 # The Cool Metric

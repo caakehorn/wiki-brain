@@ -6,7 +6,7 @@ aliases: ["affective vocabulary", "the insult lexicon", "the pretty-words", "the
 status: active
 knowledge: mixed
 date_created: 2026-08-26
-date_modified: 2026-08-27
+date_modified: 2026-09-05
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
 synthesizes: []
@@ -24,6 +24,12 @@ connections:
   - page: wiki/mind/concepts/chaos-preference
     type: mirrors
     claim: "The 'pretty' list's 80–100 band — 'this level of attractiveness has become a regulatory problem' — is the same impulse as chaos-preference: imposed calm is distrusted, so even praise is engineered to sound dangerous rather than safe."
+  - page: wiki/interests/language/personal-lexicon
+    type: parallels
+    claim: "Both pages record vocabulary rather than behaviour and fail in opposite directions: these 200 words were selected as pleasing and occur nowhere in the message corpus, while that page's cognitive-instrument terms occur 132, 49 and 42 times and were never selected at all — two of the heaviest ('Recursive Symbolic Architect', 'recursive cognitive prosthetic') were coined by models describing Dan and adopted afterwards, a provenance class this page has no slot for."
+  - page: wiki/interests/language/measured-vocabulary
+    type: evidenced-by
+    claim: "This page's open question — are the 200 curated words ever used — is now measured in both of Dan's first-party registers. Of its 91 single words, 47 appear in 1,334,932 texting tokens and 25 in 93,798 AI-prompt tokens; 510 of the 781 texting occurrences are the word 'perfect'. Stripped of it the rates are 2.03 against 7.68 per 10k, 3.8x denser in prompts to machines. Thirty-nine of the 91 are absent from both registers entirely, 'sublime' — term #1 — among them."
 ---
 
 # The Vocabulary Lexicon
@@ -44,6 +50,51 @@ because its subject is word-choice as a taste signal, and it is linked from
 master filter applied to language. It does not assert that these words are
 used in the corpus; it records that they were *selected* as pleasing, which
 is a different and smaller claim.
+
+> **GAP CLOSED [2026-09-05]:** this page said it "does not assert that these
+> words are used in the corpus" and left open whether any of them are.
+> Measured against both of Dan's first-party registers by `bin/wiki-lexicon
+> registers --page`, of the **91 single words** on the two axes:
+>
+> | | present | occurrences | tokens | per 10k |
+> |---|---:|---:|---:|---:|
+> | texting | 47 / 91 | 781 | 1,334,932 | 5.85 |
+> | AI prompts | 25 / 91 | 84 | 93,798 | 8.96 |
+>
+> **510 of the 781 texting occurrences are the single word `perfect`.**
+> Strip it and the rates are **2.03 against 7.68** — the curated vocabulary
+> is **3.8× denser in his prompts to machines than in his messages to
+> people**, which is a real result and a small one, because the absolute
+> numbers are tiny either way.
+>
+> **The head of Axis A is the emptiest part of it.** Across 996,000 tokens of
+> his own writing, `sublime` — term #1, the word this page's own
+> [[wiki/interests/language/personal-lexicon|companion page]] records him
+> completing "Ally is absolutely ___" with — appears **zero** times. So do
+> `resplendent`, `exquisite`, `luminous`, `incandescent`, `numinous`,
+> `effulgent`, `aureate`, `diaphanous`, `gossamer`, `beatific`, `seraphic`,
+> `preternatural` and 27 more — **39 of the 91 are absent from both
+> registers entirely**. What does appear is the middle band: `perfect`
+> (510), `dangerous` (40), `unreasonable` (16), `compelling` (12),
+> `criminal` (3), `spectacular` (3).
+>
+> **The selection is real and it stops where a word would be conspicuous.**
+> He graded a hundred terms for archaism and then used the twenty that
+> survive being said out loud. That is not a failed vocabulary — it is the
+> [[wiki/mind/concepts/the-cool-metric|cool metric]] with a usability
+> constraint the grading itself never mentions, and it is only visible by
+> counting. Full method: [[wiki/interests/language/measured-vocabulary]].
+
+**And there is a third class this page has no slot for.**
+[[wiki/interests/language/personal-lexicon]] documents terms that are used
+heavily and were never selected at all — *"Recursive Symbolic Architect"* and
+*"recursive cognitive prosthetic"*, at 45+ and 132 corpus occurrences
+respectively, both **coined by models describing Dan and adopted by him
+afterwards**. Selection and usage turn out to be almost inversely related
+here: everything on this page was chosen and none of it is said, while the
+vocabulary that does the actual work arrived unchosen. `sublime` heads Axis A
+below and appears nowhere in the message corpus; `recursive` was never on any
+list and is the load-bearing modifier of his entire self-description.
 
 ## Axis A — "pretty / beautiful" (100 terms)
 

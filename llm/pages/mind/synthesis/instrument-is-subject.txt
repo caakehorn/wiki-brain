@@ -56,6 +56,9 @@ connections:
   - page: wiki/mind/profile/intp
     type: caused-by
     claim: "The specific shape of the evidentiary standard this page's recursion problem depends on — unwavering honesty, no softening, residue graded above testimony — is not an arbitrary prompt choice: it is what Ti-dominance's own truth criterion, 'a system that holds under recursive collapse, not social consensus,' looks like exported into an instruction. A different cognitive stack writing the same prompt would not necessarily have specified this standard, which is why the recursion this page names is a predictable consequence of a specific mind rather than an accident of tooling."
+  - page: wiki/interests/language/personal-lexicon
+    type: instance-of
+    claim: "An assistant's audit of its own conversations with Dan, filed 2026-09-05, reported his central self-label as 'Iterative Symbolic Architect'; the corpus says 'Recursive', 45+ times across six files, and never the other. A document whose entire thesis was that provenance must be preserved could not preserve its own — the instrument-is-subject problem arriving inside the layer built to defend against it."
 ---
 
 # The Instrument Is Also the Subject
