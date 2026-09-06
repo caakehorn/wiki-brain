@@ -79,9 +79,13 @@ There is no confidence percentage on this page and one must never be added.
 Of 23 lexical proxies, **1 has been reviewed and found sound**, 6 were
 reviewed and found broken, and 16 have never had their matches read.
 
-A proxy earns its verdict by having had its matches actually read. An unreviewed
-proxy may report that the corpus is **silent** and nothing else — it may not confirm
-a score and it may not contradict one. That cap exists because the heaviest verdict
+A proxy earns its verdict by having had its matches actually read. **An unreviewed
+proxy may not confirm a score and may not contradict one** — a result that would
+have been either is reported as `unreviewed` instead. That is a different band from
+`silent`, and the difference matters: *silent* means an instrument ran and found
+nothing, *unreviewed* means no trustworthy instrument ran, and *no instrument* means
+every proxy built for the trait was read and found to measure something else. Three
+positions, three names, never collapsed. The cap exists because the heaviest verdict
 in this system is also the cheapest to manufacture: a regex that catches the wrong
 side of a conversation inverts trivially. The first run of this tool reported
 `CONTRADICTED LOAD` on the Fe deficit — an instruction to re-read 37 pages, 17 of

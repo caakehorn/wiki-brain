@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-09-06
-504 pages, ~1,961,591 tokens.
+504 pages, ~1,961,699 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -12558,6 +12558,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 **2026-09-06** — 5 pages
   - strategy | meta | can the wiki brain be sold, and as what
   - traits | mind | the personality profile, cross-tested against the corpus — and what the test found about the test
+  - lint | mind | correction — `unreviewed` is not `silent`, in the prose as well as the code
 
 **2026-09-05** — 26 pages
   - connect | meta | the wiki names 570 things it does not link — 344 of them now clickable
@@ -24130,9 +24131,13 @@ There is no confidence percentage on this page and one must never be added.
 Of 23 lexical proxies, **1 has been reviewed and found sound**, 6 were
 reviewed and found broken, and 16 have never had their matches read.
 
-A proxy earns its verdict by having had its matches actually read. An unreviewed
-proxy may report that the corpus is **silent** and nothing else — it may not confirm
-a score and it may not contradict one. That cap exists because the heaviest verdict
+A proxy earns its verdict by having had its matches actually read. **An unreviewed
+proxy may not confirm a score and may not contradict one** — a result that would
+have been either is reported as `unreviewed` instead. That is a different band from
+`silent`, and the difference matters: *silent* means an instrument ran and found
+nothing, *unreviewed* means no trustworthy instrument ran, and *no instrument* means
+every proxy built for the trait was read and found to measure something else. Three
+positions, three names, never collapsed. The cap exists because the heaviest verdict
 in this system is also the cheapest to manufacture: a regex that catches the wrong
 side of a conversation inverts trivially. The first run of this tool reported
 `CONTRADICTED LOAD` on the Fe deficit — an instruction to re-read 37 pages, 17 of

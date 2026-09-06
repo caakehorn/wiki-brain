@@ -7,7 +7,7 @@
 ### [2026-09-06b] - Session: the trait–corpus map (Claude Opus 5)
 
 * **Branch:** `claude/wiki-brain-product-strategy-wgah7n` · `bin/wiki-check`
-  clean · 504 pages, 0 errors · **478 tests** (28 new).
+  clean · 504 pages, 0 errors · **480 tests** (30 new).
 * **Trigger:** operator — cross-test the personality types against the whole of
   the data, make the result a priority filter shaping the wiki's understanding,
   give it its own entry.
@@ -24,8 +24,11 @@ synthesis calls before leaning on a trait as a mechanism.
    pages carry personality vocabulary and 38 of 61 synthesis pages do — all
    written by agents that had read `wiki/mind/profile/`. A single "how present
    is this trait everywhere" score is circular and would look authoritative.
-2. **An unreviewed proxy is capped at `silent`.** It may not confirm and may
-   not contradict. The first run published `CONTRADICTED LOAD` on the Fe
+2. **An unreviewed proxy may not confirm and may not contradict** — such a
+   result is reported as `unreviewed`, which is NOT `silent`. Three bands, three
+   meanings: `silent` = an instrument ran and found nothing; `unreviewed` = none
+   ran; `no instrument` = every proxy was read and found broken. Folding any into
+   another claims a measurement that never happened. The first run published `CONTRADICTED LOAD` on the Fe
    deficit — re-read 37 pages — off a regex whose every match was Dan being
    comforted. `tests/test_wiki_traits.py::VerdictCap::test_unreviewed_cannot_contradict`
    is the regression; relaxing it makes that headline publishable again.

@@ -289,8 +289,10 @@ TRAITS = {
 #
 #   sound       reviewed, the matches are the construct. Full verdicts.
 #   broken      reviewed, the matches are NOT the construct. Excluded entirely.
-#   unreviewed  nobody has read the matches. Capped at `silent` — it may not
-#               produce SUPPORTED and it may not produce INVERTED.
+#   unreviewed  nobody has read the matches. It may not produce SUPPORTED and it
+#               may not produce INVERTED; a verdict that would have been either
+#               is reported as `unreviewed`, which is a distinct band from
+#               `silent` and must never be folded into it. See verdict().
 #
 # The cap on INVERTED is the load-bearing rule, and it is counter-intuitive.
 # The inherited asymmetry says only INVERTED is evidence *against* a score, so
@@ -457,9 +459,25 @@ def register_ranks(measured, reg):
 def verdict(direction, ratio, hits, status="unreviewed"):
     """psychometrics' thresholds, then capped by the proxy's review status.
 
-    An unreviewed proxy may report that the corpus is silent. It may not report
-    that the corpus confirms or contradicts a score, because nobody has checked
-    that its matches are the thing it claims to measure. See PROXY_REVIEW.
+    THE INVARIANT: an unreviewed proxy cannot confirm a score and cannot
+    contradict one, because nobody has checked that its matches are the thing it
+    claims to measure.
+
+    It is capped, not silenced, and the difference is load-bearing. Returns for
+    `unreviewed` are exactly:
+
+        `unreviewed`  the underlying verdict was SUPPORTED, INVERTED or
+                      "leans yes" — a claim this proxy has not earned
+        `silent`      the corpus genuinely carried nothing either way
+        `too few`     not enough matches to say anything at all
+
+    **Never collapse the first into the second.** `silent` is a finding — an
+    instrument ran and came back empty. `unreviewed` is the absence of one, and
+    it is what makes the cell `UNREVIEWED LOAD` rather than `UNSUPPORTED LOAD`.
+    Returning `silent` here would report a measurement that never happened, and
+    `no instrument` — every proxy read and found broken — is a third state
+    again. Three epistemic positions, three names.
+    `tests/test_wiki_traits.py::VerdictCap` pins all of it.
     """
     ps = _mod("psychometrics", "psychometrics")
     v = ps.verdict(direction, ratio if ratio is not None else float("inf"), hits)
@@ -815,9 +833,13 @@ def render():
     A(f"reviewed and found broken, and {n_un} {'has' if n_un == 1 else 'have'} never had "
       "their matches read.")
     A("")
-    A("A proxy earns its verdict by having had its matches actually read. An unreviewed")
-    A("proxy may report that the corpus is **silent** and nothing else — it may not confirm")
-    A("a score and it may not contradict one. That cap exists because the heaviest verdict")
+    A("A proxy earns its verdict by having had its matches actually read. **An unreviewed")
+    A("proxy may not confirm a score and may not contradict one** — a result that would")
+    A("have been either is reported as `unreviewed` instead. That is a different band from")
+    A("`silent`, and the difference matters: *silent* means an instrument ran and found")
+    A("nothing, *unreviewed* means no trustworthy instrument ran, and *no instrument* means")
+    A("every proxy built for the trait was read and found to measure something else. Three")
+    A("positions, three names, never collapsed. The cap exists because the heaviest verdict")
     A("in this system is also the cheapest to manufacture: a regex that catches the wrong")
     A("side of a conversation inverts trivially. The first run of this tool reported")
     A("`CONTRADICTED LOAD` on the Fe deficit — an instruction to re-read 37 pages, 17 of")
@@ -888,8 +910,9 @@ def cmd_review(a):
     rows.sort(key=lambda r: (order[r[0]], r[1]))
     n_un = sum(1 for r in rows if r[0] == "unreviewed")
     print("# PROXY REVIEW QUEUE")
-    print("# An unreviewed proxy may report silence and nothing else — it cannot")
-    print("# confirm or contradict a score. Review by reading the matches:")
+    print("# An unreviewed proxy cannot confirm a score and cannot contradict one;")
+    print("# such a result is reported as `unreviewed`, never as `silent`.")
+    print("# Review by reading the matches:")
     print("#   bin/psychometrics run --facet <facet> --examples 8")
     print("# then record the verdict in PROXY_REVIEW at the top of this file.\n")
     for st, f, l, owner, note in rows:

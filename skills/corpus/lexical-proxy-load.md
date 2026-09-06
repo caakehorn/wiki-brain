@@ -26,9 +26,11 @@ supersedes: []
 2. **Record the review where the tool can read it**, keyed to the proxy, with
    the string that breaks it named. A review held in a session transcript is a
    review the next run does not have.
-3. **Cap the unreviewed.** An unreviewed proxy may report that the corpus is
-   *silent* and nothing else. It may not confirm a score and — this is the
-   load-bearing half — it may not contradict one.
+3. **Cap the unreviewed.** An unreviewed proxy may not confirm a score and —
+   this is the load-bearing half — may not contradict one. Report such a result
+   under its own name (`unreviewed`), **never as silence**: *silent* is a
+   finding, meaning an instrument ran and came back empty, and reusing that word
+   for "nobody checked" claims a measurement that never happened.
 4. **Exclude the broken outright rather than deleting them.** A proxy read and
    found broken is a finding; deleting it makes it look unwritten and invites
    the next session to write it again.

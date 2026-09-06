@@ -50,6 +50,7 @@ this is the state of the thing.
 **2026-09-06** — 5 pages
   - strategy | meta | can the wiki brain be sold, and as what
   - traits | mind | the personality profile, cross-tested against the corpus — and what the test found about the test
+  - lint | mind | correction — `unreviewed` is not `silent`, in the prose as well as the code
 
 **2026-09-05** — 26 pages
   - connect | meta | the wiki names 570 things it does not link — 344 of them now clickable

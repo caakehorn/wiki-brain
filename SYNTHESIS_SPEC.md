@@ -310,6 +310,14 @@ trait and says nothing about whether the trait is true. Only `INVERTED` is
 evidence against a score, and an unreviewed proxy is not permitted to produce
 one — see the tool's `PROXY_REVIEW` register for why that cap is load-bearing.
 
+**Three bands mean three different things and are never interchangeable.**
+`silent` — an instrument ran and the corpus carried nothing. `unreviewed` — no
+trustworthy instrument ran, because no proxy for the trait has had its matches
+read. `no instrument` — every proxy built for it was read and found to measure
+something else. Only the first is a finding about the corpus; the other two are
+findings about the instrument, and a synthesis that treats them as silence is
+claiming a measurement that never happened.
+
 **There is no confidence percentage, and one must never be added.** A percentage
 needs a denominator of things that could have disconfirmed, and silence is not
 one of them. Bands, and the counts under them.

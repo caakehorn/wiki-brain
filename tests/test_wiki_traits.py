@@ -31,7 +31,32 @@ class VerdictCap(unittest.TestCase):
         self.assertEqual(wt.verdict("high", 0.05, 5000, "unreviewed"), "unreviewed")
 
     def test_unreviewed_may_still_report_silence(self):
+        """A genuine null from an unreviewed proxy is still a null."""
         self.assertEqual(wt.verdict("high", 1.0, 5000, "unreviewed"), "silent")
+
+    def test_capped_result_is_never_reported_as_silence(self):
+        """The regression against a future "simplification".
+
+        `silent` is a finding — an instrument ran and the corpus carried
+        nothing. A capped `unreviewed` is the absence of one. Returning `silent`
+        here would claim a measurement that never happened, and would collapse
+        `UNREVIEWED LOAD` into `UNSUPPORTED LOAD` in the filter table, which
+        tells a synthesis the corpus was checked when it was not.
+        """
+        for ratio in (9.0, 1.4, 0.05):
+            self.assertNotEqual(wt.verdict("high", ratio, 5000, "unreviewed"), "silent",
+                                f"a capped verdict at ratio {ratio} was reported as silence")
+
+    def test_the_three_states_are_three_values(self):
+        """silent / unreviewed / no-instrument are distinct epistemic positions:
+        an instrument ran and found nothing; none ran; every one built was read
+        and found to measure something else."""
+        self.assertEqual(len({"silent", "unreviewed", "no instrument"}), 3)
+        for r in ("load-bearing", "present", "dormant"):
+            cells = {wt.QUADRANT[(b, r)]
+                     for b in ("silent", "unreviewed", "no instrument")}
+            self.assertEqual(len(cells), 3,
+                             f"two of the three states share a cell at reach={r}")
 
     def test_broken_is_excluded_outright(self):
         for ratio in (9.0, 1.0, 0.05):

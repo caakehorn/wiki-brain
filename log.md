@@ -10263,3 +10263,40 @@ stands double-counts every post.
 Also: promoted `skills/corpus/lexical-proxy-load.md` — both of PROTOCOL §3's
 tests were met inside the session (nine wrong results of one class, and a
 regression test). Master index mind count 77 → 78.
+
+## [2026-09-06] lint | mind | correction — `unreviewed` is not `silent`, in the prose as well as the code
+
+Operator review of PR #271 caught a real defect in the trait filter's
+documentation, and it is the kind that metastasizes because the subsystem is now
+a binding epistemic filter.
+
+**The correction.** Today's earlier entry in this log, and five live documents,
+said an unreviewed proxy *"may report `silent` and nothing else."* That is
+literally false about the implementation. `verdict()` returns one of three values
+for an unreviewed proxy: `unreviewed` where the underlying result would have been
+SUPPORTED, INVERTED or "leans yes"; `silent` where the corpus genuinely carried
+nothing; `too few` where there were not enough matches. The intent — *it may not
+confirm and may not contradict* — was right; the phrasing collapsed two bands
+the whole design depends on keeping apart. The log entry above is left as
+written, being append-only; this is its correction.
+
+**Why it mattered rather than being a nit.** A reader taking the prose literally
+would "simplify" `verdict()` to return `silent`, which folds `UNREVIEWED LOAD`
+into `UNSUPPORTED LOAD` in the filter table — telling every future synthesis that
+the corpus was checked and came back empty, when nothing was checked at all. That
+is the same error already guarded against for `no instrument`, and the guard was
+missing on the more likely case.
+
+**Three states, three names, and none is interchangeable:** `silent` — an
+instrument ran and the corpus carried nothing (a finding about Dan).
+`unreviewed` — no trustworthy instrument ran (a finding about the tool).
+`no instrument` — every proxy built for the trait was read and found to measure
+something else (a stronger finding about the tool). Only the first says anything
+about the subject.
+
+Swept `bin/wiki-traits` (verdict docstring, PROXY_REVIEW comment, page renderer,
+review header), `CLAUDE.md`, `SYNTHESIS_SPEC.md`, `LLM_HANDOFF.md` and
+`skills/corpus/lexical-proxy-load.md`. Two new regressions in
+`tests/test_wiki_traits.py`: `test_capped_result_is_never_reported_as_silence`
+and `test_the_three_states_are_three_values`, the latter asserting the three
+bands occupy three distinct cells at every reach level. 480 tests.

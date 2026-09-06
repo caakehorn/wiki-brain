@@ -12,6 +12,7 @@ simply listed.
 
 - **Session log:** strategy | meta | can the wiki brain be sold, and as what
 - **Session log:** traits | mind | the personality profile, cross-tested against the corpus — and what the test found about the test
+- **Session log:** lint | mind | correction — `unreviewed` is not `silent`, in the prose as well as the code
 
 | Page | Domain | What moved |
 |---|---|---|
