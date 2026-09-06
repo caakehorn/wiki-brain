@@ -19,7 +19,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,815 events** across **80 years** (1796–2027), drawn from **393 pages**. Tier 1 732 · Tier 2 472 · Tier 3 2,611.
+**3,820 events** across **80 years** (1796–2027), drawn from **394 pages**. Tier 1 733 · Tier 2 475 · Tier 3 2,612.
 
 ## What counts as an event here
 
@@ -1249,6 +1249,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/context-core]] · Residence timeline (canonical) [DOC/MEM]
 - · **April 2010** — Twitter voice weaponized  
   ↳ [[wiki/self/context-core]] · Residence timeline (canonical) [DOC/MEM]
+- · **2010-04-01** — residence — Dan lives at 424 Bedford Ave, Brooklyn — testimony  
+  ↳ [[wiki/meta/claim-validity]] · Ended
 - ★ **2010-05-01** — The _58 Gemini source flags an anomaly: on May 1, 2010 — Dan's birthday, the day he framed as his "I arrived" shot — he's photographed in front of the Brooklyn Bridge with Suzanne and Danielle.  
   ↳ [[wiki/people/danielle-onesi]] · NYC Arrival (2010)
 - ★ **2010-05-01** — Brooklyn Bridge birthday photo — Dan + Suz + Danielle; "I arrived" shot; move to 424 Bedford  
@@ -1368,6 +1370,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/shane-brannan]] · Shane Brannan
 - · **2011-06-25** — Bridge is great for making PDF's!"* (25 June 2011) — Adobe Bridge, i.e. a production workflow conversation, not a joke.  
   ↳ [[wiki/people/dan-polyak]] · Four years before the Facebook thread
+- ★ **2011-06-27** — relationship — Shane Brannan is an active friendship, conducted around gaming — first_party_record  
+  ↳ [[wiki/meta/claim-validity]] · Lapsed
 - ◆ **2011-06-27** — StarCraft II, played seriously.** *"star2 is mad gosu"* (27 June 2011)  
   ↳ [[wiki/interests/video-games]] · The PC and Xbox years (2011–2014) — the hole in the middle
 - · **2011-06-27** — The counter-evidence is in the same tweets, and it is Dan's own framing.** On 27 June 2011 he writes: *"I dedicate the little bit of gaming time I do have strictly to star2."* That is a man describing a constrained hobby, not a passion — he is explaining that he specialises *because* there is so…  
@@ -1562,6 +1566,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/opie-and-anthony]] · The scale of it
 - · **2013** — 2,742 — O&A / Opie peak continuation (92-175); early politics  
   ↳ [[wiki/self/youtube-watch-history]] · Activity by Year (Watched events, from date parses + broad counts)
+- ◆ **2013-01-01** — project_status — SLOPPP is Dan's primary release alias — first_party_record  
+  ↳ [[wiki/meta/claim-validity]] · Ended
 - · **February 2013** — I want it ASAP" (Feb 2013) — texture, not resolved events.  
   ↳ [[wiki/people/rick-frank]] · The relationship, corrected: warm, high-volume, and asymmetric rather than silent
 - · **February 2013** — "You have to make it clear to everyone, including your children, that there is no god"* (20 February), plus a prediction on the papal succession (*"expect the church to use popegate as marketing opportunity and rebrand catholicism with younger, more relatable pope"* — 12 February, which is what…  
@@ -1813,6 +1819,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/music/aliases/sloppp]] · History
 - · **January 2014** — Gaps:** whether the Timmie Sawyers/Pittsburgh rave booking ever happened is undocumented past the January 2014 pitch; the January 1, 2015 mention of "Dustin DiCenzo" dying is unelaborated (no page exists for that name); Zach's current occupation and location are unknown; whether any contact…  
   ↳ [[wiki/people/zachariah-harshman]] · Corpus record
+- ◆ **2014-01-01** — project_status — MOGZART is a live release identity, bass house / trap-adjacent — testimony  
+  ↳ [[wiki/meta/claim-validity]] · Lapsed
 - ◆ **2014-01-02** — RNDM VADER – #FWTB (SLOPPP's Absolute Zero Festival Trap Remix) — Remix  
   ↳ [[wiki/interests/music/aliases/sloppp]] · The 2014 release run, from Twitter
 - · **2014-01-06** — SAYMYNAME – Pew Pew Pew (SLOPPP Frostbite Me Refix), Master 2 — Refix  
@@ -6633,6 +6641,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/alias-as-periodization]] · What the clock reads
 - ◆ **2026-03-04** — Odd Mob – Never Alone (feat. Lizzy Land) [MOGZART DnB JUMP UP REMIX] — The revival release  
   ↳ [[wiki/interests/music/aliases/mogzart]] · Release Catalog (known)
+- ◆ **2026-03-04** — project_status — MOGZART is again a live release identity, carrying jump-up drum & bass — first_party_record  
+  ↳ [[wiki/meta/claim-validity]] · Ongoing
 - · **2026-03-04** — MOGZART** was Dan Frank's primary production alias from approximately 2014 to 2016, concurrent with the late Uniontown period before the NYC return — and it is the alias he actually revived in 2026: on March 4, 2026 he posted "Odd Mob – Never Alone (feat.  
   ↳ [[wiki/interests/music/aliases/mogzart]] · Identity
 - · **2026-03-04** — posted to SoundCloud with #DnB #Remix  
@@ -7132,7 +7142,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-19** — The vigil page has carried "fire alarm? staff incident?" as an open question since 2026-07-19.  
   ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · The Uniontown Hospital Vape Alarm (early April 2018)
 - ★ **2026-07-20** — open questions — meta  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-06 — 5 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-06 — 6 pages
 - ◆ **2026-07-20** — intake constancy** — > **CONTRADICTION [2026-07-20], operator-clarified same day:** an extended YouTube export (through July 2026, filed to youtube-watch-history) showed essentially zero real YouTube watches for ~100 days, Nov 8 2025 - Feb 15 2026 — one genuine video against 78 ad  
   ↳ [[wiki/meta/open-questions]] · mind (174)
 - ◆ **2026-07-20** — The full per-contact export (filed 2026-07-20, superseding the earlier 28-message partial pull from the unreliable-direction master CSV) shows a real two-way conversation, not a one-sided text: Mike opens July 28 asking how Dan is feeling about Kamala's chances, then the substantive exchange runs…  
@@ -7953,4 +7963,4 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ---
 
-*Generated by `bin/wiki-timeline` from 393 wiki pages. 3,938 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 394 wiki pages. 3,938 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*

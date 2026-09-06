@@ -1,0 +1,116 @@
+{
+  "claims": {
+    "c001": {
+      "because": "the release table's final row: a track titled 'Goodbye Demo', posted 26 December 2015, with nothing after it",
+      "claim": "SLOPPP is Dan's primary release alias",
+      "closed_at": "2026-09-06",
+      "closure": "ended",
+      "evidence": "23 dated releases reconstructed from Facebook post slugs",
+      "history": [],
+      "id": "c001",
+      "kind": "project_status",
+      "last_seen": "2015-12-26",
+      "note": "",
+      "pages": [
+        "wiki/interests/music/aliases/sloppp.md"
+      ],
+      "recorded_at": "2026-09-06",
+      "source": "raw/self/facebook/facebook-ihatedanfrank/posts/your_posts_1.html",
+      "subject": "self",
+      "tier": "first_party_record",
+      "valid_from": "2013-01-01",
+      "valid_to": "2015-12-26"
+    },
+    "c002": {
+      "because": "the page's own date_range_end, from the context core's dated tenancy account",
+      "claim": "Dan lives at 424 Bedford Ave, Brooklyn",
+      "closed_at": "2026-09-06",
+      "closure": "ended",
+      "evidence": "first NYC address, from the curated context core",
+      "history": [],
+      "id": "c002",
+      "kind": "residence",
+      "last_seen": "2013-05-01",
+      "note": "",
+      "pages": [
+        "wiki/places/424-bedford-ave.md"
+      ],
+      "recorded_at": "2026-09-06",
+      "source": "raw/self/context-core/CONTEXT_CORE_EXPANDED.md",
+      "subject": "self",
+      "tier": "testimony",
+      "valid_from": "2010-04-01",
+      "valid_to": "2013-05-01"
+    },
+    "c003": {
+      "because": "the tweet archive is the only place this relationship exists — no message thread, no Facebook exchange — and it stops here. Nothing dates an ending.",
+      "claim": "Shane Brannan is an active friendship, conducted around gaming",
+      "closed_at": "2026-09-06",
+      "closure": "lapsed",
+      "evidence": "nineteen tweets, 2011-2016, almost entirely about games",
+      "history": [],
+      "id": "c003",
+      "kind": "relationship",
+      "last_seen": "2016-03-17",
+      "note": "",
+      "pages": [
+        "wiki/people/shane-brannan.md"
+      ],
+      "recorded_at": "2026-09-06",
+      "source": "raw/self/twitter/archive.jsonl",
+      "subject": "self",
+      "tier": "first_party_record",
+      "valid_from": "2011-06-27",
+      "valid_to": null
+    },
+    "c004": {
+      "because": "the alias goes quiet with the rest of the 2016 music record; the page carried it as an 'archive/revival candidate' for a decade, which is precisely a lapse rather than an ending",
+      "claim": "MOGZART is a live release identity, bass house / trap-adjacent",
+      "closed_at": "2026-09-06",
+      "closure": "lapsed",
+      "evidence": "primary production alias c.2014-2016, concurrent with the late Uniontown period",
+      "history": [],
+      "id": "c004",
+      "kind": "project_status",
+      "last_seen": "2016-03-07",
+      "note": "",
+      "pages": [
+        "wiki/interests/music/aliases/mogzart.md"
+      ],
+      "recorded_at": "2026-09-06",
+      "source": "raw/self/context-core/CONTEXT_CORE_EXPANDED.md",
+      "subject": "self",
+      "tier": "testimony",
+      "valid_from": "2014-01-01",
+      "valid_to": null
+    },
+    "c005": {
+      "claim": "MOGZART is again a live release identity, carrying jump-up drum & bass",
+      "closure": "ongoing",
+      "evidence": "'Odd Mob - Never Alone (feat. Lizzy Land) [MOGZART DnB JUMP UP REMIX]' posted to soundcloud.com/mogzartmusic on 4 March 2026",
+      "history": [],
+      "id": "c005",
+      "kind": "project_status",
+      "last_seen": null,
+      "note": "the same alias resumed after a ten-year lapse — recorded as a separate claim, not a continuation, because the record does not support an unbroken window",
+      "pages": [
+        "wiki/interests/music/aliases/mogzart.md"
+      ],
+      "recorded_at": "2026-09-06",
+      "source": "raw/self/twitter/tweets_sample_2019-2026.txt",
+      "subject": "self",
+      "tier": "first_party_record",
+      "valid_from": "2026-03-04",
+      "valid_to": null
+    }
+  },
+  "counts": {
+    "claims": 5,
+    "ended": 2,
+    "lapsed": 2,
+    "ongoing": 1,
+    "superseded": 0,
+    "voided": 0
+  },
+  "generated": "bin/wiki-claims — do not hand-edit; the log is the record"
+}

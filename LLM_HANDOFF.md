@@ -4,6 +4,64 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-09-06c] - Session: the claim validity ledger (Claude Opus 5)
+
+* **Branch:** `claude/wiki-brain-second-brain-mechanics-kffefi` · `bin/wiki-check`
+  clean · 505 pages, 0 errors · **504 tests** (24 new).
+* **Trigger:** operator — look at `stancsz/second-brain`, decide which of its
+  mechanics would help here, and implement them.
+
+**Read the verdict in `log.md` before re-litigating the rejections.** That
+repository is a *portable agent memory product* (OKF bundle, SQLite FTS, MCP
+server, five-host skill package, Obsidian export, rclone/Postgres snapshots).
+Its problem is one memory across many hosts; ours is depth about one person, and
+the overlap is already solved here. **One mechanic did not overlap:** temporal
+validity from `docs/04-psychological-memory.md` — `sb_valid_from`,
+`sb_valid_to`, `sb_supersedes`.
+
+**New subsystem: `bin/wiki-claims` + `claims/` + `wiki/meta/claim-validity.md`
+(generated) + a gate in `bin/wiki-check` + the EXPIRE operation in `CLAUDE.md`.**
+Also `bin/wiki-secrets`, the credential scan on the diff, from that repo's
+`scripts/ship_gate.py`.
+
+**Read the module docstring before touching it. Three things will bite:**
+
+1. **`ended` and `lapsed` are not interchangeable and the gate enforces it.**
+   `ended` dates the stopping; `lapsed` says only that the record went quiet.
+   A lapse carries `last_seen` and **never** `valid_to`, and `asof` reports it
+   *unsettled* rather than false. **c004 is why**: MOGZART lapsed 2016-03-07,
+   revived 2026-03-04. A ledger that recorded that silence as an ending would
+   have been wrong about the world.
+   `tests/test_wiki_claims.py::LapseIsNotEnd::test_lapsed_claim_is_unsettled_not_false`
+   is the regression; relaxing it makes the false version publishable.
+2. **`scan` reads frontmatter, not prose, and that was measured.** The "no
+   longer" grep returns 121 hits here and is ~all false positives — quoted
+   tweets about somebody else. Same trap `bin/wiki-crosslink` documents for
+   single-token names. `test_scan_does_not_grep_prose_for_no_longer` pins it.
+3. **Never extend a window to clear a scan hit.** Rule 3 one layer down. If the
+   record stopped in 2016 the claim lapsed in 2016, whatever `status:` says.
+
+**`bin/wiki-secrets` scans the DIFF, not the tree**, and that is what keeps it
+switched on — `raw/` holds 130,000 received messages and will contain key-shaped
+strings that are not keys. `test_wiki_secrets.py::DoesNotScanTheTree` pins it.
+
+#### What is next, in order
+
+1. **`bin/wiki-claims scan` — 10 pages carry `status: active` on evidence that
+   stopped over two years ago**, and 80 more are `status: closed` with nothing
+   in the ledger. The 10 are the valuable ones: each is a page asserting a live
+   state nothing has checked. Read the page, then record `lapsed` with the real
+   `last_seen`. Do not sweep the 80 — record them as pages are touched.
+2. **Two standing warnings are correct and want a human**: c003 (shane-brannan)
+   and c004 (mogzart) are closed against pages still marked `status: active`.
+   c004 is legitimate — the page is active on the 2026 revival (c005), not on
+   the lapsed claim. c003 probably is not, and is a `status:` fix.
+3. **The ledger is sparse by design and will stay useless until it is fed.**
+   That is the `lexicon/words/` failure mode; `scan` exists so the corpus feeds
+   it rather than somebody remembering. Run EXPIRE on any page asserting a state.
+4. Previous sessions' items below are untouched — 140 obligations (128 stale
+   premises), 16 of 23 trait proxies unreviewed, 99 `unlinked` candidates.
+
 ### [2026-09-06b] - Session: the trait–corpus map (Claude Opus 5)
 
 * **Branch:** `claude/wiki-brain-product-strategy-wgah7n` · `bin/wiki-check`

@@ -13,8 +13,8 @@ this is the state of the thing.
 
 | | |
 |---|---|
-| Pages | 504 |
-| Pages touched in the last 14 days | 232 |
+| Pages | 505 |
+| Pages touched in the last 14 days | 233 |
 | Pages reasoning from other pages (`synthesizes:`) | 81 |
 | Live contradictions | 51 |
 | Open gaps | 720 |
@@ -30,7 +30,7 @@ this is the state of the thing.
 | self | 60 |
 | timeline | 42 |
 | work | 15 |
-| meta | 12 |
+| meta | 13 |
 | places | 10 |
 | health | 6 |
 | legal | 4 |
@@ -39,7 +39,7 @@ this is the state of the thing.
 
 | Status | Pages |
 |---|---|
-| active | 198 |
+| active | 199 |
 | stable | 166 |
 | closed | 101 |
 | archived | 29 |
@@ -47,7 +47,8 @@ this is the state of the thing.
 
 ## The last few days
 
-**2026-09-06** — 5 pages
+**2026-09-06** — 6 pages
+  - ingest | meta | the claim validity ledger — expiry was the third thing, and nothing owned it
   - strategy | meta | can the wiki brain be sold, and as what
   - traits | mind | the personality profile, cross-tested against the corpus — and what the test found about the test
   - lint | mind | correction — `unreviewed` is not `silent`, in the prose as well as the code
