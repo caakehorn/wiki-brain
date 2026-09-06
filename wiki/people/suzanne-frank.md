@@ -248,11 +248,15 @@ That context changes how the 2018 vigil should be read. Suz was the person doing
 
 ### The caregiving record is not clean
 
-The late-2017 fall described in Dan's records is one of the darker episodes. Dan says he found Fran on the floor around 8 AM. Suz arrived around 10 after having played video keno through the night. They attempted to lift Fran; she screamed; Dan's account says Suz initially declined to call an ambulance and left, returning later in the afternoon to help physically.
+The strongest evidence for the late-2017 fall is now contemporaneous rather than retrospective. On **26 November 2017**, Fran was on the floor for hours after falling while trying to walk out. At 1:26 AM, Suz asked Dan whether Fran was back in bed; by 10:18 AM Dan was telling Annie, **"She's still on the floor"** and saying they were almost certainly going to the hospital. Suz was present by 10:41 AM, when Dan told another contact, **"My mom is here now and we're still figuring it out. She seems okay, but I'll let u know."**
 
-That account is Dan's, not a contemporaneous independent record. It should not be upgraded into a definitive judgment about her caregiving. But neither should it be erased because later messages show her behaving tenderly. On 2 April 2018 Dan described Suz visiting Fran in the hospital and making the atmosphere light and happy despite the situation.
+The central disagreement appears directly in the morning messages. At 10:42 AM Dan told Annie, **"My mom wants to let her go to slee / And I don't think that's a good idea."** Twelve minutes later he described the stakes more explicitly: Fran was still asleep on the floor, Suz did not want to take her to the hospital, and Dan believed there was a **"100% probability"** that she might never come home if they did. Whatever exaggeration belongs to the phrase, the contemporaneous record establishes the underlying conflict: Dan wanted a medical decision made; Suz was, at least at that moment, advocating waiting.
 
-Both observations can be true. The more useful conclusion is that **her caregiving role was real, burdensome, imperfect and inconsistent**, rather than either saintly or negligent in the abstract.
+The later "keno morning" reconstruction adds another layer. Dan's 2026 accounts say Suz had been playing video keno through the night and initially came to the house before leaving again, but those details are not present in the surviving 2017 messages themselves. They should therefore remain explicitly retrospective rather than being folded into the contemporaneous chronology as established fact.
+
+The record consequently supports a narrower but stronger conclusion than the older account. **Suz's caregiving was real, but on this occasion Dan experienced her response as dangerously insufficient and had to push for escalation.** That does not establish that she was negligent in general, nor does it prove every detail of Dan's later reconstruction. The contemporaneous messages instead show something more defensible: an elderly family member remained on the floor for hours after a fall, mother and son disagreed over whether to seek immediate medical care, and Dan was carrying much of the decision-making burden while the disagreement remained unresolved.
+
+That matters because the later record shows Suz capable of substantial hands-on caregiving and administrative labor after Fran's death. The two facts do not cancel one another. The useful characterization is therefore not "good caregiver" or "bad caregiver," but **real, burdensome, emotionally significant caregiving marked by episodes of serious disagreement over what care Fran required.**
 
 ## The money man and the estate machinery
 
