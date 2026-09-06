@@ -19,7 +19,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,759 events** across **80 years** (1796–2027), drawn from **395 pages**. Tier 1 725 · Tier 2 468 · Tier 3 2,566.
+**3,765 events** across **80 years** (1796–2027), drawn from **395 pages**. Tier 1 727 · Tier 2 469 · Tier 3 2,569.
 
 ## What counts as an event here
 
@@ -1284,8 +1284,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 - · **2011** — 1,552 — radio consumption emerging  
   ↳ [[wiki/interests/opie-and-anthony]] · The scale of it
-- · **2011** — 1 — too thin to read a null result from  
-  ↳ [[wiki/meta/corroboration]] · What the record covers
 - · **2011** — 1,552 — High; INTO THE FRAY + emerging radio  
   ↳ [[wiki/self/youtube-watch-history]] · Activity by Year (Watched events, from date parses + broad counts)
 - ★ **January 2011** — Dan and Joe try repeatedly, over a decade, to record together and never quite manage it: a January 2011 injury (Joe's blown ACL) cancels a planned NYC studio session; an April 2011 offer to trade guitar/vocal stems over the internet gets as far as identifying DAWs and file formats before going…  
@@ -1784,8 +1782,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/alexis-armel]] · The public register, and where it stops
 - ★ **2013-11-29** — The silence begins on 29 November 2013, roughly three months *before* the March 2014 eviction of the first account and more than nine before the window of the second.  
   ↳ [[wiki/people/alexis-armel]] · What this does not establish, stated because it is the tempting move
-- · **2013-11-29** — bond switch 2015 — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 93 pages
 - · **December 2013** — The Diary of Dan Frank* is an autobiographical claim attached to a trap mix; *Betty Draper* and *A BRIEF HISTORY OF TIME AND BASS* are the same pun-on-a-cultural-object habit the office documents running on television; *helterskelter: race riot music* is a nineteen-sixties reference nobody in that…  
   ↳ [[wiki/interests/music/aliases/sloppp]] · The titles are a source in their own right
 - · **December 2013** — 2 Chainz – Netflix ft. Fergie (SLOPPPED N SCREWED Rework) — Rework (Twitter)  
@@ -2042,8 +2038,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/suzanne-frank]] · Timeline
 - · **2015-11-17** — Corpus:** 33,698 messages, 2015-11-17 through 2026-08-11, with a major 2021-2023 iMessage coverage gap supplemented by Facebook Messenger.  
   ↳ [[wiki/people/suzanne-frank]] · LLM Quick Brief
-- · **2015-11-24** — Annie enters — and **Alexis is the one who introduces them.** "HAPPY ONE WEEK SINCE LEX HANDED YOU TO ME" (Annie, Dec 1)  
-  ↳ [[wiki/mind/synthesis/bond-switch-2015]] · The timing (verified against raw)
+- ★ **2015-11-24** — x006 — uncovered — The date Annie entered — the page's '~2015-11-24' — cannot be settled from the message record, because the archive begins on 2015-11-28 — bond switch 2015 annie ulmer 2015 2016 annie relationship start — November 2015 holds 1,640 messages and 1,633 fall on the 28th, 29th and…  
+  ↳ [[wiki/meta/corroboration]] · The record
 - · **2015-11-24** — Annie enters, introduced by Alexis herself (*"HAPPY ONE  
   ↳ [[wiki/mind/synthesis/the-unbroken-bond]] · The switch, at the resolution of days
 - · **2015-11-24** — I don't know what happened from November 24, 2015 until today but I know that you never existed."* The page's mechanism holds that the part of his life he loves cannot be crossed out without an explicit termination from her — his own stated account, quoted under "Why: the mechanism is documented."…  
@@ -2054,12 +2050,14 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/annie-read-notes]] · New motif instances
 - · **2015-11-24** — Annie: *"HAPPY ONE WEEK SINCE LEX HANDED YOU TO ME ❤️❄️❤️❄️"* (09:37) — dating the introduction to **Nov 24, 2015**.  
   ↳ [[wiki/timeline/annie-record]] · December
-- · **2015-11-24** — Annie enters — introduced by Alexis herself ("HAPPY ONE WEEK SINCE LEX HANDED YOU TO ME," Annie, Dec 1).  
+- · **2015-11-24** — Annie enters — introduced by Alexis herself ("HAPPY ONE WEEK SINCE LEX HANDED YOU TO ME," Annie, Dec 1). **This date is a back-count and is permanently uncheckable: the message archive begins 2015-11-28**, and all of November before it holds seven messages. See bond switch 2015.  
   ↳ [[wiki/timeline/periods/2015-2016-annie-relationship-start]] · 2015-2016 Annie Relationship Start
 - · **2015-11-24** — ~November 24, 2015:** Annie enters, introduced by Alexis herself.  
   ↳ [[wiki/timeline/periods/uniontown-return-2013-2015]] · The Alexis endgame and the switch
 - ★ **2015-11-25** — Dan self-periodizes the relationship.** On May 4 at 8:10 PM, Dan sent the bare timestamp "25 Nov 2015 – 04 May 2026" — not as an ultimatum or a goodbye, but annotating the relationship with a closing date in his own framing, the only instance in the full record of him doing this unprompted.  
   ↳ [[wiki/timeline/events/april-may-2026-final-weeks]] · Three findings not captured anywhere else in the record
+- ★ **2015-11-28** — x007 — corroborated — The corpus opens mid-relationship: Annie's first surviving message is 2015-11-28 18:47:54 and is already intimate — annie ulmer bond switch 2015 — 'Fuck my friends. Fuck birthday dinner. Fucking going drinking. I wanna be with you' (18:47:54) and 'You are everything' (18:50)…  
+  ↳ [[wiki/meta/corroboration]] · The record
 - ★ **2015-11-28** — Dan, already texting Annie intimately, narrates the **2009 origin** of the Alexis relationship as a contrast case — *not* a 2015 event. See the correction below.  
   ↳ [[wiki/mind/synthesis/bond-switch-2015]] · The timing (verified against raw)
 - ★ **2015-11-28** — Searching Dan-sent severance language — blocking declarations, *goodbye*, *I'm done / we're done / it's over*, *never contact me again*, *lose my number* — across the **95,067-row merged Annie corpus** (2015-11-28 → 2026-05-28) returns **258 messages, collapsing to 129 distinct episodes** when hits…  
@@ -2126,8 +2124,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/periods/2015-2016-annie-relationship-start]] · 2015-2016 Annie Relationship Start
 - ★ **2015-11-29** — She lived on the UCC fairway for over fifty years, at 117 belmont circle, literally a "golf course house." That fairway is also where, on the night of **November 29, 2015**, at roughly 2 AM in the rain, Dan met Annie — the single most consequential event in the whole message corpus, and it happened…  
   ↳ [[wiki/interests/golf]] · The family lineage
-- ★ **2015-11-29** — 2015 2016 annie relationship start — timeline  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-17 — 6 pages
 - ★ **2015-11-29** — grandmothers were neighbors for 50 years). Same evening, outbound to Zachariah: "Things are collapsing with lex. You might be seeing a lot more Annie very soon." — annie ulmer, 2015 2016 annie relationship start  
   ↳ [[wiki/mind/synthesis/bond-switch-2015]] · The timing (verified against raw)
 - ★ **2015-11-29** — Meets Annie at the Uniontown Country Club, in the rain. *"I met someone that instantly changed my life"* is said **to Annie herself**, at 03:28, roughly an hour afterwards — not to a third party about her. Same evening, to Zachariah: *"Things are collapsing with lex"  
@@ -2354,6 +2350,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/periods/2015-2016-annie-relationship-start]] · 2015-2016 Annie Relationship Start
 - ★ **2015-12-01** — November 29 – December 1, 2015 closes the Alexis era and opens the Annie relationship — which inherits the apartment, the town, and the alias identity mid-transition, and runs from here to 2026.  
   ↳ [[wiki/timeline/periods/uniontown-return-2013-2015]] · Transition
+- ◆ **2015-12-01** — x010 — corroborated — Annie's 'HAPPY ONE WEEK SINCE LEX HANDED YOU TO ME' is real, is hers, and is timed to 2015-12-01 09:37 — bond switch 2015 annie ulmer — The single anchor the ~2015-11-24 back-count rests on, verified verbatim in the archive: 'HAPPY ONE WEEK SINCE LEX HANDED YOU TO ME' with a…  
+  ↳ [[wiki/meta/corroboration]] · The record
 - · **2015-12-01** — By 2015-12-01 Dan is removing him: *"Im calling Vanessa"*, and on 2015-12-02 he is formally asked to stay away.  
   ↳ [[wiki/people/casey-bondarenka]] · Late 2015: the friend-circle friction
 - · **2015-12-01** — Donna** — Annie's manager at the bar  
@@ -3287,9 +3285,9 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **May 2017** — What can be said is narrower and firmer than the arc: **on one dated evening in May 2017 the man himself put the number at roughly a gram a day, and he priced grams at $100 in the same channel nine months later.  
   ↳ [[wiki/health/cocaine]] · The one dollar figure, and it disagrees with the arc
 - · **May 2017** — spatial behavior — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 93 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 92 pages
 - · **May 2017** — location history — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 93 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 92 pages
 - · **May 2017** — t021 — quantity, behavior — confident — _pending_ — —  
   ↳ [[wiki/meta/testimony-veracity]] · The record
 - · **May 2017** — Davey Fitzpatrick was Dan's coworker, then boss, and by the end genuine friend across the two Nemacolin caddying seasons (`+17249639933`, **779 messages**, May 2017 – November 2018): a fellow caddie in 2017 who came back for 2018 as **assistant caddie master** — "I'm actually gonna be assistant…  
@@ -3358,6 +3356,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/nick-mattie]] · Nick Mattie
 - · **2017-07-14** — The entire thread is three consecutive messages Dan sends on July 14, 2017, unanswered: "hey dude," "let me know if you see this," and "annie will be home soon, so i'll call u if not. i found us something" — a reference to Annie that places the exchange squarely in the Annie-era timeline, but gives…  
   ↳ [[wiki/people/michael-hinkle]] · Michael Hinkle
+- · **August 2017** — By month, because a year is the wrong resolution for any claim anyone makes.** 2015 holds 14,446 messages and none before November; August 2017 is empty inside a covered year; 2023 starts in August.  
+  ↳ [[wiki/meta/corroboration]] · What the record covers
 - · **2017-08-12** — "Take that stupid fucking statue down"*, *"This guy is just the worst"*, and — alone, the same day — ***"L'chaim."  
   ↳ [[wiki/self/twitter/2017]] · Charlottesville, and one word
 - ★ **2017-08-15** — "Miss u nyc"* (2017-08-15) and *"reasons i moved to nyc"* (below) are the only nearby evidence and neither is a current address.  
@@ -3459,7 +3459,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2017-11-26** — x005 — extended — Suzanne Frank was still a live cocaine supply node for Dan in November 2017, two years past the 2015-16 window the page gives — cocaine — Two requests to his mother, euphemised ('something for us', 'assistance staying awake') in a register the dealer threads never use, mid-crisis…  
   ↳ [[wiki/meta/corroboration]] · The record
 - · **2017-11-26** — cocaine — health  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-06 — 15 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-06 — 21 pages
 - · **2017-11-26** — At **00:06 on 2017-11-26**, Dan asked Suz: **"Should I tell u she fell trying to walk out / Or should I just keep that to myself"**.  
   ↳ [[wiki/people/suzanne-frank]] · The 2017 caregiving crisis: contemporaneous evidence
 - · **2017-11-26** — Fran falls and remains on the floor  
@@ -3528,7 +3528,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **January 2018** — The first is **0% confident** (January 2018) — the scale runs downward as well as upward, which an intensifier cannot do.  
   ↳ [[wiki/mind/concepts/calibrated-confidence]] · What it means
 - · **2018-01-06** — block unblock loop — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 93 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 92 pages
 - · **2018-01-06** — ← Rick — *"I'm tired of u treating me or thinking about me like Rod Banks or Fred Adams"  
   ↳ [[wiki/people/fred-adams]] · The contemporaneous record — sixteen dated rows nobody had read
 - · **2018-01-06** — And Rick put him in a category.** 2018-01-06, from Rick: *"I'm tired of u treating me or thinking about me like Rod Banks or Fred Adams.  
@@ -3926,7 +3926,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ◆ **2018-07-24** — On July 24, 2018, Dan tells David — in confidence, "because I will be chastised for irresponsible spending" — that he'd just bought a **DJI Mavic Platinum**.  
   ↳ [[wiki/people/david-beard]] · The middle drone
 - · **2018-07-26** — trevor — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-05 — 25 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-05 — 24 pages
 - · **2018-07-26** — Trevor left without telling him, and Dan's response is the pattern.** 2018-07-26, learning of the exit from Davey rather than from Trevor: *"Yeah dude!  
   ↳ [[wiki/people/davey-fitzpatrick]] · The season, in his own voice
 - ★ **August 2018** — In August 2018 — four months after Fran's death and **two years before the distribution actually landed** — Dan drew down roughly $20,000 against the expected estate and transferred about **$14,000 of it to his mother.** Her own itemised statement of it survives, sent 3 October 2018: *"Dan to…  
@@ -4108,7 +4108,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2018-11-05** — Photo: November 5, 2018 birthday-night scene** (taken from vlcsnap-2026-08-09-16h22m50s481.png)  
   ↳ [[wiki/timeline/events/annie-alexis-reunion-november-2018]] · Visual Atmosphere
 - · **2018-11-05** — suzanne frank personality assessment — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 93 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 92 pages
 - · **2018-11-05** — ← Suz — *"I'm going to have to go see judge Adams tomorrow because I'm not going to make it until my next closing"  
   ↳ [[wiki/people/fred-adams]] · The contemporaneous record — sixteen dated rows nobody had read
 - · **2018-11-05** — Suz contacts Judge Fred Adams about money before a closing.  
@@ -4890,7 +4890,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2020-05-24** — Suz reports Judge Adams's death.  
   ↳ [[wiki/people/suzanne-frank]] · Timeline
 - · **2020-05-24** — annual volume suz — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 93 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 92 pages
 - · **2020-05-26** — Last exchange on **this handle** May 26, 2020 ("text Annie when ready");  
   ↳ [[wiki/people/menore]] · Timeline & Phases
 - ★ **June 2020** — whether contact continued past that point, and whether it survived the eventual end of the Dan/Annie relationship, is undocumented.  
@@ -4965,6 +4965,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/twitter/2020]] · 15 and 23 February 2020: the analysis arrives six months before the label
 - · **August 2020** — The period's most durable ideological product is the documented socialist conversion of August 2020: a self-narrated, media-driven radicalization (Chapo, Hasan Piker, ContraPoints) cemented by lockdown reading of the primary texts — argued in full at 2020 left turn.  
   ↳ [[wiki/timeline/periods/covid-era-2020]] · Reading during isolation
+- · **2020-08-06** — x012 — extended — Dan told Annie on 2020-08-06 that he had spoken to the estate attorney and was going to sign for the inheritance in advance — estate money spine — 'i talked to jasón adams today and am going on saturday morning to sign for the inheritance in advance' — the paperwork run three…  
+  ↳ [[wiki/meta/corroboration]] · The record
 - · **2020-08-06** — Dan: *"i talked to jasón adams today and am going on saturday morning to sign for the inheritance in advance"  
   ↳ [[wiki/people/fred-adams]] · He was dead before the money moved
 - · **2020-08-06** — "i talked to jasón adams today and am going on  
@@ -4993,6 +4995,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/twitter/2020]] · 3 October 2020: the declaration
 - · **2020-08-24** — Suz, 2020-08-24: *"I have not taken any money for what I've done.  
   ↳ [[wiki/people/fred-adams]] · The estate attorney has a name, and it is not his
+- · **2020-08-26** — x008 — extended — The $134,069.31 estate distribution of 2020-09-01 is confirmed to the cent by the estate attorney, and Suz arranged with him to receive the check — estate money spine suzanne frank — Jason Adams's message states every figure in the page's table and adds that the deposit-via-Suz…  
+  ↳ [[wiki/meta/corroboration]] · The record
 - ★ **September 2020** — All four moved by typed-edge addition only**, and the diffs are worth naming precisely so the next pass does not re-open them: `tom` and `july-2026-recontact` gained edges into the new James Dee arc; `attachment-model` gained a `parallels` edge to the handed mirror; `annie-ulmer` gained one…  
   ↳ [[wiki/mind/synthesis/block-unblock-loop]] · RE-CHECKED [2026-08-18]
 - ★ **September 2020** — He helps with small favors (offering to fix a cousin's washing machine, cigarette runs), references his mother's health and household routines constantly, and the relationship persists in occasional pings through a long 2019–2020 gap, closing with a September 2020 "Hey I just got home from bowling…  
@@ -5229,8 +5233,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ### 2022
 
-- · **2022** — 4 — too thin to read a null result from  
-  ↳ [[wiki/meta/corroboration]] · What the record covers
 - · **2022** — 4 — Dead channel  
   ↳ [[wiki/mind/synthesis/message-circadian-latency]] · Yearly volume arc, 2015–2026 — the dormant years quantified
 - · **2022** — Full-year record gap  
@@ -5375,7 +5377,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **October 2023** — Early messages are workplace-adjacent (spinach sourcing, an October 2023 birthday party, a joke about Shakespeare being "aburrido" because he doesn't do coke like El Chapo).  
   ↳ [[wiki/people/manuel]] · Texture
 - · **October 2023** — claire ulmer — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 15 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 14 pages
 - · **October 2023** — Manuel was a coworker at Au Za'atar — the thread opens with an October 2023 message referencing Tarik telling him to stay and work — who became a genuine, ongoing friendship that outlasted the job itself, running from August 2023 into 2026 (`+13472828140`, 45 messages; unlike most contacts in this…  
   ↳ [[wiki/people/manuel]] · Manuel
 - · **October 2023** — He appears **31 times** between October 2023 and June 2025, roughly half as often as his sister alice.  
@@ -5476,7 +5478,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2024-03-05** — March — the illness, and the job turning medical.** On **2024-03-05** Annie reports that Libby has told her she has brain cancer, and *"Libby just said 'I think I'm dying..'"*; the next day, that it is also back in her right lung.  
   ↳ [[wiki/people/libby]] · The arc, February to October 2024
 - · **2024-03-17** — libby — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 15 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 14 pages
 - · **2024-03-27** — Eleven days before this, on 27 March 2024, he praised a `@beatmastermatt` Iraq-war video in exactly the terms that project's own template uses: *"comprehensive, balanced and accessible to any audience."  
   ↳ [[wiki/interests/roman-republic]] · The entry point was a YouTube channel, and he rates it above the books
 - · **2024-03-27** — 2024-03-27:** "You might like this. It's a series of videos  
@@ -6924,7 +6926,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2026-07-13** — Whether Target G is the same person as Tuquick is explicitly unresolved — an operator correction on file (2026-07-13) confirms only that Tuquick is the person Annie left Dan for and the person the June closure happened with, and states plainly "we do not know" whether he is also Target G.  
   ↳ [[wiki/people/annie-ulmer]] · A separate thread: Target G
 - · **2026-07-13** — franki faris — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 93 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 92 pages
 - · **2026-07-13** — The page for Franki has carried a standing note since 2026-07-13 that the "July 4" framing used elsewhere in the corpus **had no source anywhere in the archive** and was flagged rather than adopted.  
   ↳ [[wiki/timeline/events/franki-fireworks-day-2013]] · The fireworks date the day, almost
 - · **2026-07-13** — Financial substrate (final dossiers, added 2026-07-13):** the terminal-phase dependency structure — Dan controlling the drug supply while Annie was unemployed and dependent — was the latest of three rotations, per the accepted amendments: Dan funded the early NYC years; Dan worked through the 2023…  
@@ -6942,7 +6944,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-14** — Dan does not hear or process sung lyrics as language in real time — he stated this directly (2026-07-14): words in a song register to him essentially as **timbre**, another textural element of the vocal performance, not as semantic content to be parsed and understood the way lyrics function for…  
   ↳ [[wiki/interests/music/concepts/lyrics-as-timbre]] · Lyrics as Timbre
 - · **2026-07-14** — au zaatar — work  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-05 — 25 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-05 — 24 pages
 - · **2026-07-14** — vanessa frank — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 9 pages
 - · **2026-07-14** — t009 — enumeration — hedged — partial — The tweet archive holds two pieces the list did not: the letter 'A' for Alexis, tattooed 23 January 2010 and eight years earlier than anything on the list, and a Morrissey piece dated by 24 October 2019.  
@@ -7006,13 +7008,13 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-18** — 02 — Au Za'atar Volume I: Tarik, dimitri — Dimitri, DJ, valeria iglesias cid — Valeria, shed build  
   ↳ [[wiki/self/gemini-activity/gemini-activity]] · Session Index
 - · **2026-07-19** — new jim shaffer — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 93 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 92 pages
 - · **2026-07-19** — steve kezmarsky — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 93 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 92 pages
 - · **2026-07-19** — The vigil page has carried "fire alarm? staff incident?" as an open question since 2026-07-19.  
   ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · The Uniontown Hospital Vape Alarm (early April 2018)
 - ★ **2026-07-20** — open questions — meta  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-06 — 15 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-06 — 21 pages
 - ◆ **2026-07-20** — intake constancy** — > **CONTRADICTION [2026-07-20], operator-clarified same day:** an extended YouTube export (through July 2026, filed to youtube-watch-history) showed essentially zero real YouTube watches for ~100 days, Nov 8 2025 - Feb 15 2026 — one genuine video against 78 ad  
   ↳ [[wiki/meta/open-questions]] · mind (174)
 - ◆ **2026-07-20** — The full per-contact export (filed 2026-07-20, superseding the earlier 28-message partial pull from the unreliable-direction master CSV) shows a real two-way conversation, not a one-sided text: Mike opens July 28 asking how Dan is feeling about Kamala's chances, then the substantive exchange runs…  
@@ -7083,6 +7085,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/legal/463-morgantown]] · 463 Morgantown St
 - · **2026-07-27** — Estimated Arnu mechanics-lien deadline  
   ↳ [[wiki/legal/463-morgantown]] · Timeline
+- · **2026-07-27** — x009 — absent — No mechanics lien, filing, notice or contractor claim appears anywhere in the message record around the estimated 2026-07-27 maturity — 463 morgantown arnu — Searched 2026-06-15 to 2026-08-31 (2,228 messages in July, 5,401 in August) for lien, prothonotary, recorder of deeds…  
+  ↳ [[wiki/meta/corroboration]] · The record
+- · **2026-07-27** — it establishes that nobody told Dan about one through the deadline and for six weeks after.  
+  ↳ [[wiki/meta/corroboration]] · The record
 - · **2026-07-27** — the unpapered address** — **The Arnu lien will be resolved, if at all, by finding out rather than by contesting.** 463-morgantown records the ~2026-07-27 deadline as elapsed with no recorded outcome and a county search as the one-query fix. The rule predicts the search happens after th  
   ↳ [[wiki/meta/open-questions]] · Standing predictions
 - · **2026-07-27** — The first instance was already on the page before this one was written: the Arnu mechanics-lien deadline of ~27 July 2026 **elapsed with no recorded outcome**, in a housing arrangement running entirely on verbal understandings, where a county recorder search would settle it in one query.  
@@ -7176,9 +7182,9 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-02** — jerel coles** — 4. **What load broke a thirteen-day-held off-switch?** Test the hypothesis above against the 2026-08-02 → 08-08 logs.  
   ↳ [[wiki/meta/open-questions]] · people (208)
 - · **2026-08-02** — the fall of fran — timeline  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-06 — 15 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-06 — 21 pages
 - · **2026-08-02** — acquisition drive — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 93 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 92 pages
 - · **2026-08-02** — fran coldren — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 37 pages
 - · **2026-08-02** — big five psychometrics — mind  
@@ -7238,11 +7244,11 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ◆ **2026-08-09** — The childhood-friend layer is documented in the 2026-08-09 extreme-sports capture: Tancredi Calabrese was one of the friends who planned summer ski-camp trips to Windell's in Whistler BC — the month-long destination camp that represented a step up from the regional Seven Springs terrain parks.  
   ↳ [[wiki/people/tan-calabrese]] · Childhood context
 - · **2026-08-09** — tan calabrese — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 93 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 92 pages
 - · **2026-08-09** — the unnamed man — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 93 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 92 pages
 - · **2026-08-09** — tuquick 17248123683 — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 12 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 11 pages
 - · **2026-08-09** — 113 — 105 — 5.2 — the read-receipt night  
   ↳ [[wiki/mind/concepts/reassurance-architecture]] · The character ratio is a crisis thermometer, and it is the best one found
 - · **2026-08-09** — That argument was built and then withdrawn during the 2026-08-09 session.  
@@ -7290,7 +7296,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-11** — Suz to Dan: *"It's time for you to go."* — the newest datapoint on his housing, from the person who controls it (suzanne frank)  
   ↳ [[wiki/legal/463-morgantown]] · Timeline
 - · **2026-08-11** — rick frank — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 93 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 92 pages
 - · **2026-08-11** — What the qualification is.** The right distinction is between *volume* and *dependability*, and the mother channel fails the second test on its own record: it alternates rescue with an itemised bill, it produced a $14,000 dispute that ran unresolved for seven years, and on 11 August 2026 it…  
   ↳ [[wiki/mind/synthesis/single-channel]] · RE-CHECKED [2026-08-18]
 - · **2026-08-11** — Confirmation, downgraded 2026-08-11 — the amputation operation.** The  
@@ -7373,6 +7379,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/annie-ulmer]] · Chronology
 - · **2026-08-16** — "She's a slut hahahahaja"* · *"Scared to answer"* · *"You made me fuck guys for money"* · *"Call her"* · *"You think I care ?"  
   ↳ [[wiki/people/jerel-coles]] · The seizure pattern is now a pattern
+- ★ **2026-08-17** — 2015 2016 annie relationship start — timeline  
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-06 — 21 pages
 - ★ **2026-08-17** — Suicide attempt disclosed (12:52)  
   ↳ [[wiki/people/annie-ulmer]] · Chronology
 - ◆ **2026-08-17** — robotussin s last dance** — No other participant has corroborated or contested any of the three factual claims (the capsule count, the Rt 51 speed, the cone impacts) — this is single-source testimony. The 2026-08-17 answer about intoxication at the wheel is from the same single source an  
@@ -7388,9 +7396,9 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-17** — jerel coles** — 6. **What is *"stuff to ruin you and your mom"* (2026-08-17 12:48)?** The only threat aimed at Suz in the corpus that has no named content. Bluster is the parsimonious reading and there is nothing in `raw/` either way.  
   ↳ [[wiki/meta/open-questions]] · people (208)
 - · **2026-08-17** — ellen ulmer — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-06 — 15 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-06 — 21 pages
 - · **2026-08-17** — casey bondarenka — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 93 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 92 pages
 - · **2026-08-17** — kristin — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 37 pages
 - · **2026-08-17** — milo — people  
@@ -7434,7 +7442,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-17** — The operator (2026-08-17) places it *"in the text logs on 26 July 2026 at around 7am"*, along with the threatening messages sent from Annie's number in the hours before.  
   ↳ [[wiki/timeline/events/july-august-2026-reentanglement]] · Gaps
 - ★ **2026-08-18** — fran death vigil — timeline  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-06 — 15 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-06 — 21 pages
 - ★ **2026-08-18** — forensic method — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 37 pages
 - ★ **2026-08-18** — On August 18, 2026, 21:07:43–21:09:11, in the Ally channel: she challenges (*"You just love bomb"*), he runs the redefinition move (*"But love bomb is like a malicious tactic and there very little malice"*), she narrows rather than escalates (*"I didn't say malicious"*), and he concedes in six…  
@@ -7455,14 +7463,14 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/meta/open-questions]] · people (208)
 - · **2026-08-18** — nothing in the message record speaks to the supply side after 2025-02-20. **How Dan knows is itself unrecorded** — the answer implies some awareness channel (co  
   ↳ [[wiki/meta/open-questions]] · people (208)
+- · **2026-08-18** — 463 morgantown — legal  
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-06 — 21 pages
 - · **2026-08-18** — diane moore — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-06 — 15 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-06 — 21 pages
 - · **2026-08-18** — john felix — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 93 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 92 pages
 - · **2026-08-18** — 337 saratoga drive — places  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-22 — 4 pages
-- · **2026-08-18** — 463 morgantown — legal  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 12 pages
 - · **2026-08-18** — the handed mirror — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 17 pages
 - · **2026-08-18** — 267 — 120 — 6.3 — the false send  
@@ -7558,17 +7566,17 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ◆ **2026-08-20** — iMessage triple-handle archive on disk  
   ↳ [[wiki/people/annie-ulmer]] · By the numbers
 - · **2026-08-20** — contact gini — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 93 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 92 pages
 - · **2026-08-20** — james dee — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 93 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 92 pages
 - · **2026-08-20** — arrangement history — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 37 pages
 - · **2026-08-20** — alexander jackson — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 12 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 11 pages
 - · **2026-08-20** — arnu — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 12 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 11 pages
 - · **2026-08-20** — john carney — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 12 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 11 pages
 - · **2026-08-20** — Operator interpretation added [2026-08-20]:** The manual note says the *"I just want to be alone"* / *"by myself"* formulation is a recurring theme and, in the operator's interpretation, functions as a way to avoid accepting responsibility for the resulting situation while still obtaining the…  
   ↳ [[wiki/mind/synthesis/august-grievance-verdict]] · What this says about Annie
 - · **2026-08-20** — Filed 2026-08-20.** This amendment exists because the original event page was written while the audio had not yet been directly transcribed in the corpus.  
@@ -7600,17 +7608,17 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2026-08-22** — The charging documents were real.** The summons surfaced 2026-08-22: a Fayette County summary non-traffic case, docket MJ-14101-NT-0000082-2018, **filed April 5, 2018 — the day after Fran died** — before Magisterial District Judge Michael M.  
   ↳ [[wiki/timeline/events/fran-death-vigil]] · Sequence
 - · **2026-08-22** — ally lubin — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-05 — 25 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-05 — 24 pages
 - · **2026-08-22** — 155 virginia ave — places  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 93 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 92 pages
 - · **2026-08-22** — deviance mapping — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 37 pages
 - · **2026-08-22** — attachment model — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 15 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 14 pages
 - · **2026-08-22** — It does not settle *when* beyond "recent," and it does not answer the transmission question the gap also asked: whether Ally sent the screenshot to Dan directly, or he obtained it some other way, is still undocumented. "Recent" against a 2026-08-22 capture puts the test somewhere in mid-2026 and no…  
   ↳ [[wiki/people/ally-lubin-cognitive-profile]] · The instrument, and what it is worth
 - ★ **2026-08-23** — the cool metric — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 93 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 92 pages
 - ◆ **2026-08-23** — The replacement gap is narrower and answerable by a decision rather than a query: *will such a log be kept, starting when?* 2. ~~**No release catalogue, no platform links, no streaming figures** for any of the four music aliases.~~ **CLOSED [2026-08-23], and it changed Part VI as predicted — in the…  
   ↳ [[wiki/mind/synthesis/failure-to-launch]] · Gaps
 - ◆ **2026-08-23** — The other is not, and no page models what happens when the remaining one carries the whole load. 6. ~~**The 127/110 exit-declaration pair is dossier arithmetic.**~~ **CLOSED [2026-08-23]** — see Part I½. 129 episodes derived independently, 128 of 128 resumed, median gap 36 seconds, all-time maximum…  
@@ -7619,8 +7627,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/meta/claim-validity]] · What this ledger cannot see
 - · **2026-08-23** — A standing directive filtered what could be recorded, and left a hole.** From 2026-08-23 to 2026-09-06 a moratorium on new writing about one living person was enforced mechanically by `bin/wiki-testimony`, `bin/wiki-claims` and `bin/wiki-plain`, as a refusal rather than a warning.  
   ↳ [[wiki/meta/instruments/index]] · What the instrument layer cannot see, as a layer
+- · **2026-08-23** — annie ulmer — people  
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-06 — 21 pages
 - · **2026-08-23** — calibrated confidence — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-05 — 25 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-05 — 24 pages
 - · **2026-08-23** — overview — interests  
   ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 26 pages
 - · **2026-08-23** — closing the set — mind  
@@ -7628,7 +7638,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-23** — annie ulmer personality assessment — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 37 pages
 - · **2026-08-23** — johnny dealer — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 15 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 14 pages
 - · **2026-08-23** — The sample has a hole in it, and not a random one.** From 2026-08-23 to 2026-09-06 a standing operator directive stopped new writing about one living person, and this tool refused any record naming her — at least one cleanly adjudicated confirmation went unrecorded.  
   ↳ [[wiki/meta/testimony-veracity]] · What this ledger cannot see
 - · **2026-08-23** — 1. ~~**No calibration test has been run**, though the data for it exists.~~ **CLOSED [2026-08-23], as a negative result.** The data does not exist: of 24 strict graded credences across eleven years, one is resolvable and it resolved false.  
@@ -7644,9 +7654,9 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-26** — Read against the two curated batches above (Axis A "pretty," Axis B "stupid"), the analyst profile, and the Battery, three structures repeat across all of them and are the actual finding of the 2026-08-26 session:  
   ↳ [[wiki/interests/language/vocabulary-lexicon]] · Full cross-cutting analysis
 - · **2026-08-26** — supply network — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-05 — 25 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-05 — 24 pages
 - · **2026-08-26** — ally and dan love as destiny — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 93 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 92 pages
 - · **2026-08-26** — dan annie fallout verdict — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 13 pages
 - · **2026-08-26** — fayette return — mind  
@@ -7680,7 +7690,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-27** — ally lubin cognitive profile** — **Did she report the result herself, or was it forwarded?** The visible page is the results email, which implies she had the account. The 2026-08-27 operator answer confirms the result is hers but says nothing about how the screenshot reached Dan, so this stay  
   ↳ [[wiki/meta/open-questions]] · people (208)
 - · **2026-08-27** — linguistic profile — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-05 — 25 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-05 — 24 pages
 - · **2026-08-27** — t019 — Fran's house, listed at 350000 dollars, will sell for between 250000 and 300000 — quantity — hedged — confirmed  
   ↳ [[wiki/meta/testimony-veracity]] · The record
 - · **2026-08-27** — The 2026-08-27 operator answer confirms the result is hers but says nothing about how the screenshot reached Dan, so this stays open.  
@@ -7692,11 +7702,9 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-28** — Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`.  
   ↳ [[wiki/interests/food-and-diet]] · The constitution pass
 - · **2026-08-28** — chemical architecture — health  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-05 — 25 pages
-- · **2026-08-28** — estate money spine — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-05 — 25 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-05 — 24 pages
 - · **2026-08-28** — the unbroken bond — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 93 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 92 pages
 - · **2026-08-28** — alias as periodization — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 13 pages
 - · **2026-08-28** — august grievance verdict — mind  
@@ -7762,11 +7770,11 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-09-02** — The git log read as a record of *operations* rather than saves  
   ↳ [[wiki/meta/instruments/index]] · The measures
 - · **2026-09-02** — sloppp — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 93 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 92 pages
 - · **2026-09-02** — alexis armel — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 93 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 92 pages
 - · **2026-09-02** — eric jester — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 93 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 92 pages
 - · **2026-09-02** — 2020 left turn — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 26 pages
 - · **2026-09-02** — chatgpt — self  
@@ -7786,7 +7794,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-09-02** — The `@danfrank` Twitter account was recovered thirteen months further back on 2026-09-02 (2008), and it opens on **24 September 2008**, the day Dan arrives in Winter Park.  
   ↳ [[wiki/timeline/periods/dark-era-2007-2008]] · The period's exit, in his own words, on the day it happened
 - · **2026-09-03** — opie and anthony — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 93 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 92 pages
 - · **2026-09-03** — Reading all nineteen years in full (2026-09-03) sharpens that into something a reader must know before using any of these pages, because the naive reading of the volume curve is not merely imprecise — it is **inverted**.  
   ↳ [[wiki/self/twitter]] · The blackouts, and why the volume curve cannot be read as a life curve
 - ◆ **2026-09-04** — A second contemporaneous figure now exists, from a thread the same 2026-09-04 sweep opened (new jim shaffer), and it is not addressed to anybody selling anything.  
@@ -7797,12 +7805,14 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/psychosexual/orchestration-and-voyeurism]] · The one instance where it is currency
 - · **2026-09-04** — Assembled 2026-09-04 from the twitter archive.  
   ↳ [[wiki/health/chemical-architecture]] · Nicotine: eighteen years, five delivery systems, and no interruption
+- · **2026-09-04** — bond switch 2015 — mind  
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-06 — 21 pages
 - · **2026-09-04** — failure to launch — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-05 — 25 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-05 — 24 pages
 - · **2026-09-04** — intensity is no longer the only mode — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 93 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 92 pages
 - · **2026-09-04** — the deferred audit — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 93 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 92 pages
 - · **2026-09-04** — As of 2026-09-04 it holds **12 settled claims on 35.0 weight**:  
   ↳ [[wiki/mind/concepts/calibrated-confidence]] · Accuracy is no longer untested — but read what was tested
 - · **2026-09-04** — Added 2026-09-04, from the vaughn re-derivation.  
@@ -7825,6 +7835,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/meta/claim-validity]] · What this ledger cannot see
 - · **2026-09-06** — The operator lifted it on 2026-09-06.  
   ↳ [[wiki/meta/instruments/index]] · What the instrument layer cannot see, as a layer
+- · **2026-09-06** — estate money spine — mind  
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-06 — 21 pages
 - · **2026-09-06** — The directive was lifted on 2026-09-06 and the refusal is gone, but the records it turned away have not been entered yet.  
   ↳ [[wiki/meta/testimony-veracity]] · What this ledger cannot see
 - ★ **2026-12-19** — P4 — **No third party ends this relationship.** Any severance that holds past 120 days will be traceable to a self-generated move, not an intervention — a documented outside intervention followed by a severance holding >120 days  
@@ -7841,4 +7853,4 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ---
 
-*Generated by `bin/wiki-timeline` from 395 wiki pages. 3,935 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 395 wiki pages. 3,986 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*

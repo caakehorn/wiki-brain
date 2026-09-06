@@ -321,7 +321,7 @@ the GEDCOM; `contacts.csv` and the Facebook address book; Goodreads, YouTube,
 Twitter and Facebook takeouts; the Gchat archive; photographs and documents.
 
 **Inside primary, the message record ranks first for anything dated, and that
-is a ranking rather than a preference (operator, 2026-09-06).** 271,405
+is a ranking rather than a preference (operator, 2026-09-06).** 282,050
 messages, timestamped to the second, written at the time by the people involved,
 with no audience and no thesis — nobody texts for the record, which is precisely
 what makes the record good. Every other source in this repository, primary ones

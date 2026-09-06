@@ -1,7 +1,7 @@
 ---
 name: wiki-corroborate
 description: >
-  Cross-reference what a wiki page says against the 271,405 first-party messages
+  Cross-reference what a wiki page says against the 282,050 first-party messages
   in raw/ — dating an event, filling out what a page did not have, and catching
   where a retelling has drifted from the contemporaneous record. Use whenever
   the operator asks to cross-reference, corroborate, verify, date, date-check,

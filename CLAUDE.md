@@ -81,7 +81,7 @@ corpus is currently making about itself, so it outranks the rest.
 
 1. **Depth is the binding constraint.** There are 438 pages; there are not enough *details on them*. A pattern can only be found among details that were written down, and synthesis reasons from `wiki/`, not `raw/` — so anything dropped at extraction is a connection nobody can ever make. Read sources to exhaustion, write long, keep the mundane. `EXTRACTION_SPEC.md`.
 2. **Findings get written back — and so do mentions.** A conclusion that spans several pages is written into *each* of them as a typed edge whose claim states the finding, not left on one page for the others to rediscover: `STRATEGY.md`'s core loop, step 7, and the step most often done partially. **The mention is the half nobody notices is missing.** When a source names a person, work, place or concept that already has a page, that page is owed the evidence *before any finding exists* — core loop step 4, `EXTRACTION_SPEC.md` move 9, the CROSSLINK operation below. It has no symptom when skipped: the page you wrote reads as complete, and the page you did not touch cannot discover that a source is talking about it. Nineteen twitter year pages were written by reading every tweet in every year and still left the concert record, a health row, an alias's discography and a person's whole page untouched by what those tweets said about them.
-3. **Anything dated is checked against the message record, and that record outranks every other source.** 271,405 first-party messages sit in `raw/`, timestamped to the second, written at the time by the people involved with no audience and no thesis. Almost every page in this wiki was written from something else — a later retelling, an AI dossier, an operator answer, a memory — and until 2026-09-06 nothing joined the two. **If a page asserts something dated and the corpus covers that date, the window gets read before the claim is written.** Not "if you doubt the date": you cannot tell from inside a claim whether the record has something to add, and it usually does. It costs about four seconds. The CORROBORATE operation below, `bin/wiki-corroborate`, and — because this has no symptom when skipped — a gate on the working diff, so the pass that writes a new dated claim is the pass that answers for it.
+3. **Anything dated is checked against the message record, and that record outranks every other source.** 282,050 first-party messages sit in `raw/`, timestamped to the second, written at the time by the people involved with no audience and no thesis. Almost every page in this wiki was written from something else — a later retelling, an AI dossier, an operator answer, a memory — and until 2026-09-06 nothing joined the two. **If a page asserts something dated and the corpus covers that date, the window gets read before the claim is written.** Not "if you doubt the date": you cannot tell from inside a claim whether the record has something to add, and it usually does. It costs about four seconds. The CORROBORATE operation below, `bin/wiki-corroborate`, and — because this has no symptom when skipped — a gate on the working diff, so the pass that writes a new dated claim is the pass that answers for it.
 
    **The worked case is the keno morning.** Three pages dated Fran's first long fall as *"~late 2017?"*. The record dates it to the minute — Dan told his mother *"Should I️ tell u she fell trying to walk out"* at **00:06 on 2017-11-26** — and then contradicts the retelling in four places, in four separate threads, including the detail the event is *named for*: the word "keno" appears nowhere in ±2 days. A date the corpus can settle, left hedged, is not a small thing. It is a page telling you where to point the instrument, for years, while nobody does.
 4. **Never clear a stale warning by bumping a date.** Re-read the premise that moved, decide whether the conclusion survives, record the decision. This is the one move that corrupts the system quietly.
@@ -211,16 +211,18 @@ checked against the message record, what came back, and what it changed.** Same
 shape as the three above — `events.jsonl` is the append-only record,
 `records.json` a regenerable projection, `SUMMARY.md` the analysis surface. It
 is the newest of the four and the one with the largest debt behind it, because
-the check it records had never been run: **the corpus holds 271,405 first-party
+the check it records had never been run: **the corpus holds 282,050 first-party
 dated messages and almost every page in this wiki was written from something
 else.** The CORROBORATE operation above is how it is fed.
 
 **`absent` and `uncovered` are different outcomes and the tool refuses to let
 one stand in for the other.** `absent` means the window was read and holds
 nothing — a real result, and often the cheapest falsifier a page can get.
-`uncovered` means the corpus does not reach that date at all: 2012–2014 hold
-nothing and 2022 holds four rows, so a 2013 claim can no more be checked here
-than falsified. This is `bin/wiki-traits`' `silent`/`unreviewed` distinction and
+`uncovered` means there was no window to read. **Both are decided on the window,
+not on the calendar**, because a covered month can hold an empty week: November
+2015 clears every coverage floor on the strength of the 28th, 29th and 30th, and
+a window on the 24th holds one message. Recording `absent` there would publish
+the archive's start date as a fact about the world. This is `bin/wiki-traits`' `silent`/`unreviewed` distinction and
 `bin/wiki-claims`' `ended`/`lapsed` distinction, one layer along: **an
 instrument that did not run has said nothing**, and reporting its silence as a
 finding invents a measurement.
@@ -308,7 +310,7 @@ Captured notes may carry `targets: [wiki/...paths]` — a targeted note is a cor
 
 **The message record is the most authoritative source this corpus has for
 anything dated, and until 2026-09-06 nothing was checked against it.**
-271,405 first-party messages sit in `raw/`, timestamped to the second, written
+282,050 first-party messages sit in `raw/`, timestamped to the second, written
 at the time by the people involved, with no audience and no thesis. Everything
 else — a dossier, a retelling, an operator answer, a memory of a video — is
 testimony *about* a day. A message is a fragment *of* it. Where they disagree,
@@ -320,13 +322,22 @@ inside a claim whether the corpus has something to add, and the cost of asking
 is four seconds.
 
 1. **`bin/wiki-corroborate coverage`** first, once, so you know what a null
-   result means. The record covers 2015–2026 with real holes: 2012–2014 hold
-   nothing, 2022 holds four rows. **A claim dated outside coverage is not
-   unsupported — it is unexamined**, and the tool refuses to let `absent` stand
-   in for `uncovered`. Same refusal `bin/wiki-traits` makes between `silent` and
-   `unreviewed`, and `bin/wiki-claims` between `ended` and `lapsed`.
+   result means. **It is a month table, not a year table, and that is not a
+   detail.** The record runs 2015-11 to 2026-08 and the holes are inside the
+   covered years as often as between them: nothing before **2015-11-28** (all of
+   November 2015 outside those three days is seven messages), **August 2017
+   empty**, 2021 stopping in April, 2023 starting in August, 2022 holding six
+   rows in total. A year-level reading calls February 2015 checkable and it is
+   not. **A claim dated outside coverage is not unsupported — it is
+   unexamined**, and the tool refuses `absent` in three places: for a date
+   outside coverage, for a window holding fewer than 25 messages, and for
+   `uncovered` where a real window exists. Same refusal `bin/wiki-traits` makes
+   between `silent` and `unreviewed`, and `bin/wiki-claims` between `ended` and
+   `lapsed`. `coverage --corpora` lists all 52 exports and what each one adds.
 2. **`bin/wiki-corroborate window <date> [--days N]`** — every message in those
-   hours, across every thread, deduped over three corpora. **Read the whole
+   hours, across every thread, deduped over all 52 exports (`--full` prints them
+   uncut; the 160-character clip hid the load-bearing half of the estate
+   attorney's letter until somebody looked). **Read the whole
    window, not a search of it.** Nobody texts the name of the event they are
    living through; the keno morning is dated by a mother's *"Is she back in
    bed?"* and a girlfriend's *"I think I got a total of 1 whole hour of sleep"*,
@@ -362,14 +373,14 @@ is four seconds.
 a page makes that nothing has ever checked; `scan --hedged` lists the ones that
 *admit* they are unsure — a page writing "~late 2017?" is telling you where to
 point the instrument. `queue` orders the whole wiki by that. As of the first
-run, **378 pages carry uncorroborated dated claims inside coverage and 323
+run, **370 pages carry uncorroborated dated claims inside coverage and 144
 hedged dates sit across the corpus** — that is the campaign, worked top-down
 like every other queue here.
 
 **Where it has teeth.** `bin/wiki-corroborate check` gates in `bin/wiki-check`,
 and it reads the **working diff, not the tree** — the same decision
 `bin/wiki-secrets` made, for the same reason. A whole-tree rule would go red on
-378 pages of inherited debt and be switched off inside a week. This one fires on
+370 pages of inherited debt and be switched off inside a week. This one fires on
 the pass that writes a *new* dated claim, at the moment it commits, and it is
 deliberately narrow: a date the page already carried is retroactive debt, not
 this commit's fault, and re-wording the sentence around it does not go red.
@@ -784,7 +795,7 @@ Sweep for: broken links, orphan pages, contradictions between pages, claims supe
 | `bin/wiki-freshness` | is the generated corpus (`llm/`) in sync with `wiki/`? Exact set difference against `llm/manifest.json`; never writes. Exit 1 on drift |
 | `bin/wiki-connect` | `check` (typed-edge lint), `audit` (graph health), `candidates` (writes `connection-queue.md`) |
 | `bin/wiki-crosslink` | **the source-mention obligation, computed.** `coverage [--silent]` is the triage step and comes first — which of the readable corpora actually name a page, 3s for all 497 against a quarter-million source rows, and inverted, the pages nothing names that cite a corpus anyway. `scan <page>\|--all` then reads the corpora a page's own `sources:` name, inside its own date range, and names every entity with a page the page does not link — with the dated rows behind each, because the output is candidates and a candidate is a reason to read; `--against <corpus>` asks the more productive question, "in what a corpus the page does *not* cite says about it, what else is named?", and `--queue` orders the wiki by how loudly a page states a limit about its own evidence. Reads the twitter archive and **both** message exports — the latter by importing `bin/mine-messages`' reader, traps and all, rather than writing a second one — and marks a candidate `contested` when two pages claim the same string. `reciprocal [prefix]` is the inverse-edge debt `CONNECTIONS_SPEC.md` requires and nothing measured; `entities` is the index of strings a scan can look for; `orphaned` names corpus-backed pages by edge count; `check` prints the debt and **always exits 0** — a one-way edge still carries its claim, and a gate that blocked unrelated commits on it would acquire an escape hatch. It knows the generated surfaces and never asks for an inverse on one. It writes no edges and must not be made to |
-| `bin/wiki-corroborate` | **the message record, joined to the wiki — and the one instrument this repository was missing.** `coverage [--write]` is the honesty layer and comes first: what the record actually holds, by year, and which years are too thin for a null result to mean anything. `window DATE [--days N]` is the workhorse — every message in those hours across every thread, deduped over three corpora in under two seconds; `--handle` narrows to one counterparty, `--grep` to a pattern, but **the whole window is the point**, because nobody texts the name of the event they are living through. `probe` is a term search with the corpus traps applied. `scan [page] [--hedged]` is the debt — dated claims nothing has ever checked, hedged ones first; `queue` orders the wiki by it (378 pages, 323 hedged dates on the first run). `record` enters what came back and **verifies every cited row against the archive before it will append**, so a citation cannot be invented; `status`, `page`, and `check`, which gates in `bin/wiki-check`. Event-sourced in plain JSONL. **It refuses `--outcome absent` for a date outside coverage** — that is `uncovered`, and collapsing the two publishes the archive's silence as the world's. It reads through `bin/mine-messages`' reader rather than writing a second one, traps and all, and it writes no pages: a corroboration is what a reader concludes, and the ledger records that the check happened |
+| `bin/wiki-corroborate` | **the message record, joined to the wiki — and the one instrument this repository was missing.** `coverage [--write]` is the honesty layer and comes first: what the record actually holds, by year, and which years are too thin for a null result to mean anything. `window DATE [--days N]` is the workhorse — every message in those hours across every thread, deduped over three corpora in under two seconds; `--handle` narrows to one counterparty, `--grep` to a pattern, but **the whole window is the point**, because nobody texts the name of the event they are living through. `probe` is a term search with the corpus traps applied. `scan [page] [--hedged]` is the debt — dated claims nothing has ever checked, hedged ones first; `queue` orders the wiki by it (370 pages, 144 hedged dates). `record` enters what came back and **verifies every cited row against the archive before it will append**, so a citation cannot be invented; `status`, `page`, and `check`, which gates in `bin/wiki-check`. Event-sourced in plain JSONL. **It refuses `--outcome absent` for a date outside coverage** — that is `uncovered`, and collapsing the two publishes the archive's silence as the world's. It reads through `bin/mine-messages`' reader rather than writing a second one, traps and all, and it writes no pages: a corroboration is what a reader concludes, and the ledger records that the check happened |
 | `bin/wiki-climb` | `check` (validates `synthesizes:`, reports stale premises), `audit` (tier distribution), `candidates` (writes `synthesis-queue.md`) |
 | `bin/wiki-digest` | regenerates `DIGEST.md`, `RECENT.md`, `OPEN.md`, and their `wiki/meta/` on-site mirrors — committed, safe to rerun any time |
 | `bin/llm-publish` | builds `llm/`, the public LLM access point — **generated but COMMITTED**; rerun after any content pass |

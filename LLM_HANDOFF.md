@@ -4,6 +4,54 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-09-06e] - Session: every export, month-granular coverage, four cross-checks (Claude Opus 5)
+
+* **Branch:** `claude/message-log-cross-reference-2zdy1l` (restarted from `main`
+  after #277 merged) · `bin/wiki-check` clean · 507 pages · **525 tests** (10 new).
+* **Trigger:** operator — "Find more and cross check."
+
+**Read `log.md`'s entry first.** The instrument built this morning was reading
+**three** message exports out of fifty-three, and its coverage table therefore
+reported **zero rows for July and August 2026** — the end of the Annie record.
+Fixed by discovery: every CSV under `raw/self/message-csv/` and
+`raw/self/imessage/` now reads through one column-sniffing reader.
+**282,050 unique messages** (was 271,405); 2026 went 16,116 → 24,074.
+
+**Four things will bite:**
+
+1. **Coverage is by MONTH now, and `coverage.json` must be regenerated if any
+   export changes.** The holes are inside the covered years: nothing before
+   **2015-11-28**, August 2017 empty, 2021 stops in April, 2023 starts in
+   August, 2016-09/10 hold 18 and 13 rows.
+2. **Three exports are UTC** — deep, flat, last6months — measured by their
+   DST-split offsets (+4h/+5h). Adding an export without measuring its offset
+   will silently double every shared message four hours away from itself.
+3. **`absent` is refused three ways**: outside coverage, on a window under 25
+   rows, and where `uncovered` is claimed but a real window exists. The two
+   guards read the same number so they cannot deadlock — the first version
+   refused 2015-11-24 in both bands, leaving no legal outcome.
+4. **Never let a test write to the real ledger.** One did, this session, and the
+   row had to be pulled from `events.jsonl` before it was committed. The temp
+   trees now symlink `raw/` so windows are real and writes are not.
+
+#### What is next, in order
+
+1. **The campaign: `bin/wiki-corroborate queue`** — 370 pages, 144 hedged dates.
+   `wiki/timeline/annie-record` (422 unchecked) and `wiki/people/annie-ulmer`
+   (202) top it and are readable again. Work hedged dates first.
+2. **The stale cascade this pass created**, named rather than left to be found:
+   `estate-money-spine` and `suzanne-frank` moved, so their dependents are
+   stale; `annie-ulmer` moved, so its many dependents are too. Re-read, decide,
+   record — never bump.
+3. **`wiki/legal/463-morgantown` now needs the courthouse, not the corpus.** The
+   message record has been read across the whole lien window and is silent. A
+   Fayette County prothonotary search against the 463 Morgantown St parcel is
+   the only thing that settles it, and that is an operator errand.
+4. **The moratorium's residue is unchanged from 09-06d**: the testimony ledger
+   is still missing the April 2019 confirmation, `plain/DECLINED.md`'s withheld
+   page still needs re-translating rather than restoring, and the 187-of-191
+   base-rate correction in `BACKLOG.md` is still un-propagated.
+
 ### [2026-09-06d] - Session: the corroboration ledger, and the moratorium lifted (Claude Opus 5)
 
 * **Branch:** `claude/message-log-cross-reference-2zdy1l` · `bin/wiki-check`

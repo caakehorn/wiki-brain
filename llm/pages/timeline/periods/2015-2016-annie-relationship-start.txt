@@ -3,7 +3,7 @@ domain: timeline
 page_type: period
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-08-17
+date_modified: 2026-09-06
 sources: ["raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/operating_manual.md", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/annie_all_time_logs.csv", "raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx", "raw/self/dox-scan/DanAnnie_MoralAnalysis_SFW.docx", "raw/self/facebook/facebook-ihatedanfrank/messages/", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-md/LIFE REPORT.md", "raw/self/ancestry/"]
 related: ["wiki/timeline/events/timeline", "wiki/people/annie-ulmer", "wiki/people/alexis-armel", "wiki/self/facebook", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/self/message-corpora/master-message-dump", "wiki/timeline/periods/2017-poverty-floor", "wiki/self/gemini-activity/gemini-activity", "wiki/self/ancestry"]
 tags: [relationships, ai-collaboration, infidelity, financial-stress, trauma-bond]
@@ -46,7 +46,7 @@ connections:
 **Data profile:** From calendar, 2015: 43 events (39 in Dec: breakup, met Annie, hired, panic). 2016: 78 events. Relationship category high (266 total). Annie top handle +17244346811 31k+ in master CSV. FB Annie thread + groups cross for breadth. Early comms align LIFE REPORT (anxious-preoccupied, rapid fragmented cadence, info dumps).
 
 **Key events (mined from LIFE_EVENTS + operating_manual + Gemini bio):**
-- ~2015-11-24: Annie enters — introduced by Alexis herself ("HAPPY ONE WEEK SINCE LEX HANDED YOU TO ME," Annie, Dec 1).
+- ~2015-11-24: Annie enters — introduced by Alexis herself ("HAPPY ONE WEEK SINCE LEX HANDED YOU TO ME," Annie, Dec 1). **This date is a back-count and is permanently uncheckable: the message archive begins 2015-11-28**, and all of November before it holds seven messages. See [[wiki/mind/synthesis/bond-switch-2015]].
 - 2015-11-28: Dan tells Annie the **2009** origin of the Alexis relationship ("Lex cheated on me 2 weeks in after I moved her to fla") as a contrast case. **This is not a 2015 event** — see the correction above.
 - 2015-11-29: Met Annie Ulmer in person (golf course 2am rain, grandmothers neighbors 50yrs); "I met someone that instantly changed my life"; birthday drinking + passport refs.
 - 2015-11-30: Alexis still in the house ("Alexis is sloshed"); Suz offers Dan a car "if I get Alexis out."

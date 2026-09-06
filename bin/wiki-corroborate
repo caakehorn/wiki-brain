@@ -5,6 +5,7 @@ Pure stdlib, no dependencies, per repo convention.
 
     coverage [--write]        what the message record actually covers, by year
     window DATE [--days N]    every message around a date, deduped across corpora
+    window DATE --full       ... without the 160-character clip
     probe TERMS               term search with the corpus traps applied
     scan [page|prefix]        dated claims with no corroboration record
     queue [n]                 the retroactive campaign, most valuable first
@@ -123,6 +124,7 @@ import re
 import subprocess
 import sys
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parent.parent
 WIKI = ROOT / "wiki"
@@ -139,29 +141,151 @@ csv.field_size_limit(10 ** 9)
 
 # --------------------------------------------------------------- the corpora
 #
-# `kind` names the reader; the notes are measurements, not impressions. See the
-# module docstring, property 3, for why all three are read and why
-# MASTER_DUMP_PART_1_ARCHAIC.csv is not.
+# EVERY message export in the archive, not three of them. The first version of
+# this tool read three files and its coverage table reported **zero rows for
+# July and August 2026** — the two most contested months in the corpus, the ones
+# holding the end of the Annie record. The rows were there; nothing read them.
+# A coverage table that is wrong is worse than none, because `absent` rests on
+# it, so the corpus set is now discovered rather than listed.
+#
+# Measured 2026-09-06 over all 53 CSVs plus the dump, by matching normalised
+# text against the canonical union and taking the modal hour offset:
+#
+#   * **Three files are UTC and everything else is US Eastern local.** The
+#     offsets split +4h/+5h exactly on DST, which is the signature
+#     `bin/wiki-lexicon` documents: deep 75,944/46,853, flat 75,167/46,784,
+#     last6months 21,357/5,355. Reading those three as local would put a
+#     duplicate of every shared message four hours away from itself.
+#   * **Four files have no overlap with the canonical three at all** — they are
+#     pure addition, and they are exactly the 2026-07/08 material:
+#     `imessage_export_2124702449_20260820.csv` (6,495 rows, 2026-07-23 to
+#     2026-08-19, the thread through the last contact),
+#     `ally-lubin_last-7-days_20260820.csv`, `imessage_export_7248123683_20260820.csv`.
+#   * **Two files are redundant and are skipped** rather than deduped, because
+#     reading 27 MB to discard it costs every window query: see EXCLUDE.
+CSV_DIRS = ("raw/self/message-csv", "raw/self/imessage")
+DUMP_REL = "raw/self/dox-scan/all_imessages_complete_dump.txt"
+
 CORPORA = {
-    "raw/self/dox-scan/all_imessages_complete_dump.txt": {
+    DUMP_REL: {
         "kind": "doxdump",
-        "note": "direction reliable; 2015-2025, with 2012-2014 and 2022 empty and no 2026",
-    },
-    "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv": {
-        "kind": "msgcsv", "ts": "timestamp", "handle": "contact_handle",
-        "note": "the only corpus reaching 2026; 79% of its Sent rows carry no handle",
-    },
-    "raw/self/message-csv/imessage_ALL_both_all_now.csv": {
-        "kind": "msgcsv", "ts": "datetime_local", "handle": "contact",
-        "note": "adds 6,225 unique 2026 rows the master dump does not hold",
+        "note": "direction and counterparty reliable; 2015-2025, no 2026",
     },
 }
 
+# UTC, measured. Everything else in the archive is Eastern local.
+UTC_FILES = {
+    "imessage_export_deep_20260813.csv",
+    "imessage_export_flat_20260813.csv",
+    "imessages_2124702449_last6months.csv",
+}
+
+# Skipped, with the measurement that justifies it. Never skip a file because it
+# looks redundant — dedupe is cheap and being wrong here is invisible.
+EXCLUDE = {
+    "MASTER_DUMP_PART_1_ARCHAIC.csv":
+        "strict subset of MASTER_MESSAGES_DB_DUMP.csv — identical per-year "
+        "counts through 2024, and it stops there",
+    "imessage_export_flat_20260813.csv":
+        "the deep export with the HANDLE column dropped; same rows, same UTC "
+        "offsets, 185,731 against 186,671",
+    "messenger_export_THREADKEY_HERE.csv":
+        "an unfilled export template — zero bytes, no header, no rows",
+}
+
+UTC_TZ = ZoneInfo("UTC")
+EASTERN = ZoneInfo("America/New_York")
+
+# Column sniffing. One reader over thirteen schemas beats thirteen readers, and
+# every candidate name below was taken from a real header in this archive.
+TS_KEYS = ("timestamp", "datetime_local", "date/time", "datetime",
+           "local_datetime", "timestamp_utc", "readable_date", "date")
+TEXT_KEYS = ("text", "message content", "message_text", "message", "body")
+DIR_KEYS = ("direction", "sent or received", "is_from_me", "who_sent", "type")
+HANDLE_KEYS = ("contact_handle", "contact", "handle", "target", "handle_id",
+               "person", "chat", "sender")
+
+SENT = {"sent", "me", "1", "true", "from me", "dan"}
+RECEIVED = {"received", "them", "0", "false", "to me"}
+
+
+def _pick(header, keys):
+    low = [(h or "").strip().lower() for h in header]
+    for k in keys:
+        if k in low:
+            return low.index(k)
+    return None
+
+
+TS_RE = re.compile(r"^(\d{4}-\d{2}-\d{2})[ T]?(\d{2}:\d{2}(?::\d{2})?)?")
+
+
+def _parse_ts(raw, time_raw=None):
+    """A timestamp, or None. Deliberately narrow: this archive is ISO-ish."""
+    raw = (raw or "").strip().strip('"')
+    m = TS_RE.match(raw)
+    if not m:
+        return None
+    date, clock = m.group(1), m.group(2)
+    if not clock and time_raw:
+        tm = re.match(r"^(\d{1,2}:\d{2}(?::\d{2})?)", (time_raw or "").strip())
+        if tm:
+            clock = tm.group(1)
+    clock = clock or "00:00:00"
+    if len(clock) == 5:
+        clock += ":00"
+    return "%s %s" % (date, clock)
+
+
+def _direction(value, handle):
+    v = (value or "").strip().lower()
+    if v in SENT:
+        return "Sent"
+    if v in RECEIVED:
+        return "Received"
+    if (handle or "").strip().lower() == "me":
+        return "Sent"
+    return "?"
+
+
+def csv_corpora():
+    """Every readable CSV in the archive, newest-looking name last. Memoised."""
+    out = []
+    for d in CSV_DIRS:
+        base = ROOT / d
+        if not base.is_dir():
+            continue
+        for path in sorted(base.glob("*.csv")):
+            if path.name in EXCLUDE:
+                continue
+            out.append(path.relative_to(ROOT).as_posix())
+    return out
+
+
+def all_corpora():
+    return ([DUMP_REL] if (ROOT / DUMP_REL).exists() else []) + csv_corpora()
+
+
 # A year is COVERED when the union holds at least this many rows in it. Not a
-# quality bar — a floor under the word "absent". 2022 has four rows in the
-# entire corpus and 2011 has one; calling either "checked and nothing found"
-# would publish the archive's silence as the world's.
+# quality bar — a floor under the word "absent".
 COVERED_MIN_ROWS = 500
+
+# And the same floor at month resolution, which is the one that actually gates a
+# claim. Fifty: below that a day's window is empty because of how the archive
+# was cut, not because nothing was said. September and October 2016 hold 18 and
+# 13 rows inside a year holding 34,620.
+COVERED_MIN_MONTH = 50
+
+# And the floor `absent` actually rests on: how many messages the WINDOW itself
+# has to hold before "the record is silent about this" means anything.
+#
+# Month coverage is not fine enough and the worked case proves it. November 2015
+# holds 1,640 messages and clears the month floor comfortably — and **1,633 of
+# them fall on the 28th, 29th and 30th.** The archive begins on 2015-11-28. A
+# claim dated 2015-11-24 therefore sits in a "covered" month whose window holds
+# ONE message, and recording `absent` against it would publish the archive's
+# start date as a fact about the world. `record` reads the window and refuses.
+ABSENT_MIN_WINDOW_ROWS = 25
 
 OUTCOMES = {
     "corroborated": "the record says what the page says",
@@ -213,35 +337,67 @@ def dedupe_key(ts, text):
 def read_corpus(rel, prefixes=None):
     """Yield (ts, direction, handle, text) from one corpus.
 
-    `prefixes` is a tuple of date-string prefixes; rows not starting with one
-    are skipped before any work is done on them. That filter is what makes a
-    window query cheap enough to run without thinking about it — the whole
-    28 MB dump is scanned in under a second when only three days are wanted.
+    `prefixes` is a tuple of date-string prefixes; rows not matching one are
+    dropped before any work is done on them. That filter is what keeps a window
+    query cheap across 150 MB of exports — and for a UTC file it is applied
+    AFTER conversion, or a query for a local date would miss the last four hours
+    of it.
     """
-    spec = CORPORA[rel]
     path = ROOT / rel
     if not path.exists():
         return
     keep = (lambda ts: ts.startswith(prefixes)) if prefixes else (lambda ts: True)
-    if spec["kind"] == "doxdump":
-        m = mm()
+    m = mm()
+
+    if CORPORA.get(rel, {}).get("kind") == "doxdump":
         for r in m.records(str(path)):
             ts = "%s %s" % (r["date"], r["time"])
             if not keep(ts):
                 continue
             yield ts, r["dir"], (r["handle"] or "").strip(), m.norm(r["text"])
-    else:
-        m = mm()
-        with open(path, encoding="utf-8", errors="replace", newline="") as fh:
-            for r in csv.DictReader(fh):
-                ts = (r.get(spec["ts"]) or "").strip()
-                if not keep(ts):
+        return
+
+    is_utc = path.name in UTC_FILES
+    with open(path, encoding="utf-8", errors="replace", newline="") as fh:
+        reader = csv.reader(fh)
+        header = next(reader, None)
+        if not header:
+            return
+        ti = _pick(header, TS_KEYS)
+        xi = _pick(header, TEXT_KEYS)
+        if ti is None or xi is None:
+            return                      # not a message export this can read
+        di = _pick(header, DIR_KEYS)
+        hi = _pick(header, HANDLE_KEYS)
+        # `dan_imessages_2015-2018.csv` splits the clock into its own column;
+        # without this every row lands at midnight and the file's offsets read
+        # as -10h and -12h, which is what the measurement pass saw.
+        low = [(h or "").strip().lower() for h in header]
+        tmi = low.index("time") if "time" in low and low[ti] == "date" else None
+        widest = max(x for x in (ti, xi, di, hi, tmi) if x is not None)
+        for row in reader:
+            if len(row) <= widest:
+                continue
+            text = row[xi] or ""
+            if not text.strip():
+                continue
+            ts = _parse_ts(row[ti], row[tmi] if tmi is not None else None)
+            if not ts:
+                continue
+            if is_utc:
+                try:
+                    naive = datetime.datetime.fromisoformat(ts)
+                except ValueError:
                     continue
-                text = r.get("text") or ""
-                if not text.strip():
-                    continue
-                yield (ts, (r.get("direction") or "?").capitalize(),
-                       (r.get(spec["handle"]) or "").strip(), m.norm(text))
+                ts = (naive.replace(tzinfo=UTC_TZ).astimezone(EASTERN)
+                      .strftime("%Y-%m-%d %H:%M:%S"))
+            if not keep(ts):
+                continue
+            handle = (row[hi] or "").strip() if hi is not None else ""
+            if handle.lower() == "me":
+                handle = ""
+            yield (ts, _direction(row[di] if di is not None else "", handle),
+                   handle, m.norm(text))
 
 
 def load_window(start, end):
@@ -258,7 +414,7 @@ def load_window(start, end):
         d += datetime.timedelta(days=1)
     prefixes = tuple(days)
     seen = {}
-    for rel in CORPORA:
+    for rel in all_corpora():
         for ts, direction, handle, text in read_corpus(rel, prefixes):
             k = dedupe_key(ts, text)
             if k in seen:
@@ -281,24 +437,47 @@ def date_of(s, field="date"):
 
 # ------------------------------------------------------------------ coverage
 def compute_coverage():
-    """Per-year row counts, per corpus and deduped, over everything."""
-    per = {rel: collections.Counter() for rel in CORPORA}
-    union = collections.defaultdict(set)
-    for rel in CORPORA:
+    """What the archive actually holds, by MONTH, deduped across every export.
+
+    By month rather than by year, because a year is the wrong resolution for
+    every claim anyone makes. 2015 has 14,446 rows and **none of them before
+    November**, so a February 2015 claim sits inside a "covered" year and cannot
+    be checked at all; 2017 is covered and **August 2017 is empty**; 2023 starts
+    in August. Reporting those as covered would license an `absent` that means
+    nothing, which is the one thing this ledger must not produce.
+    """
+    per = {}
+    union_m = collections.defaultdict(set)
+    seen = set()
+    for rel in all_corpora():
+        rows = 0
+        unique = 0
+        first = last = None
         for ts, _d, _h, text in read_corpus(rel):
-            year = ts[:4]
-            if not year.isdigit():
+            month = ts[:7]
+            if not month[:4].isdigit():
                 continue
-            per[rel][year] += 1
-            union[year].add(dedupe_key(ts, text))
-    return {
-        "computed": today(),
-        "corpora": {rel: {"years": dict(sorted(per[rel].items())),
-                          "bytes": (ROOT / rel).stat().st_size if (ROOT / rel).exists() else 0,
-                          "note": CORPORA[rel]["note"]}
-                    for rel in CORPORA},
-        "union": {y: len(v) for y, v in sorted(union.items())},
-    }
+            rows += 1
+            if first is None or ts < first:
+                first = ts
+            if last is None or ts > last:
+                last = ts
+            k = dedupe_key(ts, text)
+            if k not in seen:
+                seen.add(k)
+                unique += 1
+            union_m[month].add(k)
+        path = ROOT / rel
+        per[rel] = {"rows": rows, "unique_first_seen": unique,
+                    "first": (first or "")[:10], "last": (last or "")[:10],
+                    "utc": path.name in UTC_FILES,
+                    "bytes": path.stat().st_size if path.exists() else 0}
+    months = {m: len(v) for m, v in sorted(union_m.items())}
+    years = collections.Counter()
+    for m, n in months.items():
+        years[m[:4]] += n
+    return {"computed": today(), "corpora": per,
+            "months": months, "union": dict(sorted(years.items()))}
 
 
 def coverage_table():
@@ -307,7 +486,12 @@ def coverage_table():
         die("corroborate/coverage.json is missing — run `bin/wiki-corroborate "
             "coverage --write`. Nothing here may guess at what the corpus "
             "covers; that is the one number the word 'absent' rests on.")
-    return json.loads(COVERAGE.read_text(encoding="utf-8"))
+    cov = json.loads(COVERAGE.read_text(encoding="utf-8"))
+    if "months" not in cov:
+        die("corroborate/coverage.json predates month-granular coverage — "
+            "rerun `bin/wiki-corroborate coverage --write`. A year-level table "
+            "calls February 2015 covered, and the corpus starts that November.")
+    return cov
 
 
 def covered_years(cov=None):
@@ -315,8 +499,22 @@ def covered_years(cov=None):
     return {y for y, n in cov["union"].items() if n >= COVERED_MIN_ROWS}
 
 
+def covered_months(cov=None):
+    cov = cov or coverage_table()
+    return {m for m, n in cov["months"].items() if n >= COVERED_MIN_MONTH}
+
+
 def is_covered(datestr, cov=None):
-    return str(datestr)[:4] in covered_years(cov)
+    """Can the record be asked about this date at all?
+
+    A day or a month is judged on its MONTH; a bare year on the year, because a
+    claim that only says "2019" is answerable if any part of 2019 is there.
+    """
+    cov = cov or coverage_table()
+    d = str(datestr)
+    if len(d) >= 7:
+        return d[:7] in covered_months(cov)
+    return d[:4] in covered_years(cov)
 
 
 # --------------------------------------------------------- dated claims on a page
@@ -550,25 +748,42 @@ def cmd_coverage(args):
         print("wrote %s" % COVERAGE.relative_to(ROOT))
     else:
         cov = coverage_table()
-    years = sorted(set(cov["union"]))
-    covered = covered_years(cov)
+    months, cm = cov["months"], covered_months(cov)
+    years = sorted(cov["union"])
     print("WHAT THE MESSAGE RECORD COVERS   (computed %s)\n" % cov["computed"])
-    print("  %-6s %10s   %s" % ("year", "messages", "status"))
+    print("  A month with nothing in it is `·`; one below the floor is marked ⚠ and")
+    print("  a null result from it means nothing. BY MONTH, because a year is the")
+    print("  wrong resolution: 2015 holds 14,473 messages and none before November.\n")
+    print("  %-6s %s   %s" % ("", "".join("%7s" % ("%02d" % i) for i in range(1, 13)), "total"))
     for y in years:
-        n = cov["union"][y]
-        print("  %-6s %10s   %s" % (y, "{:,}".format(n),
-                                    "covered" if y in covered else
-                                    "TOO THIN — a null result here means nothing"))
-    print("\n  %-6s %10s" % ("total", "{:,}".format(sum(cov["union"].values()))))
+        cells = []
+        for i in range(1, 13):
+            key, n = "%s-%02d" % (y, i), months.get("%s-%02d" % (y, i), 0)
+            cells.append("%7s" % ("·" if not n else
+                                  ("{:,}".format(n) if key in cm else "%d⚠" % n)))
+        print("  %-6s %s %8s" % (y, "".join(cells), "{:,}".format(cov["union"][y])))
+    print("\n  %-6s %s" % ("total", "{:>91}".format("{:,}".format(sum(cov["union"].values())))))
     gaps = [y for y in range(int(years[0]), int(years[-1]) + 1)
             if str(y) not in cov["union"]]
     if gaps:
         print("\n  YEARS WITH NO ROWS AT ALL: %s" % ", ".join(str(g) for g in gaps))
-    print("\n  BY CORPUS")
-    for rel, meta in cov["corpora"].items():
-        print("    %-52s %9s rows" % (rel.split("/")[-1],
-                                      "{:,}".format(sum(meta["years"].values()))))
-        print("      %s" % meta["note"])
+
+    if args.corpora:
+        print("\n  THE EXPORTS THIS READS  (%d)" % len(cov["corpora"]))
+        for rel, meta in sorted(cov["corpora"].items(),
+                                key=lambda kv: -kv[1].get("rows", 0)):
+            print("    %-56s %8s rows %8s unique  %s → %s%s"
+                  % (rel.split("/")[-1][:56], "{:,}".format(meta.get("rows", 0)),
+                     "{:,}".format(meta.get("unique_first_seen", 0)),
+                     meta.get("first", "—"), meta.get("last", "—"),
+                     "  [UTC]" if meta.get("utc") else ""))
+        if EXCLUDE:
+            print("\n  SKIPPED, and why")
+            for name, why in sorted(EXCLUDE.items()):
+                print("    %-46s %s" % (name[:46], why))
+    else:
+        print("\n  %d export(s) read. `--corpora` lists them with what each adds."
+              % len(cov["corpora"]))
     print("\nA date outside coverage cannot be checked here, and `record` refuses")
     print("`--outcome absent` for one. Uncovered is not the same as empty.")
     return 0
@@ -590,7 +805,7 @@ def cmd_window(args):
               "result here is the archive's silence, not the world's.\n"
               % (args.date, "{:,}".format(cov["union"].get(str(args.date)[:4], 0))))
     print("%s ± %d day(s) — %d message(s) across %d corpora\n"
-          % (args.date, args.days, len(rows), len(CORPORA)))
+          % (args.date, args.days, len(rows), len(all_corpora())))
     by_handle = collections.Counter(r[2] or "(no handle)" for r in rows)
     if not args.quiet and by_handle:
         print("  THREADS IN THIS WINDOW")
@@ -599,8 +814,9 @@ def cmd_window(args):
         print()
     shown = rows[:args.limit] if args.limit else rows
     for ts, direction, handle, text, _c in shown:
+        body = text.replace("\n", " ⏎ ")
         print("%s  %s %-14s | %s" % (ts[:16], direction[:1], (handle or "-")[:14],
-                                     text.replace("\n", " ⏎ ")[:160]))
+                                     body if args.full else body[:160]))
     if args.limit and len(rows) > args.limit:
         print("\n... %d more (--limit 0 for all)" % (len(rows) - args.limit))
     return 0
@@ -612,7 +828,7 @@ def cmd_probe(args):
     end = args.until or "2030-12-31"
     hits, per_year = [], collections.Counter()
     seen = set()
-    for rel in CORPORA:
+    for rel in all_corpora():
         for ts, direction, handle, text in read_corpus(rel):
             if not (start <= ts[:10] <= end):
                 continue
@@ -631,8 +847,9 @@ def cmd_probe(args):
                                         for y, n in sorted(per_year.items())))
         print()
     for ts, direction, handle, text in hits[:args.limit or len(hits)]:
+        body = text.replace("\n", " ⏎ ")
         print("%s  %s %-14s | %s" % (ts[:16], direction[:1], (handle or "-")[:14],
-                                     text.replace("\n", " ⏎ ")[:160]))
+                                     body if args.full else body[:160]))
     if args.limit and len(hits) > args.limit:
         print("\n... %d more" % (len(hits) - args.limit))
     print("\nA count over a corpus is a measurement of the pattern, never a "
@@ -738,18 +955,32 @@ def cmd_record(args):
     lo = (date - datetime.timedelta(days=args.days)).isoformat()
     hi = (date + datetime.timedelta(days=args.days)).isoformat()
 
+    # `absent` and `uncovered` are decided on the WINDOW, not on the calendar.
+    # Coverage is a fact about a month; a claim is about a handful of days, and
+    # a covered month can hold an empty week — see ABSENT_MIN_WINDOW_ROWS. So
+    # the two guards below read the same number and cannot deadlock: `absent`
+    # needs a real window, `uncovered` needs the absence of one.
     covered = is_covered(args.date, cov)
-    if args.outcome == "absent" and not covered:
-        die("REFUSED: %s is outside the corpus's coverage (%s rows in %s), so "
-            "the window was not read — it does not exist. That is `uncovered`, "
-            "not `absent`. Reporting an instrument's silence as a finding "
-            "invents a measurement."
-            % (args.date, "{:,}".format(cov["union"].get(args.date[:4], 0)), args.date[:4]))
-    if args.outcome == "uncovered" and covered:
-        die("REFUSED: %s IS inside coverage (%s rows in %s). Run the window; if "
-            "it holds nothing about this claim, that is `absent` and it is a "
-            "real result."
-            % (args.date, "{:,}".format(cov["union"].get(args.date[:4], 0)), args.date[:4]))
+    held = len(load_window(lo, hi)) if args.outcome in ("absent", "uncovered") else None
+    if args.outcome == "absent":
+        if not covered:
+            die("REFUSED: %s is outside the corpus's coverage (%s rows in %s), "
+                "so the window was not read — it does not exist. That is "
+                "`uncovered`, not `absent`. Reporting an instrument's silence "
+                "as a finding invents a measurement."
+                % (args.date, "{:,}".format(cov["union"].get(args.date[:4], 0)),
+                   args.date[:4]))
+        if held < ABSENT_MIN_WINDOW_ROWS:
+            die("REFUSED: the window %s..%s holds %d message(s). '%s' is inside "
+                "a covered month, but this WINDOW is empty — recording 'absent' "
+                "would publish the shape of the archive as a fact about the "
+                "world. That is `uncovered`; say so, and say what the archive "
+                "does and does not reach." % (lo, hi, held, args.date))
+    if args.outcome == "uncovered" and covered and held >= ABSENT_MIN_WINDOW_ROWS:
+        die("REFUSED: %s is inside coverage and its window %s..%s holds %s "
+            "message(s). There is a window here to read. If it holds nothing "
+            "about this claim, that is `absent` and it is a real result."
+            % (args.date, lo, hi, "{:,}".format(held)))
     if args.outcome in MUST_CITE and not args.row:
         die("--outcome %s asserts something about what the messages say, so it "
             "must cite rows: --row 'YYYY-MM-DD HH:MM Sent +1…' (repeatable)."
@@ -788,7 +1019,7 @@ def cmd_record(args):
         "outcome": args.outcome,
         "rows": rows,
         "because": args.because.strip(),
-        "corpora": sorted(CORPORA),
+        "corpora": sorted(all_corpora()),
     }
     if args.was:
         rec["was"] = args.was
@@ -912,7 +1143,11 @@ def render_page(state, cov=None):
         L.append('        "%s": %d' % (y, n))
     L += ["tags: [forensic-analysis, trust, consistency]",
           "sources:"]
-    for rel in sorted(CORPORA):
+    # The four largest, not all fifty-one. The full list with each file's own
+    # contribution is the corpora table in the body, which is the honest place
+    # for it — a fifty-line frontmatter block is a citation nobody reads.
+    for rel in sorted(cov.get("corpora", {}),
+                      key=lambda r: -cov["corpora"][r].get("rows", 0))[:4]:
         L.append("  - %s" % rel)
     L += ["related:", "  - wiki/meta/index"]
     L += ["---", "",
@@ -920,21 +1155,58 @@ def render_page(state, cov=None):
           "**Generated by `bin/wiki-corroborate page`. Do not hand-edit — a hand",
           "edit fails `bin/wiki-corroborate check` and is overwritten on the next",
           "run.** This is the record of which dated claims in this wiki have been",
-          "checked against the 265,000 first-party messages in `raw/`, what came",
+          "checked against the first-party message archive in `raw/`, what came",
           "back, and what it changed.", "",
           "**It is evidence, not a claim.** It records that a check happened and",
           "what it settled. What a corroboration *means* is synthesis, and",
           "synthesis happens on an ordinary page.", "",
           "## What the record covers", "",
-          "| Year | Messages | |", "|---|---|---|"]
-    for y, n in sorted(cov.get("union", {}).items()):
-        L.append("| %s | %s | %s |" % (y, "{:,}".format(n),
-                                       "" if y in covered else "too thin to read a null result from"))
-    L += ["",
-          "Years absent from that table hold nothing at all. **A claim dated",
-          "outside coverage cannot be checked here and is not recorded as",
+          "**By month, because a year is the wrong resolution for any claim",
+          "anyone makes.** 2015 holds 14,446 messages and none before November;",
+          "August 2017 is empty inside a covered year; 2023 starts in August. A",
+          "year-level table calls all three checkable and they are not.", "",
+          "`·` is a month with nothing in it; a month below the floor is marked",
+          "**thin** and a null result from one means nothing.", ""]
+    months = cov.get("months", {})
+    if months:
+        cm = covered_months(cov)
+        yrs = sorted({m[:4] for m in months})
+        L.append("| Year | " + " | ".join("%02d" % i for i in range(1, 13)) + " | Total |")
+        L.append("|---" * 14 + "|")
+        for y in yrs:
+            cells = []
+            for i in range(1, 13):
+                key = "%s-%02d" % (y, i)
+                n = months.get(key, 0)
+                if not n:
+                    cells.append("·")
+                elif key in cm:
+                    cells.append("{:,}".format(n))
+                else:
+                    cells.append("%d ⚠" % n)
+            L.append("| **%s** | %s | %s |"
+                     % (y, " | ".join(cells),
+                        "{:,}".format(cov["union"].get(y, 0))))
+        L.append("")
+    L += ["Years and months absent from that table hold nothing at all. **A claim",
+          "dated outside coverage cannot be checked here and is not recorded as",
           "unsupported** — `uncovered` and `absent` are different outcomes and the",
           "tool refuses to let one stand in for the other.", "",
+          "## The exports this reads", "",
+          "Every message export in the archive, deduplicated on timestamp and",
+          "text. Three are UTC and are converted before use; the rest are US",
+          "Eastern local. `unique` counts the rows a file was the first to",
+          "supply, in the order below — it is a measure of what would be lost by",
+          "dropping the file, not of what the file holds.", "",
+          "| Export | Rows | Unique | Span | |", "|---|---|---|---|---|"]
+    for rel, meta in sorted(cov.get("corpora", {}).items(),
+                            key=lambda kv: -kv[1].get("rows", 0)):
+        L.append("| `%s` | %s | %s | %s → %s | %s |"
+                 % (rel.split("/")[-1], "{:,}".format(meta.get("rows", 0)),
+                    "{:,}".format(meta.get("unique_first_seen", 0)),
+                    meta.get("first", "—"), meta.get("last", "—"),
+                    "UTC" if meta.get("utc") else ""))
+    L += ["",
           "## Outcomes", "",
           "| Outcome | Records | Meaning |", "|---|---|---|"]
     for o in sorted(OUTCOMES):
@@ -1140,6 +1412,7 @@ def main(argv=None):
 
     p = sub.add_parser("coverage", help="what the message record covers, by year")
     p.add_argument("--write", action="store_true", help="recompute corroborate/coverage.json")
+    p.add_argument("--corpora", action="store_true", help="list every export and what it adds")
     p.set_defaults(fn=cmd_coverage)
 
     p = sub.add_parser("window", help="every message around a date")
@@ -1149,6 +1422,10 @@ def main(argv=None):
     p.add_argument("--grep", help="restrict to messages matching a regex")
     p.add_argument("--limit", type=int, default=200)
     p.add_argument("--quiet", action="store_true", help="skip the thread summary")
+    p.add_argument("--full", action="store_true",
+                   help="print whole messages — the default clips at 160 chars, "
+                        "and the clipped half is where the estate attorney put "
+                        "the sentence that mattered")
     p.set_defaults(fn=cmd_window)
 
     p = sub.add_parser("probe", help="term search across the corpora")
@@ -1156,6 +1433,7 @@ def main(argv=None):
     p.add_argument("--since")
     p.add_argument("--until")
     p.add_argument("--limit", type=int, default=60)
+    p.add_argument("--full", action="store_true", help="print whole messages")
     p.set_defaults(fn=cmd_probe)
 
     p = sub.add_parser("scan", help="dated claims with no corroboration record")

@@ -21,9 +21,9 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 | | |
 |---|---|
-| Pages | 507 |
-| Pages touched in the last 14 days | 239 |
-| Pages reasoning from other pages (`synthesizes:`) | 81 |
+| Pages | 508 |
+| Pages touched in the last 14 days | 242 |
+| Pages reasoning from other pages (`synthesizes:`) | 82 |
 | Live contradictions | 50 |
 | Open gaps | 711 |
 | Standing predictions | 65 |
@@ -34,7 +34,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 |---|---|
 | people | 175 |
 | interests | 98 |
-| mind | 83 |
+| mind | 84 |
 | self | 60 |
 | timeline | 42 |
 | work | 15 |
@@ -48,21 +48,22 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | Status | Pages |
 |---|---|
 | active | 201 |
-| stable | 166 |
+| stable | 167 |
 | closed | 101 |
 | archived | 29 |
 | stub | 10 |
 
 ## The last few days
 
-**2026-09-06** — 15 pages
+**2026-09-06** — 21 pages
+  - corroborate | meta | the instrument was reading three files out of fifty-two, and the two months it could not see were the ones that mattered
   - corroborate | meta | the message record, joined to the wiki — and the Annie moratorium lifted
   - ingest | meta | the claim validity ledger — expiry was the third thing, and nothing owned it
   - strategy | meta | can the wiki brain be sold, and as what
   - traits | mind | the personality profile, cross-tested against the corpus — and what the test found about the test
   - lint | mind | correction — `unreviewed` is not `silent`, in the prose as well as the code
 
-**2026-09-05** — 25 pages
+**2026-09-05** — 24 pages
   - connect | meta | the wiki names 570 things it does not link — 344 of them now clickable
   - connect | meta | 453 of 497 pages were one-way doors
   - rewrite | people | Davey Fitzpatrick re-derived — and the testimony ledger was scoring 18 of 20
@@ -70,7 +71,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - ingest | interests | personal lexicon — the custom-language layer, corpus-checked
   - ingest | interests | the lexicon, counted — `bin/wiki-lexicon` and the measured vocabulary
 
-**2026-09-04** — 93 pages
+**2026-09-04** — 92 pages
   - lint | meta | the crosslink campaign had been counting a link that isn't one
   - connect | people | 79 lines had been written about a 1,789-message thread
   - connect | people | the handles were on the pages all along, and the guard could not see nine of them
@@ -173,6 +174,7 @@ have moved since.
 - [[wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis]] — 7 premises
 - [[wiki/mind/synthesis/music-as-identity]] — 6 premises
 - [[wiki/mind/synthesis/no-platonic-channel]] — 9 premises
+- [[wiki/mind/synthesis/ocean-cross-validation]] — 7 premises
 - [[wiki/mind/synthesis/political-psyops]] — 6 premises
 - [[wiki/mind/synthesis/read-receipt-forensics]] — 3 premises
 - [[wiki/mind/synthesis/single-channel]] — 8 premises

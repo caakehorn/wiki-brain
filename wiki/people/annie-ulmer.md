@@ -9,8 +9,8 @@ importance: critical
 knowledge: mixed
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-23
-date_range_start: 2015-11-01
+date_modified: 2026-09-06
+date_range_start: 2015-11-28
 date_range_end: 2026-08-19
 infobox:
   name: Annie Ulmer
@@ -23,7 +23,7 @@ infobox:
   notes: See [[wiki/timeline/events/july-august-2026-reentanglement|the re-entanglement]]
   relationship_to_dan: ex-partner
   location: uniontown
-  first_contact: 2015-11-01
+  first_contact: 2015-11-28
   handles: ["@Annelouise28", "@Lo_weez", "@alexisarmel"]
   mbti: ESFP
   enneagram: 7w8
@@ -517,6 +517,22 @@ it is stated on day five, by both of them, in writing. Detail on
 > to open a 2.5-year gap. When the breakup was recomputed to November 2015 the
 > contemporaneity was reinstated, but the subject of the sentence had already
 > been flipped, and the flipped version propagated.
+>
+> **CORROBORATED [2026-09-06]:** the ~2015-11-24 introduction is **not
+> checkable and never will be**, and this page's own frontmatter disagreed with
+> its prose by three weeks. The archive begins on **2015-11-28**. All of
+> November 2015 before that date holds **seven messages** — one each on the
+> 12th, 17th and 23rd, four on the 26th — against 1,633 on the 28th, 29th and
+> 30th. So `date_range_start` and `first_contact`, which read **2015-11-01**,
+> were a round number nothing supports; both now read 2015-11-28, which is what
+> the evidence covers. The ~11-24 introduction stays in the prose as what it has
+> always been: a back-count from Annie's *"HAPPY ONE WEEK SINCE LEX HANDED YOU
+> TO ME"* of 2015-12-01. **Annie's first surviving message is 2015-11-28
+> 18:47:54** and it is already intimate — *"Fuck my friends. Fuck birthday
+> dinner. Fucking going drinking. I wanna be with you"*, followed nine minutes
+> later by *"You are everything"* — which corroborates the corpus opening
+> mid-relationship rather than at its start. Recorded `uncovered` rather than
+> `absent`: there is no window here to read.
 >
 > **This is not a cosmetic fix.** The sharpest single instance of abrupt
 > bond-switching in the corpus was sitting in the wrong column. It was being read

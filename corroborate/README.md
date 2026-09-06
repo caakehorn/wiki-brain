@@ -9,7 +9,7 @@ the protocol. Read the tool's module docstring before touching anything here.
 
 ## Why it exists
 
-271,405 first-party messages sit in `raw/`, timestamped to the second, written
+282,050 first-party messages sit in `raw/`, timestamped to the second, written
 at the time by the people involved, with no audience and no thesis. Almost every
 page in this wiki was written from something else — a later retelling, an AI
 dossier, an operator answer, a memory of a video — and **until 2026-09-06
@@ -57,7 +57,7 @@ corroboration that can be quietly rewritten is worth less than none.
 ## The gate
 
 `bin/wiki-corroborate check` runs inside `bin/wiki-check`. It reads the
-**working diff, not the tree**, and that is what keeps it switched on: 378 pages
+**working diff, not the tree**, and that is what keeps it switched on: 370 pages
 carry dated claims nothing has ever checked, and a gate red on all of them would
 be disabled inside a week. It fires when a pass writes a date the page did not
 already carry, inside coverage, with no record covering it. There is no skip

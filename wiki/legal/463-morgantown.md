@@ -4,7 +4,7 @@ page_type: summary
 title: "463 Morgantown St (Housing / Property Risks)"
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-20
+date_modified: 2026-09-06
 sources:
   - raw/self/message-csv/imessage_7243228715_both_all_now.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -68,6 +68,29 @@ estimated to mature around **July 27, 2026**.
 > answerable from outside the corpus — a Fayette County prothonotary or recorder
 > search against the 463 Morgantown St parcel would settle it in one query. Until
 > then the risk table below should be read as **unresolved, not expired**.
+
+> **CORROBORATED [2026-09-06]:** the message record has now been read across
+> the whole window and is **silent** — which narrows "no source read to date"
+> to something sharper. Searched 2026-06-15 → 2026-08-31, a densely covered
+> stretch (2,228 messages in July, 5,401 in August), for `lien`, `prothonotary`,
+> `recorder of deeds`, `magisterial`, `sheriff`, `foreclos*`, `attorney`,
+> `lawyer`, `court`, `summons` and `463`: **no mention of a lien, a filing, a
+> notice, a contractor claim or Arnu.** Widened to fifteen months
+> (2025-06 → 2026-09), the name Arnu appears in the entire archive **once** —
+> Suz, **2026-02-10 15:18**: *"Great! It's mushy. Felix showed up but Arnu
+> didn't. He's bringing Elijah over to do his homework until basketball practice
+> and Felix is going to paint more."* That is the no-show already in the risk
+> table, and it is the whole of it.
+>
+> **What this does and does not settle.** A mechanics lien is a filing at the
+> courthouse, not a text message, so silence here cannot prove none exists — and
+> the prothonotary search remains the answer. What it does establish is that
+> **nobody told Dan about one, and Dan told nobody**, through the estimated
+> maturity date and for six weeks after it, on a thread where he was discussing
+> an implied threat over this same address on 2026-08-17 and his own housing on
+> 2026-08-11. A live lien on the property he is living in, unmentioned in that
+> traffic, is the less likely of the three states this block lists. Recorded
+> `absent` — a real result, and the cheapest falsifier this page has had.
 
 ## Open risks
 
