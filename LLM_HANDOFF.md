@@ -4,6 +4,59 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-09-06b] - Session: the trait–corpus map (Claude Opus 5)
+
+* **Branch:** `claude/wiki-brain-product-strategy-wgah7n` · `bin/wiki-check`
+  clean · 504 pages, 0 errors · **478 tests** (28 new).
+* **Trigger:** operator — cross-test the personality types against the whole of
+  the data, make the result a priority filter shaping the wiki's understanding,
+  give it its own entry.
+
+**New subsystem: `bin/wiki-traits` + `traits/measured.json` +
+`wiki/mind/profile/trait-corpus-map.md` (generated) + a gate in
+`bin/wiki-check` + the filter wired into `SYNTHESIS_SPEC.md`'s constitution pass
+at registers 1, 2 and 11.** `bin/wiki-traits assess <trait>` is the interface a
+synthesis calls before leaning on a trait as a mechanism.
+
+**Read the module docstring before touching it.** Three things will bite again:
+
+1. **Reach is not evidence and must never be added to support.** 122 of 483
+   pages carry personality vocabulary and 38 of 61 synthesis pages do — all
+   written by agents that had read `wiki/mind/profile/`. A single "how present
+   is this trait everywhere" score is circular and would look authoritative.
+2. **An unreviewed proxy is capped at `silent`.** It may not confirm and may
+   not contradict. The first run published `CONTRADICTED LOAD` on the Fe
+   deficit — re-read 37 pages — off a regex whose every match was Dan being
+   comforted. `tests/test_wiki_traits.py::VerdictCap::test_unreviewed_cannot_contradict`
+   is the regression; relaxing it makes that headline publishable again.
+3. **Reach patterns need the same review as Tier A proxies.** `left` matched
+   "**Checked, left standing**" — constitution-pass boilerplate on every
+   synthesis page — and took one trait's reach from 34 to 202.
+
+**The headline result is about the instrument, not about Dan: seven traits are
+load-bearing across the corpus and none is currently measurable.** Four have no
+reviewed proxy, three had every proxy read and found broken. Silence is not
+falsification; this constrains what a synthesis may claim, not what is true.
+
+#### What is next, in order
+
+1. **`bin/wiki-traits review` — 16 of 23 proxies unreviewed.** This is the
+   highest-value work in the subsystem and it is the only thing that converts
+   these traits from testimony into measurement. Review by reading
+   `bin/psychometrics run --facet <f> --examples 8` and recording the verdict in
+   `PROXY_REVIEW`. Do not rewrite a regex until it agrees with the profile —
+   that is motivated reasoning in the other direction.
+2. **Write better proxies for the three `no instrument` traits** (Fe deficit,
+   vulnerability, impulsiveness). Their current ones are documented broken with
+   the exact string that breaks each.
+3. **Facebook is an unmined fifth register** — 286 MB, 1,686 HTML files, and
+   the export is nested inside itself so a naive walk double-counts every post.
+4. **`bin/wiki-traits mine` is NOT in `bin/wiki-check`'s generate list** — ~70s
+   over four corpora, same arrangement as `wiki-lexicon`. Rerun by hand when a
+   corpus changes, then `page`. The gate catches drift, not staleness.
+5. Previous sessions' items below are untouched — 140 obligations (128 stale
+   premises), 99 `unlinked` candidates, 97 handle-less people pages.
+
 ### [2026-09-06] - Session: product strategy (Claude Opus 5)
 
 * **Branch:** `claude/wiki-brain-product-strategy-wgah7n` · `bin/wiki-check`

@@ -10207,3 +10207,59 @@ sample-bias disclosure travels with it.
 
 Also cleared a pre-existing red gate: `wiki/meta/testimony-veracity.md` was
 behind its ledger (`bin/wiki-testimony page`).
+
+## [2026-09-06] traits | mind | the personality profile, cross-tested against the corpus — and what the test found about the test
+
+Operator directive: cross-test the personality types against the whole of the
+data, make the result a priority filter shaping the wiki's understanding, and
+put it in its own entry. New subsystem: `bin/wiki-traits`, `traits/measured.json`,
+`wiki/mind/profile/trait-corpus-map.md` (generated), a gate in `bin/wiki-check`,
+28 tests, and the filter wired into `SYNTHESIS_SPEC.md`'s constitution pass at
+registers 1, 2 and 11.
+
+**The design finding, before any trait finding: the obvious build is circular
+and would have looked like the strongest evidence in the repository.** Measured
+first: **122 of 483 pages carry personality vocabulary, and 38 of 61 synthesis
+pages do**; `intp` alone is cited by 46 pages. Those pages were written by
+agents that had read `wiki/mind/profile/`. Scoring a trait across them measures
+how often the writing process reached for a vocabulary, not how present the
+trait is in the life. So the corpus is stratified — Tier A behavioural (the only
+tier that is evidence), Tier B testimony, Tier C wiki-derived — and support and
+reach are computed on separate axes that are **never added**.
+
+**The first run reported `CONTRADICTED LOAD` on the Fe deficit — an instruction
+to re-read 37 pages, 17 of them synthesis — and it was false.** The verdict
+rested on one proxy for *other-directed concern* whose every match was Dan being
+comforted: *"Thank you for making me feel better sweetie."* The pattern caught
+`feel better` and could not tell who was doing the feeling. Reading the matches,
+**six of 23 Tier A proxies broke the same way** — `too much` catching "too much
+of a babe", `can't wait` catching "can't wait to see you", `i want you to`
+catching "I want you to do things however you feel most comfortable". **Three
+reach patterns broke too**: `left` matched **"Checked, left standing"**,
+constitution-pass boilerplate on every synthesis page, inflating one trait's
+reach from 34 pages to 202 and manufacturing an obligation out of nothing.
+
+**The fix is structural, not a patched regex.** A proxy earns its verdict by
+having had its matches read (`PROXY_REVIEW`). An unreviewed proxy may report
+`silent` and nothing else — it may not confirm a score and it may not contradict
+one. That cap is load-bearing precisely because of the inherited asymmetry: only
+`INVERTED` is evidence against a score, which makes it the heaviest verdict in
+the system and, for an unreviewed regex, the cheapest to manufacture. A trait
+whose every proxy is broken bands `no instrument`, never `silent` — silence
+implies an instrument ran.
+
+**What the honest map says: seven traits are load-bearing across the corpus and
+not one of them is currently measurable.** Four (Ti dominance, liberalism,
+anxiety, schizotypal) have no reviewed proxy; three (Fe deficit, vulnerability,
+impulsiveness) had every proxy read and found to catch something else. That is a
+statement about the instrument, not about Dan — silence is not falsification —
+and it constrains what a synthesis may claim rather than what is true. 16 of 23
+proxies are unreviewed; `bin/wiki-traits review` is the queue.
+
+Facebook is named on the page as an unmeasured fifth register: 286 MB, 1,686
+HTML files, and the export is nested inside itself, so counting the tree as it
+stands double-counts every post.
+
+Also: promoted `skills/corpus/lexical-proxy-load.md` — both of PROTOCOL §3's
+tests were met inside the session (nine wrong results of one class, and a
+regression test). Master index mind count 77 → 78.

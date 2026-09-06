@@ -147,3 +147,19 @@ repository's record:
   nouns, so it cannot see an entity with no page (that is `EXTRACTION_SPEC.md`
   move 3) and it cannot see a conceptual link at all — which was half of what
   the operator asked for, and remains a reading job.
+
+## 2026-09-06 — promoted `corpus/lexical-proxy-load.md` (active)
+
+A lexical proxy good enough to start a conversation is not good enough to gate
+one. Promoted on first authoring rather than parked in `INBOX.md`, because both
+of `PROTOCOL.md` §3's tests were met inside the session that found it: the same
+class of failure explained **nine** separate wrong results (six Tier A proxies
+and three reach patterns, each named in the skill with the string that breaks
+it), and `tests/test_wiki_traits.py` validates the instruction mechanically —
+`VerdictCap.test_unreviewed_cannot_contradict` is the regression.
+
+The occasion was `bin/wiki-traits`' first run reporting `CONTRADICTED LOAD` on
+the Fe deficit — an instruction to re-read 37 pages, 17 of them synthesis — off
+a proxy whose every match was Dan being comforted rather than comforting. The
+tool now caps an unreviewed proxy at `silent`, which is the instruction stated
+as code.

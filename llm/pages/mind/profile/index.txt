@@ -121,3 +121,20 @@ or instrument versions for the Big30/PD numbers; no re-test after the June
 2026 closure event, so the entire profile is calibrated on pre-closure data.
 The autism self-identification carries the same gap in sharper form — see
 [[wiki/mind/profile/neurodivergence]] for what its actual sourcing is and is not.
+
+## What the corpus says back
+
+Every score above is **self-report** — an instrument Dan filled in — and the
+gaps section says so. [[wiki/mind/profile/trait-corpus-map]] is the other
+direction: each trait tested as a directional prediction against 138,249 sent
+messages (controlled against 135,443 received), 2,741 tweets and 5,442 AI
+prompts, and then against the wiki's own reasoning, on two axes that are never
+added together.
+
+It is **evidence, not a claim**, and its first result is uncomfortable: seven
+traits are load-bearing across the corpus and **not one of them is currently
+measurable** — four have no reviewed proxy, three had every proxy read and
+found to catch something else. That is a statement about the instrument, not
+about Dan. Silence is not falsification, and the map exists so that a synthesis
+knows which of these registers it may lean on as a mechanism and which it may
+only cite as testimony.

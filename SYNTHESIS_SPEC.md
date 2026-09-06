@@ -245,8 +245,8 @@ makes the next pass cheap — but it may not be *silence*.
 
 | # | Register | Where it lives |
 |---|---|---|
-| 1 | **Cognitive stack** — function order, and what each function is *for* | `wiki/mind/profile/intp` |
-| 2 | **Personality profile** — measured traits, types, deviation scores | `wiki/mind/profile/`: `big-five-psychometrics`, `enneagram-5w4`, `socionics-and-attitudinal`, `deviance-mapping`, `neurodivergence` |
+| 1 | **Cognitive stack** — function order, and what each function is *for* | `wiki/mind/profile/intp`, weighted by `wiki/mind/profile/trait-corpus-map` |
+| 2 | **Personality profile** — measured traits, types, deviation scores | `wiki/mind/profile/`: `big-five-psychometrics`, `enneagram-5w4`, `socionics-and-attitudinal`, `deviance-mapping`, `neurodivergence` — **weighted by `wiki/mind/profile/trait-corpus-map`** |
 | 3 | **Historical precedent** — has this shape happened before, and when | `wiki/timeline/`, `dormancy-not-exit`, `interests-as-era-markers` |
 | 4 | **Attitudes, trends and forces** — what was moving in him and around him | `the-cool-metric`, `chaos-preference`, `intake-constancy`, `2020-left-turn` |
 | 5 | **Current environment — security and prosperity** | `estate-money-spine`, `wiki/places/337-saratoga-drive`, `wiki/legal/463-morgantown`, `wiki/work/` |
@@ -255,11 +255,64 @@ makes the next pass cheap — but it may not be *silence*.
 | 8 | **Age and upbringing** — how old he was, who raised him, what it cost | `wiki/timeline/periods/`, `rick-frank`, `suzanne-frank`, `fran-coldren` |
 | 9 | **Cultural markers — geographic and ethnic** | `fayette-return`, `wiki/self/ancestry`, `ancestral-dialectic`, `wiki/places/` |
 | 10 | **Religious and ideological programming** | `wiki/mind/politics/`, `2020-left-turn`, `wiki/self/concepts/` |
-| 11 | **Axiomatic political belief** | `wiki/mind/politics/axioms`, `political-psyops`, `vertical-authority-skepticism` |
+| 11 | **Axiomatic political belief** | `wiki/mind/politics/axioms`, `political-psyops`, `vertical-authority-skepticism`, weighted by `trait-corpus-map` |
 
 Plus a standing twelfth slot: **any other personal factor the material itself
 raises.** The list is a floor, not a ceiling — it exists so that nothing on it
 is forgotten, not so that everything off it is excluded.
+
+### The trait filter — what registers 1, 2 and 11 may actually carry
+
+Adopted 2026-09-06 by operator directive. The registers above name *pages*. A
+page states a score; it does not say how much weight a conclusion may put on
+it. So the pass could be run honestly, every register given its decision, and
+the whole argument still rest on a trait nothing has ever corroborated — which
+is not a failure of diligence but of what a register pointing at a file can
+express.
+
+**`bin/wiki-traits` computes the missing number, and `assess` is the interface:**
+
+```bash
+bin/wiki-traits assess ti_dominance    # before leaning on it as a mechanism
+bin/wiki-traits map                    # the whole table, loud cells first
+```
+
+It reports two axes that are **never added together**:
+
+- **Support** — the trait as a directional prediction against Dan's own
+  behavioural output: sent messages against a within-medium control of received
+  ones, plus tweets and his own turns in AI transcripts, ranked within register
+  because no control exists for those.
+- **Reach** — how much of the wiki already leans on the trait. **Reach is not
+  evidence and never becomes evidence.** Those pages were written by agents that
+  had read `wiki/mind/profile/`, so reach measures how often the writing process
+  reached for a vocabulary. Of 483 entries, 122 carry personality vocabulary and
+  38 of 61 synthesis pages do.
+
+**What the cell obliges, and this is the binding part:**
+
+| Cell | What a synthesis may do |
+|---|---|
+| `earned` | Cite as mechanism. Measured, replicated, already reasoned from. |
+| `UNDERUSED` | Cite as mechanism — and ask why this page was not already using it. |
+| `THIN LOAD` | Cite with the register named; a single-medium result may be the medium. |
+| `UNSUPPORTED LOAD` | **Not as a load-bearing mechanism.** State the silence on any page that invokes it. |
+| `UNREVIEWED LOAD` | **As testimony, never as measurement.** No proxy has had its matches read. |
+| `NO INSTRUMENT / LOAD` | **As testimony, and say so on the page.** Every proxy was read and found to catch something else. |
+| `CONTRADICTED LOAD` | **Stop.** Re-read every page in the reach set before citing the trait again. |
+
+**Silence is not falsification.** This is inherited from `bin/psychometrics` and
+it governs every row: three of four core axioms tested lexically were invisible,
+*time = countdown* the clearest negative. A trait can be real and leave no
+lexical trace, because people do not narrate their own architecture in text
+messages. So `silent` constrains how much weight a conclusion may place on a
+trait and says nothing about whether the trait is true. Only `INVERTED` is
+evidence against a score, and an unreviewed proxy is not permitted to produce
+one — see the tool's `PROXY_REVIEW` register for why that cap is load-bearing.
+
+**There is no confidence percentage, and one must never be added.** A percentage
+needs a denominator of things that could have disconfirmed, and silence is not
+one of them. Bands, and the counts under them.
 
 ### What the pass actually requires
 

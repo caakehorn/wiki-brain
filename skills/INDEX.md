@@ -9,11 +9,12 @@ Read this before non-trivial repository work. Load skills by trigger, not by
 curiosity — `bin/wiki-lessons route "<what you are about to do>"` does the
 matching for you.
 
-## Routed (12)
+## Routed (13)
 
 | Skill | Trigger | Status | Validated |
 |---|---|---|---|
 | `agents/registry-push.md` | told to update the skills in the wiki; told to push skills, MCP servers or tools into the wiki-brain; starting substantial work as a model that has not pushed before; a skill, MCP server, hook or subagent was added, changed or removed | active | 2026-08-30 |
+| `corpus/lexical-proxy-load.md` | building a gate, filter or score on top of a regex over a corpus; reusing another tool's pattern table for a heavier purpose than it was written for; a measurement contradicting an established page, especially a confident one; about to publish a number that instructs other sessions to re-read pages | active | 2026-09-06 |
 | `corpus/message-mining.md` | counting messages or searching the iMessage dump; a claim about how often or how much Dan writes; measuring message length, cadence, or response time; reaching for grep over raw/ message exports | active | 2026-08-30 |
 | `corpus/source-chain.md` | writing a synthesis or analytical claim from multiple wiki pages; introducing a new number, date, causal claim, or interpretation into a T2/T3 page; reconciling conflicting sources; citing a transcript, profile export, web result, or derived page as evidence | active | 2026-09-02 |
 | `corpus/source-mention-debt.md` | writing a page from a large corpus that names people, works, places or events; picking up a corpus a previous pass already mined; adding a typed edge to a page assembled from a source; asked whether a source has been fully worked, or what a mined corpus still owes | active | 2026-09-04 |

@@ -143,6 +143,14 @@ GATE = [
     # on Tuesday must not block Thursday's typo fix, same reasoning as the
     # wiki-work banner.
     (["wiki-lexicon", "check"], "measured lexicon projection and page agree", False),
+    # The trait-corpus map. `bin/wiki-traits mine` takes ~70s over four corpora,
+    # so it follows the lexicon's arrangement exactly: the projection is
+    # committed and remined by hand when a corpus changes, and what gates is the
+    # generated page drifting from traits/measured.json or being hand-edited.
+    # Unreviewed proxies are NOT a gate failure — they are the standing queue,
+    # and a gate that went red on them would block every unrelated commit until
+    # somebody read 16 regexes.
+    (["wiki-traits", "check"], "trait-corpus map projection and page agree", False),
     # A page whose date_modified is LATER than the last commit that touched it.
     # The file has not changed since, so the date is a claim git does not
     # support — which is what "clearing a staleness warning by bumping a date"
