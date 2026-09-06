@@ -5,7 +5,7 @@ title: "Recent Activity"
 status: active
 knowledge: derived
 date_created: 2026-08-26
-date_modified: 2026-09-05
+date_modified: 2026-09-06
 sources: []
 ---
 
@@ -23,7 +23,16 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-05 — 30 pages
+## 2026-09-06 — 4 pages
+
+| Page | Domain | What moved |
+|---|---|---|
+| [[wiki/meta/digest]] | meta | — |
+| [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
+| [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
+| [[wiki/meta/testimony-veracity]] | meta | — |
+
+## 2026-09-05 — 26 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -32,10 +41,6 @@ simply listed.
 | [[wiki/interests/language/personal-lexicon]] | interests | _(carries a CONTRADICTION)_ |
 | [[wiki/interests/language/vocabulary-lexicon]] | interests | **GAP CLOSED** — this page said it "does not assert that these words are used in the corpus" and left open whether any of them are. Measured against both of Dan's first-party registers by `bin/wiki-lexicon registers - |
 | [[wiki/interests/stand-up-comedy]] | interests | — |
-| [[wiki/meta/digest]] | meta | — |
-| [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
-| [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
-| [[wiki/meta/testimony-veracity]] | meta | — |
 | [[wiki/mind/concepts/calibrated-confidence]] | mind | _(carries a CORRECTED from 2026-08-23)_ |
 | [[wiki/mind/concepts/exocortex]] | mind | — |
 | [[wiki/mind/profile/index]] | mind | — |
@@ -410,11 +415,4 @@ simply listed.
 | [[wiki/timeline/events/timeline]] | timeline | — |
 | [[wiki/timeline/master-timeline]] | timeline | _(carries a CONTRADICTION from 2026-07-20)_ |
 | [[wiki/timeline/periods/uniontown-return-2013-2015]] | timeline | **CORRECTED** — The message behind it (*"Lex cheated on me 2 weeks in after I moved her to fla"*) is Dan telling Annie how the Alexis relationship **began, in 2009**, at Full Sail — the line before it is *"the exact  |
-
-## 2026-08-14 — 2 pages
-
-| Page | Domain | What moved |
-|---|---|---|
-| [[wiki/self/lineage/23andme-genomics]] | self | **CORRECTED** — The previous version of this page claimed the source PDFs were "image-based without an extractable text layer" and that "specific percentage values are not digitally recorded." This was wrong. All thr |
-| [[wiki/self/lineage/hybrid-analysis]] | self | — |
 

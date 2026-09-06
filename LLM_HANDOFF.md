@@ -4,6 +4,57 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-09-06] - Session: product strategy (Claude Opus 5)
+
+* **Branch:** `claude/wiki-brain-product-strategy-wgah7n` · `bin/wiki-check`
+  clean · 503 pages, 0 errors.
+* **Trigger:** operator — can the wiki brain be marketed, as a packaged harness
+  or as a consultancy, and should personality become a much bigger part of it.
+
+**New file: `PRODUCT_STRATEGY.md`.** Analysis, **not doctrine** — it governs
+nothing, it is not in the governing set, and no page may cite it. If a later
+session finds a page sourcing it, that is a defect.
+
+**Recommendation, short form:** consultancy on a narrow instrumental-value
+customer; open-source the machinery, because ~110 Dan-specific strings and six
+hardcoded corpus paths across 37 tools mean a competent reader reproduces `bin/`
+in a week. Sell the build and the failure catalogue, not the code.
+
+**Three findings a later session should not have to re-derive:**
+
+1. **Acquisition, not architecture, is the binding constraint.** 265/503 pages
+   (53%) depend on the message corpus; 166/503 (33%) on
+   `CONTEXT_CORE_EXPANDED.md`, a 2,750-word seed produced *before* this repo
+   existed. A third of the corpus stands on something no new subject can obtain.
+2. **The specimen is the objection.** 128 firstname-lastname people pages, three
+   named third-party psychological assessments, a 23,763-word page on a person
+   under the standing directive — public. Cannot be shown to a prospect.
+   Recommended: private first (the ledgers' order), then a second specimen built
+   on a public figure with a public corpus.
+3. **No confidence percentage on a personality claim, ever.**
+   `bin/psychometrics`' docstring already settles it — failure to corroborate is
+   not falsification, three of four axioms lexically invisible. Three states
+   only: corroborated / silent / inverted. If a future personality page ships a
+   percentage, this is the paragraph that says why it is wrong.
+
+**Underrated asset:** `bin/wiki-testimony` at 22 testimonies, 14 settled,
+veracity **57/100** — a system that publishes its own owner's error rate. n=14
+is not a rate; the sample-bias disclosure travels with the number.
+
+#### What is next, in order
+
+1. Nothing in the strategy file is executed. Items 1–6 of its §8 are proposals
+   awaiting an operator decision, and item 1 (make the repo private) gates the
+   rest.
+2. **Cleared a pre-existing red gate on arrival:** `wiki/meta/testimony-veracity.md`
+   was behind its ledger. `bin/wiki-testimony page` fixed it. It had been red on
+   the branch point — worth knowing that a generated page can go stale without
+   anything surfacing it until the next `wiki-check`.
+3. **140 obligations were NOT drained this session** — 128 stale premises, 12
+   skill candidates. Deliberate: the operator asked for a strategy assessment,
+   and the stale-premise cascade is a reading job that must not be cleared by
+   bumping dates. It is unchanged from the previous session and still owed.
+
 ### [2026-09-05e] - Session: the lexicon, counted (Claude Opus 5)
 
 * **Branch:** `claude/wiki-personal-lexicon-t50l6y` · `bin/wiki-check` clean ·

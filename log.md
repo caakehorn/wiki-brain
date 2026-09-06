@@ -10157,3 +10157,53 @@ gate line · typed edges onto 8 pages, prose write-backs on 6
 
 `bin/wiki-check` clean · 500 pages, 0 errors · 442 tests green · reciprocal
 debt 0 on both new pages.
+
+## [2026-09-06] strategy | meta | can the wiki brain be sold, and as what
+
+Operator question, answered against the tree rather than the README. Written to
+`PRODUCT_STRATEGY.md` (analysis, not doctrine — governs nothing, citable by
+nothing).
+
+**What the measurement found.** The machinery is portable and therefore not a
+moat: ~110 Dan-specific string occurrences across 25 of 37 tools, and **six**
+hardcoded `raw/` corpus paths. Porting `bin/` to a second person is a week. What
+is not portable is the 30,073 words of governing spec and the failure catalogue
+underneath it, both of which were discovered by getting numbers wrong on this
+specific corpus first.
+
+**The binding constraint is acquisition, not architecture** — the framing being
+responded to never mentions it. 265 of 503 pages (53%) depend on the message
+corpus, which is six overlapping exports that disagree with each other (the
+lexicon pass measured the UTC/Eastern collision: 36,716 rows at +4h against
+23,624 at +5h, a first run reporting 188,445 sent against a true 106,629). A
+further 166 pages (33%) rest on `CONTEXT_CORE_EXPANDED.md`, a 2,750-word seed
+that is itself the output of work predating this repository. A third of the
+corpus stands on something a new subject cannot obtain.
+
+**The specimen cannot be shown.** 175 people pages, 128 slugged
+firstname-lastname, three named third-party psychological assessments, and a
+23,763-word page about a person the standing directive describes as in apparent
+danger — all public. A prospect reading it learns that the system builds
+non-consensual dossiers on everyone the subject has texted. The demo is the
+objection. Recommendation: private first (the order `CLAUDE.md` already
+specifies for the ledgers), and build a second specimen on a public figure with
+a public corpus, which also tests whether the method generalises — currently
+zero evidence either way.
+
+**The confidence bar chart is refused, and `bin/psychometrics` already knew.**
+Its docstring establishes that failure to corroborate is not falsification —
+three of four core axioms tested lexically against 106,629 sent messages
+(controlled against 110,944 received from 503 handles) were invisible, *time =
+countdown* the clearest negative. So no percentage is computable; the honest
+display is three states — corroborated, silent, inverted. The asymmetry is the
+differentiator, not a limitation.
+
+**The strongest asset was not among the three the operator named.**
+`bin/wiki-testimony` reports 22 testimonies, 14 settled, **veracity 57/100** —
+the system scoring its own owner's first-person accuracy against primary
+sources. Nothing else in the surveyed field does this, because it requires
+telling the paying subject they misremember. n=14 is not a rate yet and the
+sample-bias disclosure travels with it.
+
+Also cleared a pre-existing red gate: `wiki/meta/testimony-veracity.md` was
+behind its ledger (`bin/wiki-testimony page`).

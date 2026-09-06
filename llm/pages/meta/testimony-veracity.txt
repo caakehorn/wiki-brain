@@ -7,7 +7,7 @@ status: active
 importance: high
 knowledge: derived
 date_created: 2026-09-02
-date_modified: 2026-09-05
+date_modified: 2026-09-06
 chart:
   kind: grouped-bar
   title: "Stated confidence against measured outcome, by confidence band"

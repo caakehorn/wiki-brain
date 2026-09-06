@@ -1,5 +1,5 @@
 WIKI-BRAIN — LLM ACCESS POINT
-generated 2026-09-05 · 503 pages · full corpus ~1,958,816 tokens
+generated 2026-09-06 · 503 pages · full corpus ~1,958,750 tokens
 
 WHAT THIS IS
 A machine-readable export of a personal wiki (a 'second brain') that
