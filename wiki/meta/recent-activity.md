@@ -23,10 +23,11 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-06 — 5 pages
+## 2026-09-06 — 6 pages
 
 | Page | Domain | What moved |
 |---|---|---|
+| [[wiki/meta/claim-validity]] | meta | — |
 | [[wiki/meta/digest]] | meta | — |
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
 | [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |

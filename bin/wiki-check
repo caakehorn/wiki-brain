@@ -80,6 +80,13 @@ GENERATE = [
     # page. Same rule as the three above: a generator whose output is gated
     # belongs in GENERATE, or the gate is a trap rather than a check.
     (["wiki-plain", "report"], "regenerate wiki/meta/readers-digest.md", True),
+    # Fifth page-writer, same rule as the four above: `wiki-claims page` writes
+    # wiki/meta/claim-validity.md and `wiki-claims check` gates on that page
+    # being current, so the generator belongs HERE — ahead of wiki-digest
+    # counting pages and llm-publish copying them. Left out of GENERATE it is a
+    # trap: any pass that records a claim leaves the gate red until somebody
+    # runs a generator nothing names.
+    (["wiki-claims", "page"], "regenerate wiki/meta/claim-validity.md", True),
     (["wiki-digest"], "regenerate DIGEST / RECENT / OPEN", True),
     (["llm-publish"], "rebuild the llm/ corpus", True),
     # skills/INDEX.md is derived from the skill files, and `wiki-lessons check`
@@ -162,6 +169,28 @@ GATE = [
     # forty pages produces honestly. `bin/wiki-history drift` reports those as
     # a reading job. Skips itself in a shallow clone rather than failing on a
     # truth it cannot see.
+    # The claim validity ledger. Three things rot here and only the gate sees
+    # them: the projection or the public page drifting from the log (the
+    # ordinary derived-file problem the intake and testimony ledgers have), and
+    # a `lapsed` claim that has acquired a `valid_to`. The third is the one that
+    # matters — a lapse means the ending is UNKNOWN, so a date on it publishes
+    # the corpus's silence as the world's, which is the same move
+    # `bin/wiki-traits` refuses one layer up. A claim closed against a page
+    # still marked `status: active` is a WARNING, not an error: a page can
+    # legitimately stay active on other evidence, and mogzart.md does exactly
+    # that — lapsed in 2016, live again since the 2026 revival.
+    (["wiki-claims", "check"], "claim windows, and lapsed is not ended", False),
+    # The credential scan. `bin/wiki-skills` already refuses a secret shape at
+    # the point of entry, but it owns ONE surface — everything else reaching
+    # this repository (a capture in inbox/, an export filed to raw/, a token
+    # pasted into a page while debugging) has never been scanned by anything.
+    # This repository is public and its history cannot be un-published, so the
+    # failure it prevents is permanent rather than embarrassing. It scans the
+    # working diff and untracked files, NOT the tree: raw/ holds 130,000
+    # received messages and a corpus that size contains key-shaped strings that
+    # are not keys, so a whole-tree scan would fire on immutable archive
+    # material and be switched off within a week.
+    (["wiki-secrets", "check"], "no credential shapes entering the record", False),
     (["wiki-history", "check"], "no page dated ahead of its own last commit", False),
 ]
 SCAN = [

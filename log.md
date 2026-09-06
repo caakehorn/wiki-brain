@@ -1,3 +1,90 @@
+## [2026-09-06] ingest | meta | the claim validity ledger — expiry was the third thing, and nothing owned it
+
+**The operator pointed at `stancsz/second-brain` and asked which of its
+mechanics would help here.** Most of them would not, and the reason is
+structural rather than a matter of quality: that repository is a *portable agent
+memory product* — OKF Markdown bundle, rebuildable SQLite FTS index, stdio MCP
+server, five-host skill package, Obsidian export, rclone/Postgres snapshot
+adapters. Its problem is getting one memory into many hosts. This repository's
+problem is depth about one person, and it already solves the parts that overlap:
+files are truth, `bin/wiki-search` over 505 pages is grep-scale, `llm/` is the
+public LLM access point, and git is the history mechanism. Adding SQLite here
+buys a projection nobody needs.
+
+**One mechanic does not overlap, and it lands on a hole under the load-bearing
+beam.** `docs/04-psychological-memory.md` there carries temporal validity —
+`sb_valid_from`, `sb_valid_to`, `sb_supersedes`, "what was true when."
+
+**Every date field in this repository is about the page, not the claim.**
+`date_created` and `date_modified` say when the *file* moved; `date_range_start`
+and `date_range_end` say what span of *evidence* the page covers. Measured: zero
+occurrences of any validity field anywhere in `wiki/`. **Nothing said when an
+assertion stopped being true**, so nothing could notice when one did — and
+`CLAUDE.md`'s whole case for a second brain over a RAG is that today's
+conclusion is tomorrow's premise. `bin/wiki-climb check` fires when a premise
+*file* is edited. It cannot fire when a premise *lapses*.
+
+**The three-way distinction is the finding.** *Retracted* means never true —
+`RETRACTED.md` owns it. *Corrected* means wrong when written — STYLE_GUIDE rule
+9 owns it. *Expired* means it was true and then stopped, and **nothing owned
+it.** Not a weaker version of the other two: *Dan lives in Morgantown* was
+**correct** in 2019, so retracting it says the wiki got it wrong and leaving it
+says he lives there now. Both false; the true statement had nowhere to live.
+
+**`ended` is not `lapsed`, and refusing to collapse them is the whole
+instrument.** `ended` = the state stopped and something dates the stopping.
+`lapsed` = the *record* stopped and the ending is unknown. `bin/wiki-traits`
+already refuses to read an instrument's silence as falsification; this is the
+same refusal one layer down, because a corpus going quiet is a fact about the
+corpus. Nineteen tweets to a friend that stop in 2016 do not document a
+friendship ending in 2016 — they document a tweet archive ending in 2016.
+
+**c004 is the case that proves it, and it is real.** MOGZART lapsed 2016-03-07;
+the page carried it as an "archive/revival candidate" for a decade; on 4 March
+2026 he posted "Odd Mob – Never Alone [MOGZART DnB JUMP UP REMIX]" to
+SoundCloud. **A ledger that recorded the 2016 silence as an ending would have
+been wrong about the world.** Recording it as a lapse left the question open,
+which is what the evidence supported. `asof 2020-01-01` reports it *unsettled*,
+in a separate list, never false.
+
+**`scan` reads frontmatter, not prose, and that was measured rather than
+assumed.** The obvious approach — grep for "no longer" and friends — returns 121
+hits on this corpus and is roughly all false positives: quoted tweets in which
+somebody *else* is no longer something (`@iamcoreybrown didn't get the memo that
+putting "-eezy" after words is no longer hip`). Same lesson `bin/wiki-crosslink`
+learned about single-token name matches. What is reliable is frontmatter a gate
+already checks: **10 pages carry `status: active` on evidence that stopped more
+than two years ago** — shane-brannan on a record ending 2016-03-17, whose own
+typed edge says the relationship "exists in the tweet archive and nowhere else."
+**80 more are `status: closed` with no record in the ledger at all.**
+
+**Seeded with five real claims, not fixtures** — SLOPPP ended 2015-12-26 on the
+"Goodbye Demo" row of its own release table; 424 Bedford Ave ended 2013-05-01;
+shane-brannan lapsed 2016-03-17; MOGZART lapsed 2016-03-07 and resumed
+2026-03-04 as a separate claim rather than a continuation, because the record
+does not support an unbroken window. The gate raises its warning on real data.
+
+**Second mechanic taken: the secret scan from `scripts/ship_gate.py`.**
+`bin/wiki-skills` already refuses a credential shape at its own point of entry —
+but it owns one surface, and a capture in `inbox/`, an export filed to `raw/` or
+a token pasted into a page while debugging had never been scanned by anything.
+This repository is public and its history cannot be un-published. `bin/wiki-secrets`
+scans **the working diff and untracked files, not the tree** — the design
+decision that keeps it switched on, since `raw/` holds 130,000 received messages
+and a corpus that size contains key-shaped strings that are not keys.
+
+**Rejected, with reasons:** the SQLite index and MCP server (solved differently
+and better here); `sb_affect` valence/arousal floats and `sb_confidence` (this
+repository refuses manufactured precision — `bin/wiki-traits` publishes no
+confidence percentage, and the testimony ledger attaches an `n` to every rate);
+`bridge/`'s company OS and `docs/PROTOCOL.md`'s architect⇄builder split (a second
+coordination layer is the exact defect `bin/wiki-work` was built to end);
+`select_gap.py` (`bin/wiki-work next` already is this).
+
+**New:** `bin/wiki-claims`, `bin/wiki-secrets`, `claims/{events.jsonl,claims.json,SUMMARY.md,README.md}`,
+`wiki/meta/claim-validity.md` (generated), two gates in `bin/wiki-check`, the
+EXPIRE operation in `CLAUDE.md`. 24 new tests, **504 total**. All gates 0 errors.
+
 ## [2026-09-04] lint | meta | the crosslink campaign had been counting a link that isn't one
 
 **The operator clicked `wiki/self/twitter/2026`, saw SLOPPP at the top of the

@@ -8,14 +8,16 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-06 — 5 pages
+## 2026-09-06 — 6 pages
 
+- **Session log:** ingest | meta | the claim validity ledger — expiry was the third thing, and nothing owned it
 - **Session log:** strategy | meta | can the wiki brain be sold, and as what
 - **Session log:** traits | mind | the personality profile, cross-tested against the corpus — and what the test found about the test
 - **Session log:** lint | mind | correction — `unreviewed` is not `silent`, in the prose as well as the code
 
 | Page | Domain | What moved |
 |---|---|---|
+| [[wiki/meta/claim-validity]] | meta | — |
 | [[wiki/meta/digest]] | meta | — |
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
 | [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |

@@ -394,3 +394,48 @@ this is a one-off or the shape of a recurring defect. It is one directory and
 one file; that is an observation, not yet an invariant.
 
 - **Status:** inbox
+
+### 2026-09-06 — When a lexical proxy is broken, the replacement is often a field a gate already checks
+
+- **Observed during:** building `bin/wiki-claims scan` (PR #272), which needed to find pages asserting a state whose evidence had stopped
+- **Surface:** any tool computing candidates over the corpus — `bin/wiki-crosslink scan`, `bin/wiki-traits mine`, `bin/psychometrics`, `bin/wiki-lexicon distinctive`
+
+**Observation.** The obvious proxy for "this page's claim has expired" is a prose
+grep: `no longer`, `now defunct`, `since closed`. Measured against this corpus it
+returns **121 hits and is roughly all false positives** — overwhelmingly quoted
+tweets in which somebody *else* is no longer something (`@iamcoreybrown didn't
+get the memo that putting "-eezy" after words is no longer hip`). `corpus/lexical-proxy-load.md`
+predicts exactly this and the router surfaced it, so the rejection was cheap and
+the skill did its job.
+
+What that skill does **not** say is what to reach for instead. The replacement
+here was **frontmatter**: `status: active` against a `date_range_end` more than
+two years past. That found 10 pages — every one a genuine case, no reading
+required to filter them — plus 80 more at `status: closed`.
+
+**Candidate invariant.** The asymmetry is not "structured beats unstructured."
+It is that **`bin/wiki-lint` already gates `status` and the date fields**, so a
+session that wrote a wrong value there got told at commit time. Prose has no
+such gate and never did. A field under an existing gate carries the accumulated
+correctness of every commit that had to pass it; a regex over prose carries
+nothing. That is a property of *this repository's own gates*, not of data
+formats in general, and it is why the same move may not transfer to a corpus
+without them.
+
+**Candidate instruction.** Before writing a regex over page prose to compute
+candidates, ask which frontmatter fields `bin/wiki-lint` validates and whether
+any of them is a proxy for the thing being looked for. If one is, prefer it and
+say in the tool why the prose version was rejected — the next session will reach
+for the grep otherwise, because it is the obvious thing.
+
+**Validation.** One clean occurrence of the *positive* move; `bin/wiki-crosslink`
+documents the negative half (single-token name matches are ~all false positives)
+but replaces it with better entity matching rather than with frontmatter.
+**Promote on a second tool that swaps a prose proxy for a gated field**, or on a
+measurement — a count of which `bin/` candidate-generators read frontmatter
+versus prose, against their false-positive rates, would settle whether this is a
+pattern or one lucky fit. Do not promote earlier: a rule that says "prefer
+structure" is true everywhere and useful nowhere, and the gate-provenance
+argument is the only part with teeth.
+
+- **Status:** inbox
