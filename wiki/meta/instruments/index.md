@@ -96,12 +96,14 @@ load-bearing, or already doubted. The testimony ledger's settled set
 over-represents both spectacular confirmations and spectacular failures, and
 says so on its own page.
 
-**A standing directive filters what may be recorded.** `CLAUDE.md` carries a
-moratorium on new writing about one living person. `bin/wiki-testimony` and
-`bin/wiki-plain` enforce it mechanically, as a refusal rather than a warning.
-At least one cleanly adjudicated confirmation is excluded by it. The exclusion
-is correct and it is still a bias — a score drawn from a filtered record that
-does not announce the filter is worse than no score.
+**A standing directive filtered what could be recorded, and left a hole.**
+From 2026-08-23 to 2026-09-06 a moratorium on new writing about one living
+person was enforced mechanically by `bin/wiki-testimony`, `bin/wiki-claims` and
+`bin/wiki-plain`, as a refusal rather than a warning. The operator lifted it on
+2026-09-06. At least one cleanly adjudicated confirmation went unrecorded in
+that fortnight and has not been entered yet — a score drawn from a filtered
+record that does not announce the filter is worse than no score, so the ledger
+pages announce it until the gap is filled.
 
 **Two of these publish to a public repository**, knowingly, by an operator
 decision on 2026-08-30: `intake/` and `testimony/` are tracked and readable by

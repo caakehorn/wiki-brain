@@ -4,14 +4,15 @@ scope: repo
 triggers:
   - writing or changing a guard that refuses, blocks, redacts or withholds
   - a safety check that reads a frontmatter field to decide whether a rule applies
-  - reviewing an enforcement point for the standing directive in CLAUDE.md
+  - reviewing an enforcement point for any operator directive held as code
   - a check whose failure mode is allowing rather than blocking
 sources:
   - bin/wiki-crosslink — under_moratorium(), and the nine pages it missed
   - bin/wiki-plain — MORATORIUM, and the `annie_metadata_24h.csv` boundary hole
-  - tests/test_wiki_crosslink.py — MoratoriumNameResolution
-  - tests/test_wiki_plain.py — the same class, pinned since it shipped
+  - tests/test_wiki_crosslink.py — LinkPlacement, the refusals that remain
+  - tests/test_wiki_plain.py — TestLaneRefusal, the refusal that remains
 validated: 2026-09-04
+revised: 2026-09-06
 supersedes: []
 ---
 
@@ -30,8 +31,9 @@ supersedes: []
    because porting the wider rule across would withhold 197 of 497 pages for no
    safety gained. Assert what it refuses **and** what it must not.
 3. **Pin the real pages, not only synthetic ones.** The synthetic cases pass
-   against a guard that has never met the corpus. `MoratoriumNameResolution`
-   names all nine pages that were exposed, so the hole cannot reopen quietly.
+   against a guard that has never met the corpus. The regression that closed the
+   second hole below named all nine exposed pages by slug, so it could not
+   reopen quietly.
 4. **Check every enforcement point, not the one you are in.** The same directive
    is enforced in two files here and both shipped with a hole of this shape.
    Finding one is a reason to go and read the other.
@@ -49,8 +51,10 @@ wrong it **permits**, and permission produces no output, no exit code and no
 warning. The only evidence is the thing it should have stopped, happening
 normally.
 
-Two instances, both on the standing directive in `CLAUDE.md`, in two different
-tools, neither found deliberately:
+Two instances, both on the Annie moratorium — **an operator directive that has
+since been lifted (2026-09-06), which changes nothing about the lesson**: the
+evidence is what a fail-open guard costs, not which rule it was enforcing. Two
+different tools, neither found deliberately:
 
 | Tool | What it read | What it missed |
 |---|---|---|
@@ -67,12 +71,19 @@ defect from a third angle and was fixed the same day.
 second: `288 of 497 pages have no title:` is one loop over the corpus, and it
 makes the hole obvious the moment anybody asks what the guard reads.
 
+**Both guards are gone now and the live examples of the shape are elsewhere** —
+`bin/wiki-crosslink`'s `--apply` refusals (a wikilink written inside somebody's
+quoted words leaves no trace either), `bin/wiki-plain`'s lane refusal, and any
+exemption list in a gate, which is a fail-open guard wearing a different hat.
+
 ## Validation
 
-`python3 -m unittest tests.test_wiki_crosslink.MoratoriumNameResolution` — five
-cases, including a regression that names all nine exposed pages against the real
-corpus. Removing the `title_of()` resolution fails it.
-`tests/test_wiki_plain.py` pins the other instance.
+`python3 -m unittest tests.test_wiki_crosslink.LinkPlacement` — the surviving
+refusals of this shape, pinned against the real corpus.
+`tests.test_wiki_plain.TestLaneRefusal` pins the other. The two moratorium
+regressions this skill was written from were removed on 2026-09-06 with the
+directive; `TheMoratoriumIsLifted` in each file now pins the *absence* of the
+guard, which is the same discipline pointed the other way.
 
 Broader check, for a guard anywhere in this repository: count how many pages
 lack the field the guard reads. If the answer is not zero, the guard has a blind

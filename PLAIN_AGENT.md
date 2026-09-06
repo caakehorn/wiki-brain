@@ -246,13 +246,15 @@ recorded in `plain/DECLINED.md` when a human confirms it.
 
 ---
 
-## The moratorium
+## The moratorium (lifted 2026-09-06)
 
-Non-negotiable and not the agent's to reason about. `CLAUDE.md` carries a
-standing operator directive about a living person. `bin/wiki-plain` enforces it
-as two mechanical rules — a page substantially about her gets no twin, and no
-file under `plain/` may name her at all — and `tests/test_wiki_plain.py` pins
-both. `task` and `new` refuse; `next` never proposes; `check` fails.
+`bin/wiki-plain` used to refuse a twin for any page about one living person, and
+no file under `plain/` could name her. The operator lifted that directive in
+full on 2026-09-06; the rules, the regex and the refusals are gone from the tool
+and the tests now pin their absence.
 
-If an agent ever reports that it "worked around" a refusal, stop the loop and
-read what it wrote. Only the operator lifts any of this.
+What did not change: **`people/` is still held out of both lanes.** That is a
+separate judgement and it outlived the directive — plain-English prose about a
+living person, written for a public site by whichever model is cheapest, is the
+one mistake in this layer that cannot be taken back. If an agent ever reports
+that it "worked around" a refusal, stop the loop and read what it wrote.

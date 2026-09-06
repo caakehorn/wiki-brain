@@ -102,11 +102,11 @@ PAGE = ROOT / "wiki" / "meta" / "claim-validity.md"
 WIKI = ROOT / "wiki"
 
 # ---------------------------------------------------------------- the directive
-# The standing Annie moratorium in CLAUDE.md. A validity record is new writing
-# about a living person, so it is refused outright rather than filtered — the
-# same shape `bin/wiki-testimony` and `bin/wiki-plain` use. Only the operator
-# changes this.
-MORATORIUM = re.compile(r"\b(annie|ulmer|lo_weez)\b", re.I)
+# The standing Annie moratorium refused every validity record naming her from
+# 2026-08-23 until the operator lifted it on 2026-09-06. Nothing here refuses
+# one now, and `scan` no longer skips her pages — which is where the debt is:
+# they carry the longest-running `status: active` claims in the corpus and none
+# of them has ever been offered for expiry.
 
 # This repository is public and its history cannot be un-published. Refuse the
 # shape, name the field, never silently strip — `bin/wiki-skills`' rule.
@@ -182,17 +182,6 @@ def as_date(s: str, field: str) -> datetime.date:
         return datetime.date.fromisoformat(str(s))
     except (TypeError, ValueError):
         die(f"{field} '{s}' is not a YYYY-MM-DD date")
-
-
-def moratorium_guard(*texts):
-    """Refuse rather than strip. See the header."""
-    for t in texts:
-        if t and MORATORIUM.search(str(t)):
-            hit = MORATORIUM.search(str(t)).group(0)
-            die(f"refused — this names '{hit}', who is under the standing "
-                f"directive in CLAUDE.md. That directive is a stop on new "
-                f"writing about her, and a validity record is new writing. "
-                f"Nothing was appended.")
 
 
 def secret_guard(*texts):
@@ -340,7 +329,7 @@ def cmd_scan(args):
     unearned, unrecorded = [], []
     for path, fm in corpus_pages():
         rel = path.relative_to(ROOT).as_posix()
-        if rel in recorded or MORATORIUM.search(rel):
+        if rel in recorded:
             continue
         end = fm.get("date_range_end", "")
         if not re.match(r"^\d{4}-\d{2}-\d{2}$", end):
@@ -377,7 +366,6 @@ def cmd_scan(args):
 # ---------------------------------------------------------------- write commands
 def cmd_record(args):
     """Enter a claim and the window the record actually supports."""
-    moratorium_guard(args.claim, args.note, " ".join(args.pages or []))
     secret_guard(args.claim, args.note, args.evidence)
     if args.kind not in CLAIM_KINDS:
         die(f"unknown kind '{args.kind}' — one of {', '.join(sorted(CLAIM_KINDS))}")
@@ -454,7 +442,6 @@ def _closure_common(args, events, mode: str) -> dict:
 
 def cmd_expire(args):
     """Close a window — as `ended` if it can be dated, as `lapsed` if it cannot."""
-    moratorium_guard(args.because)
     secret_guard(args.because)
     if args.closure not in ("ended", "lapsed"):
         die("--closure is 'ended' or 'lapsed'. Use `supersede` for a replacement.")
@@ -473,7 +460,6 @@ def cmd_expire(args):
 
 def cmd_supersede(args):
     """Replace a claim with a later one, keeping the chain."""
-    moratorium_guard(args.claim, args.because)
     secret_guard(args.claim, args.because)
     events = read_log()
     state = project(events)
@@ -737,9 +723,10 @@ def render_page(state: dict) -> str:
           "the commonest true answer, because this corpus is built from archives",
           "that each stop on a date. Wanting a cleaner number is exactly the",
           "pressure that would produce a false one.", "",
-          "**The standing directive filters the record.** Claims naming the person",
-          "under the moratorium in `CLAUDE.md` are refused outright, so this is a",
-          "record of a filtered corpus and any rate drawn from it inherits that.", "",
+          "**The record has a fortnight-shaped hole in it.** From 2026-08-23 to",
+          "2026-09-06 a standing directive refused every claim naming one living",
+          "person, and her pages were skipped by `scan`. The directive was lifted",
+          "on 2026-09-06; the claims it turned away have not been entered yet.", "",
           "**Nothing here is a finding.** The ledger records windows. What a window",
           "*means* is synthesis, and synthesis happens on an ordinary page.", "",
           # The breadcrumb bin/wiki-lint asks for, so the meta index is not a
@@ -796,9 +783,6 @@ def cmd_check(args):
     for cid, r in live_records(state).items():
         blob = " ".join(str(r.get(k, "")) for k in
                         ("claim", "evidence", "because", "note", "source"))
-        if MORATORIUM.search(blob):
-            errors.append(f"{cid}: names a person under the standing directive "
-                          f"in CLAUDE.md — void it")
         for pat, why in SECRET_PATTERNS:
             if pat.search(blob):
                 errors.append(f"{cid}: contains what looks like {why}; this "

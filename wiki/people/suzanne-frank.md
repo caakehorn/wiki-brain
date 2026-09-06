@@ -191,7 +191,32 @@ This is why isolated arguments are misleading. A complaint such as "you owe me" 
 
 The $14,000 loan is the cleanest example because it has an external contemporaneous witness. On 2018-09-20 Dan told a coworker that he needed to loan his mother $14,000 to pay her property taxes. That establishes the transfer, its purpose and its direction without relying on later memory. Suz subsequently described annual property taxes of roughly $10,000 against annual income around $11,000-$14,000, making the structural pressure visible.
 
-An older claim that Suz was borrowing "$750 a week" should not be treated as a recurring measured rate. The source is one angry statement — "You borrowed $750 last week alone!" — and the defensible interpretation is that Dan was describing an acute period of borrowing, not documenting a stable weekly pattern.
+> **CORRECTED [2026-09-06]:** an older version of this page had Suz borrowing **"$750 a week"** as a recurring measured rate. That claim is retracted and is in `RETRACTED.md` under `suz-750-weekly`. The source is one angry statement — *"You borrowed $750 last week alone!"* — which describes an acute period of borrowing, not a stable weekly pattern, and the money the record does establish runs the other way: roughly $14,000 from Dan to Suz across the autumn of 2018.
+
+> **CORROBORATED [2026-09-06]:** the $14,000 is attested three times, by both
+> parties, across eight weeks — and the third instance is the one worth having.
+> Dan to a coworker, **2018-09-20 12:37**: *"Gotta loan my mom $14,000 to pay
+> her property taxes"* (already on this page). Dan again, **2018-11-16 17:41**:
+> *"I gave you 14,000."* And between them, **Suz's own reconciliation, sent
+> 2018-10-03 06:34** — the only place in the corpus where she does the
+> arithmetic herself:
+>
+> > *"Dan to Suzanne / $1000 / $14,000+ / Sum of transactions on app / Suzanne
+> > to Dan (past week) / $450 / If you can give me $1450, / That erases the
+> > above and…"*
+>
+> Three things follow. The transfer is **not** a single loan against a tax bill:
+> her own summary separates *"$1000"* from *"$14,000+"* and marks the larger
+> figure as the app total, so the $14,000 is an accumulated sum of transfers,
+> not one payment. **She kept a ledger**, and it ran both directions — the
+> *"Suzanne to Dan (past week) $450"* line is her recording what she had given
+> him, in the same message. And the offer is the relational-accounting mechanism
+> this page describes elsewhere, in its clearest form: a lump sum that *"erases
+> the above"* — a request to close the account rather than to service it, eight
+> years before *"It's time for you to go…"* did the same thing with the house.
+>
+> Probe: `bin/wiki-corroborate probe "14,?000|14k" --since 2018-07-01 --until
+> 2018-12-31` — 3 matches, all three genuine.
 
 ## Money, work and scarcity
 
@@ -236,6 +261,50 @@ By the morning, the situation had not resolved. Annie reported that she had slep
 The critical disagreement appears at **10:42**, when Dan told Annie: **"My mom wants to let her go to slee / And I don’t think that’s a good idea"**. Minutes later he explained the pressure more explicitly: **"Gram is asleep still on the floor and my mom doesn’t want to take her"**, while he was trying to get a decision made before Annie told other people what was happening.
 
 Those messages support a narrow but important conclusion: Suz was present and involved, Dan experienced her as resisting immediate hospital escalation, and Dan was pushing for medical evaluation. They do **not**, by themselves, establish every detail later attributed to the night — including the exact duration of a video-keno session, exact arrival/departure times, or later descriptions of who was physically doing what at each moment. Those details belong to retrospective accounts unless separately corroborated.
+
+> **CORROBORATED [2026-09-06]:** the arrival time, the end of the day, and the
+> absence of the keno session. This section was written from the messages on
+> this thread; reading the **whole window** rather than one thread settles three
+> of the details it correctly declined to assert.
+>
+> **The fall was at about 00:05, not in the morning.** Dan sent a photo
+> captioned *"Midnight snack"* at 00:05 and *"Should I️ tell u she fell trying
+> to walk out"* at 00:06.
+>
+> **Suz arrived in the early afternoon, not at 10:00 AM** as
+> [[wiki/timeline/events/fran-death-vigil]] had it: *"Getting in shower now"*
+> (11:30), *"When I come back will try to get her into bed"* (11:38), *"Moving a
+> little slowly today. About half hour at the most"* (12:08), *"I'll be over in
+> 10"* (**12:41**), *"On way back"* (13:41). Fran was still down at 11:35.
+>
+> **Fran was up by 13:18**, which is recorded on
+> [[wiki/people/ellen-ulmer|Ellen Ulmer]]'s thread rather than this one — *"she
+> bruised her hip but she's up and walking around now"* (13:21). No ambulance
+> was called and none is mentioned. So the floor time is roughly thirteen hours,
+> from midnight to about one.
+>
+> **No video-keno session appears anywhere in the record**: the string "keno"
+> returns 0 matches across all three message corpora in ±2 days of 2017-11-26.
+>
+> Two things this thread adds that the page did not carry. Dan asked her twice
+> that morning to supply him — *"Is there any way you can get something for us
+> if I️ can pay for it tomorrow morning? This is going to be a looooooong day"*
+> (11:29), *"I️ could really really benefit from some assistance staying awake"*
+> (12:12) — which is the supply relationship in
+> [[wiki/mind/synthesis/supply-network]] operating between mother and son, in
+> the middle of a medical crisis, in writing. And the caregiving *economics*
+> start the same night: **22:27, Suz — *"At $15/hr, 30 day cost for care is
+> $10,800"***, followed the next evening by her own market check (*"vicki said
+> when she stayed overnight, she was paid $10/hr"*) and Dan's counter-offer of
+> *"$50/night"*, settling into *"If we stayed here temporarily we could do it
+> for free in exchange for housing"* — the housing-for-labour arrangement this
+> page describes elsewhere, dated to its first statement.
+>
+> One more line belongs to [[wiki/people/diane-moore]] and is quoted there:
+> **23:12, Dan — *"Where the fuck is Diane / When gram is wailing on her floor /
+> That sound will haunt me."***
+>
+> Window: `bin/wiki-corroborate window 2017-11-26 --days 1`.
 
 That distinction matters because the event is emotionally significant without requiring a larger accusation than the evidence can support. The caregiving record shows real burden, real family involvement, and a serious disagreement over medical escalation during an acute crisis.
 

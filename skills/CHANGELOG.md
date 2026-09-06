@@ -163,3 +163,55 @@ the Fe deficit — an instruction to re-read 37 pages, 17 of them synthesis — 
 a proxy whose every match was Dan being comforted rather than comforting. The
 tool now caps an unreviewed proxy at `silent`, which is the instruction stated
 as code.
+
+## 2026-09-06 — promoted `corpus/message-record-primacy.md` (active)
+
+**The message record outranks every other source on anything dated, and until
+today nothing checked anything against it.** Promoted on first authoring rather
+than parked in `INBOX.md`, because two of `PROTOCOL.md` §3's three tests were met
+in the session that found it: a governing spec now implies it mechanically
+(`EXTRACTION_SPEC.md` move 10, `CLAUDE.md` rule 3 and the CORROBORATE
+operation), and a command validates it — `bin/wiki-corroborate check` gates in
+`bin/wiki-check` and fails a commit that writes a new dated claim nobody asked
+the record about.
+
+The occasion was the operator locating the date of the keno morning by hand and
+finding that the messages both fix it and disprove parts of the remembered
+version. One event, one window: the date moved from **"~late 2017?"** on three
+pages to **00:06 on 2017-11-26**; Suz's arrival moved from "around 10:00 AM" to
+12:41; the end of the day turned out to be recorded on a fourth person's thread;
+and the detail the event is *named for* — an all-night video-keno session —
+appears nowhere in ±2 days.
+
+Promoted rather than parked for the reason `corpus/source-mention-debt.md` was:
+**the failure has no symptom.** A page with a wrong date reads exactly like a
+page with a right one, nothing goes red, and every synthesis reasoning over the
+sequence inherits the error silently. A candidate parked in `INBOX.md` would
+have been found by the same nobody who was already not finding this.
+
+Bounded, and the bounds are on the skill: coverage is uneven (2012–2014 and 2022
+empty), 79% of one corpus's Sent rows carry no counterparty, and silence in a
+window is evidence that something was not *discussed by text* — which is a much
+weaker claim than its not having happened, and weakest for exactly the events
+people do not put in writing.
+
+## 2026-09-06 — revised three skills after the Annie moratorium was lifted
+
+The operator lifted the standing directive in full (`CLAUDE.md`). Three active
+skills asserted it as a live constraint and now misdescribe the repository:
+
+- **`corpus/message-mining.md`** — its "Known limits" said neither instrument
+  may be pointed at that corpus. They may; both run on every thread.
+- **`corpus/source-mention-debt.md`** — its moratorium clause is rewritten to
+  keep the invariant that outlived the directive: a scan output is a worklist
+  whichever column a page lands in, so any refusal must cover both ends.
+- **`repo/silent-permission.md`** — both of its worked instances were moratorium
+  guards, and both are gone. **The lesson is untouched** — the evidence is what
+  a fail-open guard costs, not which rule it enforced — but its `sources:` and
+  its validation command pointed at two test classes that were removed with the
+  directive, so they now name the surviving refusals of the same shape
+  (`LinkPlacement`, `TestLaneRefusal`).
+
+`skills/INBOX.md`'s 2026-08-30 candidate lost its validation for the same
+reason, and now says so rather than naming a test that no longer exists. No
+skill's meaning changed; three descriptions of the world did.

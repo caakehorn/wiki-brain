@@ -79,7 +79,7 @@ Concretely, a source is exhausted when you can answer all of these:
 If any answer is "I did not check," the source is not read. Say so in the log
 rather than claiming the ingest.
 
-## The eight moves
+## The ten moves
 
 These are the operations that produce depth. They are listed in the order they
 tend to pay off, not the order you must run them.
@@ -271,6 +271,46 @@ that looked like a clean five days ran from −1 to +28 days once the match was
 extended, and the tidy version is the one a later pass will reach for unless the
 page says it failed.
 
+### 10. Date-anchor everything against the message record
+
+Added 2026-09-06, by operator directive, and it is the move with the highest
+ratio of value to effort in this file.
+
+**Every date a source asserts gets checked against the message archive before
+the claim is written.** `bin/wiki-corroborate window <date>` returns every
+message in those hours across every thread, deduped over three corpora, in about
+two seconds. Not "when you doubt the date" — you cannot tell from inside a claim
+whether the record has something to add, and it usually does.
+
+**Three things come back, and only the first is the one people expect.**
+
+1. **The date holds, or it does not.** A hedged date the corpus can settle is
+   the cheapest correction available anywhere in this repository. Three pages
+   carried Fran's first long fall as *"~late 2017?"*; the record dates it to
+   **00:06 on 2017-11-26** and puts a timestamp on every hour of the following
+   day.
+2. **Material the source never had.** A window is a conversation, not a lookup.
+   The keno morning's window holds four threads at once — mother, girlfriend,
+   girlfriend's mother, father — and the girlfriend's mother is the one told
+   *"she bruised her hip but she's up and walking around now"*, which is how the
+   day ended, on a page nobody would have thought to open.
+3. **What the retelling got wrong.** The event is *named for* a video-keno
+   session and the word "keno" appears nowhere in ±2 days. A remembered detail
+   that the contemporaneous record does not carry is a finding, and it goes on
+   the page as one.
+
+**Read the whole window, never a search of it.** Nobody texts the name of the
+event they are living through. Searching for "fall" or "grandmother" returns
+nothing; reading the hours returns the entire day.
+
+**Know what a null result is worth before you take one.** `coverage` says which
+years the record actually reaches: 2012–2014 hold nothing and 2022 holds four
+rows. A claim dated outside that is **unexamined, not unsupported**, and the
+tool refuses to let one be recorded as the other.
+
+The operation is CORROBORATE in `CLAUDE.md`; the debt is `bin/wiki-corroborate
+scan` and `queue`; new dated claims are gated on the working diff.
+
 ## Source tiers — and the laundering failure
 
 `raw/` mixes two kinds of evidence and conflating them is how false claims get
@@ -279,6 +319,18 @@ into the wiki wearing a citation.
 **Primary — records of what happened.** Message dumps and per-thread exports;
 the GEDCOM; `contacts.csv` and the Facebook address book; Goodreads, YouTube,
 Twitter and Facebook takeouts; the Gchat archive; photographs and documents.
+
+**Inside primary, the message record ranks first for anything dated, and that
+is a ranking rather than a preference (operator, 2026-09-06).** 271,405
+messages, timestamped to the second, written at the time by the people involved,
+with no audience and no thesis — nobody texts for the record, which is precisely
+what makes the record good. Every other source in this repository, primary ones
+included, is *about* a day; a message is a piece *of* it. So where a retelling,
+a dossier, a document or an operator answer disagrees with the messages on a
+date, a time, a sequence or who was present, **the messages win and the page
+says the disagreement out loud.** Move 10 is how it is checked; the exceptions
+are the ordinary ones — a document that records something the messages could not
+know, and a date the corpus does not reach at all.
 
 **AI-secondary — a model reasoning about the corpus.** The Gemini and ChatGPT
 sessions under `dox-md/`, `THE_DAN_FRANK_BOOTLOADER.md`, `THE_DAN_FRANK_MANUAL.md`,

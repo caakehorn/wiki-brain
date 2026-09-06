@@ -227,8 +227,9 @@ is a moat. Anyone can promise an evidence-backed model. This is a system that
 publishes its own error rate about the person paying for it.
 
 Two caveats that have to travel with it: n=14 is not a rate yet, and the page
-carries its own sample-bias disclosure because the standing moratorium filters
-the record. Both are correct handling and both must survive into any pitch.
+carries its own sample-bias disclosure because the Annie moratorium (2026-08-23
+to 2026-09-06) kept records out of the ledger that have not since been entered.
+Both are correct handling and both must survive into any pitch.
 
 ---
 
@@ -246,10 +247,11 @@ ones.
   `ally-lubin-cognitive-profile`, `suzanne-frank-personality-assessment`,
   `annie-ulmer-personality-assessment`. Living people, assessed by an AI, under
   their own names, in public, without consent.
-- `wiki/people/annie-ulmer.md` is **23,763 words** about a person the standing
-  directive in `CLAUDE.md` describes as being *in apparent danger* — and the
-  moratorium correctly stops the record advancing while leaving 23,763 published
-  words in place, because the operator asked for a stop, not a redaction.
+- `wiki/people/annie-ulmer.md` is **23,763 words** about a living person, in
+  public. A standing directive stopped that record advancing for a fortnight in
+  August 2026 on safety grounds and was lifted on 2026-09-06; the 23,763 words
+  were public throughout, which is the whole point — a moratorium on *new*
+  writing was never a fix for what is already published.
 - `intake/events.jsonl` publishes dated controlled-substance consumption,
   tracked, permanently, by explicit decision.
 

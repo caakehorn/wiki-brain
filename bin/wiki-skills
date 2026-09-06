@@ -63,14 +63,12 @@ query string. Anything still matching a credential shape is a REFUSAL naming the
 field, not a warning, and `check` re-scans the committed file so a hand-edit
 cannot slip one past the writer.
 
-THE MORATORIUM, IN THE RENDERER
+THE MORATORIUM WAS LIFTED ON 2026-09-06
 
-`CLAUDE.md` carries a standing operator directive about a living person. One
-retired skill in this repository is named for her. The database records it —
-concealing a capability that exists would make the database lie about the thing
-it is for — but the PUBLIC PAGE is new prose on a public site, so the renderer
-holds those rows out and says how many it held, at their true width. A hole in
-an archive is not a silence; it is drawn hatched.
+Until then the renderer held one capability's row and one capability's summary
+out of the public page under a standing operator directive, and drew the hole at
+its true width. The directive is over; nothing is held back and the page prints
+every row the database holds.
 """
 import argparse
 import datetime
@@ -106,12 +104,6 @@ KINDS = (
 )
 SCOPES = ("repo", "agent", "global")
 EVENT_TYPES = ("agent_seen", "capability_observed", "capability_retired", "note_added")
-
-# Same directive, same pattern, same source of truth as bin/wiki-plain. Kept
-# literal in both files rather than imported: bin/ has no package and a shared
-# import would make one tool's refactor able to silently unlatch the other's.
-MORATORIUM = re.compile(r"\b(annie|ulmer)", re.I)
-
 
 class RegistryError(Exception):
     """Anything a caller asked for that the database will not record as asked."""
@@ -712,40 +704,15 @@ KIND_LABEL = {
 }
 
 
-WITHHELD = "_[summary withheld — standing directive in `CLAUDE.md`; read the file at the path]_"
-
-
-def held_back(cap):
-    """How far the standing directive reaches into one row: "row" | "summary" | "".
-
-    Two tiers, because one blunt rule gets this wrong in both directions. A
-    capability whose NAME is hers cannot be printed at all — there is no way to
-    render the row without writing her name onto a public page. A capability
-    whose name is neutral but whose SUMMARY names her is a live, useful tool
-    (`corpus-read` is the case), and dropping it would make the database lie
-    about what this repository offers. That row prints; its summary does not.
-
-    The directive is a stop on new writing, not a redaction of what exists — so
-    the path stays, and a reader who wants the summary reads the file it points
-    at, which has been in this public repository all along.
-    """
-    rec = cap.get("record") or {}
-    if MORATORIUM.search(cap.get("name") or ""):
-        return "row"
-    if MORATORIUM.search(" ".join([rec.get("title") or "", rec.get("summary") or "",
-                                   " ".join(rec.get("triggers") or [])])):
-        return "summary"
-    return ""
-
-
 def public_row(cap):
-    """The record as the public page may print it, with the directive applied."""
-    rec = dict(cap.get("record") or {})
-    if held_back(cap) == "summary":
-        rec["summary"] = WITHHELD
-        rec["title"] = cap["name"]
-        rec["triggers"] = []
-    return rec
+    """The record as the public page prints it.
+
+    Nothing is withheld here any more. Until 2026-09-06 this dropped one row's
+    summary, title and triggers under the standing directive; the directive was
+    lifted and the function is kept because every caller renders through it and
+    a future holdout belongs in one place rather than nine.
+    """
+    return dict(cap.get("record") or {})
 
 
 def md_cell(text):
@@ -756,9 +723,7 @@ def render_page(state, root=None):
     """The public-facing page. Deterministic: every value comes from the log."""
     root = Path(root or ROOT)
     caps = [c for c in state["capabilities"] if c["status"] == "live"]
-    hidden = [c for c in caps if held_back(c) == "row"]
-    muted = [c for c in caps if held_back(c) == "summary"]
-    shown = [c for c in caps if held_back(c) != "row"]
+    shown = list(caps)
     agents = state["agents"]
     modified = day(state.get("last_event")) or PAGE_CREATED
 
@@ -911,7 +876,7 @@ def render_page(state, root=None):
     L.append("")
 
     retired = [c for c in state["capabilities"]
-               if c["status"] != "live" and held_back(c) != "row"]
+               if c["status"] != "live"]
     if retired:
         L.append("## Retired")
         L.append("")
@@ -958,23 +923,6 @@ def render_page(state, root=None):
     L.append("re-scans the committed database, so a hand-edit cannot get one past the")
     L.append("writer.")
     L.append("")
-    if hidden or muted:
-        L.append("**Some rows are held back under the standing directive in `CLAUDE.md`.**")
-        L.append("That directive stops new public writing about a living person; it does")
-        L.append("not delete what already exists. So the reach here is as narrow as it can")
-        L.append("be, and the hole is drawn at its true width rather than closed over:")
-        L.append("")
-        if hidden:
-            L.append(f"- **{len(hidden)}** capabilit{'y is' if len(hidden) == 1 else 'ies are'} "
-                     f"omitted from the tables entirely — the name itself cannot be printed")
-            L.append("  here. They remain on the record in `skills/registry/` and are counted")
-            L.append("  in every total above.")
-        if muted:
-            L.append(f"- **{len(muted)}** appear{'s' if len(muted) == 1 else ''} with the "
-                     f"summary withheld. The row, the kind and the path are printed, so the")
-            L.append("  capability is discoverable and the file it points at — long since")
-            L.append("  public in this repository — still answers what it does.")
-        L.append("")
     L.append("**No prompts, personalities or session state.** A capability is something a")
     L.append("model can invoke. Where the work stands is `LLM_HANDOFF.md`; what is")
     L.append("outstanding is `WORK.md`; what agents have *learned* about working here is")
@@ -1176,18 +1124,6 @@ def check(reg, fix=False):
             errors.append(f"{_rel(reg.page, reg.root)} is behind the database — "
                           f"run `bin/wiki-skills page`")
 
-    # The directive, checked twice and on two different objects. The render is
-    # what the tool WOULD publish; the file on disk is what the portal actually
-    # serves, and the two are only the same when the drift check above passed.
-    # Checking the render alone would let a hand-edited page name her and report
-    # nothing worse than "the page is behind the database".
-    if MORATORIUM.search(page):
-        errors.append("the generated page names a person under the standing directive "
-                      "in CLAUDE.md — the renderer's holdout failed")
-    if reg.page.exists() and MORATORIUM.search(reg.page.read_text(encoding="utf-8")):
-        errors.append(f"{_rel(reg.page, reg.root)} names a person under the standing "
-                      f"directive in CLAUDE.md — this page is published; regenerate it "
-                      f"with `bin/wiki-skills page` and do not hand-edit it")
 
     for w in warnings:
         print(f"WARN  {w}")

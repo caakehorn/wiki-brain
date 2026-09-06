@@ -98,6 +98,7 @@ OBLIGATIONS = {
 }
 STANDING = {
     "ingest":  (5, "INGEST"),
+    "corroborate": (5, "CORROBORATE"),
     "connect": (6, "CONNECT"),
     "climb":   (6, "CLIMB"),
     "backlog": (7, "as the entry states"),
@@ -255,7 +256,8 @@ def find_failing_gates():
     for name, why in (("wiki-connect", "typed edges are missing a type or a claim"),
                       ("wiki-climb", "a synthesizes: block does not resolve"),
                       ("wiki-lessons", "a skill is malformed, unrouted or unrecorded"),
-                      ("wiki-skills", "the capability registry, its projection and its page disagree")):
+                      ("wiki-skills", "the capability registry, its projection and its page disagree"),
+                      ("wiki-corroborate", "this pass writes a dated claim nobody asked the message record about")):
         tool = ROOT / "bin" / name
         if not tool.exists():
             continue
@@ -467,10 +469,38 @@ def count_backlog():
 
 STANDING_SOURCES = [
     ("ingest", "queue.md", "sources ingested partially or not at all", count_queue),
+    ("corroborate", "bin/wiki-corroborate queue",
+     "pages whose dated claims the message record has never been asked about",
+     lambda: count_corroboration()),
     ("connect", "connection-queue.md", "mined edge pairs, untyped and unrejected", count_connection_queue),
     ("climb", "synthesis-queue.md", "clusters unclimbed and unrejected", count_synthesis_queue),
     ("backlog", "BACKLOG.md", "standing campaign entries", count_backlog),
 ]
+
+
+def count_corroboration():
+    """Pages carrying dated claims nothing has checked against the messages.
+
+    Shelled rather than imported, like the gates above, and given a generous
+    timeout: the count is a pass over 505 pages against a committed coverage
+    table, not over the 271,405-message corpus itself. A failure here returns
+    zero rather than raising — a campaign counter must never take the one
+    mandatory session list down with it.
+    """
+    tool = ROOT / "bin" / "wiki-corroborate"
+    if not tool.exists():
+        return 0, []
+    try:
+        done = subprocess.run([sys.executable, str(tool), "queue", "3"],
+                              cwd=str(ROOT), capture_output=True, text=True, timeout=180)
+    except (OSError, subprocess.SubprocessError):
+        return 0, []
+    m = re.search(r"^(\d+) page\(s\) carry uncorroborated", done.stdout, re.M)
+    if not m:
+        return 0, []
+    rows = [ln.split()[0] for ln in done.stdout.splitlines()
+            if ln.startswith("  wiki/")]
+    return int(m.group(1)), rows[:3]
 
 
 def standing():

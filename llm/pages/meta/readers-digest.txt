@@ -15,11 +15,10 @@ chart:
     - name: "Entries"
       points:
         "Translated": 28
-        "Major lane": 48
-        "Free lane": 38
-        "Held (people)": 94
-        "Too thin": 47
-        "Withheld": 219
+        "Major lane": 150
+        "Free lane": 58
+        "Held (people)": 175
+        "Too thin": 48
 sources: []
 ---
 
@@ -44,9 +43,9 @@ This page is the campaign to write one for every entry.
 | | |
 |---|---|
 | Entries with a plain-English edition | **28** |
-| Entries eligible for one | 284 |
-| Withheld under the standing directive | 219 |
-| Coverage | 9.9% |
+| Entries eligible for one | 505 |
+| Withheld under the standing directive | 0 |
+| Coverage | 5.5% |
 
 ## The two lanes
 
@@ -56,14 +55,14 @@ is arithmetic in `bin/wiki-plain`: 900 words is the boundary.
 
 | Lane | What is in it | Outstanding |
 |---|---|---|
-| `major` | entries of 900 words or more — the dense findings | 48 |
-| `free` | entries under 900 words, worked smallest first | 38 |
+| `major` | entries of 900 words or more — the dense findings | 150 |
+| `free` | entries under 900 words, worked smallest first | 58 |
 
-A further **94** eligible entries about other people are in
+A further **175** eligible entries about other people are in
 neither lane. They are held back deliberately, pending a decision about
 who writes plain-English prose about living people for a public site.
 
-**47** more are under 300 words — stubs, and
+**48** more are under 300 words — stubs, and
 records like a concert date with its lineup. A table is already plain
 and a one-sentence entry translated is the same sentence, so these get
 no plain edition until the entry itself has an argument in it. They are
@@ -108,15 +107,15 @@ commits that wrote these files. `git fetch --unshallow` for an answer._
 
 ## Next up
 
-**major** — 48 outstanding
+**major** — 150 outstanding
 
+- [[wiki/timeline/master-timeline]] (132854 words)
+- [[wiki/timeline/annie-record]] (30571 words)
+- [[wiki/meta/open-questions]] (26096 words)
 - [[wiki/self/twitter/2024]] (11197 words)
 - [[wiki/self/twitter/2010]] (11117 words)
-- [[wiki/self/twitter/2013]] (10864 words)
-- [[wiki/self/twitter/2009]] (9072 words)
-- [[wiki/self/twitter/2022]] (8071 words)
 
-**free** — 38 outstanding
+**free** — 58 outstanding
 
 - [[wiki/work/caviar-courier]] (304 words)
 - [[wiki/interests/favorites/books/authors/adrian-goldsworthy]] (322 words)

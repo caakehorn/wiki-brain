@@ -5,15 +5,14 @@ Run:  python3 -m unittest discover -s tests -v     (from the repo root)
 
 Two properties are pinned here and neither is cosmetic.
 
-  * **The moratorium guard.** `CLAUDE.md` carries a standing operator directive
-    about a living person, and this tool is where it stops being something a
-    session has to remember. It shipped with a real hole: the pattern was
-    `\\bannie\\b`, which looks tighter than the one in the tool today and is
-    wrong — `_` is a word character, so the trailing boundary fails against
-    `annie_metadata_24h.csv`, the filename that material is cited by throughout.
-    `read-receipt-forensics` carries that filename twice and read as ELIGIBLE
-    FOR TRANSLATION until it was caught by hand. A guard whose failure mode is
-    silent permission gets a test.
+  * **The moratorium is lifted, and stays lifted.** From 2026-08-23 to
+    2026-09-06 this tool refused a twin for any page about one living person,
+    and no `plain/` file could name her at all. The operator lifted the
+    directive in full on 2026-09-06. `TestTheMoratoriumIsLifted` pins the
+    absence of the refusal, because the failure mode of a lifted rule is a
+    later session reinstating it from memory — the rule was described in four
+    files as mechanical and non-negotiable, and three of them have been edited
+    since.
 
   * **Staleness.** A twin records the version of the page it was written
     against. When the page moves past it, the twin is a confident, readable,
@@ -123,92 +122,37 @@ class TreeCase(unittest.TestCase):
         return code, buf.getvalue()
 
 
-class TestMoratoriumPattern(unittest.TestCase):
-    """The regex itself, independent of any tree."""
+class TestTheMoratoriumIsLifted(TreeCase):
+    """The refusal is gone, and a test says so rather than nothing saying so.
 
-    def test_catches_the_underscored_filename(self):
-        # The original bug. `\\bannie\\b` does not match this and it must.
-        self.assertTrue(wp.MORATORIUM.search("annie_metadata_24h.csv"))
+    Every assertion here failed before 2026-09-06 and is expected to keep
+    passing. If a later session reintroduces the guard, these break and the
+    breakage names the directive that no longer exists.
+    """
 
-    def test_catches_the_ordinary_forms(self):
-        for text in ("Annie", "annie", "Annie's page", "ANNIE", "annies"):
-            with self.subTest(text=text):
-                self.assertTrue(wp.MORATORIUM.search(text))
+    def test_no_moratorium_symbols_remain(self):
+        for name in ("MORATORIUM", "INCIDENTAL", "held_back", "WITHHELD"):
+            with self.subTest(name=name):
+                self.assertFalse(hasattr(wp, name),
+                                 f"bin/wiki-plain still defines {name}")
 
-    def test_catches_the_surname(self):
-        self.assertTrue(wp.MORATORIUM.search("wiki/people/annie-ulmer"))
-        self.assertTrue(wp.MORATORIUM.search("Ulmer"))
+    def test_a_page_about_her_is_translatable(self):
+        self.t.page("mind/x", body="Annie. " * 40)
+        p = self.one()
+        self.assertTrue(wp.lane_eligible(p, "major") or p.words < 900)
+        self.assertIn(p.slug, [q.slug for q in wp.load() if not q.twin])
 
-    def test_does_not_catch_unrelated_words(self):
-        for text in ("granny", "uncanny", "companies", "Vulmer"):
-            with self.subTest(text=text):
-                self.assertIsNone(wp.MORATORIUM.search(text))
-
-
-class TestRuleOne(TreeCase):
-    """A page substantially about her gets no twin at all."""
-
-    def test_body_mentions_at_the_threshold_stay_eligible(self):
-        self.t.page("mind/x", body="Annie once. " * wp.INCIDENTAL)
-        self.assertFalse(self.one().excluded)
-
-    def test_body_mentions_past_the_threshold_exclude(self):
-        self.t.page("mind/x", body="Annie once. " * (wp.INCIDENTAL + 1))
-        self.assertTrue(self.one().excluded)
-
-    def test_frontmatter_excludes_at_any_density(self):
-        # One mention, in `sources:` — the page is built on that material
-        # however sparingly its body says so.
-        write(
-            os.path.join(wp.WIKI, "mind/x.md"),
-            "---\ntitle: \"A Page\"\ndate_modified: 2026-08-28\n"
-            "sources:\n  - raw/self/annie_metadata_24h.csv\n---\n\n# A Page\n\nProse.\n",
-        )
-        self.assertTrue(self.one().excluded)
-
-    def test_a_clean_page_is_eligible(self):
-        self.t.page("mind/x")
-        self.assertFalse(self.one().excluded)
-
-    def test_a_twin_on_an_excluded_page_fails_the_gate(self):
-        self.t.page("mind/x", body="Annie. " * 10)
-        self.t.twin("mind/x")
-        code, out = self.errors()
-        self.assertEqual(code, 1)
-        self.assertIn("moratorium", out)
-
-    def test_new_refuses_an_excluded_page(self):
-        self.t.page("mind/x", body="Annie. " * 10)
+    def test_new_scaffolds_a_page_about_her(self):
+        self.t.page("mind/x", body="Annie. " * 40)
         args = type("A", (), {"slug": "mind/x"})()
-        err = sys.stderr
-        sys.stderr = open(os.devnull, "w")
-        try:
-            self.assertEqual(wp.cmd_new(args), 2)
-        finally:
-            sys.stderr.close()
-            sys.stderr = err
-        self.assertFalse(os.path.exists(os.path.join(wp.PLAIN, "mind/x.md")))
+        self.assertEqual(wp.cmd_new(args), 0)
+        self.assertTrue(os.path.exists(os.path.join(wp.PLAIN, "mind/x.md")))
 
-    def test_next_never_proposes_an_excluded_page(self):
-        self.t.page("mind/x", body="Annie. " * 10)
-        todo = [p for p in wp.load() if not p.twin and not p.excluded]
-        self.assertEqual(todo, [])
-
-
-class TestRuleTwo(TreeCase):
-    """No file in this layer names her, whatever its source page says."""
-
-    def test_a_twin_naming_her_fails_even_on_a_clean_page(self):
-        self.t.page("mind/x")  # source is spotless
+    def test_a_twin_may_name_her(self):
+        self.t.page("mind/x", body="Annie. " * 40)
         self.t.twin("mind/x", body="Then Annie arrived.")
         code, out = self.errors()
-        self.assertEqual(code, 1)
-        self.assertIn("moratorium", out)
-
-    def test_a_clean_twin_on_a_clean_page_passes(self):
-        self.t.page("mind/x")
-        self.t.twin("mind/x")
-        self.assertEqual(self.errors()[0], 0)
+        self.assertEqual(code, 0, out)
 
 
 class TestStaleness(TreeCase):
@@ -540,7 +484,7 @@ class TestLaneOrder(LaneCase):
 
 
 class TestLaneRefusal(LaneCase):
-    """`task --lane` refuses out of lane, for the reason the moratorium refuses.
+    """`task --lane` refuses out of lane, and refuses rather than advises.
 
     An agent told to work the free lane and handed a 4,900-word synthesis will
     attempt it. Checking the caller's word rather than the page is how a lane
@@ -569,8 +513,8 @@ class TestLaneRefusal(LaneCase):
         code, _ = self.task("mind/small", "free")
         self.assertEqual(code, 0)
 
-    def test_the_moratorium_refuses_before_the_lane_does(self):
-        """Both refuse it; the reason the writer is given must be the directive."""
+    def test_the_lane_is_the_only_refusal_left(self):
+        """Since 2026-09-06 the lane is the whole of it — no directive above it."""
         write(
             os.path.join(wp.WIKI, "mind/hers.md"),
             LANE_PAGE.format(page_type="synthesis", status="stable",
@@ -578,8 +522,8 @@ class TestLaneRefusal(LaneCase):
         )
         code, err = self.task("mind/hers", "free")
         self.assertEqual(code, 2)
-        self.assertIn("moratorium", err)
-        self.assertNotIn("not in the free lane", err)
+        self.assertIn("not in the free lane", err)
+        self.assertNotIn("moratorium", err)
 
 
 class TestReport(LaneCase):

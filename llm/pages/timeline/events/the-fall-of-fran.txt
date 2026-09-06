@@ -7,7 +7,7 @@ status: closed
 importance: high
 knowledge: mixed
 date_created: 2026-08-02
-date_modified: 2026-08-02
+date_modified: 2026-09-06
 date_range: ["2018-03-07", "2018-03-08"]
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
@@ -101,7 +101,22 @@ while Danny was still en route — loud enough that Dan's own retelling
 renders it as a detonation. He reached her and knew immediately that this
 one was different from the previous spills, including the keno morning with
 [[wiki/people/suzanne-frank|Suz]] that had ended with a manual lift and no
-ambulance. She was hurt. She said, characteristically, "No, I'm... I'm
+ambulance.
+
+> **CORROBORATED [2026-09-06]:** the keno morning is dated — the night of
+> **2017-11-25 into 2017-11-26**, four months and a week before this night — and
+> "a manual lift and no ambulance" is confirmed by the contemporaneous record
+> rather than by the retelling: Fran was *"up and walking around now"* with a
+> bruised hip by 13:21, and no ambulance appears on any thread. Two details of
+> the earlier account do not survive the check — the fall was just after
+> midnight rather than at 8:00 AM, and Suz arrived in the early afternoon rather
+> than at 10:00. [[wiki/timeline/events/fran-death-vigil]] carries the full
+> window. **The comparison this paragraph draws is unaffected and gets
+> sharper**: the previous spill left a 97-year-old on the carpet for about
+> thirteen hours and ended without medical contact, which is the precedent
+> against which the decision below was made.
+
+She was hurt. She said, characteristically, "No, I'm... I'm
 okay," and the doorbell rang on the same beat.
 
 The decision Dan made in that moment is the part of the night he defends

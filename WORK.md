@@ -122,7 +122,6 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 | 3 | stale | premise wiki/self/context-core.md moved 2026-09-04, after this page's 2026-08-26 | `wiki/work/fastly-fsly.md` | 2026-09-04 |
 | 3 | stale | premise wiki/self/context-core.md moved 2026-09-04, after this page's 2026-08-28 | `wiki/mind/synthesis/instrument-is-subject.md` | 2026-09-04 |
 | 3 | stale | premise wiki/health/chemical-architecture.md moved 2026-09-05, after this page's 2026-08-02 | `wiki/mind/synthesis/ancestral-dialectic.md` | 2026-09-05 |
-| 3 | stale | premise wiki/health/chemical-architecture.md moved 2026-09-05, after this page's 2026-09-04 | `wiki/health/cocaine.md` | 2026-09-05 |
 | 3 | stale | premise wiki/health/chemical-architecture.md moved 2026-09-05, after this page's 2026-09-04 | `wiki/health/the-configured-body.md` | 2026-09-05 |
 | 3 | stale | premise wiki/mind/concepts/calibrated-confidence.md moved 2026-09-05, after this page's 202… | `wiki/mind/synthesis/the-binary-verdict.md` | 2026-09-05 |
 | 3 | stale | premise wiki/mind/concepts/exocortex.md moved 2026-09-05, after this page's 2026-08-28 | `wiki/mind/synthesis/instrument-is-subject.md` | 2026-09-05 |
@@ -134,7 +133,6 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 | 3 | stale | premise wiki/mind/synthesis/ai-collaborative-analysis.md moved 2026-09-05, after this page'… | `wiki/mind/synthesis/single-channel.md` | 2026-09-05 |
 | 3 | stale | premise wiki/mind/synthesis/estate-money-spine.md moved 2026-09-05, after this page's 2026-… | `wiki/mind/synthesis/totality-themes.md` | 2026-09-05 |
 | 3 | stale | premise wiki/mind/synthesis/estate-money-spine.md moved 2026-09-05, after this page's 2026-… | `wiki/places/the-unpapered-address.md` | 2026-09-05 |
-| 3 | stale | premise wiki/mind/synthesis/supply-network.md moved 2026-09-05, after this page's 2026-09-04 | `wiki/health/cocaine.md` | 2026-09-05 |
 | 3 | stale | premise wiki/mind/synthesis/supply-network.md moved 2026-09-05, after this page's 2026-09-04 | `wiki/health/the-configured-body.md` | 2026-09-05 |
 | 3 | stale | premise wiki/mind/synthesis/supply-network.md moved 2026-09-05, after this page's 2026-09-04 | `wiki/mind/synthesis/intake-constancy.md` | 2026-09-05 |
 | 3 | stale | premise wiki/mind/synthesis/supply-network.md moved 2026-09-05, after this page's 2026-09-04 | `wiki/mind/synthesis/totality-themes.md` | 2026-09-05 |
@@ -143,15 +141,17 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 | 3 | stale | premise wiki/people/ally-lubin.md moved 2026-09-05, after this page's 2026-09-04 | `wiki/mind/synthesis/intensity-is-no-longer-the-only-mode.md` | 2026-09-05 |
 | 3 | stale | premise wiki/people/ally-lubin.md moved 2026-09-05, after this page's 2026-09-04 | `wiki/people/ally-lubin-cognitive-profile.md` | 2026-09-05 |
 | 3 | stale | premise wiki/people/ally-lubin.md moved 2026-09-05, after this page's 2026-09-04 | `wiki/self/concepts/ally-and-dan-love-as-destiny.md` | 2026-09-05 |
-| 3 | stale | premise wiki/people/suzanne-frank.md moved 2026-09-05, after this page's 2026-09-04 | `wiki/health/cocaine.md` | 2026-09-05 |
-| 3 | stale | premise wiki/people/suzanne-frank.md moved 2026-09-05, after this page's 2026-09-04 | `wiki/mind/synthesis/annual-volume-suz.md` | 2026-09-05 |
-| 3 | stale | premise wiki/people/suzanne-frank.md moved 2026-09-05, after this page's 2026-09-04 | `wiki/mind/synthesis/attachment-trauma-bond.md` | 2026-09-05 |
-| 3 | stale | premise wiki/people/suzanne-frank.md moved 2026-09-05, after this page's 2026-09-04 | `wiki/mind/synthesis/vertical-authority-skepticism.md` | 2026-09-05 |
-| 3 | stale | premise wiki/people/suzanne-frank.md moved 2026-09-05, after this page's 2026-09-04 | `wiki/people/suzanne-frank-personality-assessment.md` | 2026-09-05 |
-| 3 | stale | premise wiki/people/suzanne-frank.md moved 2026-09-05, after this page's 2026-09-04 | `wiki/self/context-core.md` | 2026-09-05 |
 | 3 | stale | premise wiki/work/au-zaatar.md moved 2026-09-05, after this page's 2026-09-04 | `wiki/interests/food-and-diet.md` | 2026-09-05 |
 | 3 | stale | premise wiki/work/au-zaatar.md moved 2026-09-05, after this page's 2026-09-04 | `wiki/mind/synthesis/the-embedded-objective.md` | 2026-09-05 |
 | 3 | stale | premise wiki/work/au-zaatar.md moved 2026-09-05, after this page's 2026-09-04 | `wiki/mind/synthesis/vertical-authority-skepticism.md` | 2026-09-05 |
+| 3 | stale | premise wiki/health/cocaine.md moved 2026-09-06, after this page's 2026-09-04 | `wiki/health/the-configured-body.md` | 2026-09-06 |
+| 3 | stale | premise wiki/people/diane-moore.md moved 2026-09-06, after this page's 2026-09-04 | `wiki/mind/synthesis/vertical-authority-skepticism.md` | 2026-09-06 |
+| 3 | stale | premise wiki/people/suzanne-frank.md moved 2026-09-06, after this page's 2026-09-04 | `wiki/mind/synthesis/annual-volume-suz.md` | 2026-09-06 |
+| 3 | stale | premise wiki/people/suzanne-frank.md moved 2026-09-06, after this page's 2026-09-04 | `wiki/mind/synthesis/attachment-trauma-bond.md` | 2026-09-06 |
+| 3 | stale | premise wiki/people/suzanne-frank.md moved 2026-09-06, after this page's 2026-09-04 | `wiki/mind/synthesis/vertical-authority-skepticism.md` | 2026-09-06 |
+| 3 | stale | premise wiki/people/suzanne-frank.md moved 2026-09-06, after this page's 2026-09-04 | `wiki/people/suzanne-frank-personality-assessment.md` | 2026-09-06 |
+| 3 | stale | premise wiki/people/suzanne-frank.md moved 2026-09-06, after this page's 2026-09-04 | `wiki/self/context-core.md` | 2026-09-06 |
+| 3 | stale | premise wiki/people/suzanne-frank.md moved 2026-09-06, after this page's 2026-09-05 | `wiki/mind/synthesis/estate-money-spine.md` | 2026-09-06 |
 | 4 | skill | unvalidated skill candidate — A generator's own output is not the published object | `skills/INBOX.md` | 2026-08-30 |
 | 4 | skill | unvalidated skill candidate — Persistent cross-agent learning loop | `skills/INBOX.md` | 2026-08-30 |
 | 4 | skill | unvalidated skill candidate — A secret's absence must fail whatever the secret was for | `skills/INBOX.md` | 2026-08-31 |
@@ -166,7 +166,7 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 | 4 | skill | unvalidated skill candidate — Working a stale premise honestly moves the front rather than… | `skills/INBOX.md` | 2026-09-04 |
 | 4 | skill | unvalidated skill candidate — When a lexical proxy is broken, the replacement is often a fi… | `skills/INBOX.md` | 2026-09-06 |
 
-## Standing work (197)
+## Standing work (574)
 
 The campaign. Worked top-down by choice rather than drained, and each line
 below is a pointer — the file named is where the work itself is written, and
@@ -174,6 +174,7 @@ the only place to strike an entry.
 
 | P | Kind | Open | Where | What |
 |---|---|---|---|---|
+| 5 | corroborate | 377 | `bin/wiki-corroborate queue` | pages whose dated claims the message record has never been asked about |
 | 5 | ingest | 38 | `queue.md` | sources ingested partially or not at all |
 | 6 | climb | 25 | `synthesis-queue.md` | clusters unclimbed and unrejected |
 | 6 | connect | 84 | `connection-queue.md` | mined edge pairs, untyped and unrejected |

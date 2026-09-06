@@ -125,7 +125,7 @@ Whether an error would have flattered him or condemned him, had it stood. This i
 
 ## What this ledger cannot see
 
-**The sample is filtered, and not at random.** `CLAUDE.md` carries a standing directive stopping new writing about one living person. `bin/wiki-testimony` enforces it mechanically rather than leaving it to a session to remember, and refuses such a record outright. At least one cleanly adjudicated confirmation is excluded by that rule. The exclusion is correct and it is still a bias: this score is drawn from what the directive permits, not from everything the corpus knows.
+**The sample has a hole in it, and not a random one.** From 2026-08-23 to 2026-09-06 a standing operator directive stopped new writing about one living person, and this tool refused any record naming her — at least one cleanly adjudicated confirmation went unrecorded. The directive was lifted on 2026-09-06 and the refusal is gone, but the records it turned away have not been entered yet. Until they are, this score is drawn from what that fortnight permitted rather than from everything the corpus knows.
 
 **Adjudicated claims are not a random sample of claims.** A claim gets checked when somebody had a reason to check it, and the reasons correlate with the claim being surprising, load-bearing, or already doubted. Expect the settled set to over-represent both the spectacular confirmations and the spectacular failures.
 

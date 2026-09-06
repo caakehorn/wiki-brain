@@ -82,6 +82,7 @@ and therefore the ones worth writing a skill about.
 
 | Capability | Kind | Declared by |
 |---|---|---|
+| bin/annie-corpus | command | `claude-code`, `hermes` |
 | bin/intake | command | `claude-code`, `hermes` |
 | bin/mine-messages | command | `claude-code`, `hermes` |
 | bin/wiki-check | command | `claude-code`, `hermes` |
@@ -98,6 +99,7 @@ and therefore the ones worth writing a skill about.
 
 | Name | What it is | Declared by | Where |
 |---|---|---|---|
+| `annie-read-synthesis` | RETIRED 2026-08-23 under the Annie moratorium in CLAUDE.md. Do not invoke. Kept only as a record of how the spread used to work. | `claude-code` | `.claude/skills/annie-read-synthesis/SKILL.md` |
 | `artifact-design` | Design calibration for published Artifact pages — load before writing one, including a Markdown one. | `claude-code` | https://code.claude.com/docs/en/skills |
 | `code-review` | Review a diff, PR, branch or path for correctness bugs and simplification at a chosen effort level; --comment posts findings inline on a PR, --fix applies them. | `claude-code` | https://code.claude.com/docs/en/slash-commands |
 | `corpus-read` | Read a large two-sided message corpus by hand, in date order, in small windows, and derive a timeline of real events plus a working-notes ledger. Use when asked to read, work through, continue, or resume a message recor… | `claude-code` | `.claude/skills/corpus-read/SKILL.md` |
@@ -137,6 +139,7 @@ and therefore the ones worth writing a skill about.
 
 | Name | What it is | Declared by | Where |
 |---|---|---|---|
+| `bin/annie-corpus` | annie-corpus — assemble and page through the complete Dan/Annie message record. | `claude-code`, `hermes` | `bin/annie-corpus` |
 | `bin/build-site` | build-site — render the wiki/ Markdown tree into a clean static site. | `claude-code` | `bin/build-site` |
 | `bin/capture` | capture — drop a fact, story, or file into the wiki inbox. | `claude-code` | `bin/capture` |
 | `bin/export-corpus` | export-corpus — bundle the wiki into a single file for LLM ingestion. | `claude-code` | `bin/export-corpus` |
@@ -217,15 +220,6 @@ containing anything shaped like a key, a token or a URL with credentials
 in it, and names the field rather than quietly stripping it. The gate
 re-scans the committed database, so a hand-edit cannot get one past the
 writer.
-
-**Some rows are held back under the standing directive in `CLAUDE.md`.**
-That directive stops new public writing about a living person; it does
-not delete what already exists. So the reach here is as narrow as it can
-be, and the hole is drawn at its true width rather than closed over:
-
-- **2** capabilities are omitted from the tables entirely — the name itself cannot be printed
-  here. They remain on the record in `skills/registry/` and are counted
-  in every total above.
 
 **No prompts, personalities or session state.** A capability is something a
 model can invoke. Where the work stands is `LLM_HANDOFF.md`; what is

@@ -47,70 +47,45 @@ That order is deliberate in both directions: the operator's request never waits 
 
 `operator-log.md` and `bin/wiki-gaps pending` still exist and are still worth opening: the log is the durable half — append-only, survives `clear`, and records what was *already* integrated so a session can tell a fresh answer from an old one without reading git history. `bin/wiki-work` will not let you miss that there is one; the log tells you its history.
 
-## STANDING DIRECTIVE — the Annie moratorium (2026-08-23, operator)
+## The Annie moratorium is LIFTED (2026-09-06, operator)
 
-**we are trying to date ally so stop writibg that in textibg annie**
+From 2026-08-23 to 2026-09-06 a standing operator directive stopped the Annie
+record advancing: no new exports filed, no new narrative, event, synthesis or
+typed-edge claim, no quoting a message not already quoted, no `sage/` answer
+drawn from new material. **The operator lifted it in full on 2026-09-06.** There
+is no residue and no successor rule. That material is worked exactly like every
+other person in this corpus, under the ordinary operations below.
 
-The operator's instruction, verbatim in substance: *we can no longer include
-texts or any narrative anything about Annie, due to the unpredictable nature of
-her situation and the apparent danger she is in.* This is a safety directive
-about a living person, not an editorial preference, and it outranks every
-priority elsewhere in this file — including `queue.md`'s CRITICAL row, which
-stood for weeks telling each session that the next 212 export was the
-highest-value pending ingest. That row is closed. So is every other standing
-instruction that would have pulled Annie messages in.
+It is recorded here rather than deleted without trace for one reason: every
+session between those dates was told the rule was mechanical, non-negotiable and
+enforced in five tools, and a session carrying that from a summary or a stale
+context window will apply it again unless something says it ended. Nothing is
+left to re-enable — the refusals are gone from `bin/wiki-plain`,
+`bin/wiki-crosslink`, `bin/wiki-testimony`, `bin/wiki-claims` and
+`bin/wiki-skills`, each carries a dated note where its guard used to be, and the
+tests that pinned the refusals now pin their absence.
 
-**What is forbidden, from today:**
+**What the lift owes.** Two ledgers announce a hole the directive left and will
+keep announcing it until it is filled: `wiki/meta/testimony-veracity` (at least
+one cleanly adjudicated confirmation went unrecorded) and
+`wiki/meta/claim-validity` (her pages were skipped by `scan`, and they carry
+some of the longest-running unexamined `status: active` claims in the corpus).
+`plain/DECLINED.md` holds one page withdrawn under it that is eligible again.
+`wiki/people/annie-ulmer.md` and the pages around it still assert that the
+record stops at 2026-08-19 *because of the directive*; that sentence is now
+false as a reason, whatever the last message turns out to be. All of it is
+ordinary campaign work, not an obligation — but the last one is a claim the
+corpus is currently making about itself, so it outranks the rest.
 
-- Filing any new Annie message export, metadata dump, group-chat export or
-  screenshot into `raw/` or `inbox/` — including exports already named in
-  `queue.md` or `BACKLOG.md` as pending.
-- Writing any new narrative, event, timeline entry, synthesis, typed-edge claim
-  or dated line about Annie, or extending an existing one past what the wiki
-  already says.
-- Quoting any Annie message not already quoted on a page.
-- Answering a `sage/` question with new Annie material. A question that can only
-  be answered that way is answered from what the wiki already holds, or it is
-  declined with this directive as the stated reason.
-
-**Where it is enforced mechanically.** `bin/wiki-plain` — the READER'S DIGEST
-layer — holds this directive as code rather than as something a session has to
-remember, in two rules. A page substantially about her gets no plain-language
-twin at all (`new` refuses, `next` never proposes it, `check` fails if one
-appears); and **no file under `plain/` may name her at all, whatever its source
-page says.** The second rule is the guarantee: the first draws a line somebody
-could argue about, and the second means no new prose about her enters that layer
-regardless of where the line fell. A plain-language retelling adds no facts, but
-it is new writing about her, rebuilt to be read by people who could not read the
-original, and published on a public site — squarely what this directive stops.
-The pattern and the threshold are `MORATORIUM` and `INCIDENTAL` at the top of
-that file, and `tests/test_wiki_plain.py` pins them. Only the operator changes
-either.
-
-**What is unchanged, and must stay unchanged:** every existing Annie page. This
-directive is a stop, not a retraction and not a redaction. Nothing already
-written is deleted, softened or rewritten, because the operator asked for
-nothing to be done differently — only for the record to stop advancing.
-
-**Where the record stops.** The wiki's account ends at the last contact it
-already states — **2026-08-19, 15:15:33**, the last message on
-`wiki/people/annie-ulmer.md` (`date_range_end: 2026-08-19`). Treat that as the
-current state of the world: *Dan has not spoken to Annie since the last date the
-wiki records.* Do not date-check it against an export, do not "confirm" it, and
-do not bump it. If a source you are reading for some other purpose runs past
-that date on this thread, stop reading at it and take nothing from beyond.
-
-An export was uploaded to a session on 2026-08-23 that runs past that date. It
-was **not** filed to `raw/`, not copied into the repository, and nothing was
-derived from it — deliberately, under this directive. That is the correct
-handling of the next one too.
-
-## The four things that matter most
+## The five things that matter most
 
 1. **Depth is the binding constraint.** There are 438 pages; there are not enough *details on them*. A pattern can only be found among details that were written down, and synthesis reasons from `wiki/`, not `raw/` — so anything dropped at extraction is a connection nobody can ever make. Read sources to exhaustion, write long, keep the mundane. `EXTRACTION_SPEC.md`.
-2. **Findings get written back — and so do mentions.** A conclusion that spans several pages is written into *each* of them as a typed edge whose claim states the finding, not left on one page for the others to rediscover: `STRATEGY.md`'s core loop, step 6, and the step most often done partially. **The mention is the half nobody notices is missing.** When a source names a person, work, place or concept that already has a page, that page is owed the evidence *before any finding exists* — core loop step 3, `EXTRACTION_SPEC.md` move 9, the CROSSLINK operation below. It has no symptom when skipped: the page you wrote reads as complete, and the page you did not touch cannot discover that a source is talking about it. Nineteen twitter year pages were written by reading every tweet in every year and still left the concert record, a health row, an alias's discography and a person's whole page untouched by what those tweets said about them.
-3. **Never clear a stale warning by bumping a date.** Re-read the premise that moved, decide whether the conclusion survives, record the decision. This is the one move that corrupts the system quietly.
-4. **Every conclusion is checked against the person before it is written.** A pattern found across N pages is a fact about those N pages until it has been read against Dan's cognitive stack, measured personality profile, historical precedent, attitudes and the forces acting on him, his current security and prosperity, health, romantic state, age and upbringing, geographic and ethnic culture, religious or ideological programming, and axiomatic politics. This is **the constitution pass**, it is mandatory and deterministic rather than a matter of judgment, and its eleven registers and worked failure case are in `SYNTHESIS_SPEC.md`. A rule that survives it is stronger; a rule that only survives by not looking is not a finding.
+2. **Findings get written back — and so do mentions.** A conclusion that spans several pages is written into *each* of them as a typed edge whose claim states the finding, not left on one page for the others to rediscover: `STRATEGY.md`'s core loop, step 7, and the step most often done partially. **The mention is the half nobody notices is missing.** When a source names a person, work, place or concept that already has a page, that page is owed the evidence *before any finding exists* — core loop step 4, `EXTRACTION_SPEC.md` move 9, the CROSSLINK operation below. It has no symptom when skipped: the page you wrote reads as complete, and the page you did not touch cannot discover that a source is talking about it. Nineteen twitter year pages were written by reading every tweet in every year and still left the concert record, a health row, an alias's discography and a person's whole page untouched by what those tweets said about them.
+3. **Anything dated is checked against the message record, and that record outranks every other source.** 271,405 first-party messages sit in `raw/`, timestamped to the second, written at the time by the people involved with no audience and no thesis. Almost every page in this wiki was written from something else — a later retelling, an AI dossier, an operator answer, a memory — and until 2026-09-06 nothing joined the two. **If a page asserts something dated and the corpus covers that date, the window gets read before the claim is written.** Not "if you doubt the date": you cannot tell from inside a claim whether the record has something to add, and it usually does. It costs about four seconds. The CORROBORATE operation below, `bin/wiki-corroborate`, and — because this has no symptom when skipped — a gate on the working diff, so the pass that writes a new dated claim is the pass that answers for it.
+
+   **The worked case is the keno morning.** Three pages dated Fran's first long fall as *"~late 2017?"*. The record dates it to the minute — Dan told his mother *"Should I️ tell u she fell trying to walk out"* at **00:06 on 2017-11-26** — and then contradicts the retelling in four places, in four separate threads, including the detail the event is *named for*: the word "keno" appears nowhere in ±2 days. A date the corpus can settle, left hedged, is not a small thing. It is a page telling you where to point the instrument, for years, while nobody does.
+4. **Never clear a stale warning by bumping a date.** Re-read the premise that moved, decide whether the conclusion survives, record the decision. This is the one move that corrupts the system quietly.
+5. **Every conclusion is checked against the person before it is written.** A pattern found across N pages is a fact about those N pages until it has been read against Dan's cognitive stack, measured personality profile, historical precedent, attitudes and the forces acting on him, his current security and prosperity, health, romantic state, age and upbringing, geographic and ethnic culture, religious or ideological programming, and axiomatic politics. This is **the constitution pass**, it is mandatory and deterministic rather than a matter of judgment, and its eleven registers and worked failure case are in `SYNTHESIS_SPEC.md`. A rule that survives it is stronger; a rule that only survives by not looking is not a finding.
 
    **Registers 1, 2 and 11 are weighted, not merely consulted.** They name the cognitive stack, the measured personality profile and the political axioms — and a page states a score without saying how much weight a conclusion may put on it, so the pass could be run honestly and still rest the whole argument on a trait nothing has corroborated. `bin/wiki-traits assess <trait>` answers that before you lean on one, and `SYNTHESIS_SPEC.md`'s trait-filter table says what each cell obliges. As of the first run **seven traits are load-bearing across the corpus and none is currently measurable** — four have no reviewed proxy, three had every proxy read and found to catch something else. That is a fact about the instrument, not about Dan: **silence is not falsification**, and it constrains what a synthesis may claim rather than what is true.
 
@@ -216,7 +191,7 @@ has acquired an end date. **c004 is the worked case**: MOGZART lapsed in March
 then he posted a jump-up DnB remix under the same name on 4 March 2026. A ledger
 that had recorded the silence as an ending would have been wrong about the world.
 
-**Never extend a window to clear a `scan` hit** — that is rule 3 of "the four
+**Never extend a window to clear a `scan` hit** — that is rule 4 of "the five
 things that matter most" wearing a different hat. If the record stopped in 2016
 the claim lapsed in 2016, whatever the page's `status` field says. An honest
 `unknown` beats a confident `active` nothing checked. **⚠ TRACKED, in a public
@@ -230,6 +205,40 @@ rather than a claim**: it records windows and states no finding. What a window
 own sparsity in a section that cannot be dropped — the ledger is opt-in, so a
 claim absent from it is **unexamined, not timeless**, and reading its counts as
 coverage of the corpus is a category error.
+
+- **`corroborate/`** — **the corroboration ledger: which dated claims have been
+checked against the message record, what came back, and what it changed.** Same
+shape as the three above — `events.jsonl` is the append-only record,
+`records.json` a regenerable projection, `SUMMARY.md` the analysis surface. It
+is the newest of the four and the one with the largest debt behind it, because
+the check it records had never been run: **the corpus holds 271,405 first-party
+dated messages and almost every page in this wiki was written from something
+else.** The CORROBORATE operation above is how it is fed.
+
+**`absent` and `uncovered` are different outcomes and the tool refuses to let
+one stand in for the other.** `absent` means the window was read and holds
+nothing — a real result, and often the cheapest falsifier a page can get.
+`uncovered` means the corpus does not reach that date at all: 2012–2014 hold
+nothing and 2022 holds four rows, so a 2013 claim can no more be checked here
+than falsified. This is `bin/wiki-traits`' `silent`/`unreviewed` distinction and
+`bin/wiki-claims`' `ended`/`lapsed` distinction, one layer along: **an
+instrument that did not run has said nothing**, and reporting its silence as a
+finding invents a measurement.
+
+**The ledger cites rows; it never copies them.** A citation is a timestamp, a
+direction and a handle, verified to exist in the archive before `record` will
+append it — so a citation cannot be invented, and the ledger never becomes a
+second, drifting copy of the message corpus. The messages themselves stay in
+`raw/` and are quoted on the pages that argue from them. **⚠ TRACKED, in a
+public repository**, on the same terms and with the same reversal order as the
+ledgers above. `corroborate/README.md`.
+
+**The public face is `wiki/meta/corroboration.md`** — generated by
+`bin/wiki-corroborate page` and **evidence rather than a claim**: it records
+that a check happened and what it settled, never what it means. It carries the
+coverage table in a section that cannot be dropped, because every null result on
+it is worthless without one, and its own opt-in sparsity: a page absent from it
+is **unchecked, not confirmed**.
 
 Four interfaces over one code path: `bin/intake`, Special:Intake in the local app, `/ledger` in the portal, and ボスの部屋 (`boss.html` in [`caakehorn/leviathan`](https://github.com/caakehorn/leviathan)) — the last two are the ones in his pocket, and therefore the ones most of the record will arrive through. Both write `intake/events.jsonl` directly through the contents API, byte-compatible with what the CLI appends; merges are set union by event id, so no two devices can lose each other's work. `intake/README.md`.
 - **`lexicon/`** — **the personal dictionary, and the one layer of this wiki that counts instead of choosing.** `lexicon/words/` is a capture path written from the portal — a word Dan wants kept, with his own one-line gloss; it existed from 2026-08-27 with one file in it, was named in `.github/workflows/notify-portal.yml` and **nowhere else**, and so nothing ever surfaced it and nothing ever drained it. `lexicon/measured.json` is the projection: every word, bigram and trigram in his sent messages scored against the ones he received, plus the two registers he writes in and a per-year rate series. Regenerable and safe to delete, but committed, because `mine` takes ~90 seconds over four corpora and a gate that slow is a gate people switch off.
@@ -284,15 +293,90 @@ Parallel "swarm" ingests destroyed v1 (fragment prose, duplicate entities, wrong
 
 1. Move it from `inbox/` to the right `raw/<domain>/<collection>/`.
 2. **Read it to exhaustion** — not until it answers your question. `EXTRACTION_SPEC.md`.
-3. Put quantified data (dates, counts) into tables on the target pages; re-derive every number rather than copying it forward.
-4. Write or update every relevant page — typically the domain summary plus every person, event and concept the source touches.
-5. Update the domain index and `index.md` if pages were added.
-6. Update `queue.md`; append to `log.md`: `## [YYYY-MM-DD] ingest | <domain> | <source>`.
-7. Run the three gates; commit.
+3. **Cross-reference every date it asserts against the message record** — `bin/wiki-corroborate window <date>`, before you write the claim, not after. This is the CORROBORATE operation below and it is not optional: the record is the most authoritative source this corpus has for anything dated, it is where the detail is, and a source read without it produces a page that reads as finished and is missing the half nobody can see.
+4. Put quantified data (dates, counts) into tables on the target pages; re-derive every number rather than copying it forward.
+5. Write or update every relevant page — typically the domain summary plus every person, event and concept the source touches.
+6. Update the domain index and `index.md` if pages were added.
+7. Update `queue.md`; append to `log.md`: `## [YYYY-MM-DD] ingest | <domain> | <source>`.
+8. Run the three gates; commit.
 
 Large exports (social media dumps, message CSVs) may take multiple passes; track progress in `queue.md` rather than half-finishing silently.
 
 Captured notes may carry `targets: [wiki/...paths]` — a targeted note is a correction or expansion of those specific pages: apply it there first, then file the note into `raw/`. Humans also edit pages directly in the app; those appear in `log.md` as `edit | <domain> | human edit via app` — treat them as authoritative content but normalize formatting and frontmatter on the next pass.
+
+### CORROBORATE — check what the wiki says against what the messages record
+
+**The message record is the most authoritative source this corpus has for
+anything dated, and until 2026-09-06 nothing was checked against it.**
+271,405 first-party messages sit in `raw/`, timestamped to the second, written
+at the time by the people involved, with no audience and no thesis. Everything
+else — a dossier, a retelling, an operator answer, a memory of a video — is
+testimony *about* a day. A message is a fragment *of* it. Where they disagree,
+the page says so and the record wins.
+
+`bin/wiki-corroborate` runs it. **Run it on everything with a date on it, from
+here out**, and prefer running it when you are unsure: you cannot tell from
+inside a claim whether the corpus has something to add, and the cost of asking
+is four seconds.
+
+1. **`bin/wiki-corroborate coverage`** first, once, so you know what a null
+   result means. The record covers 2015–2026 with real holes: 2012–2014 hold
+   nothing, 2022 holds four rows. **A claim dated outside coverage is not
+   unsupported — it is unexamined**, and the tool refuses to let `absent` stand
+   in for `uncovered`. Same refusal `bin/wiki-traits` makes between `silent` and
+   `unreviewed`, and `bin/wiki-claims` between `ended` and `lapsed`.
+2. **`bin/wiki-corroborate window <date> [--days N]`** — every message in those
+   hours, across every thread, deduped over three corpora. **Read the whole
+   window, not a search of it.** Nobody texts the name of the event they are
+   living through; the keno morning is dated by a mother's *"Is she back in
+   bed?"* and a girlfriend's *"I think I got a total of 1 whole hour of sleep"*,
+   and the word "keno" appears nowhere in ±2 days. `--handle` narrows to one
+   counterparty once you know which thread you want. Widen `--days` before you
+   conclude anything is absent — an event at midnight lands in two dates.
+3. **Read for four things, in this order.** *Does the date hold?* — this is
+   where the value concentrates, because a wrong or hedged date silently
+   corrupts every sequence the page participates in. *What did the page not
+   have?* — the hours, the other threads, who else was told, what it cost.
+   *What does it contradict?* — a retelling that has drifted is a finding, not
+   an embarrassment. *Who else is named?* — that is CROSSLINK's debt, arriving
+   through a different door, and the pages named there are owed it.
+4. **Write the finding onto every page it touches, before you record anything.**
+   A dated correction gets a `> **CORROBORATED [YYYY-MM-DD]:**` blockquote with
+   the old claim visible (`STYLE_GUIDE.md` rule 9); new material goes in the
+   prose where it belongs; a claim that turns out wrong gets
+   `> **CONTRADICTION:**`. Quote the messages the way this wiki has always
+   quoted them, with their timestamps.
+5. **`bin/wiki-corroborate record`** — what was checked, what came back, and
+   what it settled. Every cited row is verified to exist in the archive before
+   the ledger will take it, so a citation cannot be invented. **`--outcome
+   absent` is a real result and a valuable one**: it means somebody read those
+   hours and the record is silent, which is the difference between a page
+   nobody has checked and a page the corpus cannot help.
+6. **Cascade.** A date that moves moves every page that reasons from it. This is
+   the step most often skipped and the reason a corrected page ends up
+   contradicting three uncorrected ones.
+7. `bin/wiki-corroborate page`, three gates at 0 errors; log `corroborate |
+   <domain> | <claim> — <what moved>`; commit.
+
+**Where the debt is, and how it is paid.** `scan <page>` lists the dated claims
+a page makes that nothing has ever checked; `scan --hedged` lists the ones that
+*admit* they are unsure — a page writing "~late 2017?" is telling you where to
+point the instrument. `queue` orders the whole wiki by that. As of the first
+run, **378 pages carry uncorroborated dated claims inside coverage and 323
+hedged dates sit across the corpus** — that is the campaign, worked top-down
+like every other queue here.
+
+**Where it has teeth.** `bin/wiki-corroborate check` gates in `bin/wiki-check`,
+and it reads the **working diff, not the tree** — the same decision
+`bin/wiki-secrets` made, for the same reason. A whole-tree rule would go red on
+378 pages of inherited debt and be switched off inside a week. This one fires on
+the pass that writes a *new* dated claim, at the moment it commits, and it is
+deliberately narrow: a date the page already carried is retroactive debt, not
+this commit's fault, and re-wording the sentence around it does not go red.
+Generated pages are exempt, and so is `wiki/meta/` outside `journeys/` — those
+dates are repository history, and the instrument for those is the git log
+(`bin/wiki-history`), not the message archive. **There is no skip flag.** The
+way past the gate is to look, and to record what you saw.
 
 ### QUERY
 
@@ -339,10 +423,14 @@ Climb when a cluster has survived two or more ingests, or immediately when an in
 ### CROSSLINK — pay a source's debt to the pages it already touches
 
 INGEST reads a source and writes the page it is *for*. This operation writes
-what the same source owes to every **other** page it named. It is the third
+what the same source owes to every **other** page it named. It is the fourth
 step of `STRATEGY.md`'s core loop, `EXTRACTION_SPEC.md` move 9 in practice, and
 until 2026-09-04 it was the only step of the loop with no operation, no tool
-and no way to tell it had been skipped.
+and no way to tell it had been skipped. **CORROBORATE is its sibling and they
+are not the same debt**: this one asks what a source said about other pages;
+that one asks what the message record says about this one. A window run for a
+date routinely names people the source never mentioned, which is this
+operation's debt arriving through a different door — pay it there and then.
 
 **It is the one obligation in this repository with no symptom.** A red gate
 announces itself. A parked question sits at priority 1. A stale premise fires a
@@ -491,7 +579,7 @@ scan` says a page is asserting a live state on evidence that stopped.
    expiry with no account of what closed it is a guess wearing a date, and the
    ledger cannot learn from it — the same rule ADJUDICATE applies to a miss.
 5. **Never extend a window to clear a scan line.** Re-read what the evidence
-   supports and record what it actually says. Rule 3, one layer down.
+   supports and record what it actually says. Rule 4, one layer down.
 6. **An expiry is never edited** — `expire --revise --reason` supersedes it and
    the log keeps both, exactly as an adjudication does.
 7. **Write the finding back to the page.** The ledger records the window; the
@@ -557,7 +645,7 @@ written against, in `source_modified:`. When the page is revised the twin goes
 stale, and `bin/wiki-plain check` — which `bin/wiki-check` runs as a gate —
 fails until somebody deals with it. **Never clear it by bumping the date.**
 Re-read what moved, decide whether the plain version survives it, rewrite what
-did not. This is rule 3 of "the four things that matter most", one layer down,
+did not. This is rule 4 of "the five things that matter most", one layer down,
 and it matters more here rather than less: a stale twin is a confident, readable,
 wrong account of what the wiki says, served to the one reader who cannot check
 it against anything.
@@ -696,6 +784,7 @@ Sweep for: broken links, orphan pages, contradictions between pages, claims supe
 | `bin/wiki-freshness` | is the generated corpus (`llm/`) in sync with `wiki/`? Exact set difference against `llm/manifest.json`; never writes. Exit 1 on drift |
 | `bin/wiki-connect` | `check` (typed-edge lint), `audit` (graph health), `candidates` (writes `connection-queue.md`) |
 | `bin/wiki-crosslink` | **the source-mention obligation, computed.** `coverage [--silent]` is the triage step and comes first — which of the readable corpora actually name a page, 3s for all 497 against a quarter-million source rows, and inverted, the pages nothing names that cite a corpus anyway. `scan <page>\|--all` then reads the corpora a page's own `sources:` name, inside its own date range, and names every entity with a page the page does not link — with the dated rows behind each, because the output is candidates and a candidate is a reason to read; `--against <corpus>` asks the more productive question, "in what a corpus the page does *not* cite says about it, what else is named?", and `--queue` orders the wiki by how loudly a page states a limit about its own evidence. Reads the twitter archive and **both** message exports — the latter by importing `bin/mine-messages`' reader, traps and all, rather than writing a second one — and marks a candidate `contested` when two pages claim the same string. `reciprocal [prefix]` is the inverse-edge debt `CONNECTIONS_SPEC.md` requires and nothing measured; `entities` is the index of strings a scan can look for; `orphaned` names corpus-backed pages by edge count; `check` prints the debt and **always exits 0** — a one-way edge still carries its claim, and a gate that blocked unrelated commits on it would acquire an escape hatch. It knows the generated surfaces and never asks for an inverse on one. It writes no edges and must not be made to |
+| `bin/wiki-corroborate` | **the message record, joined to the wiki — and the one instrument this repository was missing.** `coverage [--write]` is the honesty layer and comes first: what the record actually holds, by year, and which years are too thin for a null result to mean anything. `window DATE [--days N]` is the workhorse — every message in those hours across every thread, deduped over three corpora in under two seconds; `--handle` narrows to one counterparty, `--grep` to a pattern, but **the whole window is the point**, because nobody texts the name of the event they are living through. `probe` is a term search with the corpus traps applied. `scan [page] [--hedged]` is the debt — dated claims nothing has ever checked, hedged ones first; `queue` orders the wiki by it (378 pages, 323 hedged dates on the first run). `record` enters what came back and **verifies every cited row against the archive before it will append**, so a citation cannot be invented; `status`, `page`, and `check`, which gates in `bin/wiki-check`. Event-sourced in plain JSONL. **It refuses `--outcome absent` for a date outside coverage** — that is `uncovered`, and collapsing the two publishes the archive's silence as the world's. It reads through `bin/mine-messages`' reader rather than writing a second one, traps and all, and it writes no pages: a corroboration is what a reader concludes, and the ledger records that the check happened |
 | `bin/wiki-climb` | `check` (validates `synthesizes:`, reports stale premises), `audit` (tier distribution), `candidates` (writes `synthesis-queue.md`) |
 | `bin/wiki-digest` | regenerates `DIGEST.md`, `RECENT.md`, `OPEN.md`, and their `wiki/meta/` on-site mirrors — committed, safe to rerun any time |
 | `bin/llm-publish` | builds `llm/`, the public LLM access point — **generated but COMMITTED**; rerun after any content pass |
@@ -711,7 +800,7 @@ Sweep for: broken links, orphan pages, contradictions between pages, claims supe
 | `bin/wiki-claims` | **the claim validity ledger — when a claim stopped being true.** `scan` is the triage step and reads *frontmatter*, never prose (the obvious "no longer" grep is ~all false positives on this corpus: 121 hits, overwhelmingly quoted tweets); `record` enters a claim and the window the evidence supports; `expire --closure ended|lapsed` closes it; `supersede` chains a replacement; `asof DATE` is what the record held true on a day; `live [page]` is what is still standing; `vocab` prints every kind, closure and tier; `page` regenerates `wiki/meta/claim-validity.md`; `check` gates in `bin/wiki-check`. Event-sourced in plain JSONL. **`ended` and `lapsed` are not interchangeable and the tool refuses to let them be** — `ended` dates the stopping, `lapsed` says only that the record went quiet, so a lapse carries `last_seen` and never `valid_to`, and `asof` reports it **unsettled rather than false**. An expiry with no `--because` is refused; `ended` on evidence tier `none` is refused as a lapse; a future date is refused because a validity record is not a forecast. Encodes the standing moratorium as a refusal |
 | `bin/wiki-secrets` | **the credential scan on what is about to enter the record.** `check` gates in `bin/wiki-check`; `--staged` narrows it to what `git add` staged. `bin/wiki-skills` already refuses a secret shape at its own point of entry, but it owns one surface — a capture in `inbox/`, an export filed to `raw/`, a token pasted into a page while debugging had never been scanned by anything, and **this repository is public, so the failure is permanent rather than embarrassing**. **It scans the working diff and untracked files, NOT the tree**, and that is what keeps it switched on: `raw/` holds 130,000 received messages, a corpus that size contains key-shaped strings that are not keys, and a gate firing on immutable archive material would be disabled within a week. Never prints the value it found — six characters, because the output lands in CI logs. Adapted from `stancsz/second-brain`'s `scripts/ship_gate.py` |
 | `bin/wiki-lexicon` | **the personal lexicon, counted rather than recalled.** `probe WORD` gives a word's per-year rate in Dan's own text and in his AI prompts; `distinctive` names what marks his speech against the 130,402 messages he received (log-odds with an informative Dirichlet prior, so a rare word cannot outrank a common one on ratio alone); `registers [--page]` measures a wordlist's density in each of his two first-party registers; `mine` recomputes `lexicon/measured.json` (~90s, deliberately not in `bin/wiki-check`'s generate list); `pending`/`show`/`new` work `lexicon/words/`; `page` regenerates `wiki/interests/language/measured-vocabulary.md`; `check` gates. **It reads both message exports and both AI exports through their existing readers rather than writing new ones** — and it converts the deep CSV from UTC to Eastern before the union, because the dump is local time and without that every shared message is counted twice (measured: 36,716 rows at +4h, 23,624 at +5h). **A count over a transcript is not a usage count**: the Gemini export interleaves Dan's prompts with the model's replies, so this splits on the `Prompted` boundary and reports only his half. It refuses to publish a frequency ranking over his Gemini prompts, because he pastes documents into them and the top of that list is `div`, `class`, `null` |
-| `bin/wiki-history` | **the log as a record of the work.** Every operation commits `<op>: <description>`, so the git log is not a list of saves — it is a labelled record of every ingest, climb, close and portal edit that ever touched a page, and this reads it. `status` (revisions, span, by operation, the most revised), `page <slug>` (one page's revisions), `drift` (pages whose `date_modified` is behind the log — **a reading job, not a defect list**: a link cleanup across forty pages moves none of them), `check` (the gate). The gate is narrow on purpose: a page whose `date_modified` is *later* than the last commit that touched it. The file has not changed since, so the date is a claim git does not support — which is what rule 3 above looks like from outside. Pages edited in the working tree are exempt, or it would fire on every honest pass. Skips itself in a shallow clone |
+| `bin/wiki-history` | **the log as a record of the work.** Every operation commits `<op>: <description>`, so the git log is not a list of saves — it is a labelled record of every ingest, climb, close and portal edit that ever touched a page, and this reads it. `status` (revisions, span, by operation, the most revised), `page <slug>` (one page's revisions), `drift` (pages whose `date_modified` is behind the log — **a reading job, not a defect list**: a link cleanup across forty pages moves none of them), `check` (the gate). The gate is narrow on purpose: a page whose `date_modified` is *later* than the last commit that touched it. The file has not changed since, so the date is a claim git does not support — which is what rule 4 above looks like from outside. Pages edited in the working tree are exempt, or it would fire on every honest pass. Skips itself in a shallow clone |
 | `bin/wiki-traits` | **the personality profile, cross-tested against the whole corpus — and the filter that result becomes.** `support` runs every trait as a directional prediction over four first-party registers; `reach` measures how much the wiki already leans on it; `map` is the quadrant those two axes make and the loud cells are the findings; `assess <trait>` is the interface the constitution pass calls before leaning on a trait as a mechanism; `review` is the proxy queue; `mine` recomputes `traits/measured.json` (~70s, deliberately not in `bin/wiki-check`'s generate list); `page` regenerates `wiki/mind/profile/trait-corpus-map.md`; `check` gates. **Support and reach are never added together**: reach is measured over pages written by agents that had read `wiki/mind/profile/`, so it records vocabulary adoption, not the trait, and it is never evidence. **An unreviewed proxy cannot confirm a score and cannot contradict one** — such a result is reported as `unreviewed`, a band distinct from `silent` (an instrument ran and found nothing) and from `no instrument` (every proxy was read and found to measure something else); collapsing the three would report a measurement that never happened. The cap exists because the heaviest verdict in the system is also the cheapest to manufacture. **No confidence percentage, ever** |
 | `bin/wiki-skills` | **the cross-model skills database.** `push --scan --agent <id>` records what this repository supplies; `push -f <manifest>` records what a model brings that no scan can see — its skills, MCP servers, plugin tool links, subagents and harness. `list`, `show`, `diff <a> <b>` read it; `note` attaches an observation to a capability; `page` regenerates `wiki/meta/skills.md`; `check` gates in `bin/wiki-check`. Append-only JSONL with a regenerable projection, idempotent by content digest. **Values never enter it — environment variable NAMES only** — and it refuses rather than strips, because this repository is public |
 
@@ -743,6 +832,7 @@ bin/wiki-skills check                                              # skills data
 bin/wiki-lexicon check                                             # measured lexicon projection and page agree
 bin/wiki-traits check                                              # trait-corpus map projection and page agree
 bin/wiki-claims check                                              # claim windows, and lapsed is not ended
+bin/wiki-corroborate check                                         # new dated claims checked against the messages
 bin/wiki-secrets check                                             # no credential shapes entering the record
 bin/wiki-history check                                             # no page dated ahead of its own last commit
 bin/wiki-digest && bin/llm-publish                                 # after any content pass

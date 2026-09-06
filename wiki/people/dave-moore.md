@@ -6,7 +6,7 @@ aliases: ["Dave", "Dave Moore"]
 status: stable
 knowledge: mixed
 date_created: 2026-08-18
-date_modified: 2026-08-18
+date_modified: 2026-09-06
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/people/captures/2026-08-17_230820_gap-diane-shrum.md
@@ -110,7 +110,18 @@ He is also the reason the operator's two-word answer changed the shape of the
 Fran material rather than just correcting a name. The earlier reading had Dan
 fearing a generic pair of grandparents — Diane and George — during the
 keno-morning fall, an eight-hour delay in treating a fallen 97-year-old
-explained by inheritance anxiety. The couple he actually feared is the couple
+explained by inheritance anxiety.
+
+> **CORROBORATED [2026-09-06]:** the delay was **about thirteen hours, not
+> eight**, and the date is **2017-11-25 into 2017-11-26**. Dan reported the fall
+> to his mother at **00:06**; Fran was still on the floor at **11:35** (*"I️ just
+> talked to her / She's 'fine' / But not moving"*); Suz did not set out until
+> **12:41**; and Fran was up and walking, hip bruised, by **13:21**. The eight
+> hours came from a retelling that put the fall at 8:00 AM, and the whole of it
+> is set out on [[wiki/timeline/events/fran-death-vigil]]. The reading below is
+> unaffected in substance and stronger in degree — the inheritance anxiety this
+> page describes bought five more hours on the carpet than anybody had counted.
+> Window: `bin/wiki-corroborate window 2017-11-26 --days 1`. The couple he actually feared is the couple
 that then served the notice, wrote the letter, took the hospital's calls and
 sold the Florida condo. The fear was not a mood. It was a forecast, and it was
 right.

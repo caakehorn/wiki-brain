@@ -1,3 +1,113 @@
+## [2026-09-06] corroborate | meta | the message record, joined to the wiki — and the Annie moratorium lifted
+
+**Two operator instructions, and the second one is the architecture change.**
+The Annie moratorium is lifted in full, no residue and no successor rule. And:
+everything in this corpus that carries a date is to be cross-referenced against
+the message logs, from here out and retroactively, because the messages are more
+authoritative than any other source on anything dated.
+
+**The finding that made the case, and it is a measurement rather than an
+argument.** The operator located the date of the keno morning by hand. Three
+pages carried it as **"~late 2017?"**. The record dates it to the minute —
+Dan to Suz, *"Should I️ tell u she fell trying to walk out"*, **00:06 on
+2017-11-26** — and then contradicts the retelling in four places at once:
+
+| The pages said | The record says |
+|---|---|
+| Dan woke to a "bump" at 8:00 AM and found her | He reported the fall at 00:06; the discovery was Annie's, getting home from a shift that ended at midnight (*"Thank god Annie heard her back there though"*, 13:25) |
+| Suz arrived "around 10:00 AM" | *"Getting in shower now"* 11:30 · *"I'll be over in 10"* **12:41** · *"On way back"* 13:41 |
+| Fran still down at 2:00 PM, lifted at 4:00 PM | *"she bruised her hip but she's up and walking around now"* — **13:21**, on Ellen Ulmer's thread |
+| An eight-hour delay in treating a fallen 97-year-old | About **thirteen** hours, from ~00:05 to ~13:00 |
+| An all-night **video-keno** marathon | The word "keno" returns **0 matches** across all three corpora in ±2 days |
+
+**None of it was reachable by search and all of it was one window away.** Nobody
+texts the name of the event they are living through: the day is dated by a
+mother's *"Is she back in bed?"* and a girlfriend's *"I think I got a total of 1
+whole hour of sleep"*. The end of it is recorded on a fourth person's thread —
+Annie's mother — which no page involved had any reason to open.
+
+**Two things the window added that no page held.** Dan spent that morning asking
+his mother to supply him (*"Is there any way you can get something for us"*
+11:29; *"assistance staying awake"* 12:12), which dates the family-internal
+cocaine node **two years past** the "through 2015-16" window `wiki/health/cocaine`
+gives it, in a register the dealer threads never use. And the caregiving
+economics start that night: Suz, 22:27, *"At \$15/hr, 30 day cost for care is
+\$10,800"*.
+
+**A second window, run because the gate demanded it, produced the pass's other
+find.** Correcting a retracted-claim lint error meant writing "\$14,000" onto
+`suzanne-frank`, which the new gate refused as an unchecked dated claim. Three
+matches came back: Dan to a coworker (2018-09-20), Dan to Suz (*"I gave you
+14,000"*, 2018-11-16) — and **Suz's own reconciliation, 2018-10-03 06:34**, the
+only place in the corpus where she does the arithmetic: *"Dan to Suzanne /
+\$1000 / \$14,000+ / Sum of transactions on app / Suzanne to Dan (past week) /
+\$450 / If you can give me \$1450, / That erases the above and…"*. So the
+\$14,000 is an accumulated app total rather than one tax-bill loan, she kept a
+two-directional ledger, and the offer to *"erase the above"* is the
+relational-accounting mechanism in its clearest form, eight years before *"It's
+time for you to go…"*. **The gate found that, not a session.**
+
+**New subsystem: `bin/wiki-corroborate` + `corroborate/` +
+`wiki/meta/corroboration.md` (generated) + a gate in `bin/wiki-check` + the
+CORROBORATE operation in `CLAUDE.md`,** wired into `STRATEGY.md`'s core loop
+(new step 3), `EXTRACTION_SPEC.md` (move 10, and the message record ranked first
+inside the primary tier), `STYLE_GUIDE.md` (rule 5, rule 9's new
+`> **CORROBORATED [date]:**` marker, the `corroborated:` field),
+`SYNTHESIS_SPEC.md` (CLIMB step 4), `CONNECTIONS_SPEC.md`, `INGEST_RUNBOOK.md`
+step 7, and `bin/wiki-work`. 271,405 unique messages across three corpora, read
+through `bin/mine-messages`' reader rather than a second one.
+
+**Three properties will bite anyone changing it.**
+
+1. **`absent` is not `uncovered`, and `record` refuses both substitutions.**
+   `absent` means the window was read and holds nothing — a real result.
+   `uncovered` means the corpus does not reach that date: 2012-2014 hold
+   nothing, 2022 holds four rows. Same refusal `bin/wiki-traits` makes between
+   `silent` and `unreviewed` and `bin/wiki-claims` between `ended` and `lapsed`.
+2. **The gate reads the working diff, not the tree** — `bin/wiki-secrets`'
+   decision, for the same reason. **378 pages carry dated claims nothing has
+   ever checked**; a gate red on all of them is a gate switched off in a week.
+   This fires on a date the page did not already carry, so re-wording a sentence
+   around an old date does not go red, and inherited debt stays campaign work.
+3. **Every cited row is verified against the archive before the ledger will take
+   it.** A citation cannot be invented. The ledger stores timestamps, directions
+   and handles — never message text — so it never becomes a second, drifting
+   copy of the corpus.
+
+**The gate fired on its own output twice before it was right, and both are now
+regressions.** A `> **CORROBORATED [2026-09-06]:**` marker date is the date the
+*wiki* changed, not a claim — same class as `date_modified:`. And a date inside
+backticks is an *argument* (`window 2017-11-26`, `probe --since 2018-07-01`), not
+a claim; left in, the gate fired on the command it had just told you to run. A
+third bug was worse because it was silent: diff hunks count from the top of the
+file and `dated_claims` walks the body, so without the frontmatter offset the
+gate read the wrong lines and passed on everything.
+
+**The moratorium lift, mechanically.** Refusals removed from `bin/wiki-plain`
+(both rules, the regex, the mention threshold), `bin/wiki-crosslink`
+(`under_moratorium` and four call sites, including `rederive`'s
+"directive-constrained" column), `bin/wiki-testimony`, `bin/wiki-claims` (and
+`scan` no longer skips her pages) and `bin/wiki-skills` (the two-tier renderer
+holdout). Each carries a dated note where its guard was, because a session
+carrying the rule from a stale context will reapply it otherwise. The tests that
+pinned the refusals now pin their **absence** — `TheMoratoriumIsLifted` in four
+files — for the same reason.
+
+**What the lift owes, and it is real.** `wiki/meta/testimony-veracity` and
+`wiki/meta/claim-validity` both announce a fortnight-shaped hole and will keep
+announcing it until it is filled: at least one cleanly adjudicated confirmation
+(an April 2019 sequence) went unrecorded, and her pages were skipped by
+`wiki-claims scan` — they carry some of the longest-running unexamined `status:
+active` claims in the corpus. `plain/DECLINED.md` holds one page withdrawn under
+it that is eligible again. And `wiki/people/annie-ulmer` still asserts the record
+stops at 2026-08-19 *because of the directive*; that reason is now false whatever
+the last message turns out to be.
+
+Four corroboration records (x001 `refined`, x002 `contradicted`, x003 `absent`,
+x004/x005 `extended`), eight pages corrected, 515 tests (29 new). One
+pre-existing red gate cleared on the way: `suzanne-frank.md` had been asserting
+a retracted claim live since its rewrite.
+
 ## [2026-09-06] ingest | meta | the claim validity ledger — expiry was the third thing, and nothing owned it
 
 **The operator pointed at `stancsz/second-brain` and asked which of its

@@ -7,7 +7,7 @@ triggers:
   - bin/wiki-climb check reports a stale premise
   - bin/wiki-plain check reports a stale twin
 sources:
-  - CLAUDE.md — "the four things that matter most", rule 3
+  - CLAUDE.md — "the five things that matter most", rule 4
   - SYNTHESIS_SPEC.md
   - bin/wiki-climb
 validated: 2026-08-30

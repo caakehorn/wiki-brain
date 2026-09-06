@@ -1,0 +1,143 @@
+{
+  "last_event": "2026-09-06",
+  "records": {
+    "x001": {
+      "at": "2026-09-06",
+      "because": "Dan reported the fall to Suz at 00:06 ('Should I tell u she fell trying to walk out'); she was still down at 11:35 and up and walking by 13:21 per Dan's own report to Ellen Ulmer. 482 messages across five threads in the window.",
+      "claim": "The keno morning — Fran Coldren's first long floor-fall — happened on the night of 2017-11-25 into 2017-11-26",
+      "corpora": [
+        "raw/self/dox-scan/all_imessages_complete_dump.txt",
+        "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv",
+        "raw/self/message-csv/imessage_ALL_both_all_now.csv"
+      ],
+      "date": "2017-11-26",
+      "id": "x001",
+      "now": "the fall at ~00:05 on 2017-11-26, Fran back on her feet by 13:21",
+      "outcome": "refined",
+      "pages": [
+        "wiki/timeline/events/fran-death-vigil",
+        "wiki/timeline/events/the-fall-of-fran",
+        "wiki/people/suzanne-frank",
+        "wiki/people/diane-moore",
+        "wiki/people/dave-moore",
+        "wiki/people/ellen-ulmer"
+      ],
+      "rows": [
+        "2017-11-26 00:05 Sent +17243228715",
+        "2017-11-26 00:06 Sent +17243228715",
+        "2017-11-26 11:35 Sent +17243228715",
+        "2017-11-26 13:21 Sent +17243662589"
+      ],
+      "was": "~late 2017? on three pages",
+      "window": {
+        "from": "2017-11-25",
+        "to": "2017-11-27"
+      }
+    },
+    "x002": {
+      "at": "2026-09-06",
+      "because": "Every hour of that day is timestamped on two threads. The discovery was Annie's on getting home from a shift ending at midnight ('Thank god Annie heard her back there though', 13:25), not Dan waking to a bump at 8:00.",
+      "claim": "The retelling's timeline of the keno morning — an 8:00 AM discovery, a 10:00 AM arrival, Fran still down at 2:00 PM and lifted at 4:00 PM — is wrong in all four places",
+      "corpora": [
+        "raw/self/dox-scan/all_imessages_complete_dump.txt",
+        "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv",
+        "raw/self/message-csv/imessage_ALL_both_all_now.csv"
+      ],
+      "date": "2017-11-26",
+      "id": "x002",
+      "now": "fall ~00:05, Suz sets out at 12:41, Fran up and walking by 13:21 — about thirteen hours on the floor",
+      "outcome": "contradicted",
+      "pages": [
+        "wiki/timeline/events/fran-death-vigil",
+        "wiki/people/suzanne-frank",
+        "wiki/people/dave-moore"
+      ],
+      "rows": [
+        "2017-11-26 00:06 Sent +17243228715",
+        "2017-11-26 11:30 Received +17243228715",
+        "2017-11-26 12:41 Received +17243228715",
+        "2017-11-26 13:18 Sent +17243662589"
+      ],
+      "was": "8:00 AM discovery, Suz at 10:00 AM, still down at 2:00 PM, lifted at 4:00 PM, an eight-hour delay",
+      "window": {
+        "from": "2017-11-25",
+        "to": "2017-11-27"
+      }
+    },
+    "x003": {
+      "at": "2026-09-06",
+      "because": "The string 'keno' returns 0 matches across all three message corpora in 2017-11-24..2017-11-28, against 482 messages in the ±1 window alone. Not refuted — nobody is obliged to text about what they did all night — but the detail survives only in the retelling, and the page now says so.",
+      "claim": "The all-night video-keno session the event is named for leaves no trace in the message record",
+      "corpora": [
+        "raw/self/dox-scan/all_imessages_complete_dump.txt",
+        "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv",
+        "raw/self/message-csv/imessage_ALL_both_all_now.csv"
+      ],
+      "date": "2017-11-26",
+      "id": "x003",
+      "outcome": "absent",
+      "pages": [
+        "wiki/timeline/events/fran-death-vigil",
+        "wiki/people/suzanne-frank"
+      ],
+      "rows": [],
+      "window": {
+        "from": "2017-11-24",
+        "to": "2017-11-28"
+      }
+    },
+    "x004": {
+      "at": "2026-09-06",
+      "because": "Suz's own message separates $1000 from $14,000+ and marks the latter as the app total, so it is accumulated transfers rather than one payment; the same message records $450 going the other way and offers $1450 to 'erase the above'.",
+      "claim": "The ~$14,000 Dan transferred to Suz in the autumn of 2018 is attested by both parties and is an accumulated app total, not a single tax-bill loan",
+      "corpora": [
+        "raw/self/dox-scan/all_imessages_complete_dump.txt",
+        "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv",
+        "raw/self/message-csv/imessage_ALL_both_all_now.csv"
+      ],
+      "date": "2018-10-03",
+      "id": "x004",
+      "now": "three attestations across eight weeks, including Suz's own two-directional reconciliation of 2018-10-03",
+      "outcome": "extended",
+      "pages": [
+        "wiki/people/suzanne-frank"
+      ],
+      "rows": [
+        "2018-09-20 12:37 Sent +17249639933",
+        "2018-10-03 06:34 Received +17243228715",
+        "2018-11-16 17:41 Sent suzfrank@atlanticbb.net"
+      ],
+      "was": "roughly $14,000 from Dan to Suz across Aug-Oct 2018, cited to one coworker message",
+      "window": {
+        "from": "2018-08-19",
+        "to": "2018-11-17"
+      }
+    },
+    "x005": {
+      "at": "2026-09-06",
+      "because": "Two requests to his mother, euphemised ('something for us', 'assistance staying awake') in a register the dealer threads never use, mid-crisis, naming the supplier and the payment terms.",
+      "claim": "Suzanne Frank was still a live cocaine supply node for Dan in November 2017, two years past the 2015-16 window the page gives",
+      "corpora": [
+        "raw/self/dox-scan/all_imessages_complete_dump.txt",
+        "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv",
+        "raw/self/message-csv/imessage_ALL_both_all_now.csv"
+      ],
+      "date": "2017-11-26",
+      "id": "x005",
+      "now": "the same node asked, in writing, during the 2017-11-26 caregiving crisis",
+      "outcome": "extended",
+      "pages": [
+        "wiki/health/cocaine"
+      ],
+      "rows": [
+        "2017-11-26 11:29 Sent +17243228715",
+        "2017-11-26 12:12 Sent +17243228715"
+      ],
+      "was": "supplying them both routinely through 2015-16",
+      "window": {
+        "from": "2017-11-25",
+        "to": "2017-11-27"
+      }
+    }
+  }
+}

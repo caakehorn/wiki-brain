@@ -6,7 +6,7 @@ status: stable
 importance: high
 knowledge: mixed
 date_created: 2026-07-13
-date_modified: 2026-08-26
+date_modified: 2026-09-06
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - raw/self/captures/2026-08-02_041331_fall-of-fran-alternate-version-ignore-glyph-fo.md
@@ -107,7 +107,7 @@ died, it started to snow.
 
 ## Sequence
 
-**The first spill — the keno morning (~late 2017?).** The famous filmed
+**The first spill — the keno morning (2017-11-25 into 2017-11-26).** The famous filmed
 crisis — Dan waking to a "bump" at 8:00 AM, finding Fran collapsed on the
 carpet wrapped in a white faux-fur blanket, screaming in agony and unable
 to stand, the record preserving her "I don't want to die" — was not the
@@ -128,6 +128,56 @@ whenever she tries to stand" while Annie worked a full shift. Suz got back
 at 4:00 PM and performed the manual lift, captured in `IMG_0569.MOV`. Dan
 sustained himself through the hours of solo triage, by his own later
 account, with cocaine bumps.
+
+> **CORROBORATED [2026-09-06]:** the date, and four of the times. The two
+> paragraphs above are Dan's later narration of a video, and this page carried
+> the date as *"~late 2017?"* — as did [[wiki/timeline/events/the-fall-of-fran]]
+> and, by inheritance, [[wiki/people/dave-moore]] and
+> [[wiki/people/diane-moore]]. The message record dates it exactly and
+> contradicts the retelling in four places. **The fall was just after midnight,
+> not at 8:00 AM.** At **00:05 on 2017-11-26** Dan sent his mother a photo
+> captioned *"Midnight snack"*; she answered *"Seriously?"*; and at **00:06** he
+> wrote: *"Should I️ tell u she fell trying to walk out / Or should I️ just keep
+> that to myself"*. Suz, awake and answering, replied at **01:26** — *"It really
+> doesn't matter. Is she back in bed?"* — and at **02:47**: *"Don't answer.
+> Don't help. I can take care of everything myself."*
+>
+> **Suz did not arrive at 10:00 AM.** Her own thread puts her at church-time
+> speculation at 11:12, *"Getting in shower now"* at 11:30, *"When I come back
+> will try to get her into bed"* at 11:38, *"I'm sorry. Moving a little slowly
+> today. About half hour at the most"* at 12:08, *"I'll be over in 10"* at
+> **12:41**, and *"On way back"* at 13:41. Fran was still on the floor at
+> **11:29** (*"She's still down"*) and **11:35** (*"I️ just talked to her /
+> She's 'fine' / But not moving"*).
+>
+> **The day ended earlier than the retelling has it, and it is recorded on a
+> fourth person's thread.** To [[wiki/people/ellen-ulmer|Ellen Ulmer]] at
+> **13:18**: *"Doing much better"*; at **13:21**: *"she bruised her hip but
+> she's up and walking around now"*; at **13:25**: *"I've had enough excitement
+> for one day. Thank god Annie heard her back there though."* So the floor time
+> runs from roughly midnight to about **13:00 — some thirteen hours**, not the
+> eight the later pages inherited, and the discovery was
+> [[wiki/people/annie-ulmer|Annie]] hearing her on getting home from a shift
+> that ended at midnight, not Dan waking to a bump at eight.
+>
+> **The word "keno" appears nowhere in ±2 days of the message record** — 0
+> matches across all three corpora, against 482 messages in the window. The
+> video-keno marathon is not corroborated and is not refuted: it is a detail
+> that survives only in the retelling the event is named for. Kept, and now
+> labelled.
+>
+> Two things the record *adds*, both dated. Dan spent the morning asking his
+> mother to supply him: *"Is there any way you can get something for us if I️
+> can pay for it tomorrow morning? This is going to be a looooooong day"*
+> (11:29) and *"I️ could really really benefit from some assistance staying
+> awake"* (12:12) — the cocaine in the last sentence above, contemporaneously
+> evidenced and sourced to Suz. And the caregiving arithmetic that runs through
+> the rest of this page starts **that night**: Suz, 22:27, *"At $15/hr, 30 day
+> cost for care is $10,800"*.
+>
+> Window: `bin/wiki-corroborate window 2017-11-26 --days 1` (482 messages,
+> five threads). The retelling above is left standing, per rule 9 — it is the
+> only account of what the video shows.
 
 What kept him from overriding her is on the record and is not squeamishness:
 he was, in his own words, terrified that if the situation went sideways his

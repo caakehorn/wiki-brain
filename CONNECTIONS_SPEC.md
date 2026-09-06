@@ -98,7 +98,7 @@ frontmatter-only and may simply restate the relationship from the other side.
 Its prose pass comes later (retrofit protocol step 4).
 
 **A write-back inverse** — added because a synthesis page concluded something
-about this page — is held to `STRATEGY.md`'s core loop, step 6, and must state
+about this page — is held to `STRATEGY.md`'s core loop, step 7, and must state
 **what this page turned out to be evidence of.** The test: a reader who lands
 here and reads only the `connections:` block should come away with the
 conclusion, not with a pointer to where the conclusion is kept.
@@ -161,6 +161,21 @@ proposition, so a bare adjacency is still banned. State what the source
 
 The second is writable before anybody knows what it means, and it is what
 makes the mention reachable by the climb that eventually does.
+
+**The message record produces these edges faster than any other source, and
+they are dated.** A corroboration window (`CLAUDE.md`'s CORROBORATE operation)
+returns every thread live in a set of hours, not one, so it routinely names
+people, places and events the page being checked never mentioned — and each of
+those is a mention debt, arriving through a different door. Write the edge with
+the timestamp in the claim: a dated claim is one the next reader can re-open in
+`raw/` in seconds.
+
+```yaml
+# a mention the corroboration window produced, not the source the page cites
+- page: wiki/people/ellen-ulmer
+  type: evidenced-by
+  claim: "Dan reported Fran's condition to her by text through the day of the 2017-11-26 fall — 'She bruised her hip but she's up and walking around now' (13:21) is the only contemporaneous account of how that day ended, and it is on her thread rather than his mother's."
+```
 
 **Where to point first: a page's claims about itself.** The highest-value
 mentions are the ones that hit a page's own stated completeness or stated

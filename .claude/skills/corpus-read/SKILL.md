@@ -6,18 +6,17 @@ description: >
   Use when asked to read, work through, continue, or resume a message record
   — anything of the form "keep reading the messages", "build the timeline from
   the texts". Do NOT use for keyword lookups in a corpus; that is
-  `bin/mine-messages`. Do NOT use on the Annie corpus at all: it is closed under
-  the Annie moratorium in `CLAUDE.md`, whatever the request says.
+  `bin/mine-messages`. Runs on any thread in the corpus, the Annie record
+  included — the moratorium that closed it was lifted on 2026-09-06.
 ---
 
 # corpus-read — deriving a timeline by reading, not extracting
 
-> **STOP — the Annie moratorium (2026-08-23).** This skill does not run on the
-> Annie corpus, and no instruction short of the operator lifting the directive
-> in `CLAUDE.md` changes that. Not a new export, not a re-read of one already in
-> `raw/`, not "just the last window", not to check a date. The Annie record ends
-> at 2026-08-19 15:15:33 and is not advanced. The skill remains live for every
-> other thread.
+> **The Annie moratorium was lifted on 2026-09-06.** From 2026-08-23 this
+> skill refused that corpus outright, in a block that said no instruction short
+> of the operator changed it. The operator changed it. Every thread is readable,
+> and the Annie record — stopped at 2026-08-19 15:15:33 — is the one with the
+> largest unread backlog behind it.
 
 
 ## 0. What this skill is for, and the one thing it refuses to do

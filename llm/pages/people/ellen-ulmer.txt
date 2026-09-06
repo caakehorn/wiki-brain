@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-08-20
+date_modified: 2026-09-06
 date_range_start: 2017-04-11
 date_range_end: 2025-11-01
 sources:
@@ -73,6 +73,37 @@ one form of expertise he had. It was accepted, and the channel never closed.
 Ellen's messages read as genuinely maternal: an unfailing annual "Happy birthday!!" every November from 2017 through 2025, Christmas notes ("So happy to send something you could really use!"), and practical check-ins that treat Dan as part of the family rather than as an outside boyfriend. In March 2018, during Fran's final decline, Ellen coordinates delivering a church flower arrangement to cheer her and mentions being "at Jim and Sugie's" — confirming that **Jim and Sugie are the names of Annie's grandparents**, resolving an open identification gap on [[wiki/places/117-belmont-circle]]. The same message relays that Sugie was looking for help from a caregiver named Vickey with light housekeeping, suggesting some overlap or coordination with the Coldren household's own caregiving arrangements during that period.
 
 **Jim's death is now dated.** A 2026-08-10 pass found the specific date: **October 2, 2019**, per a Dan message to a client explaining a possible booking conflict. From that point Sugie was the sole surviving grandparent, which is the structural origin of the recurring "Sugie needs care" alibi documented at length on [[wiki/people/annie-ulmer|Annie's own page]] — not a fabricated excuse, even in the years it was also a convenient one.
+
+**The one place the end of the keno morning is recorded is this thread.** On
+**2017-11-26**, thirteen hours after Fran fell — see
+[[wiki/timeline/events/fran-death-vigil]] for the whole day — Ellen asks at
+10:33: *"Is Fran ok?"* Dan answers at 10:41, with Fran still on the floor: *"My
+mom is here now and we're still figuring it out. She seems okay, but I'll let u
+know."* Then at 13:18: *"Doing much better"*; at 13:20: *"It's a tricky
+situation because she wants to be here, even if it's not really the smartest
+idea, medically and practically speaking"*; at 13:21: *"And she'll never ever
+admit to being hurt, so it's always a question of what to do. She bruised her
+hip but she's up and walking around now"*; at 13:25: *"I've had enough
+excitement for one day. Thank god Annie heard her back there though."*
+
+Four things ride on that exchange and none of them is on any other thread in the
+corpus. It is the **only contemporaneous account of how that day ended** — no
+ambulance, a bruised hip, up and walking by early afternoon. It is Dan stating
+Fran's own standing instruction (*"she wants to be here"*) at the time rather
+than in a later defence of it. It records that the discovery was
+[[wiki/people/annie-ulmer|Annie]]'s. And it is the clearest single instance of
+what this page argues about the relationship's shape: **in a family emergency,
+the person Dan kept updated was his girlfriend's mother** — while telling Annie
+herself, ninety minutes earlier, *"I'm done giving you fucking updates."* Ellen
+had been told before the hospital question was settled, which is also the
+context for that fight: what Dan objected to was Annie's parents knowing before
+a decision had been made.
+
+That evening Ellen invited him to a family birthday dinner — *"Hope you'll join
+us for dinner. Bill is making birthday brownies!"* (15:23) — and he declined
+with the arrangement in one line: *"I'm moonlighting as a grandma-sitter on the
+weekends and I'm supposed to be here until 8"* (16:03). It is the earliest
+first-person description of the caregiving job in the corpus, and it is a joke.
 
 Ellen sends her own condolence after Fran's death in April 2018 ("Fran was truly an incredible lady... there's going to be a whole in your lives" — corrected in her own next message to "Hole..."). She surfaces twice as a worried mother unable to reach her daughter directly — January 8, 2019 ("Can't get Annie to answer") and February 16, 2020 ("Haven't heard from Annie. All ok there?") — both instances routed through Dan rather than Annie's father or siblings, suggesting Dan was treated as a reliable go-between during the relationship's active years.
 

@@ -312,6 +312,7 @@ Words Dan entered himself, through the portal, into `lexicon/words/`. A capture 
 | word | captured | status | reading |
 |---|---|---|---|
 | `off-rip` | 2026-08-27 | analyzed | Standard forms are off rip and off the rip — African-American English, |
+| `Ethers` | 2026-09-06 | pending | Not yet analysed. |
 
 ---
 

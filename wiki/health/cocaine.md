@@ -7,7 +7,7 @@ status: active
 importance: high
 knowledge: earned
 date_created: 2026-08-19
-date_modified: 2026-09-04
+date_modified: 2026-09-06
 sources:
   - raw/self/dox-md/ADDICTION_PROFILE.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -424,6 +424,30 @@ with a car made conditional on completing the eviction, and supplying
 them both routinely through 2015–16. The architecture claim is
 unaffected and the redundancy claim gains a node: the network had a
 family-internal source available before any of the named dealers.
+
+> **RE-CHECKED [2026-09-06]:** the family-internal node runs **two years later
+> than "through 2015–16"**, and the clearest instance of it is a medical
+> emergency. On **2017-11-26**, with his great-grandmother in her twelfth hour on
+> the floor — see [[wiki/timeline/events/fran-death-vigil]] — Dan asked his
+> mother twice, in writing, to bring him something: *"Is there any way you can
+> get something for us if I️ can pay for it tomorrow morning? This is going to be
+> a looooooong day"* (11:29) and *"I️ could really really benefit from some
+> assistance staying awake. If there's any way to get that on the way over, a
+> couple mins longer won't hurt"* (12:12).
+>
+> The vigil page's account of that day — *"Dan sustained himself through the
+> hours of solo triage, by his own later account, with cocaine bumps"* — was
+> retrospective narration until now; these are the requests that produced it,
+> dated, and they name the supplier. Three things follow for this page. The
+> family-internal node was **live in 2017**, not just at the network's origin.
+> The request is **euphemised in a way the dealer threads are not** (*"something
+> for us"*, *"assistance staying awake"*, against *"b's"* and *"$300 for a
+> ball"*) — the register changes with the counterparty, not with the substance.
+> And the procurement is **instrumental to caregiving** rather than recreational
+> at the point of asking, which is the same shape the terminal-phase claim above
+> describes for a different relationship.
+>
+> Window: `bin/wiki-corroborate window 2017-11-26 --days 1 --handle 7243228715`.
 
 ## Legal history
 

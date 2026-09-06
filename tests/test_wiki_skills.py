@@ -21,13 +21,11 @@ Four properties are pinned here and none of them is cosmetic.
     people stop running, and a database nobody pushes to is worse than none,
     because the page still looks current.
 
-  * **The moratorium, in two tiers.** `CLAUDE.md` carries a standing operator
-    directive about a living person. One blunt rule gets this wrong in both
-    directions: a name that cannot be printed must vanish from the page, and a
-    live useful tool whose *summary* happens to name her must still appear, or
-    the database lies about what the repository offers. Both tiers are pinned,
-    and so is the guarantee — the gate re-checks the rendered page, so the
-    outcome does not rest on the renderer that produced it.
+  * **The moratorium is lifted, and stays lifted.** Until 2026-09-06 the
+    renderer held rows and summaries out of the public page under a standing
+    directive. The operator ended it; `TestTheMoratoriumIsLifted` pins the
+    absence, because a holdout described this carefully in a docstring is one a
+    later session rebuilds from memory.
 
   * **The merge.** The log is append-only precisely so two branches' pushes
     union rather than conflict. If projection ever stopped being a pure fold
@@ -176,54 +174,45 @@ class TestIdempotence(Tree):
 
 
 # ------------------------------------------------------------- the directive
-class TestMoratorium(Tree):
-    def test_a_name_that_cannot_be_printed_is_held_out_entirely(self):
+class TestTheMoratoriumIsLifted(Tree):
+    """Lifted in full by the operator on 2026-09-06.
+
+    Until then the renderer held one capability's row out of the public page
+    entirely and blanked another's summary, and the gate re-checked the file on
+    disk so the guarantee did not rest on the renderer. All of it is gone. The
+    absence is pinned because a two-tier holdout is exactly the kind of thing a
+    later session rebuilds from memory of the docstring.
+    """
+
+    def test_no_holdout_remains(self):
+        for name in ("MORATORIUM", "held_back", "WITHHELD"):
+            with self.subTest(name=name):
+                self.assertFalse(hasattr(ws, name),
+                                 f"bin/wiki-skills still defines {name}")
+
+    def test_every_row_prints(self):
         self.push([cap(name="annie-read-synthesis", path="p.md"),
                    cap(name="ordinary", path="q.md")])
-        state = self.reg.project()
-        page = ws.render_page(state, self.dir)
-        self.assertNotIn("annie", page.lower())
+        page = ws.render_page(self.reg.project(), self.dir)
+        self.assertIn("annie-read-synthesis", page)
         self.assertIn("ordinary", page)
-        self.assertIn("omitted from the tables entirely", page)
+        self.assertNotIn("omitted from the tables entirely", page)
 
-    def test_a_neutral_name_with_a_named_summary_keeps_its_row(self):
-        """The row survives; the summary does not. Dropping the row would make
-        the database lie about what the repository offers."""
+    def test_a_summary_naming_her_survives(self):
         self.push([cap(name="corpus-read", path="skills/corpus-read.md",
-                       summary="Do NOT use on the Annie corpus at all.")])
+                       summary="Reads the Annie corpus in date order.")])
         page = ws.render_page(self.reg.project(), self.dir)
-        self.assertNotIn("annie", page.lower())
-        self.assertIn("corpus-read", page)
-        self.assertIn("skills/corpus-read.md", page,
-                      "the path must survive — the directive stops new writing, "
-                      "not access to what is already public")
-        self.assertIn("summary withheld", page)
+        self.assertIn("Annie corpus", page)
+        self.assertNotIn("summary withheld", page)
 
-    def test_the_totals_still_count_what_the_page_will_not_print(self):
+    def test_the_gate_no_longer_fails_on_the_name(self):
         self.push([cap(name="annie-read-synthesis", path="p.md")])
-        page = ws.render_page(self.reg.project(), self.dir)
-        self.assertIn("| Capabilities on the record | 1 |", page)
-
-    def test_the_gate_catches_a_hand_edit_that_names_her(self):
-        """The guarantee must not rest on the renderer that produced the page.
-
-        The published object is the FILE, not the render. A check that only
-        inspected the render would report this as "the page is behind the
-        database" — true, and not the thing that matters about it.
-        """
-        self.push([cap(name="ordinary", path="p.md")])
         self.reg.write_projection()
         self.reg.page.parent.mkdir(parents=True, exist_ok=True)
-        self.reg.page.write_text(
-            ws.render_page(self.reg.project(), self.dir).replace(
-                "ordinary", "annie-notes"), encoding="utf-8")
+        self.reg.page.write_text(ws.render_page(self.reg.project(), self.dir),
+                                 encoding="utf-8")
+        self.assertEqual(ws.check(self.reg), 0)
 
-        import io, contextlib
-        out = io.StringIO()
-        with contextlib.redirect_stdout(out):
-            code = ws.check(self.reg)
-        self.assertEqual(code, 1)
-        self.assertIn("names a person under the standing", out.getvalue())
 
 
 # ------------------------------------------------------------------ the gate
