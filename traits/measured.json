@@ -1,0 +1,564 @@
+{
+ "generated": "2026-09-06",
+ "proxies": {
+  "altruism::offering help unprompted": {
+   "chatgpt": {
+    "hits": 2,
+    "rate": 1.374
+   },
+   "dir": "low",
+   "facet": "altruism",
+   "gemini": {
+    "hits": 9,
+    "rate": 2.258
+   },
+   "label": "offering help unprompted",
+   "messages": {
+    "control": 1.484,
+    "dan": 2.691,
+    "hits": 372,
+    "ratio": 1.813
+   },
+   "score": 1,
+   "twitter": {
+    "hits": 1,
+    "rate": 0.365
+   }
+  },
+  "altruism::other-directed concern": {
+   "chatgpt": {
+    "hits": 1,
+    "rate": 0.687
+   },
+   "dir": "low",
+   "facet": "altruism",
+   "gemini": {
+    "hits": 7,
+    "rate": 1.756
+   },
+   "label": "other-directed concern",
+   "messages": {
+    "control": 0.827,
+    "dan": 2.25,
+    "hits": 311,
+    "ratio": 2.72
+   },
+   "score": 1,
+   "twitter": {
+    "hits": 3,
+    "rate": 1.094
+   }
+  },
+  "antisocial::rule indifference": {
+   "chatgpt": {
+    "hits": 7,
+    "rate": 4.808
+   },
+   "dir": "high",
+   "facet": "antisocial",
+   "gemini": {
+    "hits": 18,
+    "rate": 4.516
+   },
+   "label": "rule indifference",
+   "messages": {
+    "control": 1.211,
+    "dan": 2.358,
+    "hits": 326,
+    "ratio": 1.947
+   },
+   "score": 58,
+   "twitter": {
+    "hits": 2,
+    "rate": 0.73
+   }
+  },
+  "anxiety::worry": {
+   "chatgpt": {
+    "hits": 11,
+    "rate": 7.555
+   },
+   "dir": "high",
+   "facet": "anxiety",
+   "gemini": {
+    "hits": 38,
+    "rate": 9.533
+   },
+   "label": "worry",
+   "messages": {
+    "control": 2.547,
+    "dan": 3.363,
+    "hits": 465,
+    "ratio": 1.32
+   },
+   "score": 67,
+   "twitter": {
+    "hits": 8,
+    "rate": 2.919
+   }
+  },
+  "artistic_interests::aesthetic register": {
+   "chatgpt": {
+    "hits": 6,
+    "rate": 4.121
+   },
+   "dir": "high",
+   "facet": "artistic_interests",
+   "gemini": {
+    "hits": 39,
+    "rate": 9.784
+   },
+   "label": "aesthetic register",
+   "messages": {
+    "control": 0.155,
+    "dan": 0.427,
+    "hits": 59,
+    "ratio": 2.752
+   },
+   "score": 81,
+   "twitter": {
+    "hits": 3,
+    "rate": 1.094
+   }
+  },
+  "assertiveness::directives / commands": {
+   "chatgpt": {
+    "hits": 42,
+    "rate": 28.846
+   },
+   "dir": "low",
+   "facet": "assertiveness",
+   "gemini": {
+    "hits": 125,
+    "rate": 31.36
+   },
+   "label": "directives / commands",
+   "messages": {
+    "control": 7.199,
+    "dan": 13.201,
+    "hits": 1825,
+    "ratio": 1.834
+   },
+   "score": 5,
+   "twitter": {
+    "hits": 12,
+    "rate": 4.378
+   }
+  },
+  "impulsiveness::immediacy / right-now": {
+   "chatgpt": {
+    "hits": 20,
+    "rate": 13.736
+   },
+   "dir": "high",
+   "facet": "impulsiveness",
+   "gemini": {
+    "hits": 85,
+    "rate": 21.325
+   },
+   "label": "immediacy / right-now",
+   "messages": {
+    "control": 7.885,
+    "dan": 8.246,
+    "hits": 1140,
+    "ratio": 1.046
+   },
+   "score": 96,
+   "twitter": {
+    "hits": 23,
+    "rate": 8.391
+   }
+  },
+  "intellect::abstraction / framing": {
+   "chatgpt": {
+    "hits": 6,
+    "rate": 4.121
+   },
+   "dir": "high",
+   "facet": "intellect",
+   "gemini": {
+    "hits": 33,
+    "rate": 8.279
+   },
+   "label": "abstraction / framing",
+   "messages": {
+    "control": 0.096,
+    "dan": 0.246,
+    "hits": 34,
+    "ratio": 2.562
+   },
+   "score": 95,
+   "twitter": {
+    "hits": 3,
+    "rate": 1.094
+   }
+  },
+  "introspection::causal self-explanation": {
+   "chatgpt": {
+    "hits": 5,
+    "rate": 3.434
+   },
+   "dir": "high",
+   "facet": "introspection",
+   "gemini": {
+    "hits": 15,
+    "rate": 3.763
+   },
+   "label": "causal self-explanation",
+   "messages": {
+    "control": 2.909,
+    "dan": 2.763,
+    "hits": 382,
+    "ratio": 0.95
+   },
+   "score": 87,
+   "twitter": {
+    "hits": 6,
+    "rate": 2.189
+   }
+  },
+  "liberalism::political register": {
+   "chatgpt": {
+    "hits": 19,
+    "rate": 13.049
+   },
+   "dir": "high",
+   "facet": "liberalism",
+   "gemini": {
+    "hits": 35,
+    "rate": 8.781
+   },
+   "label": "political register",
+   "messages": {
+    "control": 0.281,
+    "dan": 0.398,
+    "hits": 55,
+    "ratio": 1.418
+   },
+   "score": 91,
+   "twitter": {
+    "hits": 23,
+    "rate": 8.391
+   }
+  },
+  "modesty::self-elevation": {
+   "chatgpt": {
+    "hits": 0,
+    "rate": 0.0
+   },
+   "dir": "high",
+   "facet": "modesty",
+   "gemini": {
+    "hits": 1,
+    "rate": 0.251
+   },
+   "label": "self-elevation",
+   "messages": {
+    "control": 0.17,
+    "dan": 0.159,
+    "hits": 22,
+    "ratio": 0.937
+   },
+   "score": 5,
+   "twitter": {
+    "hits": 0,
+    "rate": 0.0
+   }
+  },
+  "narcissistic::grandiosity / uniqueness": {
+   "chatgpt": {
+    "hits": 0,
+    "rate": 0.0
+   },
+   "dir": "high",
+   "facet": "narcissistic",
+   "gemini": {
+    "hits": 1,
+    "rate": 0.251
+   },
+   "label": "grandiosity / uniqueness",
+   "messages": {
+    "control": 0.089,
+    "dan": 0.137,
+    "hits": 19,
+    "ratio": 1.551
+   },
+   "score": 67,
+   "twitter": {
+    "hits": 0,
+    "rate": 0.0
+   }
+  },
+  "schizotypal::pattern / conspiracy cognition": {
+   "chatgpt": {
+    "hits": 2,
+    "rate": 1.374
+   },
+   "dir": "high",
+   "facet": "schizotypal",
+   "gemini": {
+    "hits": 16,
+    "rate": 4.014
+   },
+   "label": "pattern / conspiracy cognition",
+   "messages": {
+    "control": 0.096,
+    "dan": 0.195,
+    "hits": 27,
+    "ratio": 2.035
+   },
+   "score": 79,
+   "twitter": {
+    "hits": 6,
+    "rate": 2.189
+   }
+  },
+  "self_consciousness::self-monitoring in company": {
+   "chatgpt": {
+    "hits": 5,
+    "rate": 3.434
+   },
+   "dir": "high",
+   "facet": "self_consciousness",
+   "gemini": {
+    "hits": 8,
+    "rate": 2.007
+   },
+   "label": "self-monitoring in company",
+   "messages": {
+    "control": 0.45,
+    "dan": 1.049,
+    "hits": 145,
+    "ratio": 2.329
+   },
+   "score": 91,
+   "twitter": {
+    "hits": 3,
+    "rate": 1.094
+   }
+  },
+  "sociability::initiating contact / plans": {
+   "chatgpt": {
+    "hits": 4,
+    "rate": 2.747
+   },
+   "dir": "low",
+   "facet": "sociability",
+   "gemini": {
+    "hits": 10,
+    "rate": 2.509
+   },
+   "label": "initiating contact / plans",
+   "messages": {
+    "control": 3.212,
+    "dan": 2.38,
+    "hits": 329,
+    "ratio": 0.741
+   },
+   "score": 3,
+   "twitter": {
+    "hits": 0,
+    "rate": 0.0
+   }
+  },
+  "sociability::party / group settings": {
+   "chatgpt": {
+    "hits": 23,
+    "rate": 15.797
+   },
+   "dir": "low",
+   "facet": "sociability",
+   "gemini": {
+    "hits": 54,
+    "rate": 13.547
+   },
+   "label": "party / group settings",
+   "messages": {
+    "control": 0.938,
+    "dan": 1.121,
+    "hits": 155,
+    "ratio": 1.196
+   },
+   "score": 3,
+   "twitter": {
+    "hits": 28,
+    "rate": 10.215
+   }
+  },
+  "submissiveness::deference / apology": {
+   "chatgpt": {
+    "hits": 7,
+    "rate": 4.808
+   },
+   "dir": "low",
+   "facet": "submissiveness",
+   "gemini": {
+    "hits": 43,
+    "rate": 10.788
+   },
+   "label": "deference / apology",
+   "messages": {
+    "control": 14.766,
+    "dan": 14.633,
+    "hits": 2023,
+    "ratio": 0.991
+   },
+   "score": 1,
+   "twitter": {
+    "hits": 15,
+    "rate": 5.472
+   }
+  },
+  "sympathy::sympathy tokens": {
+   "chatgpt": {
+    "hits": 0,
+    "rate": 0.0
+   },
+   "dir": "low",
+   "facet": "sympathy",
+   "gemini": {
+    "hits": 3,
+    "rate": 0.753
+   },
+   "label": "sympathy tokens",
+   "messages": {
+    "control": 0.849,
+    "dan": 0.412,
+    "hits": 57,
+    "ratio": 0.486
+   },
+   "score": 6,
+   "twitter": {
+    "hits": 0,
+    "rate": 0.0
+   }
+  },
+  "ti_dominance::conditional reasoning": {
+   "chatgpt": {
+    "hits": 6,
+    "rate": 4.121
+   },
+   "dir": "high",
+   "facet": "ti_dominance",
+   "gemini": {
+    "hits": 14,
+    "rate": 3.512
+   },
+   "label": "conditional reasoning",
+   "messages": {
+    "control": 0.199,
+    "dan": 0.311,
+    "hits": 43,
+    "ratio": 1.56
+   },
+   "score": null,
+   "twitter": {
+    "hits": 4,
+    "rate": 1.459
+   }
+  },
+  "ti_dominance::explicit confidence %": {
+   "chatgpt": {
+    "hits": 0,
+    "rate": 0.0
+   },
+   "dir": "high",
+   "facet": "ti_dominance",
+   "gemini": {
+    "hits": 0,
+    "rate": 0.0
+   },
+   "label": "explicit confidence %",
+   "messages": {
+    "control": 0.007,
+    "dan": 0.13,
+    "hits": 18,
+    "ratio": 17.635
+   },
+   "score": null,
+   "twitter": {
+    "hits": 0,
+    "rate": 0.0
+   }
+  },
+  "ti_dominance::probability quantification": {
+   "chatgpt": {
+    "hits": 5,
+    "rate": 3.434
+   },
+   "dir": "high",
+   "facet": "ti_dominance",
+   "gemini": {
+    "hits": 9,
+    "rate": 2.258
+   },
+   "label": "probability quantification",
+   "messages": {
+    "control": 0.081,
+    "dan": 0.166,
+    "hits": 23,
+    "ratio": 2.048
+   },
+   "score": null,
+   "twitter": {
+    "hits": 0,
+    "rate": 0.0
+   }
+  },
+  "trust::suspicion of motive": {
+   "chatgpt": {
+    "hits": 14,
+    "rate": 9.615
+   },
+   "dir": "high",
+   "facet": "trust",
+   "gemini": {
+    "hits": 40,
+    "rate": 10.035
+   },
+   "label": "suspicion of motive",
+   "messages": {
+    "control": 1.344,
+    "dan": 4.094,
+    "hits": 566,
+    "ratio": 3.047
+   },
+   "score": 9,
+   "twitter": {
+    "hits": 9,
+    "rate": 3.283
+   }
+  },
+  "vulnerability::overwhelm": {
+   "chatgpt": {
+    "hits": 8,
+    "rate": 5.495
+   },
+   "dir": "high",
+   "facet": "vulnerability",
+   "gemini": {
+    "hits": 23,
+    "rate": 5.77
+   },
+   "label": "overwhelm",
+   "messages": {
+    "control": 2.407,
+    "dan": 2.3,
+    "hits": 318,
+    "ratio": 0.956
+   },
+   "score": 78,
+   "twitter": {
+    "hits": 5,
+    "rate": 1.824
+   }
+  }
+ },
+ "totals": {
+  "chatgpt_prompts": 1456,
+  "gemini_prompts": 3986,
+  "received": 135443,
+  "sent": 138249,
+  "tweets": 2741
+ }
+}

@@ -5,7 +5,7 @@ title: "Wiki Digest"
 status: active
 knowledge: derived
 date_created: 2026-08-26
-date_modified: 2026-09-05
+date_modified: 2026-09-06
 sources: []
 ---
 
@@ -21,8 +21,8 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 | | |
 |---|---|
-| Pages | 503 |
-| Pages touched in the last 14 days | 235 |
+| Pages | 504 |
+| Pages touched in the last 14 days | 232 |
 | Pages reasoning from other pages (`synthesizes:`) | 81 |
 | Live contradictions | 51 |
 | Open gaps | 720 |
@@ -34,7 +34,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 |---|---|
 | people | 175 |
 | interests | 98 |
-| mind | 81 |
+| mind | 82 |
 | self | 60 |
 | timeline | 42 |
 | work | 15 |
@@ -47,7 +47,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 | Status | Pages |
 |---|---|
-| active | 197 |
+| active | 198 |
 | stable | 166 |
 | closed | 101 |
 | archived | 29 |
@@ -55,7 +55,12 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-09-05** — 30 pages
+**2026-09-06** — 5 pages
+  - strategy | meta | can the wiki brain be sold, and as what
+  - traits | mind | the personality profile, cross-tested against the corpus — and what the test found about the test
+  - lint | mind | correction — `unreviewed` is not `silent`, in the prose as well as the code
+
+**2026-09-05** — 26 pages
   - connect | meta | the wiki names 570 things it does not link — 344 of them now clickable
   - connect | meta | 453 of 497 pages were one-way doors
   - rewrite | people | Davey Fitzpatrick re-derived — and the testimony ledger was scoring 18 of 20
@@ -114,8 +119,6 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - ingest | mind | "conspiracy crank" is a label his own behaviour contradicts
   - ingest | interests/self | 2024 read in full — the Roman interest starts on YouTube, and the account's peak is one evening
   - ingest | self | the backend backfill — a first year recovered, and a published lean corrected
-
-**2026-09-01** — 2 pages
 
 ## Pages that reason from other pages
 

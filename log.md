@@ -10157,3 +10157,146 @@ gate line · typed edges onto 8 pages, prose write-backs on 6
 
 `bin/wiki-check` clean · 500 pages, 0 errors · 442 tests green · reciprocal
 debt 0 on both new pages.
+
+## [2026-09-06] strategy | meta | can the wiki brain be sold, and as what
+
+Operator question, answered against the tree rather than the README. Written to
+`PRODUCT_STRATEGY.md` (analysis, not doctrine — governs nothing, citable by
+nothing).
+
+**What the measurement found.** The machinery is portable and therefore not a
+moat: ~110 Dan-specific string occurrences across 25 of 37 tools, and **six**
+hardcoded `raw/` corpus paths. Porting `bin/` to a second person is a week. What
+is not portable is the 30,073 words of governing spec and the failure catalogue
+underneath it, both of which were discovered by getting numbers wrong on this
+specific corpus first.
+
+**The binding constraint is acquisition, not architecture** — the framing being
+responded to never mentions it. 265 of 503 pages (53%) depend on the message
+corpus, which is six overlapping exports that disagree with each other (the
+lexicon pass measured the UTC/Eastern collision: 36,716 rows at +4h against
+23,624 at +5h, a first run reporting 188,445 sent against a true 106,629). A
+further 166 pages (33%) rest on `CONTEXT_CORE_EXPANDED.md`, a 2,750-word seed
+that is itself the output of work predating this repository. A third of the
+corpus stands on something a new subject cannot obtain.
+
+**The specimen cannot be shown.** 175 people pages, 128 slugged
+firstname-lastname, three named third-party psychological assessments, and a
+23,763-word page about a person the standing directive describes as in apparent
+danger — all public. A prospect reading it learns that the system builds
+non-consensual dossiers on everyone the subject has texted. The demo is the
+objection. Recommendation: private first (the order `CLAUDE.md` already
+specifies for the ledgers), and build a second specimen on a public figure with
+a public corpus, which also tests whether the method generalises — currently
+zero evidence either way.
+
+**The confidence bar chart is refused, and `bin/psychometrics` already knew.**
+Its docstring establishes that failure to corroborate is not falsification —
+three of four core axioms tested lexically against 106,629 sent messages
+(controlled against 110,944 received from 503 handles) were invisible, *time =
+countdown* the clearest negative. So no percentage is computable; the honest
+display is three states — corroborated, silent, inverted. The asymmetry is the
+differentiator, not a limitation.
+
+**The strongest asset was not among the three the operator named.**
+`bin/wiki-testimony` reports 22 testimonies, 14 settled, **veracity 57/100** —
+the system scoring its own owner's first-person accuracy against primary
+sources. Nothing else in the surveyed field does this, because it requires
+telling the paying subject they misremember. n=14 is not a rate yet and the
+sample-bias disclosure travels with it.
+
+Also cleared a pre-existing red gate: `wiki/meta/testimony-veracity.md` was
+behind its ledger (`bin/wiki-testimony page`).
+
+## [2026-09-06] traits | mind | the personality profile, cross-tested against the corpus — and what the test found about the test
+
+Operator directive: cross-test the personality types against the whole of the
+data, make the result a priority filter shaping the wiki's understanding, and
+put it in its own entry. New subsystem: `bin/wiki-traits`, `traits/measured.json`,
+`wiki/mind/profile/trait-corpus-map.md` (generated), a gate in `bin/wiki-check`,
+28 tests, and the filter wired into `SYNTHESIS_SPEC.md`'s constitution pass at
+registers 1, 2 and 11.
+
+**The design finding, before any trait finding: the obvious build is circular
+and would have looked like the strongest evidence in the repository.** Measured
+first: **122 of 483 pages carry personality vocabulary, and 38 of 61 synthesis
+pages do**; `intp` alone is cited by 46 pages. Those pages were written by
+agents that had read `wiki/mind/profile/`. Scoring a trait across them measures
+how often the writing process reached for a vocabulary, not how present the
+trait is in the life. So the corpus is stratified — Tier A behavioural (the only
+tier that is evidence), Tier B testimony, Tier C wiki-derived — and support and
+reach are computed on separate axes that are **never added**.
+
+**The first run reported `CONTRADICTED LOAD` on the Fe deficit — an instruction
+to re-read 37 pages, 17 of them synthesis — and it was false.** The verdict
+rested on one proxy for *other-directed concern* whose every match was Dan being
+comforted: *"Thank you for making me feel better sweetie."* The pattern caught
+`feel better` and could not tell who was doing the feeling. Reading the matches,
+**six of 23 Tier A proxies broke the same way** — `too much` catching "too much
+of a babe", `can't wait` catching "can't wait to see you", `i want you to`
+catching "I want you to do things however you feel most comfortable". **Three
+reach patterns broke too**: `left` matched **"Checked, left standing"**,
+constitution-pass boilerplate on every synthesis page, inflating one trait's
+reach from 34 pages to 202 and manufacturing an obligation out of nothing.
+
+**The fix is structural, not a patched regex.** A proxy earns its verdict by
+having had its matches read (`PROXY_REVIEW`). An unreviewed proxy may report
+`silent` and nothing else — it may not confirm a score and it may not contradict
+one. That cap is load-bearing precisely because of the inherited asymmetry: only
+`INVERTED` is evidence against a score, which makes it the heaviest verdict in
+the system and, for an unreviewed regex, the cheapest to manufacture. A trait
+whose every proxy is broken bands `no instrument`, never `silent` — silence
+implies an instrument ran.
+
+**What the honest map says: seven traits are load-bearing across the corpus and
+not one of them is currently measurable.** Four (Ti dominance, liberalism,
+anxiety, schizotypal) have no reviewed proxy; three (Fe deficit, vulnerability,
+impulsiveness) had every proxy read and found to catch something else. That is a
+statement about the instrument, not about Dan — silence is not falsification —
+and it constrains what a synthesis may claim rather than what is true. 16 of 23
+proxies are unreviewed; `bin/wiki-traits review` is the queue.
+
+Facebook is named on the page as an unmeasured fifth register: 286 MB, 1,686
+HTML files, and the export is nested inside itself, so counting the tree as it
+stands double-counts every post.
+
+Also: promoted `skills/corpus/lexical-proxy-load.md` — both of PROTOCOL §3's
+tests were met inside the session (nine wrong results of one class, and a
+regression test). Master index mind count 77 → 78.
+
+## [2026-09-06] lint | mind | correction — `unreviewed` is not `silent`, in the prose as well as the code
+
+Operator review of PR #271 caught a real defect in the trait filter's
+documentation, and it is the kind that metastasizes because the subsystem is now
+a binding epistemic filter.
+
+**The correction.** Today's earlier entry in this log, and five live documents,
+said an unreviewed proxy *"may report `silent` and nothing else."* That is
+literally false about the implementation. `verdict()` returns one of three values
+for an unreviewed proxy: `unreviewed` where the underlying result would have been
+SUPPORTED, INVERTED or "leans yes"; `silent` where the corpus genuinely carried
+nothing; `too few` where there were not enough matches. The intent — *it may not
+confirm and may not contradict* — was right; the phrasing collapsed two bands
+the whole design depends on keeping apart. The log entry above is left as
+written, being append-only; this is its correction.
+
+**Why it mattered rather than being a nit.** A reader taking the prose literally
+would "simplify" `verdict()` to return `silent`, which folds `UNREVIEWED LOAD`
+into `UNSUPPORTED LOAD` in the filter table — telling every future synthesis that
+the corpus was checked and came back empty, when nothing was checked at all. That
+is the same error already guarded against for `no instrument`, and the guard was
+missing on the more likely case.
+
+**Three states, three names, and none is interchangeable:** `silent` — an
+instrument ran and the corpus carried nothing (a finding about Dan).
+`unreviewed` — no trustworthy instrument ran (a finding about the tool).
+`no instrument` — every proxy built for the trait was read and found to measure
+something else (a stronger finding about the tool). Only the first says anything
+about the subject.
+
+Swept `bin/wiki-traits` (verdict docstring, PROXY_REVIEW comment, page renderer,
+review header), `CLAUDE.md`, `SYNTHESIS_SPEC.md`, `LLM_HANDOFF.md` and
+`skills/corpus/lexical-proxy-load.md`. Two new regressions in
+`tests/test_wiki_traits.py`: `test_capped_result_is_never_reported_as_silence`
+and `test_the_three_states_are_three_values`, the latter asserting the three
+bands occupy three distinct cells at every reach level. 480 tests.

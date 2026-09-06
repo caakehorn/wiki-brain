@@ -1,5 +1,5 @@
-WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-09-05
-503 pages, ~1,958,816 tokens.
+WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-09-06
+504 pages, ~1,961,699 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -12505,7 +12505,7 @@ title: "Wiki Digest"
 status: active
 knowledge: derived
 date_created: 2026-08-26
-date_modified: 2026-09-05
+date_modified: 2026-09-06
 sources: []
 ---
 
@@ -12521,8 +12521,8 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 | | |
 |---|---|
-| Pages | 503 |
-| Pages touched in the last 14 days | 235 |
+| Pages | 504 |
+| Pages touched in the last 14 days | 232 |
 | Pages reasoning from other pages (`synthesizes:`) | 81 |
 | Live contradictions | 51 |
 | Open gaps | 720 |
@@ -12534,7 +12534,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 |---|---|
 | people | 175 |
 | interests | 98 |
-| mind | 81 |
+| mind | 82 |
 | self | 60 |
 | timeline | 42 |
 | work | 15 |
@@ -12547,7 +12547,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 | Status | Pages |
 |---|---|
-| active | 197 |
+| active | 198 |
 | stable | 166 |
 | closed | 101 |
 | archived | 29 |
@@ -12555,7 +12555,12 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-09-05** — 30 pages
+**2026-09-06** — 5 pages
+  - strategy | meta | can the wiki brain be sold, and as what
+  - traits | mind | the personality profile, cross-tested against the corpus — and what the test found about the test
+  - lint | mind | correction — `unreviewed` is not `silent`, in the prose as well as the code
+
+**2026-09-05** — 26 pages
   - connect | meta | the wiki names 570 things it does not link — 344 of them now clickable
   - connect | meta | 453 of 497 pages were one-way doors
   - rewrite | people | Davey Fitzpatrick re-derived — and the testimony ledger was scoring 18 of 20
@@ -12614,8 +12619,6 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - ingest | mind | "conspiracy crank" is a label his own behaviour contradicts
   - ingest | interests/self | 2024 read in full — the Roman interest starts on YouTube, and the account's peak is one evening
   - ingest | self | the backend backfill — a first year recovered, and a published lean corrected
-
-**2026-09-01** — 2 pages
 
 ## Pages that reason from other pages
 
@@ -13335,7 +13338,7 @@ title: "Open Questions"
 status: active
 knowledge: derived
 date_created: 2026-08-26
-date_modified: 2026-09-05
+date_modified: 2026-09-06
 sources: []
 ---
 
@@ -14298,7 +14301,7 @@ This page is the campaign to write one for every entry.
 | | |
 |---|---|
 | Entries with a plain-English edition | **28** |
-| Entries eligible for one | 282 |
+| Entries eligible for one | 283 |
 | Withheld under the standing directive | 219 |
 | Coverage | 9.9% |
 
@@ -14394,7 +14397,7 @@ title: "Recent Activity"
 status: active
 knowledge: derived
 date_created: 2026-08-26
-date_modified: 2026-09-05
+date_modified: 2026-09-06
 sources: []
 ---
 
@@ -14412,7 +14415,17 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-05 — 30 pages
+## 2026-09-06 — 5 pages
+
+| Page | Domain | What moved |
+|---|---|---|
+| [[wiki/meta/digest]] | meta | — |
+| [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
+| [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
+| [[wiki/meta/testimony-veracity]] | meta | — |
+| [[wiki/mind/profile/trait-corpus-map]] | mind | — |
+
+## 2026-09-05 — 26 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -14421,10 +14434,6 @@ simply listed.
 | [[wiki/interests/language/personal-lexicon]] | interests | _(carries a CONTRADICTION)_ |
 | [[wiki/interests/language/vocabulary-lexicon]] | interests | **GAP CLOSED** — this page said it "does not assert that these words are used in the corpus" and left open whether any of them are. Measured against both of Dan's first-party registers by `bin/wiki-lexicon registers - |
 | [[wiki/interests/stand-up-comedy]] | interests | — |
-| [[wiki/meta/digest]] | meta | — |
-| [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
-| [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
-| [[wiki/meta/testimony-veracity]] | meta | — |
 | [[wiki/mind/concepts/calibrated-confidence]] | mind | _(carries a CORRECTED from 2026-08-23)_ |
 | [[wiki/mind/concepts/exocortex]] | mind | — |
 | [[wiki/mind/profile/index]] | mind | — |
@@ -14800,13 +14809,6 @@ simply listed.
 | [[wiki/timeline/master-timeline]] | timeline | _(carries a CONTRADICTION from 2026-07-20)_ |
 | [[wiki/timeline/periods/uniontown-return-2013-2015]] | timeline | **CORRECTED** — The message behind it (*"Lex cheated on me 2 weeks in after I moved her to fla"*) is Dan telling Annie how the Alexis relationship **began, in 2009**, at Full Sail — the line before it is *"the exact  |
 
-## 2026-08-14 — 2 pages
-
-| Page | Domain | What moved |
-|---|---|---|
-| [[wiki/self/lineage/23andme-genomics]] | self | **CORRECTED** — The previous version of this page claimed the source PDFs were "image-based without an extractable text layer" and that "specific percentage values are not digitally recorded." This was wrong. All thr |
-| [[wiki/self/lineage/hybrid-analysis]] | self | — |
-
 
 
 ========================================================================
@@ -15062,7 +15064,7 @@ status: active
 importance: high
 knowledge: derived
 date_created: 2026-09-02
-date_modified: 2026-09-05
+date_modified: 2026-09-06
 chart:
   kind: grouped-bar
   title: "Stated confidence against measured outcome, by confidence band"
@@ -21387,6 +21389,23 @@ or instrument versions for the Big30/PD numbers; no re-test after the June
 The autism self-identification carries the same gap in sharper form — see
 [[wiki/mind/profile/neurodivergence]] for what its actual sourcing is and is not.
 
+## What the corpus says back
+
+Every score above is **self-report** — an instrument Dan filled in — and the
+gaps section says so. [[wiki/mind/profile/trait-corpus-map]] is the other
+direction: each trait tested as a directional prediction against 138,249 sent
+messages (controlled against 135,443 received), 2,741 tweets and 5,442 AI
+prompts, and then against the wiki's own reasoning, on two axes that are never
+added together.
+
+It is **evidence, not a claim**, and its first result is uncomfortable: seven
+traits are load-bearing across the corpus and **not one of them is currently
+measurable** — four have no reviewed proxy, three had every proxy read and
+found to catch something else. That is a statement about the instrument, not
+about Dan. Silence is not falsification, and the map exists so that a synthesis
+knows which of these registers it may lean on as a mechanism and which it may
+only cite as testimony.
+
 
 ========================================================================
 PAGE: wiki/mind/profile/intp.md
@@ -24025,6 +24044,222 @@ default for the five years to 2019.
 ---
 
 **Up:** [[wiki/mind/index|Mind]] › [[wiki/mind/profile/index|Profile]]
+
+
+========================================================================
+PAGE: wiki/mind/profile/trait-corpus-map.md
+========================================================================
+
+---
+domain: mind
+page_type: dataset
+title: "Trait–corpus map"
+aliases: ["trait map", "personality filter", "trait-corpus map"]
+status: active
+importance: high
+knowledge: derived
+date_created: 2026-09-06
+date_modified: 2026-09-06
+chart:
+  kind: grouped-bar
+  title: "Traits by behavioural support and by how much the wiki leans on them"
+  x: { label: "How much the wiki already leans on the trait", type: category }
+  y: { label: "Number of traits", type: number }
+  series:
+    - name: "unreviewed"
+      points:
+        "load-bearing": 4
+        "present": 5
+        "dormant": 1
+    - name: "no instrument"
+      points:
+        "load-bearing": 3
+        "present": 0
+        "dormant": 0
+    - name: "silent"
+      points:
+        "load-bearing": 0
+        "present": 3
+        "dormant": 0
+    - name: "too few"
+      points:
+        "load-bearing": 0
+        "present": 1
+        "dormant": 0
+tags: [personality-profile, forensic-analysis, ai-collaboration]
+sources:
+  - raw/self/message-csv/
+  - raw/self/twitter/archive.jsonl
+  - raw/self/chatgpt-export/
+  - raw/self/gemini-activity/
+---
+
+# Trait–corpus map
+
+Part of [[wiki/mind/profile/index]] — the measured counterpart to the
+self-report scores it collects.
+
+> **GENERATED — do not hand-edit.** `bin/wiki-traits page` writes this file;
+> an edit here fails `bin/wiki-traits check`. It is **evidence, not a claim**:
+> it states no finding about Dan. A finding drawn from it reaches an ordinary
+> page through the normal operations.
+
+Every trait in `wiki/mind/profile/` tested against 138,249 sent messages
+(controlled against 135,443 received from other handles), 2,741 tweets,
+1,456 ChatGPT prompts and 3,986 Gemini prompts —
+then against the wiki's own reasoning, separately and never pooled.
+
+## The two axes, and why they are never added
+
+**Support** is Tier A: Dan's own behavioural output, produced without knowing
+what this wiki would say. It is the only tier that can corroborate anything.
+
+**Reach** is Tier C: how much of the wiki already leans on the trait. It is
+**not evidence and never becomes evidence.** These pages were written by agents
+that had read `wiki/mind/profile/`, so reach measures how often the writing
+process reached for a vocabulary — not how present the trait is in the life.
+Of 483 entries, 122 carry personality vocabulary and 38 of 61 synthesis pages do.
+
+**Silence is not falsification.** A trait can be real and leave no lexical
+trace; people do not narrate their own architecture in text messages. `silent`
+means the corpus does not carry it, and constrains how much weight a synthesis
+may place on it — nothing more. Only `INVERTED` is evidence against a score.
+There is no confidence percentage on this page and one must never be added.
+
+## The state of the instrument
+
+Of 23 lexical proxies, **1 has been reviewed and found sound**, 6 were
+reviewed and found broken, and 16 have never had their matches read.
+
+A proxy earns its verdict by having had its matches actually read. **An unreviewed
+proxy may not confirm a score and may not contradict one** — a result that would
+have been either is reported as `unreviewed` instead. That is a different band from
+`silent`, and the difference matters: *silent* means an instrument ran and found
+nothing, *unreviewed* means no trustworthy instrument ran, and *no instrument* means
+every proxy built for the trait was read and found to measure something else. Three
+positions, three names, never collapsed. The cap exists because the heaviest verdict
+in this system is also the cheapest to manufacture: a regex that catches the wrong
+side of a conversation inverts trivially. The first run of this tool reported
+`CONTRADICTED LOAD` on the Fe deficit — an instruction to re-read 37 pages, 17 of
+them synthesis — on a proxy for *other-directed concern* whose every match was Dan
+being comforted: *"Thank you for making me feel better sweetie."* The pattern caught
+`feel better` and could not tell who was doing the feeling.
+
+`bin/wiki-traits review` is the queue. Each broken proxy names the string that
+breaks it.
+
+## The map
+
+| Trait | Reg. | Support | Replicates | Reach | Cell |
+|---|---|---|---|---|---|
+| Ti dominance (introverted thinking lead) | 1 | unreviewed | — | load-bearing (48p / 25s) | **UNREVIEWED LOAD** |
+| Vulnerability at the 78th percentile | 2 | no instrument | — | load-bearing (48p / 12s) | **NO INSTRUMENT / LOAD** |
+| Liberalism at the 91st percentile | 11 | unreviewed | chatgpt, twitter | load-bearing (46p / 28s) | **UNREVIEWED LOAD** |
+| Fe deficit (absent relational grading) | 1 | no instrument | — | load-bearing (35p / 17s) | **NO INSTRUMENT / LOAD** |
+| Impulsiveness at the 96th percentile | 2 | no instrument | chatgpt, gemini, twitter | load-bearing (33p / 12s) | **NO INSTRUMENT / LOAD** |
+| Anxiety at the 67th percentile | 2 | unreviewed | chatgpt | load-bearing (29p / 7s) | **UNREVIEWED LOAD** |
+| Schizotypal at 79 (pattern cognition) | 2 | unreviewed | — | load-bearing (26p / 6s) | **UNREVIEWED LOAD** |
+| Self-consciousness at the 91st percentile | 2 | unreviewed | — | present (18p / 7s) | **unreviewed** |
+| Intellect / abstraction at the 95th percentile | 2 | unreviewed | — | present (16p / 5s) | **unreviewed** |
+| Sociability at the 3rd percentile | 2 | unreviewed | chatgpt, gemini, twitter | present (16p / 5s) | **unreviewed** |
+| Assertiveness at the 5th percentile | 2 | silent | chatgpt, gemini, twitter | present (15p / 7s) | **unsupported** |
+| Introspection at the 87th percentile | 2 | silent | — | present (14p / 6s) | **unsupported** |
+| Narcissistic at 67 (grandiosity) | 2 | too few | — | present (14p / 4s) | **unmeasured** |
+| Modesty at the 5th percentile | 2 | silent | — | present (13p / 2s) | **unsupported** |
+| Artistic interests at the 81st percentile | 2 | unreviewed | gemini | present (11p / 5s) | **unreviewed** |
+| Trust at the 9th percentile | 2 | unreviewed | chatgpt, gemini | present (10p / 5s) | **unreviewed** |
+| Antisocial at 58 (rule indifference) | 2 | unreviewed | — | dormant (3p / 2s) | **unreviewed** |
+
+## What the map obliges
+
+7 trait(s) sit in a cell that constrains what a synthesis may do.
+
+### UNREVIEWED LOAD — Ti dominance (introverted thinking lead)
+
+Cite as testimony, never as measurement. The wiki leans on this and no proxy for it has had its matches read, so the instrument cannot yet confirm or contradict it. Reviewing them is owed work: `bin/wiki-traits review`.
+
+- **Support:** unreviewed
+- **Reach:** 48 pages, 25 of them synthesis, 43 citing `wiki/mind/profile/intp.md`
+- **Constitution register 1**
+
+  - `conditional reasoning` — 1.56x vs control, n=43, unreviewed
+  - `explicit confidence %` — 17.64x vs control, n=18, too few
+  - `probability quantification` — 2.05x vs control, n=23, unreviewed
+
+### NO INSTRUMENT / LOAD — Vulnerability at the 78th percentile
+
+Cite as testimony, never as measurement, and say so on the page. Every proxy built for this trait was read and found to catch something else. The wiki leans on it anyway.
+
+- **Support:** no instrument
+- **Reach:** 48 pages, 12 of them synthesis, 25 citing `wiki/mind/profile/big-five-psychometrics.md`
+- **Constitution register 2**
+
+  - `overwhelm` — 0.96x vs control, n=318, excluded
+
+### UNREVIEWED LOAD — Liberalism at the 91st percentile
+
+Cite as testimony, never as measurement. The wiki leans on this and no proxy for it has had its matches read, so the instrument cannot yet confirm or contradict it. Reviewing them is owed work: `bin/wiki-traits review`.
+
+- **Support:** unreviewed — replicates in chatgpt, twitter
+- **Reach:** 46 pages, 28 of them synthesis, 13 citing `wiki/mind/politics/axioms.md`
+- **Constitution register 11**
+
+  - `political register` — 1.42x vs control, n=55, unreviewed
+
+### NO INSTRUMENT / LOAD — Fe deficit (absent relational grading)
+
+Cite as testimony, never as measurement, and say so on the page. Every proxy built for this trait was read and found to catch something else. The wiki leans on it anyway.
+
+- **Support:** no instrument
+- **Reach:** 35 pages, 17 of them synthesis, 43 citing `wiki/mind/profile/intp.md`
+- **Constitution register 1**
+
+  - `offering help unprompted` — 1.81x vs control, n=372, excluded
+  - `other-directed concern` — 2.72x vs control, n=311, excluded
+  - `sympathy tokens` — 0.49x vs control, n=57, excluded
+
+### NO INSTRUMENT / LOAD — Impulsiveness at the 96th percentile
+
+Cite as testimony, never as measurement, and say so on the page. Every proxy built for this trait was read and found to catch something else. The wiki leans on it anyway.
+
+- **Support:** no instrument — replicates in chatgpt, gemini, twitter
+- **Reach:** 33 pages, 12 of them synthesis, 25 citing `wiki/mind/profile/big-five-psychometrics.md`
+- **Constitution register 2**
+
+  - `immediacy / right-now` — 1.05x vs control, n=1140, excluded
+
+### UNREVIEWED LOAD — Anxiety at the 67th percentile
+
+Cite as testimony, never as measurement. The wiki leans on this and no proxy for it has had its matches read, so the instrument cannot yet confirm or contradict it. Reviewing them is owed work: `bin/wiki-traits review`.
+
+- **Support:** unreviewed — replicates in chatgpt
+- **Reach:** 29 pages, 7 of them synthesis, 25 citing `wiki/mind/profile/big-five-psychometrics.md`
+- **Constitution register 2**
+
+  - `worry` — 1.32x vs control, n=465, unreviewed
+
+### UNREVIEWED LOAD — Schizotypal at 79 (pattern cognition)
+
+Cite as testimony, never as measurement. The wiki leans on this and no proxy for it has had its matches read, so the instrument cannot yet confirm or contradict it. Reviewing them is owed work: `bin/wiki-traits review`.
+
+- **Support:** unreviewed
+- **Reach:** 26 pages, 6 of them synthesis, 19 citing `wiki/mind/profile/deviance-mapping.md`
+- **Constitution register 2**
+
+  - `pattern / conspiracy cognition` — 2.04x vs control, n=27, unreviewed
+
+## What is not measured
+
+- **Facebook.** 286 MB and 1,686 HTML files, and the export is nested inside
+  itself — a second copy of `posts/your_posts_1.html` sits one directory down,
+  so counting the tree as it stands double-counts every post. A real fifth
+  register, absent for a stated reason rather than by oversight.
+- **Non-lexical expression.** Every proxy here is a regex over text. A trait
+  expressed in what Dan *did* rather than what he wrote is invisible to this
+  instrument, and that invisibility is what `silent` records.
+- **The instrument scores themselves are Tier B testimony** — self-report, the
+  claim rather than support for it. Their standing is the testimony ledger's.
+
 
 
 ========================================================================
@@ -113800,7 +114035,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ◆ **2018-07-24** — On July 24, 2018, Dan tells David — in confidence, "because I will be chastised for irresponsible spending" — that he'd just bought a **DJI Mavic Platinum**.  
   ↳ [[wiki/people/david-beard]] · The middle drone
 - · **2018-07-26** — trevor — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-05 — 30 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-05 — 26 pages
 - · **2018-07-26** — Trevor left without telling him, and Dan's response is the pattern.** 2018-07-26, learning of the exit from Davey rather than from Trevor: *"Yeah dude!  
   ↳ [[wiki/people/davey-fitzpatrick]] · The season, in his own voice
 - ★ **August 2018** — In August 2018 — four months after Fran's death and **two years before the distribution actually landed** — Dan drew down roughly $20,000 against the expected estate and transferred about **$14,000 of it to his mother.** Her own itemised statement of it survives, sent 3 October 2018: *"Dan to…  
@@ -116926,7 +117161,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-14** — Dan does not hear or process sung lyrics as language in real time — he stated this directly (2026-07-14): words in a song register to him essentially as **timbre**, another textural element of the vocal performance, not as semantic content to be parsed and understood the way lyrics function for…  
   ↳ [[wiki/interests/music/concepts/lyrics-as-timbre]] · Lyrics as Timbre
 - · **2026-07-14** — au zaatar — work  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-05 — 30 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-05 — 26 pages
 - · **2026-07-14** — vanessa frank — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 9 pages
 - · **2026-07-14** — t009 — enumeration — hedged — partial — The tweet archive holds two pieces the list did not: the letter 'A' for Alexis, tattooed 23 January 2010 and eight years earlier than anything on the list, and a Morrissey piece dated by 24 October 2019.  
@@ -116996,7 +117231,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-19** — The vigil page has carried "fire alarm? staff incident?" as an open question since 2026-07-19.  
   ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · The Uniontown Hospital Vape Alarm (early April 2018)
 - ★ **2026-07-20** — open questions — meta  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-05 — 30 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-06 — 5 pages
 - ◆ **2026-07-20** — intake constancy** — > **CONTRADICTION [2026-07-20], operator-clarified same day:** an extended YouTube export (through July 2026, filed to youtube-watch-history) showed essentially zero real YouTube watches for ~100 days, Nov 8 2025 - Feb 15 2026 — one genuine video against 78 ad  
   ↳ [[wiki/meta/open-questions]] · mind (174)
 - ◆ **2026-07-20** — The full per-contact export (filed 2026-07-20, superseding the earlier 28-message partial pull from the unreliable-direction master CSV) shows a real two-way conversation, not a one-sided text: Mike opens July 28 asking how Dan is feeling about Kamala's chances, then the substantive exchange runs…  
@@ -117584,7 +117819,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2026-08-22** — The charging documents were real.** The summons surfaced 2026-08-22: a Fayette County summary non-traffic case, docket MJ-14101-NT-0000082-2018, **filed April 5, 2018 — the day after Fran died** — before Magisterial District Judge Michael M.  
   ↳ [[wiki/timeline/events/fran-death-vigil]] · Sequence
 - · **2026-08-22** — ally lubin — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-05 — 30 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-05 — 26 pages
 - · **2026-08-22** — 155 virginia ave — places  
   ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 94 pages
 - · **2026-08-22** — deviance mapping — mind  
@@ -117600,7 +117835,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ◆ **2026-08-23** — The other is not, and no page models what happens when the remaining one carries the whole load. 6. ~~**The 127/110 exit-declaration pair is dossier arithmetic.**~~ **CLOSED [2026-08-23]** — see Part I½. 129 episodes derived independently, 128 of 128 resumed, median gap 36 seconds, all-time maximum…  
   ↳ [[wiki/mind/synthesis/the-rescue-premise]] · Gaps
 - · **2026-08-23** — calibrated confidence — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-05 — 30 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-05 — 26 pages
 - · **2026-08-23** — overview — interests  
   ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 26 pages
 - · **2026-08-23** — closing the set — mind  
@@ -117622,9 +117857,9 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-26** — Read against the two curated batches above (Axis A "pretty," Axis B "stupid"), the analyst profile, and the Battery, three structures repeat across all of them and are the actual finding of the 2026-08-26 session:  
   ↳ [[wiki/interests/language/vocabulary-lexicon]] · Full cross-cutting analysis
 - · **2026-08-26** — supply network — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-05 — 30 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-05 — 26 pages
 - · **2026-08-26** — suzanne frank — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-05 — 30 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-05 — 26 pages
 - · **2026-08-26** — ally and dan love as destiny — self  
   ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 94 pages
 - · **2026-08-26** — dan annie fallout verdict — mind  
@@ -117660,7 +117895,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-27** — ally lubin cognitive profile** — **Did she report the result herself, or was it forwarded?** The visible page is the results email, which implies she had the account. The 2026-08-27 operator answer confirms the result is hers but says nothing about how the screenshot reached Dan, so this stay  
   ↳ [[wiki/meta/open-questions]] · people (217)
 - · **2026-08-27** — linguistic profile — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-05 — 30 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-05 — 26 pages
 - · **2026-08-27** — t019 — Fran's house, listed at 350000 dollars, will sell for between 250000 and 300000 — quantity — hedged — confirmed  
   ↳ [[wiki/meta/testimony-veracity]] · The record
 - · **2026-08-27** — The 2026-08-27 operator answer confirms the result is hers but says nothing about how the screenshot reached Dan, so this stays open.  
@@ -117672,9 +117907,9 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-28** — Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`.  
   ↳ [[wiki/interests/food-and-diet]] · The constitution pass
 - · **2026-08-28** — chemical architecture — health  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-05 — 30 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-05 — 26 pages
 - · **2026-08-28** — estate money spine — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-05 — 30 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-05 — 26 pages
 - · **2026-08-28** — cocaine — health  
   ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 94 pages
 - · **2026-08-28** — the unbroken bond — mind  
@@ -117780,7 +118015,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-09-04** — Assembled 2026-09-04 from the twitter archive.  
   ↳ [[wiki/health/chemical-architecture]] · Nicotine: eighteen years, five delivery systems, and no interruption
 - · **2026-09-04** — failure to launch — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-05 — 30 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-05 — 26 pages
 - · **2026-09-04** — intensity is no longer the only mode — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 94 pages
 - · **2026-09-04** — the deferred audit — mind  

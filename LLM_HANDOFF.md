@@ -4,6 +4,113 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-09-06b] - Session: the trait–corpus map (Claude Opus 5)
+
+* **Branch:** `claude/wiki-brain-product-strategy-wgah7n` · `bin/wiki-check`
+  clean · 504 pages, 0 errors · **480 tests** (30 new).
+* **Trigger:** operator — cross-test the personality types against the whole of
+  the data, make the result a priority filter shaping the wiki's understanding,
+  give it its own entry.
+
+**New subsystem: `bin/wiki-traits` + `traits/measured.json` +
+`wiki/mind/profile/trait-corpus-map.md` (generated) + a gate in
+`bin/wiki-check` + the filter wired into `SYNTHESIS_SPEC.md`'s constitution pass
+at registers 1, 2 and 11.** `bin/wiki-traits assess <trait>` is the interface a
+synthesis calls before leaning on a trait as a mechanism.
+
+**Read the module docstring before touching it.** Three things will bite again:
+
+1. **Reach is not evidence and must never be added to support.** 122 of 483
+   pages carry personality vocabulary and 38 of 61 synthesis pages do — all
+   written by agents that had read `wiki/mind/profile/`. A single "how present
+   is this trait everywhere" score is circular and would look authoritative.
+2. **An unreviewed proxy may not confirm and may not contradict** — such a
+   result is reported as `unreviewed`, which is NOT `silent`. Three bands, three
+   meanings: `silent` = an instrument ran and found nothing; `unreviewed` = none
+   ran; `no instrument` = every proxy was read and found broken. Folding any into
+   another claims a measurement that never happened. The first run published `CONTRADICTED LOAD` on the Fe
+   deficit — re-read 37 pages — off a regex whose every match was Dan being
+   comforted. `tests/test_wiki_traits.py::VerdictCap::test_unreviewed_cannot_contradict`
+   is the regression; relaxing it makes that headline publishable again.
+3. **Reach patterns need the same review as Tier A proxies.** `left` matched
+   "**Checked, left standing**" — constitution-pass boilerplate on every
+   synthesis page — and took one trait's reach from 34 to 202.
+
+**The headline result is about the instrument, not about Dan: seven traits are
+load-bearing across the corpus and none is currently measurable.** Four have no
+reviewed proxy, three had every proxy read and found broken. Silence is not
+falsification; this constrains what a synthesis may claim, not what is true.
+
+#### What is next, in order
+
+1. **`bin/wiki-traits review` — 16 of 23 proxies unreviewed.** This is the
+   highest-value work in the subsystem and it is the only thing that converts
+   these traits from testimony into measurement. Review by reading
+   `bin/psychometrics run --facet <f> --examples 8` and recording the verdict in
+   `PROXY_REVIEW`. Do not rewrite a regex until it agrees with the profile —
+   that is motivated reasoning in the other direction.
+2. **Write better proxies for the three `no instrument` traits** (Fe deficit,
+   vulnerability, impulsiveness). Their current ones are documented broken with
+   the exact string that breaks each.
+3. **Facebook is an unmined fifth register** — 286 MB, 1,686 HTML files, and
+   the export is nested inside itself so a naive walk double-counts every post.
+4. **`bin/wiki-traits mine` is NOT in `bin/wiki-check`'s generate list** — ~70s
+   over four corpora, same arrangement as `wiki-lexicon`. Rerun by hand when a
+   corpus changes, then `page`. The gate catches drift, not staleness.
+5. Previous sessions' items below are untouched — 140 obligations (128 stale
+   premises), 99 `unlinked` candidates, 97 handle-less people pages.
+
+### [2026-09-06] - Session: product strategy (Claude Opus 5)
+
+* **Branch:** `claude/wiki-brain-product-strategy-wgah7n` · `bin/wiki-check`
+  clean · 503 pages, 0 errors.
+* **Trigger:** operator — can the wiki brain be marketed, as a packaged harness
+  or as a consultancy, and should personality become a much bigger part of it.
+
+**New file: `PRODUCT_STRATEGY.md`.** Analysis, **not doctrine** — it governs
+nothing, it is not in the governing set, and no page may cite it. If a later
+session finds a page sourcing it, that is a defect.
+
+**Recommendation, short form:** consultancy on a narrow instrumental-value
+customer; open-source the machinery, because ~110 Dan-specific strings and six
+hardcoded corpus paths across 37 tools mean a competent reader reproduces `bin/`
+in a week. Sell the build and the failure catalogue, not the code.
+
+**Three findings a later session should not have to re-derive:**
+
+1. **Acquisition, not architecture, is the binding constraint.** 265/503 pages
+   (53%) depend on the message corpus; 166/503 (33%) on
+   `CONTEXT_CORE_EXPANDED.md`, a 2,750-word seed produced *before* this repo
+   existed. A third of the corpus stands on something no new subject can obtain.
+2. **The specimen is the objection.** 128 firstname-lastname people pages, three
+   named third-party psychological assessments, a 23,763-word page on a person
+   under the standing directive — public. Cannot be shown to a prospect.
+   Recommended: private first (the ledgers' order), then a second specimen built
+   on a public figure with a public corpus.
+3. **No confidence percentage on a personality claim, ever.**
+   `bin/psychometrics`' docstring already settles it — failure to corroborate is
+   not falsification, three of four axioms lexically invisible. Three states
+   only: corroborated / silent / inverted. If a future personality page ships a
+   percentage, this is the paragraph that says why it is wrong.
+
+**Underrated asset:** `bin/wiki-testimony` at 22 testimonies, 14 settled,
+veracity **57/100** — a system that publishes its own owner's error rate. n=14
+is not a rate; the sample-bias disclosure travels with the number.
+
+#### What is next, in order
+
+1. Nothing in the strategy file is executed. Items 1–6 of its §8 are proposals
+   awaiting an operator decision, and item 1 (make the repo private) gates the
+   rest.
+2. **Cleared a pre-existing red gate on arrival:** `wiki/meta/testimony-veracity.md`
+   was behind its ledger. `bin/wiki-testimony page` fixed it. It had been red on
+   the branch point — worth knowing that a generated page can go stale without
+   anything surfacing it until the next `wiki-check`.
+3. **140 obligations were NOT drained this session** — 128 stale premises, 12
+   skill candidates. Deliberate: the operator asked for a strategy assessment,
+   and the stale-premise cascade is a reading job that must not be cleared by
+   bumping dates. It is unchanged from the previous session and still owed.
+
 ### [2026-09-05e] - Session: the lexicon, counted (Claude Opus 5)
 
 * **Branch:** `claude/wiki-personal-lexicon-t50l6y` · `bin/wiki-check` clean ·
