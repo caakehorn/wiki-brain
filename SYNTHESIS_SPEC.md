@@ -177,26 +177,36 @@ One climb per pass, fully:
    rejection in `synthesis-queue.md` with a line of reasoning and move on. A
    cluster that resists synthesis is knowledge too. **Do not write a page whose
    thesis is "these things are related."**
-4. **Run the constitution pass — mandatory, before the page is written.**
+4. **Check the dated premises against the message record.** A synthesis is only
+   as good as the sequence it reasons over, and a sequence is made of dates that
+   mostly came from retellings. `bin/wiki-corroborate status <page>` says
+   whether a member page's dates have ever been checked; where they have not and
+   the rule leans on the ordering, run the window before you write the rule.
+   **A rule built on a date that moves is a rule that moves**, and it will move
+   silently — nothing in this repository re-checks a synthesis when a member's
+   date turns out to be a year off. The keno morning is the standing case: three
+   pages hedged it as "~late 2017?", and any argument about the sequence of
+   Fran's decline built on that hedge was built on nothing.
+5. **Run the constitution pass — mandatory, before the page is written.**
    The candidate rule is checked against the eleven registers below. This is
    not a citation formality; it is the step that decides whether the rule you
    found is a rule *about Dan* or a rule about the seven pages you happened to
    read. See "The constitution pass" below — **a synthesis page written without
    it is not finished, whatever else is on it.**
-5. **Write the page.** `page_type: synthesis`, `knowledge: earned`,
+6. **Write the page.** `page_type: synthesis`, `knowledge: earned`,
    `synthesizes:` listing every member, thesis in the first two sentences, the
    rule stated plainly, a table of members against the rule, the controls or
    counterexamples that carry the argument, at least one prediction, a Gaps
    section, and the constitution pass's own result — which registers moved the
    conclusion, which were checked and left it standing, and which the corpus
    cannot presently speak to.
-6. **Wire it, and write the finding back.** Typed edges both ways per
+7. **Wire it, and write the finding back.** Typed edges both ways per
    `CONNECTIONS_SPEC.md`. Every member page gets an `instantiates` edge whose
    claim states what that page turned out to be evidence *of*, and a prose
    sentence wherever the finding is load-bearing for it. See "The write-back
    obligation" above — this step is the one that makes the synthesis compound
    instead of merely existing, and it is the one most often left half-done.
-7. **Gates and log.** `bin/wiki-lint`, `bin/wiki-connect check`,
+8. **Gates and log.** `bin/wiki-lint`, `bin/wiki-connect check`,
    `bin/wiki-climb check` — all three at 0 errors. `log.md`:
    `## [YYYY-MM-DD] climb | <domain> | <page> (N synthesized, M rejected)`.
    Commit.

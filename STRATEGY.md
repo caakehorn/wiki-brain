@@ -31,11 +31,12 @@ The system runs on one repeating cycle:
 
 1. A memory, fact, or document is captured once and filed immutably into `raw/`.
 2. It's read from `raw/` **to exhaustion**, and that understanding is written into a durable `wiki/` page — this is a ground-floor entry.
-3. **Every other page that source touches gets the touch written into it** — every person, work, place, event and concept it names that already has an entry, whether or not a conclusion came out of it. This step is not the write-back in step 6: that one moves a *finding* you reached, this one moves *evidence* the source contains, and it is owed the moment the source names something. It is also the step with no symptom when it is skipped — the entry you wrote reads as complete, the entries you did not touch have no way to learn a source is talking about them, and the corpus quietly ends up holding less than `raw/` does at the one layer synthesis reads from. `EXTRACTION_SPEC.md` move 9; `bin/wiki-crosslink` measures it.
-4. Once enough ground entries exist, they're read *across* each other — not one at a time — looking for a pattern that no single entry states but that several together prove.
-5. That pattern becomes its own finding: a synthesis, stated as a falsifiable claim, not a vague observation.
-6. The finding is written back into **every ground entry it draws from**, via a typed connection with an argued claim — so the insight doesn't have to be re-derived the next time someone lands on that entry.
-7. The finding itself becomes a premise for the *next* round: junctions can be read across each other to find doctrine, the same way ground entries were read across each other to find junctions.
+3. **Every date it asserts is checked against the message record before the claim is written.** 271,405 first-party messages sit in `raw/`, timestamped to the second, written at the time by the people involved. Everything else in this corpus — a dossier, a retelling, an operator answer, a memory of a video — is testimony *about* a day; a message is a fragment *of* it, so where they disagree the record wins and the page says so. This is not a verification step bolted onto the end: the window usually holds material the source never had, in threads the source did not know about, and reading it is where the depth in rule 1 actually comes from. `CLAUDE.md`'s CORROBORATE operation; `bin/wiki-corroborate` runs it and gates on new dated claims.
+4. **Every other page that source touches gets the touch written into it** — every person, work, place, event and concept it names that already has an entry, whether or not a conclusion came out of it. This step is not the write-back in step 7: that one moves a *finding* you reached, this one moves *evidence* the source contains, and it is owed the moment the source names something. It is also the step with no symptom when it is skipped — the entry you wrote reads as complete, the entries you did not touch have no way to learn a source is talking about them, and the corpus quietly ends up holding less than `raw/` does at the one layer synthesis reads from. `EXTRACTION_SPEC.md` move 9; `bin/wiki-crosslink` measures it.
+5. Once enough ground entries exist, they're read *across* each other — not one at a time — looking for a pattern that no single entry states but that several together prove.
+6. That pattern becomes its own finding: a synthesis, stated as a falsifiable claim, not a vague observation.
+7. The finding is written back into **every ground entry it draws from**, via a typed connection with an argued claim — so the insight doesn't have to be re-derived the next time someone lands on that entry.
+8. The finding itself becomes a premise for the *next* round: junctions can be read across each other to find doctrine, the same way ground entries were read across each other to find junctions.
 
 This is **amortized insight**. Analysis is expensive to do well, so it's done once, saved at every point it's relevant, and each future pass starts from a higher floor instead of re-deriving what's already known. Nothing above this line is optional flavor text — it's the actual mechanism the rest of the spec files exist to support.
 
@@ -45,13 +46,13 @@ For the first year the limiting factor was coverage: there were not enough pages
 
 The reason is mechanical, and it is the most important sentence in this file:
 
-> A pattern can only be found among details that were written down. Every detail dropped at extraction is a connection that can never be made, by anyone, later — because step 3 of the loop reasons from `wiki/`, not from `raw/`.
+> A pattern can only be found among details that were written down. Every detail dropped at extraction is a connection that can never be made, by anyone, later — because step 5 of the loop reasons from `wiki/`, not from `raw/`.
 
 So the standing instruction is **longer, denser, more exhaustive entries**, and the standard for reading a source is *exhaustion* rather than retrieval: a source is read when a second careful pass would find nothing material you missed. Sources already marked ingested routinely turn out to hold three times what the first pass took, and the leftovers are not marginal — they are the findings that reorganise pages.
 
 This is not hoarding. A detail's value is not its own significance, which is assigned later by the climb; it is the **surface area** it adds for the next climb to land on. The detail that looks meaningless at extraction time is exactly the one that turns out to be the third instance of a shape — and it can only do that if it is on a page. Page-size warnings are advisory and never a reason to drop content.
 
-`EXTRACTION_SPEC.md` is the full doctrine: the eight moves, the source tiers, and the per-source traps that fail silently.
+`EXTRACTION_SPEC.md` is the full doctrine: the ten moves — move 10 is the message-record date anchor, which outranks every other source on anything dated — the source tiers, and the per-source traps that fail silently.
 
 ## Why altitude matters
 

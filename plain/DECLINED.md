@@ -10,9 +10,15 @@ one. Same principle as a declined `sage/` question: in the open, never silently.
 
 ---
 
-## `wiki/mind/synthesis/totality-themes` — withheld under the standing moratorium
+## `wiki/mind/synthesis/totality-themes` — withheld under the standing moratorium · **REVERSED 2026-09-06**
 
-**Declined 2026-08-29. Only the operator can reverse this.**
+**Declined 2026-08-29. Reversed 2026-09-06: the operator lifted the moratorium
+in full, and this page is an ordinary lane candidate again.** The entry below is
+kept because it argues something that outlived the directive — why rule 1
+existed at all, and why satisfying rule 2 by eliding a page's subject produces a
+twin that misrepresents it. If this page is translated now, that hazard is
+still real and is now a judgement rather than a refusal: a plain version that
+works around its own subject is the failure mode to avoid, whatever permits it.
 
 A twin for this page was written and merged to `main` on 2026-08-29 (commit
 `61319cb`) and is removed here. It is not deleted for quality — it is a
@@ -40,9 +46,11 @@ The directive is a stop, not a retraction and not a redaction — nothing alread
 written about her is deleted, softened or rewritten. This removes a *new*
 retelling built for a public audience, which is the thing the directive stops.
 
-**If the operator lifts this**, the page becomes eligible and the twin can be
-restored from `61319cb` — but it must then be re-translated against the current
-page rather than restored as-is, because of the staleness above.
+**The operator lifted it on 2026-09-06.** The page is eligible and the twin can
+be recovered from `61319cb` — but it must be **re-translated against the current
+page**, never restored as-is: it was written against 2026-08-21 and the page
+moved on 2026-08-28, so restoring it would land a stale twin, which is the one
+thing `bin/wiki-plain check` treats as a gate failure.
 
 ---
 

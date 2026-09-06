@@ -4,6 +4,66 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-09-06d] - Session: the corroboration ledger, and the moratorium lifted (Claude Opus 5)
+
+* **Branch:** `claude/message-log-cross-reference-2zdy1l` · `bin/wiki-check`
+  clean · 506 pages, 0 errors · **515 tests** (29 new).
+* **Trigger:** operator — two instructions. (1) Cross-reference everything dated
+  against the message logs, from here out and retroactively; the record is more
+  authoritative than any other source. (2) The Annie moratorium is lifted, no
+  questions, no further instruction.
+
+**Read `log.md`'s entry before re-deriving any of this.** The short version:
+271,405 first-party dated messages sat in `raw/` and nothing had ever been
+checked against them. `bin/wiki-corroborate` + `corroborate/` +
+`wiki/meta/corroboration.md` + a gate + the CORROBORATE operation now do it, and
+the doctrine is wired into all six governing files (`CLAUDE.md` rule 3 and the
+operation, `STRATEGY.md` core loop step 3, `EXTRACTION_SPEC.md` move 10 and the
+source tiers, `STYLE_GUIDE.md` rules 5 and 9, `SYNTHESIS_SPEC.md` CLIMB step 4,
+`CONNECTIONS_SPEC.md`, `INGEST_RUNBOOK.md` step 7).
+
+**Three things will bite:**
+
+1. **`absent` is not `uncovered`.** Read the window and find nothing → `absent`,
+   a real result. Corpus does not reach the date (2012-2014 empty, 2022 has four
+   rows) → `uncovered`. `record` refuses each in place of the other.
+   `tests/test_wiki_corroborate.py::RecordRefusals` pins both directions.
+2. **The gate reads the WORKING DIFF and only NEW dates.** A date the page
+   already carried is inherited debt (378 pages of it) and does not go red. If
+   you widen this to the tree, the gate gets switched off and the mechanism
+   becomes decorative.
+3. **A marker date and a date in backticks are not claims.** `>
+   **CORROBORATED [2026-09-06]:**` is bookkeeping; `window 2017-11-26` is an
+   argument. Both fired before they were fixed;
+   `TheGateDoesNotFireOnItself` is the regression.
+
+#### What is next, in order
+
+1. **The cascade this pass created, which is 8 stale premises and named here
+   rather than left to be found.** `wiki/people/suzanne-frank`,
+   `wiki/people/diane-moore` and `wiki/health/cocaine` moved, so:
+   `estate-money-spine` (the \$14,000 is now an accumulated app total with Suz's
+   own two-directional ledger behind it — this one genuinely moves),
+   `annual-volume-suz`, `attachment-trauma-bond`, `vertical-authority-skepticism`,
+   `suzanne-frank-personality-assessment`, `self/context-core`,
+   `health/cocaine`'s own dependents. Re-read, decide, record — never bump.
+2. **The moratorium's debt.** `wiki/people/annie-ulmer` still says the record
+   stops at 2026-08-19 *because of the directive*; that reason is false now.
+   The testimony ledger is missing at least one adjudicated confirmation (an
+   April 2019 sequence) and both ledgers announce the hole until it is filled.
+   `plain/DECLINED.md`'s withheld page (`totality-themes`) is eligible again but
+   must be **re-translated**, never restored from `61319cb` — it was stale on
+   arrival. `BACKLOG.md`'s un-propagated 187-of-191 base-rate correction was
+   blocked by the directive and is now unblocked.
+3. **The corroboration campaign: `bin/wiki-corroborate queue`.** 378 pages, 323
+   hedged dates. Work hedged dates first — a page writing "~late 2017?" is
+   telling you where to point the instrument, and one window settled three
+   pages' worth of it today. `wiki/timeline/annie-record` (423 unchecked) and
+   `wiki/people/annie-ulmer` (218, 10 hedged) top the list and are now readable.
+4. Previous sessions' items are untouched: 130 stale premises total, 13 skill
+   inbox candidates, 16 of 23 trait proxies unreviewed, 99 `unlinked`
+   candidates, 10 `status: active` pages on evidence that stopped.
+
 ### [2026-09-06c] - Session: the claim validity ledger (Claude Opus 5)
 
 * **Branch:** `claude/wiki-brain-second-brain-mechanics-kffefi` · `bin/wiki-check`

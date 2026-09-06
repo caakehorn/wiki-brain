@@ -119,21 +119,19 @@ log remembers that it changed. That matters more here than anywhere else in
 this repository: a veracity record that can be quietly rewritten is worth less
 than no veracity record at all.
 
-## The standing directive is enforced here, not remembered
+## The standing directive left a hole, and the page still declares it
 
-`CLAUDE.md` carries a moratorium on new narrative about one living person. A
-testimony record is new writing about the subject of the claim, and the
-generated page is public, so the rule is **code rather than something a session
-has to remember**, and it **refuses rather than warns** — the same shape as
-`bin/wiki-plain`. `record` will not take a claim that names her; `check` fails
-if one appears in the log or on the page.
+From 2026-08-23 to 2026-09-06 `record` refused any claim naming one living
+person and `check` failed if one reached the log, under a standing operator
+directive. **That directive was lifted on 2026-09-06** and the refusal is gone.
 
-**This biases the sample, and the page says so.** At least one cleanly
-adjudicated confirmation is excluded by the rule — an April 2019 sequence the
-operator supplied and a direction-reliable dump then corroborated to the
-minute. The exclusion is correct. It is still a bias, and a score drawn from a
-filtered record that does not announce the filter is a worse object than no
-score.
+**What it cost is still in the numbers.** At least one cleanly adjudicated
+confirmation went unrecorded — an April 2019 sequence the operator supplied and
+a direction-reliable dump then corroborated to the minute. It can be entered
+now, and until it and anything like it are, the score is drawn from what that
+fortnight permitted. The generated page says so in its own words; a rate drawn
+from a filtered record that does not announce the filter is a worse object than
+no rate.
 
 ## What the seed set is, and is not
 

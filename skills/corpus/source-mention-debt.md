@@ -130,6 +130,9 @@ one person's `aliases:` and in another's infobox `handles:`; 85 rows about the
 first came back as 101 mentions of the second. `scan` now marks such candidates
 `contested`, and a contested candidate is not a candidate until the row is read.
 
-**The moratorium binds the candidate column too.** It was enforced on the page
-being scanned and not on the pages being offered as targets, which is the same
-worklist. Fixed and pinned in `tests/test_wiki_crosslink.py`.
+**A refusal binds the candidate column too, not just the page being scanned.**
+The moratorium that taught this was lifted on 2026-09-06 and `wiki-crosslink`
+refuses nothing now, but the shape survives it: a scan output is a worklist
+whichever column a page lands in, so any future holdout has to cover both ends.
+The lesson cost a real leak — her page was refused as a subject and served as a
+target with 101 mentions.

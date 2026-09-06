@@ -94,9 +94,10 @@ the commonest true answer, because this corpus is built from archives
 that each stop on a date. Wanting a cleaner number is exactly the
 pressure that would produce a false one.
 
-**The standing directive filters the record.** Claims naming the person
-under the moratorium in `CLAUDE.md` are refused outright, so this is a
-record of a filtered corpus and any rate drawn from it inherits that.
+**The record has a fortnight-shaped hole in it.** From 2026-08-23 to
+2026-09-06 a standing directive refused every claim naming one living
+person, and her pages were skipped by `scan`. The directive was lifted
+on 2026-09-06; the claims it turned away have not been entered yet.
 
 **Nothing here is a finding.** The ledger records windows. What a window
 *means* is synthesis, and synthesis happens on an ordinary page.

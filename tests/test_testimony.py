@@ -133,19 +133,20 @@ class TestSmallSampleDiscipline(unittest.TestCase):
         self.assertGreaterEqual(wt.MIN_BUCKET, 3)
 
 
-class TestMoratorium(unittest.TestCase):
-    def test_the_pattern_matches_the_names_it_must(self):
-        for name in ("Annie", "annie", "Ulmer", "ULMER", "Lo_weez"):
-            self.assertTrue(wt.MORATORIUM.search(name), name)
+class TestTheMoratoriumIsLifted(unittest.TestCase):
+    """Lifted in full by the operator on 2026-09-06.
 
-    def test_the_pattern_does_not_match_unrelated_words(self):
-        for name in ("Danielle", "Alexis", "annual", "vulnerable", "Suzanne"):
-            self.assertIsNone(wt.MORATORIUM.search(name), name)
+    Until then `record` and `adjudicate` refused any claim naming one living
+    person and `check` failed if one reached the log. The hole that left in the
+    sample is real and the generated page still declares it; what must not come
+    back is the refusal, so its absence is pinned rather than assumed.
+    """
 
-    def test_record_refuses_rather_than_strips(self):
-        """Refuse, never sanitise: a stripped record is a record that got in."""
-        with self.assertRaises(SystemExit):
-            wt.moratorium_guard("a claim about Annie")
+    def test_no_guard_remains(self):
+        for name in ("MORATORIUM", "moratorium_guard"):
+            with self.subTest(name=name):
+                self.assertFalse(hasattr(wt, name),
+                                 f"bin/wiki-testimony still defines {name}")
 
 
 class TestProjection(unittest.TestCase):
@@ -274,9 +275,12 @@ class TestLedgerIntegrity(unittest.TestCase):
                             f"{tid} has no source — a testimony with no record of "
                             f"where it was said is an assertion, not testimony")
 
-    def test_no_record_names_a_person_under_the_directive(self):
+    def test_the_committed_log_still_parses_as_json(self):
+        """Replaces the directive scan removed on 2026-09-06 — the log is read
+        by the projection, the page and the gate, and one malformed line takes
+        all three down."""
         state = wt.project(wt.read_log())
-        self.assertIsNone(wt.MORATORIUM.search(json.dumps(state, ensure_ascii=False)))
+        json.loads(json.dumps(state, ensure_ascii=False))
 
 
 if __name__ == "__main__":

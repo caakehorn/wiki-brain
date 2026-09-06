@@ -9,13 +9,14 @@ Read this before non-trivial repository work. Load skills by trigger, not by
 curiosity — `bin/wiki-lessons route "<what you are about to do>"` does the
 matching for you.
 
-## Routed (13)
+## Routed (14)
 
 | Skill | Trigger | Status | Validated |
 |---|---|---|---|
 | `agents/registry-push.md` | told to update the skills in the wiki; told to push skills, MCP servers or tools into the wiki-brain; starting substantial work as a model that has not pushed before; a skill, MCP server, hook or subagent was added, changed or removed | active | 2026-08-30 |
 | `corpus/lexical-proxy-load.md` | building a gate, filter or score on top of a regex over a corpus; reusing another tool's pattern table for a heavier purpose than it was written for; a measurement contradicting an established page, especially a confident one; about to publish a number that instructs other sessions to re-read pages | active | 2026-09-06 |
 | `corpus/message-mining.md` | counting messages or searching the iMessage dump; a claim about how often or how much Dan writes; measuring message length, cadence, or response time; reaching for grep over raw/ message exports | active | 2026-08-30 |
+| `corpus/message-record-primacy.md` | writing, revising or verifying any dated claim on a wiki page; a page that hedges a date (`~2019?`, "early 2017", "sometime in"); an event known only from a retelling, a dossier or an operator answer; deciding what a source is worth against another source on the same day; reaching for `bin/mine-messages grep` to check whether something happened | active | 2026-09-06 |
 | `corpus/source-chain.md` | writing a synthesis or analytical claim from multiple wiki pages; introducing a new number, date, causal claim, or interpretation into a T2/T3 page; reconciling conflicting sources; citing a transcript, profile export, web result, or derived page as evidence | active | 2026-09-02 |
 | `corpus/source-mention-debt.md` | writing a page from a large corpus that names people, works, places or events; picking up a corpus a previous pass already mined; adding a typed edge to a page assembled from a source; asked whether a source has been fully worked, or what a mined corpus still owes | active | 2026-09-04 |
 | `corpus/vocabulary-drift.md` | a per-year or per-era table built by keyword matching; a claim that a subject is absent from a corpus, or went quiet; a step change or inflection dated from counts over a long corpus; building a regex to measure a topic across more than a few years | active | 2026-09-02 |
@@ -24,7 +25,7 @@ matching for you.
 | `repo/pr-completion.md` | asked to commit repository work; asked to open or update a pull request; completing a multi-file repository change; a task touches generated or derived surfaces | active | 2026-09-02 |
 | `repo/publication-surface.md` | adding data files to the repository; changing .gitignore; deciding whether something is private; writing to the repository from a browser or the contents API | active | 2026-08-30 |
 | `repo/session-loop.md` | any multi-step code or repository task | active | 2026-08-30 |
-| `repo/silent-permission.md` | writing or changing a guard that refuses, blocks, redacts or withholds; a safety check that reads a frontmatter field to decide whether a rule applies; reviewing an enforcement point for the standing directive in CLAUDE.md; a check whose failure mode is allowing rather than blocking | active | 2026-09-04 |
+| `repo/silent-permission.md` | writing or changing a guard that refuses, blocks, redacts or withholds; a safety check that reads a frontmatter field to decide whether a rule applies; reviewing an enforcement point for any operator directive held as code; a check whose failure mode is allowing rather than blocking | active | 2026-09-04 |
 | `repo/stale-premise.md` | a staleness warning; source_modified or synthesizes: is out of date; bin/wiki-climb check reports a stale premise; bin/wiki-plain check reports a stale twin | active | 2026-08-30 |
 
 ## History (0)

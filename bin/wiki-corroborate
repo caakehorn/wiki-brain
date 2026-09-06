@@ -1,0 +1,1208 @@
+#!/usr/bin/env python3
+"""wiki-corroborate — check what the wiki SAYS against what the messages RECORD.
+
+Pure stdlib, no dependencies, per repo convention.
+
+    coverage [--write]        what the message record actually covers, by year
+    window DATE [--days N]    every message around a date, deduped across corpora
+    probe TERMS               term search with the corpus traps applied
+    scan [page|prefix]        dated claims with no corroboration record
+    queue [n]                 the retroactive campaign, most valuable first
+    record ...                enter what a window turned out to say
+    status [page]             what the ledger holds for a page
+    page                      regenerate wiki/meta/corroboration.md
+    check                     the gate
+
+WHY THIS EXISTS
+---------------
+Almost every page in this wiki makes dated claims, and almost all of them were
+written from something other than the contemporaneous record: an AI dossier, a
+later retelling, an operator answer, a memory. Meanwhile 265,000 dated messages
+sit in `raw/`, first-party, timestamped to the second, written by people who did
+not know they were making a record.
+
+**Those two things were never joined.** `bin/mine-messages` could find a string
+if somebody thought to look for one. `bin/wiki-crosslink` finds entity mentions
+a page owes an edge to. Nothing asked the question that matters most:
+*the page says this happened — does the record agree, and what else was said
+that day?* The answer is routinely more than the page has. The worked case is
+the keno morning on `wiki/people/suzanne-frank`: an event the corpus dated only
+as "~late 2017?" across three pages, which the messages date to the night of
+2017-11-25 into 2017-11-26 and describe hour by hour, in four threads at once,
+including a detail that disproves part of the remembered version.
+
+**The message record outranks every other source for anything dated.** Not
+because it is complete — it is emphatically not, and `coverage` exists to say
+where — but because of what it is: written at the time, by the participants,
+with no audience and no thesis. A later account is testimony about that day. A
+message is a fragment of it. Where the two disagree, the page says so and the
+record wins.
+
+THE RULE, AND IT IS NOT A JUDGEMENT CALL
+----------------------------------------
+If a page asserts something dated, and the message record covers that date, the
+record gets read before the claim is written. Not "if you doubt the date" — the
+whole point is that you cannot tell from inside a claim whether the corpus has
+something to add. **When in doubt, run the window.** It costs about four
+seconds. The failure mode of skipping it is invisible from the page, from the
+gates, and from `WORK.md`, exactly like the source-mention debt
+`bin/wiki-crosslink` was built for — and this one is worse, because the page
+that skipped it reads as finished and its date reads as established.
+
+WHAT THIS TOOL DOES NOT DO
+--------------------------
+It does not write pages, and it does not decide what a row means. `window`
+returns messages; a corroboration is what a reader concludes from them, and it
+is recorded here after being written onto the pages it changes. Everything this
+prints is a pointer to source rows, and the rows are the evidence.
+
+THREE PROPERTIES OF THE MATCHING, STATED BECAUSE THEY DECIDE HOW TO READ IT
+--------------------------------------------------------------------------
+1.  **Absent is not uncovered, and collapsing them is a lie.** `absent` means
+    the window was read and holds nothing. `uncovered` means the corpus does not
+    reach that date at all — 2012-2014 hold nothing, 2022 holds four rows, and a
+    2013 claim can no more be checked here than falsified. `record` REFUSES
+    `--outcome absent` for a date outside coverage. Same refusal
+    `bin/wiki-traits` makes between `silent` and `unreviewed`, and
+    `bin/wiki-claims` between `ended` and `lapsed`: an instrument that did not
+    run has said nothing, and reporting its silence as a finding invents a
+    measurement.
+2.  **A window is a conversation, not a search.** The productive read is not
+    "grep the event's name" — nobody texts "the keno morning". It is *everything
+    said in those hours, across every thread*, which is why `window` defaults to
+    the whole record rather than one counterparty. The keno morning is dated by
+    a mother's "Is she back in bed?" and a girlfriend's "did you sleep", neither
+    of which contains any word the event is known by.
+3.  **The corpora are three exports of overlapping records and none is a
+    superset.** Measured 2026-09-06: the dox dump holds 2015-2025 with 2012-2014
+    and 2022 empty and no 2026 at all; `MASTER_MESSAGES_DB_DUMP.csv` is the only
+    one reaching 2026 and 79% of its Sent rows carry no handle;
+    `imessage_ALL_both_all_now.csv` holds **6,225 unique 2026 rows the master
+    dump does not have**. They are read together and deduped on (timestamp,
+    first 120 normalised characters). Their clocks agree — 2,163 messages shared
+    across all three in November 2017 align at offset zero, so unlike the deep
+    export (`bin/wiki-lexicon`'s UTC trap) no conversion is applied.
+    `MASTER_DUMP_PART_1_ARCHAIC.csv` is deliberately NOT read: its per-year
+    counts through 2024 are identical to the master dump's, so it is a strict
+    subset and reading it would only cost time.
+
+THE READER IS IMPORTED, NOT REWRITTEN
+-------------------------------------
+`bin/mine-messages` already carries the three traps that make naive reading of
+the dump wrong — multi-line records reassembled, curly quotes folded (28,904
+curly against 19,978 straight in Dan's sent text), direction reliable only in
+that file. A second reader here would inherit none of them and would look
+identical from outside. Same decision, and the same reasoning, as
+`bin/wiki-crosslink._mine_messages()`.
+
+EVENT-SOURCED, IN PLAIN FILES
+-----------------------------
+`corroborate/events.jsonl` is the source of truth: append-only, one JSON object
+per line, never rewritten. `corroborate/records.json` is a projection, safe to
+delete and regenerated by `rebuild`. `corroborate/SUMMARY.md` is the analysis
+surface. `wiki/meta/corroboration.md` is the public face, generated, and
+evidence rather than a claim — what a corroboration *means* belongs on an
+ordinary page, reached through the normal operations.
+
+**The ledger cites rows; it never copies them.** A citation is a timestamp, a
+direction and a handle, and `record` verifies that every cited row exists in the
+corpus before it will append — so a citation cannot be invented, and the ledger
+never becomes a second, drifting copy of the message archive. The text of a
+message belongs on the page where it is argued, quoted the way this wiki has
+always quoted.
+"""
+import argparse
+import collections
+import csv
+import datetime
+import importlib.machinery
+import importlib.util
+import json
+import os
+import re
+import subprocess
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+WIKI = ROOT / "wiki"
+LEDGER = ROOT / "corroborate"
+LOG = LEDGER / "events.jsonl"
+PROJECTION = LEDGER / "records.json"
+SUMMARY = LEDGER / "SUMMARY.md"
+COVERAGE = LEDGER / "coverage.json"
+PAGE = WIKI / "meta" / "corroboration.md"
+PAGE_CREATED = "2026-09-06"
+
+csv.field_size_limit(10 ** 9)
+
+
+# --------------------------------------------------------------- the corpora
+#
+# `kind` names the reader; the notes are measurements, not impressions. See the
+# module docstring, property 3, for why all three are read and why
+# MASTER_DUMP_PART_1_ARCHAIC.csv is not.
+CORPORA = {
+    "raw/self/dox-scan/all_imessages_complete_dump.txt": {
+        "kind": "doxdump",
+        "note": "direction reliable; 2015-2025, with 2012-2014 and 2022 empty and no 2026",
+    },
+    "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv": {
+        "kind": "msgcsv", "ts": "timestamp", "handle": "contact_handle",
+        "note": "the only corpus reaching 2026; 79% of its Sent rows carry no handle",
+    },
+    "raw/self/message-csv/imessage_ALL_both_all_now.csv": {
+        "kind": "msgcsv", "ts": "datetime_local", "handle": "contact",
+        "note": "adds 6,225 unique 2026 rows the master dump does not hold",
+    },
+}
+
+# A year is COVERED when the union holds at least this many rows in it. Not a
+# quality bar — a floor under the word "absent". 2022 has four rows in the
+# entire corpus and 2011 has one; calling either "checked and nothing found"
+# would publish the archive's silence as the world's.
+COVERED_MIN_ROWS = 500
+
+OUTCOMES = {
+    "corroborated": "the record says what the page says",
+    "refined":      "the record narrows or sharpens it — a date fixed, an hour added",
+    "extended":     "the record holds material the page did not have",
+    "contradicted": "the record disagrees with the page",
+    "absent":       "the window was read and holds nothing about this claim",
+    "uncovered":    "the corpus does not reach this date — nothing could be checked",
+}
+# Outcomes that assert something about message content, and therefore must cite
+# rows. `absent` and `uncovered` assert the opposite and cannot.
+MUST_CITE = ("corroborated", "refined", "extended", "contradicted")
+
+
+def die(msg, code=2):
+    print("wiki-corroborate: %s" % msg, file=sys.stderr)
+    sys.exit(code)
+
+
+def today():
+    return datetime.date.today().isoformat()
+
+
+def _mine_messages():
+    """The dump reader, imported rather than rewritten. See the docstring."""
+    p = ROOT / "bin" / "mine-messages"
+    loader = importlib.machinery.SourceFileLoader("_mine_messages", str(p))
+    spec = importlib.util.spec_from_loader("_mine_messages", loader)
+    mod = importlib.util.module_from_spec(spec)
+    loader.exec_module(mod)
+    return mod
+
+
+_MM = None
+
+
+def mm():
+    global _MM
+    if _MM is None:
+        _MM = _mine_messages()
+    return _MM
+
+
+def dedupe_key(ts, text):
+    """Two exports of the same message must count once."""
+    return (ts.strip(), re.sub(r"\s+", " ", text).strip().lower()[:120])
+
+
+def read_corpus(rel, prefixes=None):
+    """Yield (ts, direction, handle, text) from one corpus.
+
+    `prefixes` is a tuple of date-string prefixes; rows not starting with one
+    are skipped before any work is done on them. That filter is what makes a
+    window query cheap enough to run without thinking about it — the whole
+    28 MB dump is scanned in under a second when only three days are wanted.
+    """
+    spec = CORPORA[rel]
+    path = ROOT / rel
+    if not path.exists():
+        return
+    keep = (lambda ts: ts.startswith(prefixes)) if prefixes else (lambda ts: True)
+    if spec["kind"] == "doxdump":
+        m = mm()
+        for r in m.records(str(path)):
+            ts = "%s %s" % (r["date"], r["time"])
+            if not keep(ts):
+                continue
+            yield ts, r["dir"], (r["handle"] or "").strip(), m.norm(r["text"])
+    else:
+        m = mm()
+        with open(path, encoding="utf-8", errors="replace", newline="") as fh:
+            for r in csv.DictReader(fh):
+                ts = (r.get(spec["ts"]) or "").strip()
+                if not keep(ts):
+                    continue
+                text = r.get("text") or ""
+                if not text.strip():
+                    continue
+                yield (ts, (r.get("direction") or "?").capitalize(),
+                       (r.get(spec["handle"]) or "").strip(), m.norm(text))
+
+
+def load_window(start, end):
+    """Deduped rows from every corpus between two dates, inclusive, in order.
+
+    Returns [(ts, dir, handle, text, [corpora])]. The corpora list is kept
+    because which export holds a row is evidence about the row: one of the three
+    is the only source of 2026 and one is the only source with reliable handles.
+    """
+    days = []
+    d, last = date_of(start), date_of(end)
+    while d <= last:
+        days.append(d.isoformat())
+        d += datetime.timedelta(days=1)
+    prefixes = tuple(days)
+    seen = {}
+    for rel in CORPORA:
+        for ts, direction, handle, text in read_corpus(rel, prefixes):
+            k = dedupe_key(ts, text)
+            if k in seen:
+                row = seen[k]
+                if rel not in row[4]:
+                    row[4].append(rel)
+                if not row[2] and handle:          # a handle from any export beats none
+                    row[2] = handle
+            else:
+                seen[k] = [ts, direction, handle, text, [rel]]
+    return sorted(seen.values(), key=lambda r: (r[0], r[2]))
+
+
+def date_of(s, field="date"):
+    try:
+        return datetime.date.fromisoformat(str(s)[:10])
+    except ValueError:
+        die("%s '%s' is not a YYYY-MM-DD date" % (field, s))
+
+
+# ------------------------------------------------------------------ coverage
+def compute_coverage():
+    """Per-year row counts, per corpus and deduped, over everything."""
+    per = {rel: collections.Counter() for rel in CORPORA}
+    union = collections.defaultdict(set)
+    for rel in CORPORA:
+        for ts, _d, _h, text in read_corpus(rel):
+            year = ts[:4]
+            if not year.isdigit():
+                continue
+            per[rel][year] += 1
+            union[year].add(dedupe_key(ts, text))
+    return {
+        "computed": today(),
+        "corpora": {rel: {"years": dict(sorted(per[rel].items())),
+                          "bytes": (ROOT / rel).stat().st_size if (ROOT / rel).exists() else 0,
+                          "note": CORPORA[rel]["note"]}
+                    for rel in CORPORA},
+        "union": {y: len(v) for y, v in sorted(union.items())},
+    }
+
+
+def coverage_table():
+    """The committed coverage projection, or a refusal to guess without it."""
+    if not COVERAGE.exists():
+        die("corroborate/coverage.json is missing — run `bin/wiki-corroborate "
+            "coverage --write`. Nothing here may guess at what the corpus "
+            "covers; that is the one number the word 'absent' rests on.")
+    return json.loads(COVERAGE.read_text(encoding="utf-8"))
+
+
+def covered_years(cov=None):
+    cov = cov or coverage_table()
+    return {y for y, n in cov["union"].items() if n >= COVERED_MIN_ROWS}
+
+
+def is_covered(datestr, cov=None):
+    return str(datestr)[:4] in covered_years(cov)
+
+
+# --------------------------------------------------------- dated claims on a page
+MONTHS = ("january february march april may june july august september "
+          "october november december").split()
+MONTH_RE = "|".join(MONTHS) + "|" + "|".join(m[:3] for m in MONTHS)
+
+DATE_PATTERNS = [
+    ("iso",    re.compile(r"\b((?:19|20)\d{2})-(\d{2})-(\d{2})\b")),
+    ("dmy",    re.compile(r"\b(\d{1,2})\s+(%s)[a-z]*,?\s+((?:19|20)\d{2})\b" % MONTH_RE, re.I)),
+    ("mdy",    re.compile(r"\b(%s)[a-z]*\.?\s+(\d{1,2}),?\s+((?:19|20)\d{2})\b" % MONTH_RE, re.I)),
+    ("my",     re.compile(r"\b(%s)[a-z]*\.?\s+((?:19|20)\d{2})\b" % MONTH_RE, re.I)),
+]
+
+# A date the page is not sure of. THIS is the class worth the campaign: a claim
+# that hedges its own date is a claim telling you where to point the corpus.
+# Kept narrow on purpose — see `scan`'s own measurement note in CLAUDE.md.
+HEDGE_RE = re.compile(
+    r"(~\s*(?:19|20)\d{2}|\((?:19|20)\d{2}\?\)|(?:19|20)\d{2}\?"
+    r"|\b(?:early|mid|late|around|about|roughly|circa|approximately|probably"
+    r"|sometime|somewhere|apparently|presumably)\s+(?:in\s+)?"
+    r"(?:the\s+)?(?:%s)?[a-z]*\s*(?:of\s+)?(?:19|20)\d{2}"
+    r"|\bundated\b|\bdate unknown\b|\bunclear when\b)" % MONTH_RE, re.I)
+
+# Frontmatter, tables of contents and the machinery are not claims. A date in
+# `date_modified:` says when a file moved.
+SKIP_LINE = re.compile(r"^\s*(date_created|date_modified|date_range_|validated|"
+                       r"computed|source_modified|sources:|synthesizes:|- raw/|- wiki/)")
+
+# STYLE_GUIDE rule 9's markers carry the date the WIKI changed, not a date
+# anything happened — `> **CORROBORATED [2026-09-06]:**` is this repository's
+# bookkeeping, the same class of date as `date_modified:`. The marker is
+# stripped rather than the line skipped, because the sentence after it is
+# ordinary prose and routinely carries the very claim the block exists to make.
+# Without this the gate fires on its own output: writing a corroboration block
+# creates an "unchecked dated claim" dated today, forever.
+MARKER_RE = re.compile(r">?\s*\*\*[A-Z][A-Z \-]+\[\d{4}-\d{2}-\d{2}\]\s*[:.]?\s*\*\*")
+
+
+def split_fm(text):
+    if text.startswith("---"):
+        end = text.find("\n---", 3)
+        if end != -1:
+            return text[3:end], text[end + 4:]
+    return "", text
+
+
+def frontmatter(text):
+    fm, _ = split_fm(text)
+    out = {}
+    for line in fm.splitlines():
+        m = re.match(r"^([a-z_]+):\s*(.*)$", line)
+        if m:
+            out[m.group(1)] = m.group(2).strip().strip("\"'")
+    return out
+
+
+def norm_date(kind, m):
+    """A match to (iso-or-partial date, precision)."""
+    if kind == "iso":
+        return "%s-%s-%s" % m.groups(), "day"
+    if kind == "dmy":
+        d, mon, y = m.groups()
+        return "%s-%02d-%02d" % (y, month_num(mon), int(d)), "day"
+    if kind == "mdy":
+        mon, d, y = m.groups()
+        return "%s-%02d-%02d" % (y, month_num(mon), int(d)), "day"
+    mon, y = m.groups()
+    return "%s-%02d" % (y, month_num(mon)), "month"
+
+
+def month_num(name):
+    name = name.lower()[:3]
+    return [m[:3] for m in MONTHS].index(name) + 1
+
+
+CODE_SPAN = re.compile(r"```.*?```|`[^`]{1,400}`", re.S)
+
+
+def blank_code(body):
+    """Blank out code, keeping every newline so line numbers survive.
+
+    A date inside backticks is almost always an ARGUMENT — `window 2017-11-26`,
+    `probe --since 2018-07-01`, a filename with a date in it — not a claim that
+    anything happened then. Left in, the gate fires on the very command it just
+    told you to run, which is the fastest way to teach a session that the gate
+    is noise. Spans may cross lines (a wrapped command in a blockquote), so this
+    runs over the whole body rather than per line, and pads with spaces rather
+    than deleting so `added_only` still lines up with the diff.
+    """
+    return CODE_SPAN.sub(lambda m: re.sub(r"[^\n]", " ", m.group(0)), body)
+
+
+def dated_claims(text, added_only=None):
+    """Every dated assertion in a page body: [(date, precision, hedged, line)].
+
+    `added_only` is a set of **file** line numbers to restrict to — how the gate
+    looks at a diff rather than at a page. File, not body: a diff hunk counts
+    from the top of the file and the frontmatter is part of it, so the offset
+    below is load-bearing. Without it the gate reads the wrong lines and finds
+    nothing, silently, which is the failure mode this whole tool is about.
+    """
+    _fm, body = split_fm(text)
+    offset = text[:len(text) - len(body)].count("\n")
+    body = blank_code(body)
+    out = []
+    for i, line in enumerate(body.splitlines(), 1):
+        if added_only is not None and (i + offset) not in added_only:
+            continue
+        if SKIP_LINE.match(line):
+            continue
+        line = MARKER_RE.sub("", line)
+        hedged = bool(HEDGE_RE.search(line))
+        found = []
+        for kind, pat in DATE_PATTERNS:
+            for m in pat.finditer(line):
+                d, prec = norm_date(kind, m)
+                found.append((d, prec))
+        # A hedge with no parseable date still names a year.
+        if hedged and not found:
+            y = re.search(r"(19|20)\d{2}", line)
+            if y:
+                found.append((y.group(0), "year"))
+        for d, prec in found:
+            out.append((d, prec, hedged, line.strip()[:200], i))
+    return out
+
+
+def pages():
+    out = {}
+    for p in sorted(WIKI.rglob("*.md")):
+        rel = p.relative_to(ROOT).as_posix()[:-3]
+        out[rel] = p.read_text(encoding="utf-8", errors="replace")
+    return out
+
+
+def head_version(slug):
+    """The committed text of a page, or "" if it is new in this pass."""
+    try:
+        out = subprocess.run(["git", "show", "HEAD:%s.md" % slug], cwd=ROOT,
+                             capture_output=True, text=True, timeout=30)
+    except Exception:
+        return ""
+    return out.stdout if out.returncode == 0 else ""
+
+
+# Generated pages: their dates come from a generator, not from a writer, and a
+# corroboration record on one is destroyed the next time it runs.
+GENERATED = {
+    "wiki/meta/corroboration", "wiki/meta/testimony-veracity", "wiki/meta/skills",
+    "wiki/meta/readers-digest", "wiki/meta/digest", "wiki/meta/recent-activity",
+    "wiki/meta/open-questions", "wiki/meta/claim-validity",
+    "wiki/health/intake-ledger", "wiki/timeline/master-timeline",
+    "wiki/interests/language/measured-vocabulary", "wiki/mind/profile/trait-corpus-map",
+}
+
+
+# ------------------------------------------------------------------- the log
+def read_log():
+    if not LOG.exists():
+        return []
+    events = []
+    for i, line in enumerate(LOG.read_text(encoding="utf-8").splitlines(), 1):
+        line = line.strip()
+        if not line:
+            continue
+        try:
+            events.append(json.loads(line))
+        except ValueError as exc:
+            die("corroborate/events.jsonl line %d is not JSON (%s). The log is "
+                "the record; fix the line rather than rebuilding." % (i, exc))
+    return events
+
+
+def project(events):
+    recs = {}
+    for e in events:
+        if e.get("type") == "corroboration_recorded":
+            recs[e["id"]] = dict(e["record"], id=e["id"], at=e.get("at", ""))
+        elif e.get("type") == "corroboration_revised":
+            old = recs.get(e["id"])
+            if old:
+                sup = list(old.get("superseded", []))
+                sup.append({"at": old.get("at", ""), "outcome": old.get("outcome"),
+                            "reason": e.get("reason", "")})
+                recs[e["id"]] = dict(e["record"], id=e["id"], at=e.get("at", ""),
+                                     superseded=sup)
+    return {"records": recs, "last_event": events[-1].get("at", "") if events else ""}
+
+
+def next_id(state):
+    n = 1 + max([int(k[1:]) for k in state["records"] if re.match(r"^x\d+$", k)] or [0])
+    return "x%03d" % n
+
+
+def append(event):
+    LEDGER.mkdir(parents=True, exist_ok=True)
+    with open(LOG, "a", encoding="utf-8") as fh:
+        fh.write(json.dumps(event, ensure_ascii=False, sort_keys=True) + "\n")
+
+
+def write_projection(state):
+    LEDGER.mkdir(parents=True, exist_ok=True)
+    PROJECTION.write_text(
+        json.dumps(state, indent=2, sort_keys=True, ensure_ascii=False) + "\n",
+        encoding="utf-8")
+
+
+def records_for(state, page):
+    return [r for r in state["records"].values() if page in r.get("pages", [])]
+
+
+def covers(rec, datestr):
+    """Does this record's window contain a date? Month/year precision counts."""
+    lo, hi = rec["window"]["from"], rec["window"]["to"]
+    d = str(datestr)
+    if len(d) == 4:
+        return lo[:4] <= d <= hi[:4]
+    if len(d) == 7:
+        return lo[:7] <= d <= hi[:7]
+    return lo <= d <= hi
+
+
+# ------------------------------------------------------------------ commands
+def cmd_coverage(args):
+    if args.write:
+        cov = compute_coverage()
+        LEDGER.mkdir(parents=True, exist_ok=True)
+        COVERAGE.write_text(json.dumps(cov, indent=2, sort_keys=True) + "\n",
+                            encoding="utf-8")
+        print("wrote %s" % COVERAGE.relative_to(ROOT))
+    else:
+        cov = coverage_table()
+    years = sorted(set(cov["union"]))
+    covered = covered_years(cov)
+    print("WHAT THE MESSAGE RECORD COVERS   (computed %s)\n" % cov["computed"])
+    print("  %-6s %10s   %s" % ("year", "messages", "status"))
+    for y in years:
+        n = cov["union"][y]
+        print("  %-6s %10s   %s" % (y, "{:,}".format(n),
+                                    "covered" if y in covered else
+                                    "TOO THIN — a null result here means nothing"))
+    print("\n  %-6s %10s" % ("total", "{:,}".format(sum(cov["union"].values()))))
+    gaps = [y for y in range(int(years[0]), int(years[-1]) + 1)
+            if str(y) not in cov["union"]]
+    if gaps:
+        print("\n  YEARS WITH NO ROWS AT ALL: %s" % ", ".join(str(g) for g in gaps))
+    print("\n  BY CORPUS")
+    for rel, meta in cov["corpora"].items():
+        print("    %-52s %9s rows" % (rel.split("/")[-1],
+                                      "{:,}".format(sum(meta["years"].values()))))
+        print("      %s" % meta["note"])
+    print("\nA date outside coverage cannot be checked here, and `record` refuses")
+    print("`--outcome absent` for one. Uncovered is not the same as empty.")
+    return 0
+
+
+def cmd_window(args):
+    start = date_of(args.date) - datetime.timedelta(days=args.days)
+    end = date_of(args.date) + datetime.timedelta(days=args.days)
+    rows = load_window(start.isoformat(), end.isoformat())
+    if args.handle:
+        want = re.sub(r"\D", "", args.handle)
+        rows = [r for r in rows if want and want in re.sub(r"\D", "", r[2] or "")]
+    if args.grep:
+        pat = re.compile(args.grep, re.I)
+        rows = [r for r in rows if pat.search(r[3])]
+    cov = coverage_table()
+    if not is_covered(args.date, cov):
+        print("!! %s is OUTSIDE the corpus's coverage (%s rows that year). A null "
+              "result here is the archive's silence, not the world's.\n"
+              % (args.date, "{:,}".format(cov["union"].get(str(args.date)[:4], 0))))
+    print("%s ± %d day(s) — %d message(s) across %d corpora\n"
+          % (args.date, args.days, len(rows), len(CORPORA)))
+    by_handle = collections.Counter(r[2] or "(no handle)" for r in rows)
+    if not args.quiet and by_handle:
+        print("  THREADS IN THIS WINDOW")
+        for h, n in by_handle.most_common(12):
+            print("    %-20s %5d" % (h, n))
+        print()
+    shown = rows[:args.limit] if args.limit else rows
+    for ts, direction, handle, text, _c in shown:
+        print("%s  %s %-14s | %s" % (ts[:16], direction[:1], (handle or "-")[:14],
+                                     text.replace("\n", " ⏎ ")[:160]))
+    if args.limit and len(rows) > args.limit:
+        print("\n... %d more (--limit 0 for all)" % (len(rows) - args.limit))
+    return 0
+
+
+def cmd_probe(args):
+    pat = re.compile(args.pattern, re.I)
+    start = args.since or "2010-01-01"
+    end = args.until or "2030-12-31"
+    hits, per_year = [], collections.Counter()
+    seen = set()
+    for rel in CORPORA:
+        for ts, direction, handle, text in read_corpus(rel):
+            if not (start <= ts[:10] <= end):
+                continue
+            if not pat.search(text):
+                continue
+            k = dedupe_key(ts, text)
+            if k in seen:
+                continue
+            seen.add(k)
+            per_year[ts[:4]] += 1
+            hits.append((ts, direction, handle, text))
+    hits.sort()
+    print("%d match(es) for /%s/\n" % (len(hits), args.pattern))
+    if per_year:
+        print("  BY YEAR  " + "  ".join("%s:%d" % (y, n)
+                                        for y, n in sorted(per_year.items())))
+        print()
+    for ts, direction, handle, text in hits[:args.limit or len(hits)]:
+        print("%s  %s %-14s | %s" % (ts[:16], direction[:1], (handle or "-")[:14],
+                                     text.replace("\n", " ⏎ ")[:160]))
+    if args.limit and len(hits) > args.limit:
+        print("\n... %d more" % (len(hits) - args.limit))
+    print("\nA count over a corpus is a measurement of the pattern, never a "
+          "finding. Read the rows.")
+    return 0
+
+
+def page_debt(slug, text, state, cov):
+    """(unchecked, hedged) dated claims on one page the ledger does not cover."""
+    recs = records_for(state, slug)
+    unchecked, hedged = [], []
+    for d, prec, is_hedged, line, _n in dated_claims(text):
+        if not is_covered(d, cov):
+            continue
+        if any(covers(r, d) for r in recs):
+            continue
+        unchecked.append((d, prec, is_hedged, line))
+        if is_hedged:
+            hedged.append((d, prec, is_hedged, line))
+    return unchecked, hedged
+
+
+def cmd_scan(args):
+    state = project(read_log())
+    cov = coverage_table()
+    prefix = (args.page or "wiki/").removesuffix(".md")
+    hits = 0
+    for slug, text in pages().items():
+        if not slug.startswith(prefix) or slug in GENERATED:
+            continue
+        unchecked, hedged = page_debt(slug, text, state, cov)
+        rows = hedged if args.hedged else unchecked
+        if not rows:
+            continue
+        hits += 1
+        print("== %s — %d dated claim(s) the record has never been asked about%s"
+              % (slug, len(rows), " (hedged)" if args.hedged else ""))
+        seen = set()
+        for d, prec, is_hedged, line in rows[:args.limit]:
+            if d in seen:
+                continue
+            seen.add(d)
+            print("   %-10s %-5s %s%s" % (d, prec, "⚠ " if is_hedged else "  ", line[:120]))
+        if len(rows) > args.limit:
+            print("   ... %d more" % (len(rows) - args.limit))
+        print()
+    if not hits:
+        print("Nothing outstanding under %s." % prefix)
+    else:
+        print("Each line is a reason to run `bin/wiki-corroborate window <date>`, "
+              "not a defect.")
+    return 0
+
+
+def cmd_queue(args):
+    state = project(read_log())
+    cov = coverage_table()
+    scored = []
+    for slug, text in pages().items():
+        if slug in GENERATED:
+            continue
+        unchecked, hedged = page_debt(slug, text, state, cov)
+        if not unchecked:
+            continue
+        # Hedged dates first and heavily: a page that admits it does not know
+        # when something happened is the one the corpus can most cheaply settle.
+        scored.append((len(hedged) * 5 + len(unchecked), len(hedged),
+                       len(unchecked), slug))
+    scored.sort(reverse=True)
+    print("THE CORROBORATION CAMPAIGN — pages the message record has never been "
+          "asked about\n")
+    print("  %-58s %7s %8s" % ("page", "hedged", "unchecked"))
+    for _s, h, u, slug in scored[:args.n]:
+        print("  %-58s %7d %8d" % (slug[:58], h, u))
+    print("\n%d page(s) carry uncorroborated dated claims inside coverage."
+          % len(scored))
+    return 0
+
+
+def parse_row(s):
+    """'2017-11-26 10:18 Sent +1724…' -> (ts, rest). Timestamp is required."""
+    m = re.match(r"^\s*((?:19|20)\d{2}-\d{2}-\d{2}[ T]\d{2}:\d{2}(?::\d{2})?)\s*(.*)$", s)
+    if not m:
+        die("--row '%s' does not start with a 'YYYY-MM-DD HH:MM' timestamp. A "
+            "citation this ledger cannot check is not a citation." % s)
+    return m.group(1).replace("T", " "), m.group(2).strip()
+
+
+def cmd_record(args):
+    state = project(read_log())
+    cov = coverage_table()
+    if args.outcome not in OUTCOMES:
+        die("unknown outcome '%s' — one of %s" % (args.outcome, ", ".join(sorted(OUTCOMES))))
+    if len(args.claim.strip()) < 15:
+        die("--claim is one sentence a stranger could evaluate, not a label")
+    if not args.because.strip():
+        die("--because is required: what the rows actually established. A "
+            "corroboration with no account of what it settled is a tick in a box")
+    for p in args.page:
+        if not (WIKI / (p.removeprefix("wiki/") + ".md")).exists():
+            die("no such page: %s" % p)
+    date = date_of(args.date)
+    lo = (date - datetime.timedelta(days=args.days)).isoformat()
+    hi = (date + datetime.timedelta(days=args.days)).isoformat()
+
+    covered = is_covered(args.date, cov)
+    if args.outcome == "absent" and not covered:
+        die("REFUSED: %s is outside the corpus's coverage (%s rows in %s), so "
+            "the window was not read — it does not exist. That is `uncovered`, "
+            "not `absent`. Reporting an instrument's silence as a finding "
+            "invents a measurement."
+            % (args.date, "{:,}".format(cov["union"].get(args.date[:4], 0)), args.date[:4]))
+    if args.outcome == "uncovered" and covered:
+        die("REFUSED: %s IS inside coverage (%s rows in %s). Run the window; if "
+            "it holds nothing about this claim, that is `absent` and it is a "
+            "real result."
+            % (args.date, "{:,}".format(cov["union"].get(args.date[:4], 0)), args.date[:4]))
+    if args.outcome in MUST_CITE and not args.row:
+        die("--outcome %s asserts something about what the messages say, so it "
+            "must cite rows: --row 'YYYY-MM-DD HH:MM Sent +1…' (repeatable)."
+            % args.outcome)
+    if args.outcome in ("absent", "uncovered") and args.row:
+        die("--outcome %s asserts the record holds nothing, so it cannot cite "
+            "rows. Use `extended` if it turned out to hold something."
+            % args.outcome)
+
+    rows = []
+    if args.row:
+        cited = [parse_row(r) for r in args.row]
+        for ts, _rest in cited:
+            if not (lo <= ts[:10] <= hi):
+                die("--row %s falls outside the window %s..%s. Widen --days or "
+                    "record it against the date it belongs to." % (ts, lo, hi))
+        # Verify every citation against the corpus. A ledger whose rows cannot
+        # be found is worse than none: it looks like evidence.
+        window = load_window(lo, hi)
+        have = collections.defaultdict(list)
+        for ts, direction, handle, _t, _c in window:
+            have[ts[:16]].append((direction, handle))
+        for ts, rest in cited:
+            key = ts[:16]
+            if key not in have:
+                die("REFUSED: no message exists at %s in any corpus. Every "
+                    "citation here is verified against the archive — check the "
+                    "timestamp against `window %s`." % (ts, args.date))
+            rows.append(("%s %s" % (ts, rest)).strip())
+
+    rec = {
+        "claim": args.claim.strip(),
+        "date": args.date,
+        "window": {"from": lo, "to": hi},
+        "pages": list(args.page),
+        "outcome": args.outcome,
+        "rows": rows,
+        "because": args.because.strip(),
+        "corpora": sorted(CORPORA),
+    }
+    if args.was:
+        rec["was"] = args.was
+    if args.now:
+        rec["now"] = args.now
+
+    if args.revise:
+        if args.revise not in state["records"]:
+            die("no such record: %s" % args.revise)
+        rid = args.revise
+        if not args.reason:
+            die("--revise needs --reason. A corroboration is never edited; it is "
+                "superseded, and the log keeps both.")
+        append({"type": "corroboration_revised", "id": rid, "at": today(),
+                "reason": args.reason, "record": rec})
+    else:
+        rid = next_id(state)
+        append({"type": "corroboration_recorded", "id": rid, "at": today(),
+                "record": rec})
+    state = project(read_log())
+    write_projection(state)
+    write_summary(state)
+    print("%s  %s  %s  %s" % (rid, args.outcome, args.date, args.claim[:60]))
+    if rows:
+        print("  %d row(s) cited and verified against the corpus" % len(rows))
+    print("  pages: %s" % ", ".join(args.page))
+    print("\nNow write the finding onto those pages — the ledger records that "
+          "the check happened, never what it means.")
+    return 0
+
+
+def cmd_status(args):
+    state = project(read_log())
+    cov = coverage_table()
+    if args.page:
+        slug = args.page.removesuffix(".md")
+        recs = sorted(records_for(state, slug), key=lambda r: r["date"])
+        if not recs:
+            print("No corroboration recorded for %s." % slug)
+        for r in recs:
+            print("%s  %-13s %s" % (r["id"], r["outcome"], r["date"]))
+            print("     %s" % r["claim"])
+            print("     %s" % r["because"])
+            for row in r.get("rows", []):
+                print("       · %s" % row)
+        path = WIKI / (slug.removeprefix("wiki/") + ".md")
+        if path.exists():
+            unchecked, hedged = page_debt(slug, path.read_text(encoding="utf-8"),
+                                          state, cov)
+            print("\n%d dated claim(s) still unchecked, %d of them hedged."
+                  % (len(unchecked), len(hedged)))
+        return 0
+    recs = state["records"].values()
+    by = collections.Counter(r["outcome"] for r in recs)
+    print("CORROBORATION LEDGER\n")
+    print("  records            %d" % len(recs))
+    for o in sorted(OUTCOMES):
+        if by.get(o):
+            print("  %-18s %d" % (o, by[o]))
+    print("  pages touched      %d" % len({p for r in recs for p in r["pages"]}))
+    print("  rows cited         %d" % sum(len(r.get("rows", [])) for r in recs))
+    return 0
+
+
+# ------------------------------------------------------------------ rendering
+def render_summary(state):
+    recs = sorted(state["records"].values(), key=lambda r: r["id"])
+    by = collections.Counter(r["outcome"] for r in recs)
+    L = ["# Corroboration ledger — summary", "",
+         "_Generated by `bin/wiki-corroborate`. Do not hand-edit; "
+         "`corroborate/events.jsonl` is the record._", "",
+         "| Outcome | Records | What it means |", "|---|---|---|"]
+    for o in sorted(OUTCOMES):
+        L.append("| `%s` | %d | %s |" % (o, by.get(o, 0), OUTCOMES[o]))
+    L += ["", "**%d record(s), %d page(s) touched, %d row(s) cited.**"
+          % (len(recs), len({p for r in recs for p in r["pages"]}),
+             sum(len(r.get("rows", [])) for r in recs)), ""]
+    L += ["## Records", "",
+          "| id | date | outcome | claim | pages |", "|---|---|---|---|---|"]
+    for r in recs:
+        L.append("| %s | %s | %s | %s | %s |"
+                 % (r["id"], r["date"], r["outcome"],
+                    r["claim"].replace("|", "\\|"),
+                    " ".join("`%s`" % p for p in r["pages"])))
+    L.append("")
+    return "\n".join(L) + "\n"
+
+
+def write_summary(state):
+    LEDGER.mkdir(parents=True, exist_ok=True)
+    SUMMARY.write_text(render_summary(state), encoding="utf-8")
+
+
+def render_page(state, cov=None):
+    cov = cov or (coverage_table() if COVERAGE.exists() else {"union": {}, "computed": "—"})
+    recs = sorted(state["records"].values(), key=lambda r: r["id"])
+    by = collections.Counter(r["outcome"] for r in recs)
+    covered = sorted(covered_years(cov)) if cov.get("union") else []
+    modified = state.get("last_event") or PAGE_CREATED
+    by_year = dict(sorted(cov.get("union", {}).items()))
+    L = ["---",
+         "domain: meta",
+         "page_type: dataset",
+         "title: \"Corroboration Against the Message Record\"",
+         "aliases: [\"corroboration\", \"corroboration ledger\", \"message-record checks\"]",
+         "status: active",
+         "importance: high",
+         "knowledge: derived",
+         "date_created: %s" % PAGE_CREATED,
+         "date_modified: %s" % modified,
+         "chart:",
+         "  kind: bar",
+         '  title: "What the message record covers, by year"',
+         "  x: { label: \"Year\", type: category }",
+         "  y: { label: \"Messages\", type: number }",
+         "  series:",
+         '    - name: "Messages"',
+         "      points:",
+         ]
+    for y, n in by_year.items():
+        L.append('        "%s": %d' % (y, n))
+    L += ["tags: [forensic-analysis, trust, consistency]",
+          "sources:"]
+    for rel in sorted(CORPORA):
+        L.append("  - %s" % rel)
+    L += ["related:", "  - wiki/meta/index"]
+    L += ["---", "",
+          "# Corroboration against the message record", "",
+          "**Generated by `bin/wiki-corroborate page`. Do not hand-edit — a hand",
+          "edit fails `bin/wiki-corroborate check` and is overwritten on the next",
+          "run.** This is the record of which dated claims in this wiki have been",
+          "checked against the 265,000 first-party messages in `raw/`, what came",
+          "back, and what it changed.", "",
+          "**It is evidence, not a claim.** It records that a check happened and",
+          "what it settled. What a corroboration *means* is synthesis, and",
+          "synthesis happens on an ordinary page.", "",
+          "## What the record covers", "",
+          "| Year | Messages | |", "|---|---|---|"]
+    for y, n in sorted(cov.get("union", {}).items()):
+        L.append("| %s | %s | %s |" % (y, "{:,}".format(n),
+                                       "" if y in covered else "too thin to read a null result from"))
+    L += ["",
+          "Years absent from that table hold nothing at all. **A claim dated",
+          "outside coverage cannot be checked here and is not recorded as",
+          "unsupported** — `uncovered` and `absent` are different outcomes and the",
+          "tool refuses to let one stand in for the other.", "",
+          "## Outcomes", "",
+          "| Outcome | Records | Meaning |", "|---|---|---|"]
+    for o in sorted(OUTCOMES):
+        L.append("| `%s` | %d | %s |" % (o, by.get(o, 0), OUTCOMES[o]))
+    L += ["", "## The record", ""]
+    if not recs:
+        L.append("_Nothing recorded yet._")
+    else:
+        L += ["| id | Date | Outcome | Claim | Pages | What it settled |",
+              "|---|---|---|---|---|---|"]
+        for r in recs:
+            L.append("| %s | %s | %s | %s | %s | %s |"
+                     % (r["id"], r["date"], r["outcome"],
+                        r["claim"].replace("|", "\\|"),
+                        " ".join("[[%s]]" % p for p in r["pages"]),
+                        r["because"].replace("|", "\\|")))
+    L += ["", "## What this page cannot tell you", "",
+          "**It is opt-in, so an absent page is unexamined rather than settled.**",
+          "Counting these records as coverage of the wiki is the same category",
+          "error as reading [[wiki/meta/claim-validity]]'s counts as coverage of",
+          "its corpus.", "",
+          "**A cited row is a pointer, not a quotation.** The ledger stores",
+          "timestamps, directions and handles; the messages themselves stay in",
+          "`raw/` and are quoted on the pages that argue from them. Every",
+          "citation here was verified to exist in the archive at the moment it",
+          "was recorded.", "",
+          "---", "",
+          "[[wiki/meta/index|meta]] · [[index|master index]]", ""]
+    return "\n".join(L)
+
+
+def cmd_page(_args):
+    state = project(read_log())
+    PAGE.parent.mkdir(parents=True, exist_ok=True)
+    PAGE.write_text(render_page(state), encoding="utf-8")
+    write_projection(state)
+    write_summary(state)
+    print("wrote %s" % PAGE.relative_to(ROOT))
+    return 0
+
+
+# ---------------------------------------------------------------------- gate
+def changed_wiki_files():
+    """Wiki pages with uncommitted changes, and the line numbers ADDED.
+
+    The gate reads the working diff, not the tree — the same decision
+    `bin/wiki-secrets` made and for the same reason. A whole-tree rule would go
+    red on 505 pages of pre-existing debt and be switched off inside a week;
+    this fires on the pass that creates the debt, at the moment it commits.
+    Retroactive debt is campaign work and lives in `queue`.
+    """
+    try:
+        out = subprocess.run(["git", "diff", "HEAD", "--unified=0", "--", "wiki"],
+                             cwd=ROOT, capture_output=True, text=True, timeout=60)
+        untracked = subprocess.run(
+            ["git", "ls-files", "--others", "--exclude-standard", "--", "wiki"],
+            cwd=ROOT, capture_output=True, text=True, timeout=60)
+    except Exception:
+        return {}
+    if out.returncode != 0:
+        return {}
+    changed = collections.defaultdict(set)
+    cur, lineno = None, 0
+    for line in out.stdout.splitlines():
+        if line.startswith("+++ b/"):
+            cur = line[6:]
+            if cur.endswith(".md"):
+                cur = cur[:-3]
+            else:
+                cur = None
+        elif line.startswith("@@") and cur:
+            m = re.search(r"\+(\d+)(?:,(\d+))?", line)
+            lineno = int(m.group(1)) if m else 0
+        elif line.startswith("+") and not line.startswith("+++") and cur:
+            changed[cur].add(lineno)
+            lineno += 1
+    for rel in untracked.stdout.split():
+        if rel.endswith(".md"):
+            slug = rel[:-3]
+            body = split_fm((ROOT / rel).read_text(encoding="utf-8", errors="replace"))[1]
+            changed[slug] = set(range(1, len(body.splitlines()) + 1))
+    return changed
+
+
+def cmd_check(args):
+    errors, warnings = [], []
+    events = read_log()
+    state = project(events)
+    cov = coverage_table() if COVERAGE.exists() else None
+
+    if cov is None:
+        errors.append("corroborate/coverage.json is missing — run "
+                      "`bin/wiki-corroborate coverage --write`")
+    else:
+        for rel, meta in cov["corpora"].items():
+            path = ROOT / rel
+            if path.exists() and meta.get("bytes") and path.stat().st_size != meta["bytes"]:
+                warnings.append("%s has changed size since coverage was computed "
+                                "— rerun `coverage --write`" % rel)
+
+    for rid, r in sorted(state["records"].items()):
+        if r["outcome"] not in OUTCOMES:
+            errors.append("%s: unknown outcome '%s'" % (rid, r["outcome"]))
+        if r["outcome"] in MUST_CITE and not r.get("rows"):
+            errors.append("%s: outcome '%s' asserts what the messages say and "
+                          "cites nothing" % (rid, r["outcome"]))
+        if r["outcome"] in ("absent", "uncovered") and r.get("rows"):
+            errors.append("%s: outcome '%s' asserts the record holds nothing and "
+                          "cites rows" % (rid, r["outcome"]))
+        if not covers(r, r["date"]):
+            errors.append("%s: its own date %s is outside its window %s..%s"
+                          % (rid, r["date"], r["window"]["from"], r["window"]["to"]))
+        if cov and r["outcome"] == "absent" and not is_covered(r["date"], cov):
+            errors.append("%s: recorded 'absent' for %s, which is outside "
+                          "coverage — that is 'uncovered'" % (rid, r["date"]))
+        for p in r["pages"]:
+            if not (WIKI / (p.removeprefix("wiki/") + ".md")).exists():
+                errors.append("%s: names a page that does not exist: %s" % (rid, p))
+
+    # The teeth: dated claims this pass ADDS that nobody asked the record about.
+    #
+    # "Adds" is doing real work in that sentence, and the narrowness is the
+    # difference between a gate people run and a gate people delete. A date the
+    # page already asserted is retroactive debt — real, and campaign work, and
+    # not this commit's fault; re-wording the sentence around it must not go
+    # red. So the added lines are read against the dates the page carried at
+    # HEAD, and only a date that was not there before is owed a window.
+    if cov and not args.no_diff:
+        for slug, lines in sorted(changed_wiki_files().items()):
+            if slug in GENERATED or not slug.startswith("wiki/"):
+                continue
+            # `meta/` is the wiki describing itself, and its dates are
+            # REPOSITORY history — when a directive was issued, when a ledger
+            # started tracking. The instrument for those is the git log
+            # (`bin/wiki-history`), not the message record, and a gate that
+            # demanded a message window for "the operator decided this on
+            # 2026-08-30" would be teaching sessions to record `absent` as a
+            # ritual. Journeys are exempt from the exemption: they are ordinary
+            # content that happens to live under meta.
+            if slug.startswith("wiki/meta/") and not slug.startswith("wiki/meta/journeys/"):
+                continue
+            path = ROOT / (slug + ".md")
+            if not path.exists():
+                continue
+            text = path.read_text(encoding="utf-8", errors="replace")
+            already = {d for d, _p, _h, _l, _n in dated_claims(head_version(slug))}
+            recs = records_for(state, slug)
+            owed, seen_dates = [], set()
+            for d, _prec, hedged, line, _n in dated_claims(text, added_only=lines):
+                if d in already or d in seen_dates:
+                    continue
+                if not is_covered(d, cov) or any(covers(rr, d) for rr in recs):
+                    continue
+                seen_dates.add(d)
+                owed.append((d, hedged, line))
+            for d, hedged, line in owed[:4]:
+                errors.append(
+                    "%s: this pass writes a dated claim (%s) the message record "
+                    "has not been asked about — run `bin/wiki-corroborate window "
+                    "%s`, then `record` what came back (`--outcome absent` is a "
+                    "real result and clears this).\n        %s"
+                    % (slug, d, d[:10] if len(d) >= 10 else d + "-01", line[:110]))
+            if len(owed) > 4:
+                errors.append("%s: and %d more dated claim(s) in this diff"
+                              % (slug, len(owed) - 4))
+
+    fresh = json.dumps(state, indent=2, sort_keys=True, ensure_ascii=False) + "\n"
+    if events:
+        if not PROJECTION.exists():
+            errors.append("corroborate/records.json is missing — run `page`")
+        elif PROJECTION.read_text(encoding="utf-8") != fresh:
+            errors.append("corroborate/records.json disagrees with the log — "
+                          "run `bin/wiki-corroborate page` (the log is the record)")
+        if SUMMARY.exists() and SUMMARY.read_text(encoding="utf-8") != render_summary(state):
+            errors.append("corroborate/SUMMARY.md is behind the log — run `page`")
+    if PAGE.exists() and cov and PAGE.read_text(encoding="utf-8") != render_page(state, cov):
+        errors.append("wiki/meta/corroboration.md is behind the ledger — run "
+                      "`bin/wiki-corroborate page` and do not hand-edit it")
+
+    for w in warnings:
+        print("WARN  %s" % w)
+    for e in errors:
+        print("ERROR %s" % e)
+    print("wiki-corroborate: %d error%s, %d warning%s · %d record(s), %d page(s)"
+          % (len(errors), "" if len(errors) == 1 else "s",
+             len(warnings), "" if len(warnings) == 1 else "s",
+             len(state["records"]),
+             len({p for r in state["records"].values() for p in r["pages"]})))
+    return 1 if errors else 0
+
+
+def cmd_rebuild(_args):
+    state = project(read_log())
+    write_projection(state)
+    write_summary(state)
+    print("rebuilt %d record(s) from the log" % len(state["records"]))
+    return 0
+
+
+def main(argv=None):
+    ap = argparse.ArgumentParser(prog="wiki-corroborate", description=__doc__.split("\n")[0])
+    sub = ap.add_subparsers(dest="cmd")
+
+    p = sub.add_parser("coverage", help="what the message record covers, by year")
+    p.add_argument("--write", action="store_true", help="recompute corroborate/coverage.json")
+    p.set_defaults(fn=cmd_coverage)
+
+    p = sub.add_parser("window", help="every message around a date")
+    p.add_argument("date")
+    p.add_argument("--days", type=int, default=1)
+    p.add_argument("--handle", help="restrict to one counterparty (digits matched)")
+    p.add_argument("--grep", help="restrict to messages matching a regex")
+    p.add_argument("--limit", type=int, default=200)
+    p.add_argument("--quiet", action="store_true", help="skip the thread summary")
+    p.set_defaults(fn=cmd_window)
+
+    p = sub.add_parser("probe", help="term search across the corpora")
+    p.add_argument("pattern")
+    p.add_argument("--since")
+    p.add_argument("--until")
+    p.add_argument("--limit", type=int, default=60)
+    p.set_defaults(fn=cmd_probe)
+
+    p = sub.add_parser("scan", help="dated claims with no corroboration record")
+    p.add_argument("page", nargs="?")
+    p.add_argument("--hedged", action="store_true", help="only claims that hedge their own date")
+    p.add_argument("--limit", type=int, default=8)
+    p.set_defaults(fn=cmd_scan)
+
+    p = sub.add_parser("queue", help="the retroactive campaign, most valuable first")
+    p.add_argument("n", nargs="?", type=int, default=25)
+    p.set_defaults(fn=cmd_queue)
+
+    p = sub.add_parser("record", help="enter what a window turned out to say")
+    p.add_argument("--page", action="append", required=True)
+    p.add_argument("--claim", required=True)
+    p.add_argument("--date", required=True)
+    p.add_argument("--days", type=int, default=1)
+    p.add_argument("--outcome", required=True, choices=sorted(OUTCOMES))
+    p.add_argument("--row", action="append", default=[])
+    p.add_argument("--because", required=True)
+    p.add_argument("--was", help="what the page said before")
+    p.add_argument("--now", help="what it says after")
+    p.add_argument("--revise", metavar="ID", help="supersede an existing record")
+    p.add_argument("--reason", help="required with --revise")
+    p.set_defaults(fn=cmd_record)
+
+    p = sub.add_parser("status", help="what the ledger holds")
+    p.add_argument("page", nargs="?")
+    p.set_defaults(fn=cmd_status)
+
+    p = sub.add_parser("page", help="regenerate wiki/meta/corroboration.md")
+    p.set_defaults(fn=cmd_page)
+
+    p = sub.add_parser("rebuild", help="rebuild the projection from the log")
+    p.set_defaults(fn=cmd_rebuild)
+
+    p = sub.add_parser("check", help="the gate")
+    p.add_argument("--no-diff", action="store_true",
+                   help="skip the working-diff debt check")
+    p.set_defaults(fn=cmd_check)
+
+    args = ap.parse_args(argv)
+    if not getattr(args, "fn", None):
+        ap.print_help()
+        return 1
+    return args.fn(args)
+
+
+if __name__ == "__main__":
+    sys.exit(main())

@@ -46,40 +46,18 @@ says, served to exactly the reader least equipped to catch it. Never clear a
 stale twin by bumping `source_modified:` — re-read the page, decide whether the
 plain version survives the change, rewrite what moved.
 
----- THE MORATORIUM IS ENFORCED HERE, NOT REMEMBERED -------------------------
+---- THE MORATORIUM WAS LIFTED ON 2026-09-06 ---------------------------------
 
-`CLAUDE.md` carries a standing operator directive: no new narrative about Annie
-enters this repository. A plain-language retelling of an Annie page is new
-narrative about Annie — it adds no facts, but it is new prose about a living
-person in a situation the operator has called dangerous, written to be read by
-people who could not read the original. That is squarely inside what the
-directive stops.
+From 2026-08-23 to 2026-09-06 this file held a standing operator directive as
+code: no plain-language twin of a page about Annie, and no `plain/` file naming
+her at all. **The operator lifted that directive in full on 2026-09-06.** The
+two rules, the regex and the mention threshold are gone from this file and the
+pages they withheld are ordinary campaign work again.
 
-So it is not left to a session to remember. It is TWO mechanical rules, and the
-second is the one that actually guarantees the outcome:
-
-  1. A page SUBSTANTIALLY about her gets no twin at all. `check` fails if one
-     exists; `new` refuses; `next` never proposes it. "Substantially" is
-     mechanical: named anywhere in the frontmatter (title, aliases, tags,
-     sources, `synthesizes:`, a typed-edge target or claim), or more than
-     `INCIDENTAL` mentions in the body.
-  2. **No `plain/` file may mention her at all, ever, whatever its source.**
-     `check` fails on any twin that does. This is the guarantee: rule 1 draws
-     a line somebody could argue about, and rule 2 means no new prose about
-     her can enter this layer regardless of where the line fell.
-
-Rule 1 is not merely rule 2 applied earlier. A page can be *about* her while
-mentioning her a handful of times, and translating one by quietly eliding her
-would produce a twin that passes rule 2 and MISREPRESENTS THE PAGE — a reader
-told a version of a finding with its subject removed has been misled more
-efficiently than by any error. So: a page with an incidental mention is
-eligible, and the twin simply does not carry that sentence. If leaving it out
-would change what the page says, the page is not translatable — decline it, and
-say so where the next session will read it. That judgment belongs to a reader;
-the tool only holds the floor under it.
-
-Lifting any of this is the operator's call and nobody else's — it is one
-regex and one integer, `MORATORIUM` and `INCIDENTAL`, directly below.
+It is recorded here rather than deleted without trace because a session that
+read this repository last week was told the rule was mechanical and
+non-negotiable, and the only thing that can correct that memory is a note where
+the rule used to be. There is nothing to re-enable and nothing to work around.
 
 Missing twins are NOT errors. Coverage is standing campaign work, worked
 top-down like every other queue in this repository, and a page with no plain
@@ -101,22 +79,6 @@ import sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 WIKI = os.path.join(ROOT, "wiki")
 PLAIN = os.path.join(ROOT, "plain")
-
-# The standing directive in CLAUDE.md, as code. See the two rules in the module
-# docstring. Only the operator lifts either of these.
-# Leading word boundary only, and no trailing one. `\bannie\b` looks tighter and
-# is wrong: it misses `annie_metadata_24h.csv`, the filename this material is
-# cited by throughout, because `_` is a word character and kills the boundary.
-# read-receipt-forensics carries that filename twice and read as eligible until
-# this was fixed. The surname rides along for the same reason — the guard should
-# not depend on which of the two a given page happens to use.
-MORATORIUM = re.compile(r"\b(annie|ulmer)", re.I)
-
-# How many body mentions a page may carry and still count as incidental rather
-# than as being about her. Two: a page that names somebody three times is
-# talking about them. The 2026-08-28 distribution over 518 pages — 277 at zero,
-# 24 at one, 32 at two, then a long tail — puts the natural break here.
-INCIDENTAL = 2
 
 # Archived artifacts are pinned oversized things nobody updates; they are exempt
 # from budgets in wiki-lint and they are exempt from translation here too.
@@ -171,12 +133,12 @@ LANE_ORDER = {"major": lambda p: -p.words, "free": lambda p: p.words}
 # retroactively made a gate failure by this list.
 NOT_TRANSLATABLE = {"dataset", "index"}
 
-# Held out of both lanes, and this one is a judgement rather than a mechanism.
-# The moratorium protects exactly one living person by name; the other 92 people
-# pages have no guard at all. Plain-English prose about a living person, written
-# for a public site by whichever model is cheapest, is the one mistake here that
-# cannot be taken back — so `people/` waits for a decision rather than for a
-# free run. Lift it by emptying this set.
+# Held out of both lanes, and this is a judgement rather than a mechanism.
+# Plain-English prose about a living person, written for a public site by
+# whichever model is cheapest, is the one mistake in this layer that cannot be
+# taken back — so `people/` waits for a decision rather than for a free run. It
+# is unrelated to the lifted moratorium above and outlived it. Empty this set to
+# lift it.
 LANE_HOLDOUT_DOMAINS = {"people"}
 
 
@@ -256,22 +218,10 @@ class Page:
         self.modified = self.meta.get("date_modified", "")
         self.words = words(src)
 
-        # MORATORIUM RULE 1, judged on the source text rather than on the slug:
-        # a page can be titled for somebody else entirely and still be carrying
-        # her narrative. Frontmatter counts at any density — a name in
-        # `synthesizes:`, in a typed-edge claim or in `sources:` means the page
-        # is built on that material however sparingly the body says so.
-        head = src[: src.find("\n---", 3)] if src.startswith("---") else ""
-        self.excluded = bool(MORATORIUM.search(head)) or (
-            len(MORATORIUM.findall(body_of(src))) > INCIDENTAL
-        )
-
         self.twin = os.path.exists(self.twin_path)
         twin_src = read(self.twin_path) if self.twin else ""
         self.twin_meta = frontmatter(twin_src) if self.twin else {}
         self.twin_words = words(twin_src) if self.twin else 0
-        # MORATORIUM RULE 2 — the guarantee. Nothing in this layer names her.
-        self.twin_names_her = bool(MORATORIUM.search(twin_src)) if self.twin else False
 
     @property
     def stale(self):
@@ -291,8 +241,8 @@ def load():
 
 
 def lane_eligible(p, lane):
-    """Is this page in `lane`? The moratorium is checked before anything else."""
-    if p.excluded or p.domain in LANE_HOLDOUT_DOMAINS:
+    """Is this page in `lane`?"""
+    if p.domain in LANE_HOLDOUT_DOMAINS:
         return False
     if p.page_type in NOT_TRANSLATABLE:
         return False
@@ -310,7 +260,7 @@ def below_floor(pages):
     """Eligible, untranslated, and too thin for any lane — visible, not dropped."""
     return [
         p for p in pages
-        if not p.twin and not p.excluded
+        if not p.twin
         and p.domain not in LANE_HOLDOUT_DOMAINS
         and p.page_type not in NOT_TRANSLATABLE
         and p.meta.get("status") != "archived"
@@ -334,23 +284,6 @@ def cmd_check(_args):
     errors = []
 
     for p in pages:
-        # Rule 2 first: it is the guarantee, and it holds even where rule 1
-        # decided the source page was fine to work from.
-        if p.twin_names_her:
-            errors.append(
-                f"{p.slug}: plain/{p.slug}.md names a person under the standing "
-                f"moratorium in CLAUDE.md. No file in this layer may, whatever "
-                f"its source page says. Remove the passage — and if removing it "
-                f"changes what the page means, delete the twin instead and "
-                f"record the page as one that cannot be translated."
-            )
-        if p.twin and p.excluded:
-            errors.append(
-                f"{p.slug}: has a plain/ twin but the page is under the standing "
-                f"moratorium in CLAUDE.md. Delete plain/{p.slug}.md — a plain-"
-                f"language retelling is new narrative, and only the operator "
-                f"lifts this."
-            )
         if p.stale:
             errors.append(
                 f"{p.slug}: twin is STALE — written against "
@@ -389,7 +322,7 @@ def cmd_check(_args):
     for e in errors:
         print(f"  ERROR  {e}")
     covered = sum(1 for p in pages if p.twin)
-    eligible = sum(1 for p in pages if not p.excluded)
+    eligible = len(pages)
     print(
         f"\nwiki-plain: {len(errors)} error(s) · {covered}/{eligible} eligible "
         f"pages have a Reader's Digest twin"
@@ -663,14 +596,13 @@ def cmd_audit(args):
 
 def cmd_status(args):
     pages = load()
-    eligible = [p for p in pages if not p.excluded]
+    eligible = list(pages)
     covered = [p for p in pages if p.twin]
     stale = [p for p in pages if p.stale]
 
     print("READER'S DIGEST COVERAGE\n")
     print(f"  pages in wiki/          {len(pages)}")
     print(f"  eligible                {len(eligible)}")
-    print(f"  withheld (moratorium)   {len(pages) - len(eligible)}")
     print(f"  translated              {len(covered)}")
     print(f"  stale                   {len(stale)}")
     if eligible:
@@ -679,7 +611,7 @@ def cmd_status(args):
     print("\n  BY DOMAIN")
     for d in sorted({p.domain for p in pages}):
         rows = [p for p in pages if p.domain == d]
-        el = [p for p in rows if not p.excluded]
+        el = list(rows)
         cv = [p for p in rows if p.twin]
         print(f"    {d:<12} {len(cv):>3}/{len(el):<4} translated   ({len(rows)} pages)")
 
@@ -787,7 +719,7 @@ def render_report(pages):
     """
     pages = [p for p in pages if p.src_path != report_page()]
     covered = sorted((p for p in pages if p.twin), key=lambda p: p.slug)
-    eligible = [p for p in pages if not p.excluded]
+    eligible = list(pages)
     who = translators()
     modified = max((p.twin_meta.get("date_modified", "") for p in covered), default="")
 
@@ -798,7 +730,7 @@ def render_report(pages):
         ("Translated", len(covered)),
         ("Major lane", len(lane_queue(pages, "major"))),
         ("Free lane", len(lane_queue(pages, "free"))),
-        ("Held (people)", len([p for p in pages if not p.excluded and not p.twin
+        ("Held (people)", len([p for p in pages if not p.twin
                                and p.domain in LANE_HOLDOUT_DOMAINS])),
         ("Too thin", len(below_floor(pages))),
         ("Withheld", len(pages) - len(eligible)),
@@ -862,7 +794,7 @@ def render_report(pages):
     ):
         L.append(f"| `{lane}` | {desc} | {len(lane_queue(pages, lane))} |")
     L.append("")
-    held = [p for p in pages if not p.excluded and not p.twin
+    held = [p for p in pages if not p.twin
             and p.domain in LANE_HOLDOUT_DOMAINS]
     if held:
         L.append(f"A further **{len(held)}** eligible entries about other people are in")
@@ -938,7 +870,7 @@ def cmd_report(args):
     # Same exclusion as the render, and for the same reason — see render_report.
     pages = [p for p in all_pages if p.src_path != report_page()]
     covered = [p for p in pages if p.twin]
-    eligible = [p for p in pages if not p.excluded]
+    eligible = list(pages)
     who = translators()
 
     print("READER'S DIGEST CAMPAIGN\n")
@@ -951,7 +883,7 @@ def cmd_report(args):
         print(f"  {lane:<6} {len(done):>3} done · {len(queue):>3} outstanding")
         for p in queue[:3]:
             print(f"           next  {p.words:>5}w  {p.slug}")
-    held = [p for p in pages if not p.excluded and not p.twin
+    held = [p for p in pages if not p.twin
             and p.domain in LANE_HOLDOUT_DOMAINS]
     if held:
         print(f"\n  {len(held)} eligible pages held out of both lanes "
@@ -979,7 +911,7 @@ def cmd_next(args):
     if lane:
         todo = lane_queue(load(), lane)
     else:
-        todo = [p for p in load() if not p.twin and not p.excluded]
+        todo = [p for p in load() if not p.twin]
         todo.sort(key=lambda p: -p.words)
     if args.synthesis:
         todo = [p for p in todo if p.page_type == "synthesis"]
@@ -1077,16 +1009,9 @@ def cmd_task(args):
             print(f"No such page: wiki/{slug}.md", file=sys.stderr)
             return 2
         p = pages[0]
-        if p.excluded:
-            print(
-                f"REFUSED: wiki/{slug}.md is withheld under the standing "
-                f"moratorium in CLAUDE.md. Pick another page.",
-                file=sys.stderr,
-            )
-            return 2
-        # A lane is a refusal too, and for the same reason the moratorium is one:
-        # it is checked here rather than trusted to the caller. An agent told to
-        # work the free lane and handed a 4,900-word synthesis will attempt it.
+        # A lane is a refusal rather than advice, and it is checked here rather
+        # than trusted to the caller. An agent told to work the free lane and
+        # handed a 4,900-word synthesis will attempt it.
         if args.lane and not lane_eligible(p, args.lane):
             print(
                 f"REFUSED: wiki/{slug}.md is not in the {args.lane} lane "
@@ -1099,7 +1024,7 @@ def cmd_task(args):
         if args.lane:
             todo = lane_queue(load(), args.lane)
         else:
-            todo = [p for p in load() if not p.twin and not p.excluded]
+            todo = [p for p in load() if not p.twin]
             todo.sort(key=lambda p: -p.words)
         if args.synthesis:
             todo = [p for p in todo if p.page_type == "synthesis"]
@@ -1146,14 +1071,6 @@ def cmd_new(args):
         return 2
 
     page = Page(slug)
-    if page.excluded:
-        print(
-            f"REFUSED: wiki/{slug}.md is under the standing moratorium in "
-            f"CLAUDE.md.\nA plain-language retelling is new narrative about a "
-            f"living person. Only the operator lifts this.",
-            file=sys.stderr,
-        )
-        return 2
     if page.twin:
         print(f"plain/{slug}.md already exists.", file=sys.stderr)
         return 2

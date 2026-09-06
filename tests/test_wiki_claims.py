@@ -129,11 +129,20 @@ class CommandRefusals(unittest.TestCase):
         return subprocess.run([sys.executable, str(TOOL), *args],
                               cwd=cwd or ROOT, capture_output=True, text=True)
 
-    def test_moratorium_is_refused_not_stripped(self):
-        r = self._run("record", "Annie is reachable", "--kind", "contact",
-                      "--valid-from", "2020-01-01")
-        self.assertNotEqual(r.returncode, 0)
-        self.assertIn("standing", (r.stderr + r.stdout).lower())
+    def test_a_claim_naming_the_formerly_protected_person_is_accepted(self):
+        """The moratorium was lifted on 2026-09-06; `record` refused this until
+        then. Run in an isolated tree so the real ledger is untouched."""
+        tmp = Path(tempfile.mkdtemp())
+        self.addCleanup(shutil.rmtree, tmp, ignore_errors=True)
+        (tmp / "bin").mkdir()
+        (tmp / "bin" / "wiki-claims").write_text(
+            TOOL.read_text(encoding="utf-8"), encoding="utf-8")
+        r = subprocess.run(
+            [sys.executable, str(tmp / "bin" / "wiki-claims"), "record",
+             "Annie is reachable on the old number", "--kind", "contact",
+             "--valid-from", "2020-01-01"], capture_output=True, text=True)
+        self.assertEqual(r.returncode, 0, r.stderr)
+
 
     def test_future_valid_from_is_refused(self):
         ahead = (datetime.date.today() + datetime.timedelta(days=30)).isoformat()

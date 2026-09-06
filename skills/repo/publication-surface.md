@@ -57,5 +57,6 @@ private.
 
 This is about deliberate publication of the subject's own data, which is an
 operator decision and not a session's to reverse. It is not licence to add
-third-party personal data: the standing moratorium in `CLAUDE.md` governs there
-and outranks this skill.
+third-party personal data on a session's own judgement — that stays an operator
+call, and the Annie moratorium (2026-08-23, lifted 2026-09-06) is the worked
+example of one being made and unmade.

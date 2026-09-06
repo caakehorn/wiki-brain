@@ -23,8 +23,8 @@ filtered out, so this list shrinks only when something is actually settled.
 
 | | count |
 |---|---|
-| Live contradictions | 51 |
-| Open gaps | 720 |
+| Live contradictions | 50 |
+| Open gaps | 711 |
 | Answered, awaiting ingest | 0 |
 | Standing predictions | 65 |
 
@@ -83,7 +83,6 @@ somewhere and has not yet found out where.
 - **[[wiki/people/libby]]** — The demand letters state **$75/hour**, set by Libby. But on 2024-05-17 Annie writes *"I was literally with Libby for just over 3 hours today.. she paid me 500"* — roughly $167/hour — and a week later invites Dan to guess the figure for four hours. Both are first-hand and neither is retracted. Possible readings: the rat
 - **[[wiki/people/rod-banks]]** — That page's timeline carries one line for this period — *"2020-06-23 · Estate advance issued · $10,000"*. The thread here holds **five** advances totalling **$32,500**, none of them dated 2020-06-23, and the $10,000 in it is dated **2020-02-04**. Either there were two $10,000 advances four months apart, or the spine's 
 - **[[wiki/people/sadie-harris]]** — earlier versions of this page and the member table on fayette-return both recorded Sadie as having *died* in Hopwood on 27 November 1997. The GEDCOM records no death place at all — only the date — and lists Hopwood as the **burial** place. Her last attested residence is Brownsville in 1993. The Hopwood association is r
-- **[[wiki/people/suzanne-frank]]** — A $200 cocaine spend on 2015-12-29 is **not** established as hers, and an earlier pass wrongly recorded it as such. The record has Annie saying *"And that $200 wasn't even your own"* (23:48) and Dan answering *"It was my money"* (23:50). The two lines conflict and the corpus does not settle them. Held open rather than 
 - **[[wiki/self/concepts/chatgpt]]** — This page and claude-code make incompatible claims about where an LLM's value sits. This page treats it as residing in the model's *willingness* — a register it will speak in, a class of question it will engage — which is why a guardrail change reads here as a capability loss and why the honesty standard is encoded as 
 - **[[wiki/self/facebook]]** — This paragraph used to say *every* field cross-checks. One does not. `places lived` gives **Brooklyn NYC from January 3, 2010**. The tweet archive has Dan in Florida for another eight weeks: *"moving to brooklyn in 9 days"* on 20 February 2010, *"last day in errrlando…hangin in a u-haul store"* on the 27th, *"peace out
 - **[[wiki/self/twitter]]** — the archive and facebook disagree about when Dan moved to Brooklyn. Facebook's `places lived` field says 3 January 2010. On 20 February 2010 he tweeted *"moving to brooklyn in 9 days"*, and on the 28th *"peace out, florida."* Both records are his own; one is timestamped by the platform and one was typed into a profile 
@@ -396,7 +395,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on behavior, not data:** whether the freed Annie-bandwidth reroutes to output or recursion (the allocation table will answer within months); whether the 2025–26 mega-audit terminates in a migration or becomes self-sustaining; whose names enter the am
 - **[[wiki/mind/synthesis/totality-themes]]** — **Up:** Mind
 
-### people (217)
+### people (208)
 
 - **[[wiki/people/al]]** — Last name and any resolution of the November 2018 debt dispute are undocumented.
 - **[[wiki/people/alexis-armel]]** — **The `known_for` line is now quoted outside the wiki, and the page owes it a harder look.** *"The six-year relationship that occupied the attachment slot without ever activating it"* was cited in a sage answer published 2026-08-21 as evidence that stability w
@@ -585,15 +584,6 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/shane-brannan]]** — **Up:** People
 - **[[wiki/people/slim]]** — Identity entirely unresolved. The nickname and the NYC summer-2019 timing could place this in any number of social, recreational, or transactional contexts. No Facebook or other corpus cross-references found.
 - **[[wiki/people/slim]]** — **Up:** People
-- **[[wiki/people/suzanne-frank]]** — **Her account of the 2005 rupture.** Still entirely Dan-side. The contemporaneous record begins in 2015, ten years after.
-- **[[wiki/people/suzanne-frank]]** — **Did the 11 August 2026 eviction hold?** Where is Dan living now, and is the 463 Morgantown arrangement still active for either of them?
-- **[[wiki/people/suzanne-frank]]** — **What happened to the $14,000?** Was any of the remaining ~$10,000 ever repaid, in cash or in kind, after July 2019?
-- **[[wiki/people/suzanne-frank]]** — **The Chapter 13 outcome.** Did the plan complete on the 337 proceeds, or convert? What did she walk away with after the IRS claims and costs?
-- **[[wiki/people/suzanne-frank]]** — **The teaching plan.** Did anything come of the August 2024 "at age 62 I'm going to start teaching" — a certification, a placement, a substitute list?
-- **[[wiki/people/suzanne-frank]]** — **Licence RS305558.** Unsourced anywhere in `raw/`; verifiable in one lookup.
-- **[[wiki/people/suzanne-frank]]** — **The Winter Park tenant.** The address is settled and the loss is now corroborated in her own words; the trafficking arrest is not. Orange County FL court records, searchable by address, are the next step.
-- **[[wiki/people/suzanne-frank]]** — **Why the thread collapsed in July 2026** from ~300 messages a month to 14, while Dan's overall message volume stayed normal.
-- **[[wiki/people/suzanne-frank]]** — **Up:** People
 - **[[wiki/people/tan-calabrese]]** — Exact date of the Angelfire incident and its position relative to the Windell's trips. Relationship to Dan outside the 2016–2020 window, role in the social graph beyond childhood friend, and current status are all unresolved. No Facebook or other corpus cross-
 - **[[wiki/people/tan-calabrese]]** — **Up:** People
 - **[[wiki/people/the-unnamed-man]]** — His name, age, occupation, relationship history with Annie, and how they met are all unknown. The duration of the relationship is unknown; the earliest event attributed to him is the finger injury around late May 2026, which would place its start at or before 

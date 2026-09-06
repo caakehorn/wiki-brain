@@ -1,16 +1,26 @@
 ---
 name: annie-read-synthesis
-description: RETIRED 2026-08-23 under the Annie moratorium in CLAUDE.md. Do not invoke. Kept only as a record of how the spread used to work.
+description: >
+  Take what a message-read batch established on wiki/timeline/annie-record.md and
+  push it across every wiki page it touches — the spread half of a corpus read,
+  where a finding stops being one page's and becomes the wiki's. Use after
+  reading a window of the Annie corpus with `corpus-read` or `bin/annie-corpus`,
+  whenever a read batch has landed and nothing has propagated it, and when asked
+  to "spread", "apply", "propagate" or "write back" what a read found. Live
+  again as of 2026-09-06: it was retired 2026-08-23 under the Annie moratorium,
+  which the operator has lifted.
 ---
 
-# Annie Read — Synthesis & Spread  ·  RETIRED
+# Annie Read — Synthesis & Spread
 
-> **DO NOT RUN THIS SKILL.** Retired 2026-08-23 by operator directive — see
-> `CLAUDE.md` § "STANDING DIRECTIVE — the Annie moratorium". Its entire purpose
-> is to take a new Annie read batch and push it across the wiki, which is the
-> precise thing now forbidden. There are no read batches any more. Nothing
-> below is an instruction; it is kept so a future session can see what was
-> stopped and why, rather than rebuilding it from scratch under a new name.
+> **Live again as of 2026-09-06.** This skill was retired on 2026-08-23 under
+> the Annie moratorium, which forbade exactly what it does: taking a new read
+> batch and pushing it across the wiki. The operator lifted that directive in
+> full. Everything below is an instruction again. Two things to know before
+> running it: the backlog it serves has a fortnight of unread windows behind it,
+> and step §4.4's number-verification now has a second instrument beside
+> `bin/annie-corpus` — `bin/wiki-corroborate window`, which reads both message
+> corpora around a date rather than one thread.
 
 
 Step 1 (`forensic-message-analysis`) reads a window and writes two pages.

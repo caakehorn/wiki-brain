@@ -49,6 +49,6 @@ cites `bin/mine-messages`.
 
 `bin/text-metrics` defaults to `imessage_export_deep_20260813.csv`, the only
 sender-tagged export reaching past 2025; a question about an earlier period may
-need a different source named explicitly. Neither tool may be pointed at the
-Annie corpus for new material — that is closed under the standing moratorium in
-`CLAUDE.md`, which outranks this skill.
+need a different source named explicitly. Both tools run on every thread in the
+corpus: the standing moratorium that closed the Annie record to them was lifted
+on 2026-09-06.

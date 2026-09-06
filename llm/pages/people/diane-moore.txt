@@ -6,7 +6,7 @@ aliases: ["Diane", "Dian", "Dian V. Moore", "Diane Moore", "Rebecca Diane Van Vo
 status: stable
 knowledge: mixed
 date_created: 2026-08-02
-date_modified: 2026-08-18
+date_modified: 2026-09-06
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - raw/self/captures/2026-08-02_041331_fall-of-fran-alternate-version-ignore-glyph-fo.md
@@ -114,6 +114,29 @@ hours. The wiki guessed **Diane and George**. The operator's answer, filed
 > This is corroborated testimony, not testimony alone: the operator's two
 > words agree with a 2016 message, a 2018 message and a 2020 message written
 > years before anyone asked.
+
+> **CORROBORATED [2026-09-06]:** *"he never names them in that passage"* was
+> true of the passage and not of the night. The keno-morning fall is dated —
+> the night of **2017-11-25 into 2017-11-26**, see
+> [[wiki/timeline/events/fran-death-vigil]] — and at **23:12 on 2017-11-26**,
+> with Fran back on her feet and the day over, Dan wrote to
+> [[wiki/people/suzanne-frank|Suz]]:
+>
+> > *"Where the fuck is Diane"*
+> > *"When gram is wailing on her floor"*
+> > *"That sound will haunt me"*
+>
+> Suz answered: *"Being miserable somewhere we aren't thank god."* So the fear
+> the operator's answer identified has a contemporaneous companion, and it is
+> not fear — it is **grievance about absence**, expressed on the day, by name,
+> about the same person. The two are consistent and they are not the same
+> emotion: a man frightened that Diane will use a crisis against him is also a
+> man furious that she was not there for it. The page's account of one
+> adversary throughout holds; what the record adds is that the adversary was
+> being resented in real time, thirteen hours into the fall, rather than only in
+> a later retelling.
+>
+> Window: `bin/wiki-corroborate window 2017-11-26 --days 1 --handle 7243228715`.
 
 ## Who she is in the line
 

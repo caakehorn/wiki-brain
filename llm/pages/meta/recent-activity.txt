@@ -23,18 +23,27 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-06 — 6 pages
+## 2026-09-06 — 15 pages
 
 | Page | Domain | What moved |
 |---|---|---|
+| [[wiki/health/cocaine]] | health | **RE-CHECKED** — the family-internal node runs **two years later than "through 2015–16"**, and the clearest instance of it is a medical emergency. On **2017-11-26**, with his great-grandmother in her twelfth hour on t |
 | [[wiki/meta/claim-validity]] | meta | — |
+| [[wiki/meta/corroboration]] | meta | — |
 | [[wiki/meta/digest]] | meta | — |
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
-| [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
+| [[wiki/meta/recent-activity]] | meta | _(carries a RE-CHECKED)_ |
 | [[wiki/meta/testimony-veracity]] | meta | — |
 | [[wiki/mind/profile/trait-corpus-map]] | mind | — |
+| [[wiki/mind/synthesis/personality-as-generative-architecture]] | mind | — |
+| [[wiki/people/dave-moore]] | people | — |
+| [[wiki/people/diane-moore]] | people | _(carries a CORRECTED from 2026-08-18)_ |
+| [[wiki/people/ellen-ulmer]] | people | _(carries a GAP CLOSED from 2026-08-17)_ |
+| [[wiki/people/suzanne-frank]] | people | **CORRECTED** — an older version of this page had Suz borrowing **"$750 a week"** as a recurring measured rate. That claim is retracted and is in `RETRACTED.md` under `suz-750-weekly`. The source is one angry stateme |
+| [[wiki/timeline/events/fran-death-vigil]] | timeline | _(carries a CORRECTED from 2026-08-18)_ |
+| [[wiki/timeline/events/the-fall-of-fran]] | timeline | _(carries a CONTRADICTION from 2026-08-02)_ |
 
-## 2026-09-05 — 26 pages
+## 2026-09-05 — 25 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -61,15 +70,13 @@ simply listed.
 | [[wiki/people/davey-fitzpatrick]] | people | — |
 | [[wiki/people/jack-rusko]] | people | — |
 | [[wiki/people/mohammed-bin-salman]] | people | — |
-| [[wiki/people/suzanne-frank]] | people | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/people/trevor]] | people | **CORRECTED** — The thank-you exchange above is real. What the paragraph does not say is that **Dan learned of the departure from somebody else, and reacted before that exchange happened.** On **2018-07-26** the assi |
 | [[wiki/work/au-zaatar]] | work | _(carries a REVISED from 2026-07-14)_ |
 
-## 2026-09-04 — 94 pages
+## 2026-09-04 — 93 pages
 
 | Page | Domain | What moved |
 |---|---|---|
-| [[wiki/health/cocaine]] | health | _(carries a RE-CHECKED from 2026-08-28)_ |
 | [[wiki/health/the-configured-body]] | health | **RE-CHECKED** — cocaine and supply-network both moved for the vaughn re-derivation. The cocaine page gained a contemporaneous first-person spend figure — *"I spend well over $100 a day on it"* |
 | [[wiki/interests/concert-record/index]] | interests | — |
 | [[wiki/interests/favorites/music/artists/flight-of-the-conchords]] | interests | — |
@@ -253,7 +260,7 @@ simply listed.
 |---|---|---|
 | [[wiki/places/117-belmont-circle]] | places | **GAP CLOSED** — the page previously said *"whether the sale actually closed, when, to whom and for how much is undocumented; the record stops at 'pending.'"* Two of those four are now answered — **when** (summer 2019 |
 
-## 2026-08-26 — 38 pages
+## 2026-08-26 — 37 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -289,7 +296,6 @@ simply listed.
 | [[wiki/self/ancestry]] | self | — |
 | [[wiki/self/concepts/astrology-star-signs]] | self | **RE-CHECKED** — flagged stale again against ally-lubin (2026-08-26), which integrated a staged love letter and a sage finding about a mutual-correction sequence and a joke line ("I'm a SINGLE MOTHER"). None of the th |
 | [[wiki/self/overview]] | self | — |
-| [[wiki/timeline/events/fran-death-vigil]] | timeline | _(carries a CORRECTED from 2026-08-18)_ |
 | [[wiki/timeline/events/teen-concert-years]] | timeline | _(carries a CONTRADICTION from 2026-08-02)_ |
 | [[wiki/timeline/periods/2020-2021-market-era]] | timeline | **RE-CHECKED** — `bin/wiki-climb check` flagged this page stale against context-core, which moved on 2026-08-26. The premise did not move in substance — the only change on that page was one new `connections:` entry cr |
 | [[wiki/work/bfs-foods]] | work | **CORRECTED** — the sentence above — refusal, then a same-day 36→7 cut — is the story as it was first analyzed, and it is not the sequence Dan later confirmed. Reading a fuller export of the same analysis thread (`Li |
@@ -335,7 +341,7 @@ simply listed.
 | [[wiki/self/concepts/llm]] | self | **CORRECTED** — this section previously presented all three bullets below as *"his analysis."* They are **Gemini's**, generated in the 2025-08-24 session from Dan's five-word prompt *"gemini i think chatGPT is cooked |
 | [[wiki/self/concepts/wiki-brain]] | self | **RE-CHECKED** — llm moved on 2026-08-21: Gemini's 'chicken nugget' passage was corrected off Dan's ledger, and the post-GPT-5 causation of ChatGPT's decline was marked untested. This page carries an edge claiming Cha |
 
-## 2026-08-20 — 13 pages
+## 2026-08-20 — 12 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -344,7 +350,6 @@ simply listed.
 | [[wiki/people/alexander-jackson]] | people | **RE-CHECKED** — flagged stale against 463-morgantown (2026-08-20). That page gained a section on the address becoming a threat vector — Coles sending it to Dan unprompted on 2026-08-17 — and one typed edge. Re-read a |
 | [[wiki/people/arnu]] | people | **RE-CHECKED** — flagged stale against 463-morgantown (2026-08-20). That page gained a section on the address as a threat vector and one typed edge. Re-read against the change; **no claim on this page is affected** an |
 | [[wiki/people/bruce-burish]] | people | **CORRECTED** — both versions of this page reported the thread as **181 messages**, and the stub added that they were *"all received (export artifact — Dan's outbound not captured)."* **181 is exactly the received co |
-| [[wiki/people/ellen-ulmer]] | people | _(carries a GAP CLOSED from 2026-08-17)_ |
 | [[wiki/people/jerel-coles]] | people | — |
 | [[wiki/people/john-carney]] | people | **RE-CHECKED** — flagged stale against 463-morgantown (2026-08-20). That page gained a section on the address as a threat vector and one typed edge. Re-read against the change; **no claim on this page is affected** an |
 | [[wiki/people/tuquick-17248123683]] | people | _(carries a REVISED from 2026-08-09)_ |
@@ -375,15 +380,13 @@ simply listed.
 | [[wiki/self/concepts/gemini]] | self | **CORRECTED** — An earlier version of this page quoted Gemini's ChatGPT autopsy — "access and replicate a linguistic pattern from a specific subculture without an immediate, top-down ethical override," "every system  |
 | [[wiki/self/youtube-watch-history]] | self | _(carries a REVISED from 2026-07-20)_ |
 
-## 2026-08-18 — 13 pages
+## 2026-08-18 — 11 pages
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/interests/index]] | interests | — |
 | [[wiki/interests/music/concepts/lyrics-as-timbre]] | interests | — |
 | [[wiki/people/danielle-onesi]] | people | **CORRECTED** — this paragraph had the identification right and the wiki did not act on it. A separate entity page, `wiki/people/max-danielle-bf`, was created in June 2026 for the same man under the name "Max" — read |
-| [[wiki/people/dave-moore]] | people | — |
-| [[wiki/people/diane-moore]] | people | **CORRECTED** — This page previously titled her *"Diane (Rebecca Diane Van Voorhis Shrum)"* and stated outright that the surname was *"given here as Shrum on the strength of the documented marriage rather than a reco |
 | [[wiki/people/max]] | people | **CORRECTED** — This page previously read: *"Separate from real person 'Max' (Danielle's BF, 'the Dude', music guy / CNA-to-producer from Gemini-_21.md)."* The only two occurrences of the name in `Gemini-_21.md` are  |
 | [[wiki/self/lineage/family-tree]] | self | **CORRECTED** — The tree previously carried her only under her birth name and the wiki's entity page under an inferred "Shrum." The message corpus names her twice on 2018-04-01 as **Diane Moore**, alongside **Dave Mo |
 | [[wiki/timeline/annie-read-notes]] | timeline | — |

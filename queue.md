@@ -4,12 +4,14 @@ _Items waiting for or in the middle of ingestion. `bin/capture status` lists the
 
 ## Highest-value pending item
 
-> **ANNIE MORATORIUM — 2026-08-23.** Every Annie row below is closed by the
-> standing directive in `CLAUDE.md`. No Annie export, metadata dump, group-chat
-> export or screenshot is filed or mined from this date, and nothing new is
-> written about her. The rows are struck through rather than deleted so that a
-> future session can see the instruction was withdrawn on purpose and does not
-> helpfully reinstate it.
+> **THE ANNIE MORATORIUM WAS LIFTED — 2026-09-06, operator.** The struck-through
+> rows below were closed by a standing directive between 2026-08-23 and
+> 2026-09-06. That directive is over and there is no successor rule: those
+> exports are ordinary pending ingests again, and the questions the rows say
+> the wiki "decided not to answer" are open questions again. The strikethrough
+> and the closure text are left in place because they record a real decision
+> and its reversal; **read them as history, not as instructions.** A row is
+> live work if the material it names still exists to be filed.
 
 
 | Item | Priority | Notes |

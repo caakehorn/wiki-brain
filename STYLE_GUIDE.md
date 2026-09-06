@@ -71,6 +71,8 @@ Any page carrying an argued conclusion — every `page_type: synthesis`, most `c
 
 Contradictions get an inline `> **CONTRADICTION:**` blockquote; revisions get `> **REVISED [YYYY-MM-DD]:**`; fixed errors get `> **CORRECTED [YYYY-MM-DD]:**` with the old claim visible and the evidence that killed it.
 
+**A claim checked against the message record gets `> **CORROBORATED [YYYY-MM-DD]:**`, whichever way it came out.** The block names the window that was read, quotes the rows with their timestamps, and says what moved — a date fixed, an hour added, a remembered detail the contemporaneous record does not carry. It is a distinct marker from the three above on purpose: those say the wiki was wrong about something, and this one says the wiki was *checked against the strongest source it has* — which is worth knowing even when nothing changed, because the next session can then see that the window has been read and need not read it again. **A window that came back empty is recorded the same way** ("checked 2018-04-01 ±2, the record is silent"): a page nobody has checked and a page the corpus cannot help must not look the same from outside. The operation is CORROBORATE in `CLAUDE.md`.
+
 **When a prediction is settled, record the resolution — never edit the prediction away.** A conclusion that turned out wrong, corrected in place with its original visible, is the most valuable artifact this repository produces: it is where the model of Dan actually improves. The worked examples are `wiki/mind/synthesis/block-unblock-loop.md` (predicted the June 2026 severance would hold; falsified 52 days later; the rule is now wider and the failure is on the page) and the Closing Note on `wiki/people/annie-ulmer.md`. Quietly deleting a falsified claim destroys knowledge; flagging it creates some.
 
 The same applies to the wiki's own errors. A rewrite that fixes a false claim says so, because otherwise the next reader re-derives the error from the same bad source.
@@ -110,7 +112,7 @@ Before rewriting any page, read the exemplar of the same `page_type` and match i
 2. **Tables hold numbers, prose holds meaning.** Never narrate a table's contents in the surrounding text.
 3. **Primary-source voice belongs on the page.** Verbatim first-person material from the subject — his own accounts, essays, correspondence — is an exception to the usual "keep verbatim in raw/" rule: when his wording carries the meaning, it goes on the page as a block quote rather than being paraphrased away. Other sourced verbatim still prefers `raw/` with a short citation.
 4. **Attribute AI-generated material as such.** The Gemini/bootloader/CATO/DANSYNTH files are a model reasoning about the corpus, not a record of it. Dan's own words inside a session are primary testimony; the model's factual assertions are not evidence. Three words — "per the bootloader's own synthesis" — is the whole cost.
-5. **Dates are absolute.** Convert relative time at write time; flag uncertainty as `(~2019?)`.
+5. **Dates are absolute, and a hedged date is a question, not a resting state.** Convert relative time at write time; flag uncertainty as `(~2019?)` — then run `bin/wiki-corroborate window` on it, because 271,405 dated messages sit in `raw/` and the corpus can usually settle it. A hedge inside the record's coverage (2015–2026, with 2012–2014 and 2022 empty) is a page telling you where to point the instrument, and `bin/wiki-corroborate scan --hedged` is the list of them.
 6. **No agent chatter anywhere.** No session notes, ingest logs, temp paths, model names, or "this pass did X" — that history lives in `log.md` and the git log.
 7. **Indexes are navigation only** — links plus one-line summaries. Index budgets stay tight (8 KB, master index 5 KB) precisely because pages do not.
 
@@ -157,7 +159,15 @@ changelog:                  # only on critical pages; newest first
     note: "one line"
 image: self                 # override the auto illustration; any path under assets/
 pending_ingest: YYYY-MM-DD  # written by bin/wiki-gaps, removed by bin/wiki-gaps clear
+corroborated: YYYY-MM-DD    # the last date this page's claims were checked against the message record
 ```
+
+`corroborated:` is a note to the next session, not a claim of completeness: it says a
+window was read, never that every date on the page was. What was actually checked lives
+in `corroborate/events.jsonl` and on `wiki/meta/corroboration`, and
+`bin/wiki-corroborate status <page>` prints it. Do not set it by hand on a page nothing
+has been run against — an unchecked page that says it was checked is worse than one that
+says nothing.
 
 `pending_ingest:` is the one field on this list that is **not** yours to write by hand. It means the page is carrying an operator answer nobody has acted on yet, and it is removed by the pass that acts on it — see CLAUDE.md, CLOSE. Its date is when the answer was staged, deliberately not the same thing as `date_modified`: a page holding an unintegrated answer has not moved yet.
 
@@ -324,11 +334,8 @@ enough that a reader could predict what a fourth stop would need to qualify.
 
 **Never invent a journey as a second, weaker index.** If the connecting
 thread does not survive being stated as one sentence a stranger could
-follow, it belongs in a domain index instead. **A journey through pages the
-Annie moratorium covers may link to Annie's existing pages exactly as
-published — never add narrative, synthesis, or connective claims about her
-that are not already written elsewhere in the wiki**, per `CLAUDE.md`'s
-standing directive. Exemplar: `wiki/meta/journeys/the-supply-line.md`.
+follow, it belongs in a domain index instead. Exemplar:
+`wiki/meta/journeys/the-supply-line.md`.
 
 ## Linking
 

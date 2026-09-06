@@ -87,6 +87,11 @@ GENERATE = [
     # trap: any pass that records a claim leaves the gate red until somebody
     # runs a generator nothing names.
     (["wiki-claims", "page"], "regenerate wiki/meta/claim-validity.md", True),
+    # Sixth page-writer, same rule as the five above: `wiki-corroborate page`
+    # writes wiki/meta/corroboration.md and `wiki-corroborate check` gates on it
+    # being current, so the generator belongs HERE — ahead of wiki-digest
+    # counting pages and llm-publish copying them.
+    (["wiki-corroborate", "page"], "regenerate wiki/meta/corroboration.md", True),
     (["wiki-digest"], "regenerate DIGEST / RECENT / OPEN", True),
     (["llm-publish"], "rebuild the llm/ corpus", True),
     # skills/INDEX.md is derived from the skill files, and `wiki-lessons check`
@@ -190,6 +195,15 @@ GATE = [
     # received messages and a corpus that size contains key-shaped strings that
     # are not keys, so a whole-tree scan would fire on immutable archive
     # material and be switched off within a week.
+    # The corroboration gate, and the only one here that reads the WORKING DIFF
+    # rather than the tree — deliberately, and for the reason wiki-secrets does
+    # the same: 378 pages carry dated claims nothing has ever checked against
+    # the message record, and a gate that went red on all of them would be
+    # switched off within a week. This fires on the pass that writes a NEW dated
+    # claim, which is the pass that can still cheaply do something about it. In
+    # --check-only on a clean checkout it is a near no-op, exactly like
+    # wiki-secrets, and the ledger/projection/page drift checks are what remain.
+    (["wiki-corroborate", "check"], "new dated claims checked against the messages", False),
     (["wiki-secrets", "check"], "no credential shapes entering the record", False),
     (["wiki-history", "check"], "no page dated ahead of its own last commit", False),
 ]

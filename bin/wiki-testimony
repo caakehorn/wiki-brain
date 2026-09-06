@@ -84,15 +84,15 @@ hide the most interesting question the ledger can ask.
 Third-party testimony (somebody else asserting something) is recordable with
 `--speaker`, and is excluded from the operator's own score by construction.
 
-THE STANDING DIRECTIVE IS ENFORCED HERE, NOT REMEMBERED
+THE STANDING DIRECTIVE WAS LIFTED ON 2026-09-06
 
-`CLAUDE.md` carries a moratorium on new narrative about one living person. A
-testimony record is new writing about the subject of the claim, and the
-generated page is public, so the rule is mechanical and refuses rather than
-warns: `record` will not take a claim that names her, and `check` fails if one
-appears in the log or on the page. This BIASES THE SAMPLE — at least one
-cleanly adjudicated confirmation is excluded by it — and the page says so
-rather than quietly reporting a score drawn from a filtered record.
+From 2026-08-23 to 2026-09-06 this file refused any record naming one living
+person, under a standing operator directive, and failed the gate if one
+appeared. **The operator lifted that directive in full on 2026-09-06.** The
+refusal is gone. What it left behind is a real hole in the sample — claims that
+went unrecorded for two weeks because the tool would not take them — and the
+generated page keeps saying so until they are entered, because a gap in a
+ledger that does not announce itself reads as an absence of claims.
 
 EVENT-SOURCED, IN PLAIN FILES
 
@@ -121,13 +121,6 @@ LOG = LEDGER / "events.jsonl"
 PROJECTION = LEDGER / "testimonies.json"
 SUMMARY = LEDGER / "SUMMARY.md"
 PAGE = ROOT / "wiki" / "meta" / "testimony-veracity.md"
-
-# ---------------------------------------------------------------- the directive
-#
-# Same pattern and the same reasoning as `bin/wiki-plain`: the rule is code
-# rather than something a session has to remember, and it refuses rather than
-# strips. See that file's header and CLAUDE.md's STANDING DIRECTIVE section.
-MORATORIUM = re.compile(r"\b(annie|ulmer|lo_weez)\b", re.I)
 
 # ---------------------------------------------------------------- taxonomy
 #
@@ -272,16 +265,6 @@ def pct(x):
 def die(msg, code=2):
     print(f"wiki-testimony: {msg}", file=sys.stderr)
     sys.exit(code)
-
-
-def moratorium_guard(*texts):
-    """Refuse rather than strip. See the header."""
-    for t in texts:
-        if t and MORATORIUM.search(str(t)):
-            hit = MORATORIUM.search(str(t)).group(0)
-            die(f"refused — this names '{hit}', who is under the standing directive in "
-                f"CLAUDE.md. The directive is a stop on new writing, and a testimony "
-                f"record is new writing. Nothing was appended.")
 
 
 def read_log():
@@ -488,7 +471,6 @@ def top(counter, k=3):
 # ---------------------------------------------------------------- commands
 def cmd_record(args):
     """Enter a claim into the record. Does not adjudicate it."""
-    moratorium_guard(args.claim, args.evidence_note, args.source)
     for c in args.claim_class:
         if c not in CLAIM_CLASSES:
             die(f"unknown claim class '{c}' — one of {', '.join(sorted(CLAIM_CLASSES))}")
@@ -526,7 +508,6 @@ def cmd_record(args):
 
 def cmd_adjudicate(args):
     """Settle a claim against evidence, or record that the corpus cannot."""
-    moratorium_guard(args.evidence)
     events = read_log()
     state = project(events)
     rec = state["testimonies"].get(args.id)
@@ -1128,13 +1109,14 @@ def render_page(state):
     L.append("")
 
     L += ["## What this ledger cannot see", "",
-          "**The sample is filtered, and not at random.** `CLAUDE.md` carries a "
-          "standing directive stopping new writing about one living person. "
-          "`bin/wiki-testimony` enforces it mechanically rather than leaving it "
-          "to a session to remember, and refuses such a record outright. At "
-          "least one cleanly adjudicated confirmation is excluded by that rule. "
-          "The exclusion is correct and it is still a bias: this score is drawn "
-          "from what the directive permits, not from everything the corpus knows.",
+          "**The sample has a hole in it, and not a random one.** From "
+          "2026-08-23 to 2026-09-06 a standing operator directive stopped new "
+          "writing about one living person, and this tool refused any record "
+          "naming her — at least one cleanly adjudicated confirmation went "
+          "unrecorded. The directive was lifted on 2026-09-06 and the refusal "
+          "is gone, but the records it turned away have not been entered yet. "
+          "Until they are, this score is drawn from what that fortnight "
+          "permitted rather than from everything the corpus knows.",
           "",
           "**Adjudicated claims are not a random sample of claims.** A claim gets "
           "checked when somebody had a reason to check it, and the reasons "
@@ -1164,7 +1146,6 @@ def render_page(state):
 def cmd_page(args):
     state = project(read_log())
     page = render_page(state)
-    moratorium_guard(page)
     PAGE.parent.mkdir(parents=True, exist_ok=True)
     PAGE.write_text(page, encoding="utf-8")
     write_projection(state)
@@ -1247,12 +1228,6 @@ def cmd_check(args):
         if not r.get("source"):
             warnings.append(f"{tid}: no source — where did he say this?")
 
-    blob = json.dumps(state, ensure_ascii=False)
-    if MORATORIUM.search(blob):
-        errors.append("the ledger contains a record naming a person under the "
-                      "standing directive in CLAUDE.md — this is published; "
-                      "void the record rather than editing the log in place")
-
     fresh = json.dumps(state, indent=2, sort_keys=True, ensure_ascii=False) + "\n"
     if not PROJECTION.exists():
         errors.append("testimony/testimonies.json is missing — run `bin/wiki-testimony rebuild`")
@@ -1266,8 +1241,6 @@ def cmd_check(args):
     elif PAGE.read_text(encoding="utf-8") != page:
         errors.append(f"{PAGE.relative_to(ROOT)} is behind the ledger — "
                       f"run `bin/wiki-testimony page` and do not hand-edit it")
-    if MORATORIUM.search(page):
-        errors.append("the generated page names a person under the standing directive")
 
     summ = render_summary(state)
     if SUMMARY.exists() and SUMMARY.read_text(encoding="utf-8") != summ:

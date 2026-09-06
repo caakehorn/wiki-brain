@@ -5,22 +5,13 @@ Run:  python3 -m unittest discover -s tests -v     (from the repo root)
 
 Three properties are pinned here and none of them is cosmetic.
 
-  * **The moratorium guard, on BOTH sides of the output.** `CLAUDE.md` carries a
-    standing operator directive about a living person, and this tool is one of
-    the two places it stops being something a session has to remember. It
-    shipped enforcing the refusal in two places — scanning her page, and the
-    `--queue` — and in neither of the two places where her page comes back as a
-    *candidate*, which is a worklist entry whichever column it lands in. A scan
-    of `wiki/interests/concert-record/index` on 2026-09-04 offered her page as a
-    target with 101 mentions. A guard whose failure mode is silent permission
-    gets a test, exactly as `bin/wiki-plain`'s did.
-
-  * **The guard's deliberate narrowness.** It refuses pages that ARE about her
-    and not pages that merely name her, because porting `bin/wiki-plain`'s
-    body-mention threshold across would withhold 197 of 497 pages for no safety
-    gained. That is a decision, not an oversight, so it is pinned in both
-    directions — a test that only checked the refusal would be satisfied by a
-    guard that refused everything.
+  * **The moratorium is lifted, and stays lifted.** Until 2026-09-06 this tool
+    refused one person's pages as scan subjects, dropped them from the queue and
+    withheld them as rendered candidates. The operator ended the directive in
+    full. `TheMoratoriumIsLifted` pins the absence of every one of those
+    refusals — the guard was documented here at length as a safety property, and
+    a documented safety property is what a later session reconstructs from
+    memory.
 
   * **Contested names.** A string two pages both claim is evidence for neither.
     `@alexisarmel` sits in one person's `aliases:` and in another's infobox
@@ -67,34 +58,27 @@ def page(title, aliases=None, handles=None, body="Body text.", extra=""):
     return "\n".join(fm) + "\n\n" + body + "\n"
 
 
-class Moratorium(unittest.TestCase):
+class TheMoratoriumIsLifted(unittest.TestCase):
+    """Lifted in full by the operator on 2026-09-06.
+
+    Until then this tool refused her pages as scan subjects, dropped them from
+    the `--queue`, withheld them as rendered candidates and flagged
+    `rederive`'s heavy pages as directive-constrained. All four are gone. The
+    absence is pinned, because the guard was documented here at length as a
+    safety property and that is what a later session reconstructs from.
+    """
+
     def setUp(self):
         self.m = load_module()
 
-    def test_refuses_a_page_that_is_about_her(self):
-        self.assertTrue(self.m.under_moratorium(page("Annie (Anne Louise Ulmer)")))
-        self.assertTrue(self.m.under_moratorium(page("Someone", aliases=["Annie"])))
-        self.assertTrue(self.m.under_moratorium(page("Ellen Ulmer")))
+    def test_no_guard_remains(self):
+        for name in ("MORATORIUM", "under_moratorium", "mentions_moratorium",
+                     "note_moratorium_targets", "MORATORIUM_TARGETS"):
+            with self.subTest(name=name):
+                self.assertFalse(hasattr(self.m, name),
+                                 "bin/wiki-crosslink still defines %s" % name)
 
-    def test_does_not_refuse_a_page_that_merely_names_her(self):
-        """The narrowness is the decision. 197 of 497 pages name her in passing."""
-        txt = page("Golf", body="He played with Annie in 2019. Ulmer came too.")
-        self.assertFalse(self.m.under_moratorium(txt))
-        self.assertEqual(self.m.mentions_moratorium(txt), 2)
-
-    def test_target_set_covers_her_pages_only(self):
-        pages = {
-            "wiki/people/annie-ulmer.md": page("Annie (Anne Louise Ulmer)"),
-            "wiki/interests/golf.md": page("Golf", body="Annie liked it."),
-        }
-        got = self.m.note_moratorium_targets(pages)
-        self.assertEqual(got, {"wiki/people/annie-ulmer"})
-
-    def test_render_withholds_her_page_as_a_candidate(self):
-        """The leak. She was refused as a scan SUBJECT and served as a TARGET."""
-        self.m.note_moratorium_targets(
-            {"wiki/people/annie-ulmer.md": page("Annie (Anne Louise Ulmer)")}
-        )
+    def test_her_page_renders_as_a_candidate(self):
         idx = {
             "wiki/people/annie-ulmer": {"domain": "people", "limit": 3,
                                         "title": "Annie", "names": []},
@@ -112,15 +96,15 @@ class Moratorium(unittest.TestCase):
         with contextlib.redirect_stdout(buf):
             n = self.m.render_hits("wiki/x", hits, idx)
         out = buf.getvalue()
-        self.assertEqual(n, 1)
-        self.assertNotIn("annie-ulmer", out)
-        self.assertIn("withheld under the standing directive", out)
+        self.assertEqual(n, 2)
+        self.assertIn("annie-ulmer", out)
+        self.assertNotIn("withheld under the standing directive", out)
+
 
 
 class MatcherBehaviour(unittest.TestCase):
     def setUp(self):
         self.m = load_module()
-        self.m.MORATORIUM_TARGETS.clear()
 
     def _index(self, pages):
         return self.m.build_index(pages)
@@ -289,7 +273,6 @@ class CommonPhraseFlag(unittest.TestCase):
     def setUp(self):
         self.m = load_module()
         self.m.COMMON_PHRASE.clear()
-        self.m.MORATORIUM_TARGETS.clear()
 
     def test_a_band_named_after_a_phrase_is_flagged(self):
         idx = self.m.build_index({
@@ -422,72 +405,13 @@ class AliasAudit(unittest.TestCase):
                              "none of the hits are the subject" % (slug, dead))
 
 
-class MoratoriumNameResolution(unittest.TestCase):
-    """The guard has to resolve a page's name the way the rest of the file does.
-
-    It read `scalar(fm, "title")` and the aliases, and **288 of 497 pages carry
-    no `title:` field at all** — their name is in `infobox.name` or in the slug.
-    Nine pages were invisible to it in consequence, among them
-    `wiki/timeline/annie-record`, `wiki/people/ellen-ulmer` and
-    `wiki/timeline/events/shelbie-annie-threesome-april-2019`: pages squarely
-    about her, which `scan` would have accepted as subjects and offered as
-    targets. Found 2026-09-04 when a frontmatter sweep touched `bill-ulmer` and
-    the guard did not fire. Same shape as the hole `bin/wiki-plain`'s guard
-    shipped with — a safety check whose failure mode is silent permission.
-    """
-
-    def setUp(self):
-        self.m = load_module()
-
-    def _page(self, fm_lines, body="Body."):
-        return "---\n" + "\n".join(fm_lines) + "\n---\n\n" + body + "\n"
-
-    def test_name_only_in_the_infobox_is_caught(self):
-        txt = self._page(["domain: people", "page_type: entity",
-                          "infobox:", '  name: "Ellen Ulmer"'])
-        self.assertTrue(self.m.under_moratorium(txt, "wiki/people/ellen-ulmer.md"))
-
-    def test_name_only_in_the_slug_is_caught(self):
-        txt = self._page(["domain: timeline", "page_type: report"])
-        self.assertTrue(
-            self.m.under_moratorium(txt, "wiki/timeline/annie-record.md"))
-
-    def test_the_old_title_and_alias_paths_still_work(self):
-        self.assertTrue(self.m.under_moratorium(
-            self._page(['title: "Annie (Anne Louise Ulmer)"']), "wiki/x.md"))
-        self.assertTrue(self.m.under_moratorium(
-            self._page(['title: "Someone"', 'aliases: ["Annie"]']), "wiki/x.md"))
-
-    def test_an_unrelated_page_is_still_not_refused(self):
-        txt = self._page(['title: "Golf"'], body="He played with Annie in 2019.")
-        self.assertFalse(self.m.under_moratorium(txt, "wiki/interests/golf.md"))
-
-    def test_the_guard_covers_the_pages_it_missed(self):
-        """Regression on the real corpus: these nine were exposed."""
-        pages = self.m.load_pages()
-        for slug in ("wiki/timeline/annie-record",
-                     "wiki/people/ellen-ulmer",
-                     "wiki/people/bill-ulmer",
-                     "wiki/timeline/annie-read-notes",
-                     "wiki/mind/synthesis/dan-annie-fallout-verdict",
-                     "wiki/timeline/events/shelbie-annie-threesome-april-2019",
-                     "wiki/timeline/events/annie-alexis-reunion-november-2018",
-                     "wiki/timeline/periods/2015-2016-annie-relationship-start",
-                     "wiki/timeline/2015-annie-read-wiki-impact-analysis"):
-            path = slug + ".md"
-            self.assertIn(path, pages, slug)
-            self.assertTrue(self.m.under_moratorium(pages[path], path),
-                            "%s is not refused by the guard" % slug)
-
-
 class LinkPlacement(unittest.TestCase):
     """`unlinked --apply` writes into 344 pages at once and nobody reads them all.
 
     Every rule below is a refusal, and a refusal that stops working leaves no
     trace: the pass reports more links, the gates stay green, and the damage is
-    a wikilink inside somebody's quoted words on a public site. Same shape as
-    the moratorium guard above — silent permission — so it gets the same
-    treatment.
+    a wikilink inside somebody's quoted words on a public site — the silent-
+    permission shape, so it gets the same treatment.
     """
 
     def setUp(self):

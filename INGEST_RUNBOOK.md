@@ -85,7 +85,7 @@ All at repo root. Each says what it wins on when two disagree.
    at the end of every session** with what you did and the exact next focus.
 2. **`EXTRACTION_SPEC.md`** — how deep to go into a source before writing. This
    is the binding constraint on the whole project and the most important file for
-   an ingest pass specifically: the eight moves, primary vs AI-secondary source
+   an ingest pass specifically: the ten moves, primary vs AI-secondary source
    tiers, and the per-source traps that fail *silently*. Wins on depth.
 3. **`LLM_HANDOFF.md`** — cross-model coordination. Current state and what the
    last several sessions did. You MUST append to it at session end.
@@ -157,28 +157,42 @@ Per pass (a "pass" = one source or tight source-cluster, fully processed):
    see §6 Lesson 1. If a source states a derived rate/volume/count, recompute
    it from the raw export on disk before trusting it. The operator WILL catch
    unverified numbers, and was right to.
-7. **Update frontmatter** on every touched page:
+7. **CROSS-REFERENCE EVERY DATE AGAINST THE MESSAGE RECORD.** Added 2026-09-06
+   by operator directive, and it ranks with §4.6 rather than below it.
+   `bin/wiki-corroborate window <date> [--days N]` returns every message in
+   those hours across every thread in about two seconds. Do it for every dated
+   claim the source makes that falls in 2015–2026, **before** the claim goes on
+   a page — not to verify a date you doubt, but because you cannot tell from
+   inside a claim whether the record has something to add, and it usually does.
+   Then `bin/wiki-corroborate record` what came back; `--outcome absent` is a
+   real result and clears the gate. The messages **outrank the source you are
+   ingesting** on any date, time, sequence or who-was-present — they were
+   written at the time by the people involved — so where they disagree, correct
+   the page and say so in a `> **CORROBORATED [YYYY-MM-DD]:**` block.
+   `bin/wiki-corroborate check` fails a commit that writes a new dated claim
+   nobody asked the record about.
+8. **Update frontmatter** on every touched page:
    - `status:` `stable` → `active` (it's now being actively revised).
    - `date_modified:` → today (`YYYY-MM-DD`).
    - `sources:` → ADD the new `raw/` path you filed (must exist on disk).
    - `related:` → ADD links to pages the new material connects to.
    - For synthesis pages, ensure `knowledge: earned` is set.
-8. **Link any NEW page** from the relevant index (e.g. `wiki/mind/index.md` for
+9. **Link any NEW page** from the relevant index (e.g. `wiki/mind/index.md` for
    mind-domain pages). Orphan pages fail the spirit of the project.
-9. **Run `python3 bin/wiki-lint`.** Fix every ERROR:
+10. **Run `python3 bin/wiki-lint`.** Fix every ERROR:
    - broken `wiki/` links (you referenced a page path that doesn't resolve),
    - `sources:` paths that don't exist on disk.
    WARNINGS (page size, orphans) are advisory and safe to ignore UNLESS
    your specific page is wildly over budget and splittable — otherwise leave them.
-10. **Commit.** `git add -A` then
+11. **Commit.** `git add -A` then
     `git commit -m "<op>: <short description>"` — message should name the source
     filed, the pages changed, and note `bin/wiki-lint: 0 errors`. One focused
     commit per pass is the established rhythm.
-11. **Update `LLM_HANDOFF.md`** — append a dated `### [YYYY-MM-DD] - Session:`
+12. **Update `LLM_HANDOFF.md`** — append a dated `### [YYYY-MM-DD] - Session:`
     entry in the established style (see existing entries): model used, summary of
     sources filed + pages touched + key findings, and a Handoff Note listing the
     next natural passes. This is mandatory per `CLAUDE.md`.
-12. **Push + open PR ONLY when the operator asks.** Otherwise leave the branch
+13. **Push + open PR ONLY when the operator asks.** Otherwise leave the branch
     local. When asked: `git push -u origin <branch>`, then
     `gh pr create --base main --head <branch> --title "..." --body "..."`.
 
