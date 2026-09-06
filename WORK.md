@@ -15,7 +15,7 @@ Nothing here blocks a commit. The gates print what is outstanding and pass
 anyway; a question asked on Tuesday must not stand in the way of Thursday's
 typo fix.
 
-## Obligations (141)
+## Obligations (158)
 
 Somebody or something is waiting on each of these. Drain from the top.
 
@@ -77,8 +77,6 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 | 3 | stale | premise wiki/mind/synthesis/attachment-trauma-bond.md moved 2026-09-04, after this page's 2… | `wiki/mind/synthesis/the-rescue-premise.md` | 2026-09-04 |
 | 3 | stale | premise wiki/mind/synthesis/block-unblock-loop.md moved 2026-09-04, after this page's 2026-… | `wiki/mind/synthesis/august-grievance-verdict.md` | 2026-09-04 |
 | 3 | stale | premise wiki/mind/synthesis/block-unblock-loop.md moved 2026-09-04, after this page's 2026-… | `wiki/mind/synthesis/the-rescue-premise.md` | 2026-09-04 |
-| 3 | stale | premise wiki/mind/synthesis/bond-switch-2015.md moved 2026-09-04, after this page's 2026-08… | `wiki/mind/synthesis/the-rescue-premise.md` | 2026-09-04 |
-| 3 | stale | premise wiki/mind/synthesis/bond-switch-2015.md moved 2026-09-04, after this page's 2026-08… | `wiki/mind/synthesis/the-serial-monogamist.md` | 2026-09-04 |
 | 3 | stale | premise wiki/mind/synthesis/dormancy-not-exit.md moved 2026-09-04, after this page's 2026-0… | `wiki/mind/synthesis/the-rescue-premise.md` | 2026-09-04 |
 | 3 | stale | premise wiki/mind/synthesis/intake-constancy.md moved 2026-09-04, after this page's 2026-08… | `wiki/mind/synthesis/interests-as-era-markers.md` | 2026-09-04 |
 | 3 | stale | premise wiki/mind/synthesis/intake-constancy.md moved 2026-09-04, after this page's 2026-08… | `wiki/mind/synthesis/closing-the-set.md` | 2026-09-04 |
@@ -131,8 +129,6 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 | 3 | stale | premise wiki/mind/synthesis/ai-collaborative-analysis.md moved 2026-09-05, after this page'… | `wiki/mind/synthesis/instrument-is-subject.md` | 2026-09-05 |
 | 3 | stale | premise wiki/mind/synthesis/ai-collaborative-analysis.md moved 2026-09-05, after this page'… | `wiki/mind/synthesis/millennial-digital-witness.md` | 2026-09-05 |
 | 3 | stale | premise wiki/mind/synthesis/ai-collaborative-analysis.md moved 2026-09-05, after this page'… | `wiki/mind/synthesis/single-channel.md` | 2026-09-05 |
-| 3 | stale | premise wiki/mind/synthesis/estate-money-spine.md moved 2026-09-05, after this page's 2026-… | `wiki/mind/synthesis/totality-themes.md` | 2026-09-05 |
-| 3 | stale | premise wiki/mind/synthesis/estate-money-spine.md moved 2026-09-05, after this page's 2026-… | `wiki/places/the-unpapered-address.md` | 2026-09-05 |
 | 3 | stale | premise wiki/mind/synthesis/supply-network.md moved 2026-09-05, after this page's 2026-09-04 | `wiki/health/the-configured-body.md` | 2026-09-05 |
 | 3 | stale | premise wiki/mind/synthesis/supply-network.md moved 2026-09-05, after this page's 2026-09-04 | `wiki/mind/synthesis/intake-constancy.md` | 2026-09-05 |
 | 3 | stale | premise wiki/mind/synthesis/supply-network.md moved 2026-09-05, after this page's 2026-09-04 | `wiki/mind/synthesis/totality-themes.md` | 2026-09-05 |
@@ -145,13 +141,34 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 | 3 | stale | premise wiki/work/au-zaatar.md moved 2026-09-05, after this page's 2026-09-04 | `wiki/mind/synthesis/the-embedded-objective.md` | 2026-09-05 |
 | 3 | stale | premise wiki/work/au-zaatar.md moved 2026-09-05, after this page's 2026-09-04 | `wiki/mind/synthesis/vertical-authority-skepticism.md` | 2026-09-05 |
 | 3 | stale | premise wiki/health/cocaine.md moved 2026-09-06, after this page's 2026-09-04 | `wiki/health/the-configured-body.md` | 2026-09-06 |
+| 3 | stale | premise wiki/legal/463-morgantown.md moved 2026-09-06, after this page's 2026-08-20 | `wiki/people/alexander-jackson.md` | 2026-09-06 |
+| 3 | stale | premise wiki/legal/463-morgantown.md moved 2026-09-06, after this page's 2026-08-20 | `wiki/people/arnu.md` | 2026-09-06 |
+| 3 | stale | premise wiki/legal/463-morgantown.md moved 2026-09-06, after this page's 2026-08-20 | `wiki/people/john-carney.md` | 2026-09-06 |
+| 3 | stale | premise wiki/legal/463-morgantown.md moved 2026-09-06, after this page's 2026-09-04 | `wiki/places/the-unpapered-address.md` | 2026-09-06 |
+| 3 | stale | premise wiki/mind/synthesis/bond-switch-2015.md moved 2026-09-06, after this page's 2026-08… | `wiki/mind/synthesis/the-rescue-premise.md` | 2026-09-06 |
+| 3 | stale | premise wiki/mind/synthesis/bond-switch-2015.md moved 2026-09-06, after this page's 2026-08… | `wiki/mind/synthesis/the-serial-monogamist.md` | 2026-09-06 |
+| 3 | stale | premise wiki/mind/synthesis/bond-switch-2015.md moved 2026-09-06, after this page's 2026-09… | `wiki/mind/synthesis/the-unbroken-bond.md` | 2026-09-06 |
+| 3 | stale | premise wiki/mind/synthesis/estate-money-spine.md moved 2026-09-06, after this page's 2026-… | `wiki/mind/synthesis/totality-themes.md` | 2026-09-06 |
+| 3 | stale | premise wiki/mind/synthesis/estate-money-spine.md moved 2026-09-06, after this page's 2026-… | `wiki/places/the-unpapered-address.md` | 2026-09-06 |
+| 3 | stale | premise wiki/mind/synthesis/estate-money-spine.md moved 2026-09-06, after this page's 2026-… | `wiki/mind/synthesis/failure-to-launch.md` | 2026-09-06 |
+| 3 | stale | premise wiki/people/annie-ulmer.md moved 2026-09-06, after this page's 2026-08-23 | `wiki/mind/synthesis/message-circadian-latency.md` | 2026-09-06 |
+| 3 | stale | premise wiki/people/annie-ulmer.md moved 2026-09-06, after this page's 2026-08-26 | `wiki/people/annie-ulmer-personality-assessment.md` | 2026-09-06 |
+| 3 | stale | premise wiki/people/annie-ulmer.md moved 2026-09-06, after this page's 2026-08-28 | `wiki/mind/synthesis/august-grievance-verdict.md` | 2026-09-06 |
+| 3 | stale | premise wiki/people/annie-ulmer.md moved 2026-09-06, after this page's 2026-08-28 | `wiki/mind/synthesis/dan-annie-fallout-verdict.md` | 2026-09-06 |
+| 3 | stale | premise wiki/people/annie-ulmer.md moved 2026-09-06, after this page's 2026-08-28 | `wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis.md` | 2026-09-06 |
+| 3 | stale | premise wiki/people/annie-ulmer.md moved 2026-09-06, after this page's 2026-08-28 | `wiki/mind/synthesis/the-rescue-premise.md` | 2026-09-06 |
+| 3 | stale | premise wiki/people/annie-ulmer.md moved 2026-09-06, after this page's 2026-09-04 | `wiki/mind/synthesis/attachment-trauma-bond.md` | 2026-09-06 |
+| 3 | stale | premise wiki/people/annie-ulmer.md moved 2026-09-06, after this page's 2026-09-04 | `wiki/mind/synthesis/block-unblock-loop.md` | 2026-09-06 |
+| 3 | stale | premise wiki/people/annie-ulmer.md moved 2026-09-06, after this page's 2026-09-04 | `wiki/mind/synthesis/intensity-is-no-longer-the-only-mode.md` | 2026-09-06 |
+| 3 | stale | premise wiki/people/annie-ulmer.md moved 2026-09-06, after this page's 2026-09-04 | `wiki/mind/synthesis/the-unbroken-bond.md` | 2026-09-06 |
+| 3 | stale | premise wiki/people/annie-ulmer.md moved 2026-09-06, after this page's 2026-09-04 | `wiki/self/context-core.md` | 2026-09-06 |
+| 3 | stale | premise wiki/people/annie-ulmer.md moved 2026-09-06, after this page's 2026-09-05 | `wiki/mind/synthesis/supply-network.md` | 2026-09-06 |
 | 3 | stale | premise wiki/people/diane-moore.md moved 2026-09-06, after this page's 2026-09-04 | `wiki/mind/synthesis/vertical-authority-skepticism.md` | 2026-09-06 |
 | 3 | stale | premise wiki/people/suzanne-frank.md moved 2026-09-06, after this page's 2026-09-04 | `wiki/mind/synthesis/annual-volume-suz.md` | 2026-09-06 |
 | 3 | stale | premise wiki/people/suzanne-frank.md moved 2026-09-06, after this page's 2026-09-04 | `wiki/mind/synthesis/attachment-trauma-bond.md` | 2026-09-06 |
 | 3 | stale | premise wiki/people/suzanne-frank.md moved 2026-09-06, after this page's 2026-09-04 | `wiki/mind/synthesis/vertical-authority-skepticism.md` | 2026-09-06 |
 | 3 | stale | premise wiki/people/suzanne-frank.md moved 2026-09-06, after this page's 2026-09-04 | `wiki/people/suzanne-frank-personality-assessment.md` | 2026-09-06 |
 | 3 | stale | premise wiki/people/suzanne-frank.md moved 2026-09-06, after this page's 2026-09-04 | `wiki/self/context-core.md` | 2026-09-06 |
-| 3 | stale | premise wiki/people/suzanne-frank.md moved 2026-09-06, after this page's 2026-09-05 | `wiki/mind/synthesis/estate-money-spine.md` | 2026-09-06 |
 | 4 | skill | unvalidated skill candidate — A generator's own output is not the published object | `skills/INBOX.md` | 2026-08-30 |
 | 4 | skill | unvalidated skill candidate — Persistent cross-agent learning loop | `skills/INBOX.md` | 2026-08-30 |
 | 4 | skill | unvalidated skill candidate — A secret's absence must fail whatever the secret was for | `skills/INBOX.md` | 2026-08-31 |
@@ -166,7 +183,7 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 | 4 | skill | unvalidated skill candidate — Working a stale premise honestly moves the front rather than… | `skills/INBOX.md` | 2026-09-04 |
 | 4 | skill | unvalidated skill candidate — When a lexical proxy is broken, the replacement is often a fi… | `skills/INBOX.md` | 2026-09-06 |
 
-## Standing work (574)
+## Standing work (567)
 
 The campaign. Worked top-down by choice rather than drained, and each line
 below is a pointer — the file named is where the work itself is written, and
@@ -174,7 +191,7 @@ the only place to strike an entry.
 
 | P | Kind | Open | Where | What |
 |---|---|---|---|---|
-| 5 | corroborate | 377 | `bin/wiki-corroborate queue` | pages whose dated claims the message record has never been asked about |
+| 5 | corroborate | 370 | `bin/wiki-corroborate queue` | pages whose dated claims the message record has never been asked about |
 | 5 | ingest | 38 | `queue.md` | sources ingested partially or not at all |
 | 6 | climb | 25 | `synthesis-queue.md` | clusters unclimbed and unrejected |
 | 6 | connect | 84 | `connection-queue.md` | mined edge pairs, untyped and unrejected |

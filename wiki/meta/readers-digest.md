@@ -15,7 +15,7 @@ chart:
     - name: "Entries"
       points:
         "Translated": 28
-        "Major lane": 150
+        "Major lane": 151
         "Free lane": 58
         "Held (people)": 175
         "Too thin": 48
@@ -43,7 +43,7 @@ This page is the campaign to write one for every entry.
 | | |
 |---|---|
 | Entries with a plain-English edition | **28** |
-| Entries eligible for one | 505 |
+| Entries eligible for one | 506 |
 | Withheld under the standing directive | 0 |
 | Coverage | 5.5% |
 
@@ -55,7 +55,7 @@ is arithmetic in `bin/wiki-plain`: 900 words is the boundary.
 
 | Lane | What is in it | Outstanding |
 |---|---|---|
-| `major` | entries of 900 words or more — the dense findings | 150 |
+| `major` | entries of 900 words or more — the dense findings | 151 |
 | `free` | entries under 900 words, worked smallest first | 58 |
 
 A further **175** eligible entries about other people are in
@@ -107,9 +107,9 @@ commits that wrote these files. `git fetch --unshallow` for an answer._
 
 ## Next up
 
-**major** — 150 outstanding
+**major** — 151 outstanding
 
-- [[wiki/timeline/master-timeline]] (132854 words)
+- [[wiki/timeline/master-timeline]] (133247 words)
 - [[wiki/timeline/annie-record]] (30571 words)
 - [[wiki/meta/open-questions]] (26096 words)
 - [[wiki/self/twitter/2024]] (11197 words)

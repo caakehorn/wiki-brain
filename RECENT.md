@@ -8,8 +8,9 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-06 — 15 pages
+## 2026-09-06 — 21 pages
 
+- **Session log:** corroborate | meta | the instrument was reading three files out of fifty-two, and the two months it could not see were the ones that mattered
 - **Session log:** corroborate | meta | the message record, joined to the wiki — and the Annie moratorium lifted
 - **Session log:** ingest | meta | the claim validity ledger — expiry was the third thing, and nothing owned it
 - **Session log:** strategy | meta | can the wiki brain be sold, and as what
@@ -19,6 +20,7 @@ simply listed.
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/health/cocaine]] | health | **RE-CHECKED** — the family-internal node runs **two years later than "through 2015–16"**, and the clearest instance of it is a medical emergency. On **2017-11-26**, with his great-grandmother in her twelfth hour on t |
+| [[wiki/legal/463-morgantown]] | legal | _(carries a CORRECTED from 2026-08-18)_ |
 | [[wiki/meta/claim-validity]] | meta | — |
 | [[wiki/meta/corroboration]] | meta | — |
 | [[wiki/meta/digest]] | meta | — |
@@ -26,15 +28,20 @@ simply listed.
 | [[wiki/meta/recent-activity]] | meta | _(carries a RE-CHECKED)_ |
 | [[wiki/meta/testimony-veracity]] | meta | — |
 | [[wiki/mind/profile/trait-corpus-map]] | mind | — |
+| [[wiki/mind/synthesis/bond-switch-2015]] | mind | _(carries a RE-CHECKED from 2026-09-04)_ |
+| [[wiki/mind/synthesis/estate-money-spine]] | mind | **RE-CHECKED** — against suzanne-frank, whose 2026-09-06 revision added Suz's own two-directional reconciliation of the $14,000 (2018-10-03). **The conclusion below survives and gains a second instance.** The 2018 mes |
+| [[wiki/mind/synthesis/ocean-cross-validation]] | mind | — |
 | [[wiki/mind/synthesis/personality-as-generative-architecture]] | mind | — |
+| [[wiki/people/annie-ulmer]] | people | _(carries a CORRECTED from 2026-08-23)_ |
 | [[wiki/people/dave-moore]] | people | — |
 | [[wiki/people/diane-moore]] | people | _(carries a CORRECTED from 2026-08-18)_ |
 | [[wiki/people/ellen-ulmer]] | people | _(carries a GAP CLOSED from 2026-08-17)_ |
 | [[wiki/people/suzanne-frank]] | people | **CORRECTED** — an older version of this page had Suz borrowing **"$750 a week"** as a recurring measured rate. That claim is retracted and is in `RETRACTED.md` under `suz-750-weekly`. The source is one angry stateme |
 | [[wiki/timeline/events/fran-death-vigil]] | timeline | _(carries a CORRECTED from 2026-08-18)_ |
 | [[wiki/timeline/events/the-fall-of-fran]] | timeline | _(carries a CONTRADICTION from 2026-08-02)_ |
+| [[wiki/timeline/periods/2015-2016-annie-relationship-start]] | timeline | _(carries a CORRECTED from 2026-08-17)_ |
 
-## 2026-09-05 — 25 pages
+## 2026-09-05 — 24 pages
 
 - **Session log:** connect | meta | the wiki names 570 things it does not link — 344 of them now clickable
 - **Session log:** connect | meta | 453 of 497 pages were one-way doors
@@ -60,7 +67,6 @@ simply listed.
 | [[wiki/mind/profile/personal-language-conventions]] | mind | — |
 | [[wiki/mind/profile/voice-modes]] | mind | _(carries a CONTRADICTION)_ |
 | [[wiki/mind/synthesis/ai-collaborative-analysis]] | mind | — |
-| [[wiki/mind/synthesis/estate-money-spine]] | mind | _(carries a RE-CHECKED from 2026-08-28)_ |
 | [[wiki/mind/synthesis/failure-to-launch]] | mind | _(carries a RE-CHECKED from 2026-09-04)_ |
 | [[wiki/mind/synthesis/supply-network]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/mind/synthesis/twitter-2024-cognitive-state]] | mind | — |
@@ -71,7 +77,7 @@ simply listed.
 | [[wiki/people/trevor]] | people | **CORRECTED** — The thank-you exchange above is real. What the paragraph does not say is that **Dan learned of the departure from somebody else, and reacted before that exchange happened.** On **2018-07-26** the assi |
 | [[wiki/work/au-zaatar]] | work | _(carries a REVISED from 2026-07-14)_ |
 
-## 2026-09-04 — 93 pages
+## 2026-09-04 — 92 pages
 
 - **Session log:** lint | meta | the crosslink campaign had been counting a link that isn't one
 - **Session log:** connect | people | 79 lines had been written about a 1,789-message thread
@@ -108,7 +114,6 @@ simply listed.
 | [[wiki/mind/synthesis/annual-volume-suz]] | mind | **RE-CHECKED** — suzanne-frank gained a section on six dated messages naming Judge Fred Adams, including her report of his death (2020-05-24). **No volume figure on this page is affected** — the messages were always i |
 | [[wiki/mind/synthesis/attachment-trauma-bond]] | mind | **RE-CHECKED** — suzanne-frank moved for the vaughn re-derivation, which establishes that by 2017–18 the cocaine direction between mother and son had **reversed**: she is documented on that page as his source in 2015– |
 | [[wiki/mind/synthesis/block-unblock-loop]] | mind | **RE-CHECKED** — rick-frank gained one typed edge and no prose: his 2018-01-06 message, already quoted on that page, is now also cited on fred-adams as the corpus's only statement of what Adams was to the family. **No |
-| [[wiki/mind/synthesis/bond-switch-2015]] | mind | **RE-CHECKED** — alexis-armel gained a measurement of the relationship's public register: it stops on **29 November 2013** and holds at zero for the last **twenty-four months**, across 1,132 posts, in years when his d |
 | [[wiki/mind/synthesis/dormancy-not-exit]] | mind | **RE-CHECKED** — alexis-armel gained a measurement of the relationship's public register — zero mentions across the last twenty-four months and 1,132 posts, in years when his distinct-handle count peaked at 57 — and |
 | [[wiki/mind/synthesis/intake-constancy]] | mind | **RE-CHECKED** — supply-network moved for the vaughn re-derivation, adding the succession's missing 2017 node and one measurement: the corpus's next new supply relationship opens **twenty-three days after the ne |
 | [[wiki/mind/synthesis/intensity-is-no-longer-the-only-mode]] | mind | **RE-CHECKED** — ally-and-dan-love-as-destiny moved on 2026-09-04 solely by having `destiny`, `the love story`, `ally-dan timeline`, `the courtship` and `the case` removed from its frontmatter. All five were invention |
@@ -409,7 +414,7 @@ simply listed.
 | [[wiki/work/fastly-fsly]] | work | _(carries a RE-CHECKED from 2026-08-21)_ |
 | [[wiki/work/tech/max-framework/overview]] | work | — |
 
-## 2026-08-23 — 15 pages
+## 2026-08-23 — 14 pages
 
 - **Session log:** directive | people | the Annie record is closed — no further texts, no further narrative
 - **Session log:** lint | mind | the deeper pass killed the wiki's headline latency finding and settled two open counts
@@ -424,7 +429,6 @@ simply listed.
 | [[wiki/mind/profile/texting-deviance-audit]] | mind | _(carries a CONTRADICTION)_ |
 | [[wiki/mind/synthesis/message-circadian-latency]] | mind | **CORRECTED** — This section previously opened *"The headline: a 9× reply-latency asymmetry with Annie"* and concluded: *"Dan answers almost everyone within 1–5 minutes. The people he messages answer him on a complet |
 | [[wiki/people/alice]] | people | — |
-| [[wiki/people/annie-ulmer]] | people | **CORRECTED** — The standing account of Annie's working life — sourced to `raw/self/dox-md/Honest assessment and value judgment analysis.md` and repeated downstream — is that she *"was fired in 2023 and spent a full  |
 | [[wiki/people/claire-ulmer]] | people | **GAP CLOSED** — This page previously read *"Claire has children — an unnamed niece and nephew."* **They are named.** Alice appears **66 times** between October 2023 and July 2025 and Otto **31 times** over the same s |
 | [[wiki/people/garrett]] | people | — |
 | [[wiki/people/index]] | people | — |
@@ -476,7 +480,7 @@ simply listed.
 | [[wiki/self/concepts/llm]] | self | **CORRECTED** — this section previously presented all three bullets below as *"his analysis."* They are **Gemini's**, generated in the 2025-08-24 session from Dan's five-word prompt *"gemini i think chatGPT is cooked |
 | [[wiki/self/concepts/wiki-brain]] | self | **RE-CHECKED** — llm moved on 2026-08-21: Gemini's 'chicken nugget' passage was corrected off Dan's ledger, and the post-GPT-5 causation of ChatGPT's decline was marked untested. This page carries an edge claiming Cha |
 
-## 2026-08-20 — 12 pages
+## 2026-08-20 — 11 pages
 
 - **Session log:** ingest | timeline/people/mind | two iMessage exports + a 15:27 call recording — the relationship ended, and an AI analysis had put Dan's own house at the crime scene
 - **Session log:** correct | timeline/people/mind | the close read of August 19 falsified this pass's own headline claim
@@ -490,7 +494,6 @@ simply listed.
 
 | Page | Domain | What moved |
 |---|---|---|
-| [[wiki/legal/463-morgantown]] | legal | _(carries a CORRECTED from 2026-08-18)_ |
 | [[wiki/mind/concepts/document-fabrication]] | mind | — |
 | [[wiki/people/alexander-jackson]] | people | **RE-CHECKED** — flagged stale against 463-morgantown (2026-08-20). That page gained a section on the address becoming a threat vector — Coles sending it to Dan unprompted on 2026-08-17 — and one typed edge. Re-read a |
 | [[wiki/people/arnu]] | people | **RE-CHECKED** — flagged stale against 463-morgantown (2026-08-20). That page gained a section on the address as a threat vector and one typed edge. Re-read against the change; **no claim on this page is affected** an |
@@ -552,7 +555,7 @@ simply listed.
 | [[wiki/timeline/events/july-august-2026-reentanglement]] | timeline | **CORRECTED** — this section read the two as *"resolving opposite ways"* and derived from the contrast a rule that **announcement is the mechanism of non-execution.** Both halves are withdrawn, by this page's own lat |
 | [[wiki/timeline/periods/2018-deep-cycle]] | timeline | **CORRECTED** — the clause above read *"mom borrow $750/wk."* The rate does not exist and its direction is inverted. The corpus holds one $750 statement — an accusation about a single week, made in a 13 December 2018 |
 
-## 2026-08-17 — 6 pages
+## 2026-08-17 — 5 pages
 
 - **Session log:** restore | timeline | the December 2015 Annie read was written into the portal's derived snapshot and a cron deleted it 39 minutes after merge
 - **Session log:** climb | timeline, people, mind | the 2015 Annie read spread to ten pages, and five of its own corrections did not survive the evidence gate
@@ -567,7 +570,6 @@ simply listed.
 | [[wiki/self/gemini-activity/archive/v1-extract]] | self | — |
 | [[wiki/timeline/2015-annie-read-wiki-impact-analysis]] | timeline | — |
 | [[wiki/timeline/events/robotussin-s-last-dance]] | timeline | **GAP CLOSED** — This page asked *"whether any of the three were sober enough to make decisions by the time they left Ruby Tuesday's."* The operator: **"on the contrary, we were all MUCH less sober and subsequently ev |
-| [[wiki/timeline/periods/2015-2016-annie-relationship-start]] | timeline | **CORRECTED** — The dossier baseline above reads as though two days of relationship had elapsed before *"YOU ARE MY EVERYTHING."* The hand-read (annie-record) times it to **2015-11-29 03:24**, with *"You are my full  |
 
 ## 2026-08-16 — 1 page
 

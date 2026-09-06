@@ -58,33 +58,92 @@ wc = load()
 
 
 class Coverage(unittest.TestCase):
-    """The floor under the word 'absent'."""
+    """The floor under the word 'absent', at the resolution claims are made."""
 
     def setUp(self):
-        self.cov = {"union": {"2013": 0, "2017": 21836, "2022": 4, "2026": 16116},
-                    "computed": "2026-09-06", "corpora": {}}
+        self.cov = {"computed": "2026-09-06", "corpora": {},
+                    "union": {"2013": 0, "2015": 14473, "2017": 22338, "2022": 6},
+                    "months": {"2015-02": 0, "2015-11": 1640, "2015-12": 12833,
+                               "2017-08": 0, "2017-11": 4119, "2022-12": 6}}
 
     def test_a_thin_year_is_not_covered(self):
-        self.assertFalse(wc.is_covered("2022-06-01", self.cov))
+        self.assertFalse(wc.is_covered("2022-12-01", self.cov))
         self.assertFalse(wc.is_covered("2013-04-02", self.cov))
 
-    def test_a_real_year_is_covered(self):
+    def test_a_real_month_is_covered(self):
         self.assertTrue(wc.is_covered("2017-11-26", self.cov))
-        self.assertTrue(wc.is_covered("2026-01-01", self.cov))
 
-    def test_the_threshold_is_a_floor_not_a_quality_bar(self):
+    def test_an_empty_month_inside_a_covered_year_is_not_covered(self):
+        """August 2017 is empty and 2017 holds 22,338 rows. The year is the
+        wrong resolution and reporting it as coverage licenses a false absent."""
+        self.assertTrue("2017" in wc.covered_years(self.cov))
+        self.assertFalse(wc.is_covered("2017-08-14", self.cov))
+
+    def test_a_bare_year_is_judged_on_the_year(self):
+        """A claim that only says "2017" is answerable if any of 2017 is there."""
+        self.assertTrue(wc.is_covered("2017", self.cov))
+        self.assertFalse(wc.is_covered("2013", self.cov))
+
+    def test_the_thresholds_are_floors_not_quality_bars(self):
         self.assertGreaterEqual(wc.COVERED_MIN_ROWS, 100)
+        self.assertGreaterEqual(wc.COVERED_MIN_MONTH, 10)
+        self.assertGreaterEqual(wc.ABSENT_MIN_WINDOW_ROWS, 5)
 
-    def test_the_real_coverage_table_is_committed(self):
+    def test_the_real_coverage_table_is_committed_and_month_granular(self):
         """`record` refuses to guess at coverage, so the projection must exist."""
         self.assertTrue(wc.COVERAGE.exists(),
                         "corroborate/coverage.json is missing — run `coverage --write`")
         cov = json.loads(wc.COVERAGE.read_text(encoding="utf-8"))
-        self.assertIn("2017", cov["union"])
+        self.assertIn("months", cov, "coverage.json predates month granularity")
+        self.assertIn("2017-11", cov["months"])
         for gap in ("2012", "2013", "2014"):
             self.assertNotIn(gap, cov["union"],
                              "%s has rows now — the coverage story in CLAUDE.md, "
                              "EXTRACTION_SPEC.md and the skill needs updating" % gap)
+
+    def test_the_archive_starts_where_the_corpus_says_it_does(self):
+        """2015-11-28. Three pages' dates are hedged BECAUSE of this, and the
+        hedge is recorded as permanent — if earlier material ever lands, that
+        conclusion has to be revisited rather than left standing."""
+        cov = json.loads(wc.COVERAGE.read_text(encoding="utf-8"))
+        for m in ("2015-01", "2015-06", "2015-10"):
+            self.assertEqual(cov["months"].get(m, 0), 0, m)
+        self.assertGreater(cov["months"].get("2015-11", 0), 1000)
+
+    def test_july_and_august_2026_are_covered(self):
+        """The regression that justified reading every export. The first corpus
+        set reported ZERO for both months — the end of the Annie record — and
+        the rows were in files nothing read."""
+        cov = json.loads(wc.COVERAGE.read_text(encoding="utf-8"))
+        self.assertGreater(cov["months"].get("2026-07", 0), 1000)
+        self.assertGreater(cov["months"].get("2026-08", 0), 1000)
+
+
+class TheCorpusSet(unittest.TestCase):
+    """Every export, not three of them."""
+
+    def test_it_reads_the_whole_archive(self):
+        self.assertGreater(len(wc.all_corpora()), 40,
+                           "the corpus set collapsed back to a hand-written list")
+
+    def test_the_utc_files_are_named_and_converted(self):
+        """Three files are UTC. Reading them as local puts a duplicate of every
+        shared message four hours from itself."""
+        self.assertIn("imessage_export_deep_20260813.csv", wc.UTC_FILES)
+        self.assertIn("imessages_2124702449_last6months.csv", wc.UTC_FILES)
+
+    def test_excluded_files_carry_their_reason(self):
+        for name, why in wc.EXCLUDE.items():
+            self.assertGreater(len(why), 20,
+                               "%s is skipped without a measurement" % name)
+
+    def test_a_utc_row_lands_in_local_time(self):
+        """The deep export's first Fran-era row against the dump's own clock."""
+        if "imessage_export_deep_20260813.csv" not in " ".join(wc.all_corpora()):
+            self.skipTest("deep export not present")
+        rows = wc.load_window("2017-11-26", "2017-11-26")
+        self.assertTrue(any(r[0].startswith("2017-11-26 00:0") for r in rows),
+                        "the midnight rows vanished — a timezone conversion is off")
 
 
 class DatedClaims(unittest.TestCase):
@@ -176,10 +235,19 @@ class RecordRefusals(unittest.TestCase):
         (self.tmp / "corroborate" / "coverage.json").write_text(json.dumps({
             "computed": "2026-09-06", "corpora": {},
             "union": {"2017": 21836, "2013": 0, "2022": 4},
+            "months": {"2017-11": 4119, "2013-04": 0, "2022-12": 4},
         }), encoding="utf-8")
         (self.tmp / "wiki" / "people").mkdir(parents=True)
         (self.tmp / "wiki" / "people" / "x.md").write_text(
             "---\ndomain: people\n---\n\n# X\n", encoding="utf-8")
+        # The archive itself, symlinked rather than copied: the absent/uncovered
+        # guards read the WINDOW, so a tree with no raw/ makes every window empty
+        # and every `uncovered` legal. Writes still land in the temp tree.
+        if (ROOT / "raw").is_dir():
+            try:
+                (self.tmp / "raw").symlink_to(ROOT / "raw", target_is_directory=True)
+            except OSError:
+                pass
         import shutil
         self.addCleanup(shutil.rmtree, self.tmp, ignore_errors=True)
 
@@ -202,8 +270,11 @@ class RecordRefusals(unittest.TestCase):
         self.assertNotEqual(r.returncode, 0)
         self.assertIn("uncovered", (r.stdout + r.stderr).lower())
 
-    def test_uncovered_is_refused_inside_coverage(self):
-        """The other direction. A refusal that only runs one way is half a rule."""
+    def test_uncovered_is_refused_when_there_is_a_window_to_read(self):
+        """The other direction. A refusal that only runs one way is half a rule.
+        Needs the real archive: the guard reads the window, not the calendar."""
+        if not (self.tmp / "raw").exists():
+            self.skipTest("archive not available")
         r = self.record(outcome="uncovered", date="2017-11-26")
         self.assertNotEqual(r.returncode, 0)
         self.assertIn("absent", (r.stdout + r.stderr).lower())
@@ -232,6 +303,36 @@ class RecordRefusals(unittest.TestCase):
                           "He was at the house that whole night", "--date",
                           "2017-11-26", "--outcome", "absent", "--because", "  ")
         self.assertNotEqual(r.returncode, 0)
+
+    def test_absent_is_refused_when_the_window_itself_is_empty(self):
+        """The day-resolution half. November 2015 clears the month floor on the
+        strength of its last three days; a window on the 24th holds one message,
+        and calling that `absent` publishes the archive's start date as a fact
+        about the world."""
+        r = subprocess.run(
+            [sys.executable, str(TOOL), "record", "--page", "wiki/meta/index",
+             "--claim", "Something nobody said in an empty week",
+             "--date", "2015-11-24", "--outcome", "absent",
+             "--because", "testing the window floor"],
+            capture_output=True, text=True, cwd=str(ROOT))
+        self.assertNotEqual(r.returncode, 0)
+        out = (r.stdout + r.stderr).lower()
+        self.assertIn("window", out)
+        self.assertIn("uncovered", out)
+
+    def test_the_two_guards_do_not_deadlock(self):
+        """`absent` needs a real window; `uncovered` needs the absence of one.
+        Both read the same number, so no date can be refused by both — the first
+        version refused 2015-11-24 as `absent` (window too thin) AND as
+        `uncovered` (month covered), leaving no legal outcome at all."""
+        if not (self.tmp / "raw").exists():
+            self.skipTest("archive not available")
+        for date in ("2017-11-26", "2015-11-24"):
+            with self.subTest(date=date):
+                a = self.record(outcome="absent", date=date)
+                u = self.record(outcome="uncovered", date=date)
+                self.assertNotEqual((a.returncode, u.returncode), (2, 2),
+                                    "both bands refused %s" % date)
 
     def test_an_absent_record_is_accepted_and_projects(self):
         r = self.record(outcome="absent")

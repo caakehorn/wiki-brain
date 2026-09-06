@@ -3,73 +3,540 @@
   "corpora": {
     "raw/self/dox-scan/all_imessages_complete_dump.txt": {
       "bytes": 28905037,
-      "note": "direction reliable; 2015-2025, with 2012-2014 and 2022 empty and no 2026",
-      "years": {
-        "2011": 1,
-        "2015": 14408,
-        "2016": 34589,
-        "2017": 21824,
-        "2018": 48697,
-        "2019": 24781,
-        "2020": 10339,
-        "2021": 1465,
-        "2023": 5156,
-        "2024": 28463,
-        "2025": 27850
-      }
+      "first": "2011-03-18",
+      "last": "2025-08-10",
+      "rows": 217573,
+      "unique_first_seen": 215057,
+      "utc": false
+    },
+    "raw/self/imessage/ally-lubin_chatdb_complete.csv": {
+      "bytes": 152980,
+      "first": "2018-12-17",
+      "last": "2026-08-18",
+      "rows": 1285,
+      "unique_first_seen": 0,
+      "utc": false
+    },
+    "raw/self/imessage/ally-lubin_last-7-days_20260820.csv": {
+      "bytes": 66807,
+      "first": "2026-08-18",
+      "last": "2026-08-20",
+      "rows": 708,
+      "unique_first_seen": 0,
+      "utc": false
+    },
+    "raw/self/message-csv/END_FIGHT_full.csv": {
+      "bytes": 68,
+      "first": "",
+      "last": "",
+      "rows": 0,
+      "unique_first_seen": 0,
+      "utc": false
     },
     "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv": {
       "bytes": 21171115,
-      "note": "the only corpus reaching 2026; 79% of its Sent rows carry no handle",
-      "years": {
-        "2011": 1,
-        "2015": 13818,
-        "2016": 20203,
-        "2017": 17429,
-        "2018": 40360,
-        "2019": 20076,
-        "2020": 6295,
-        "2021": 279,
-        "2022": 4,
-        "2023": 952,
-        "2024": 4374,
-        "2025": 40816,
-        "2026": 9893
-      }
+      "first": "2011-03-18",
+      "last": "2026-03-25",
+      "rows": 174500,
+      "unique_first_seen": 50123,
+      "utc": false
+    },
+    "raw/self/message-csv/THE END FIGHT.csv": {
+      "bytes": 67229,
+      "first": "",
+      "last": "",
+      "rows": 0,
+      "unique_first_seen": 0,
+      "utc": false
+    },
+    "raw/self/message-csv/ally_lubin_chatdb_export.csv": {
+      "bytes": 83870,
+      "first": "2018-12-17",
+      "last": "2026-08-21",
+      "rows": 965,
+      "unique_first_seen": 895,
+      "utc": false
+    },
+    "raw/self/message-csv/annie_all_time_logs.csv": {
+      "bytes": 2047849,
+      "first": "2022-12-31",
+      "last": "2026-06-05",
+      "rows": 23332,
+      "unique_first_seen": 4177,
+      "utc": false
+    },
+    "raw/self/message-csv/annie_group_chat_drama.csv": {
+      "bytes": 40538,
+      "first": "2026-05-31",
+      "last": "2026-06-01",
+      "rows": 477,
+      "unique_first_seen": 477,
+      "utc": false
+    },
+    "raw/self/message-csv/annie_group_chat_may31-june1_2026.csv": {
+      "bytes": 68,
+      "first": "",
+      "last": "",
+      "rows": 0,
+      "unique_first_seen": 0,
+      "utc": false
+    },
+    "raw/self/message-csv/annie_group_chat_relaxed.csv": {
+      "bytes": 57,
+      "first": "",
+      "last": "",
+      "rows": 0,
+      "unique_first_seen": 0,
+      "utc": false
+    },
+    "raw/self/message-csv/dan_imessages_2015-2018.csv": {
+      "bytes": 120136,
+      "first": "2015-12-08",
+      "last": "2018-04-07",
+      "rows": 1073,
+      "unique_first_seen": 1066,
+      "utc": false
+    },
+    "raw/self/message-csv/imessage_17243226739_both_all_now.csv": {
+      "bytes": 8576,
+      "first": "2024-07-28",
+      "last": "2024-08-09",
+      "rows": 50,
+      "unique_first_seen": 0,
+      "utc": false
+    },
+    "raw/self/message-csv/imessage_19178259183_both_all_now.csv": {
+      "bytes": 11480,
+      "first": "2023-08-11",
+      "last": "2026-04-12",
+      "rows": 80,
+      "unique_first_seen": 2,
+      "utc": false
+    },
+    "raw/self/message-csv/imessage_2124702449.csv": {
+      "bytes": 4692,
+      "first": "2023-08-19",
+      "last": "2025-09-06",
+      "rows": 46,
+      "unique_first_seen": 0,
+      "utc": false
+    },
+    "raw/self/message-csv/imessage_2124702449_both_2025-05-14_now.csv": {
+      "bytes": 2691579,
+      "first": "2025-08-01",
+      "last": "2026-05-28",
+      "rows": 22655,
+      "unique_first_seen": 0,
+      "utc": false
+    },
+    "raw/self/message-csv/imessage_2124702449_both_2026-05-01_now.csv": {
+      "bytes": 327787,
+      "first": "2026-05-01",
+      "last": "2026-05-31",
+      "rows": 2241,
+      "unique_first_seen": 0,
+      "utc": false
+    },
+    "raw/self/message-csv/imessage_2124702449_both_all_now.csv": {
+      "bytes": 2951280,
+      "first": "2022-12-31",
+      "last": "2026-06-05",
+      "rows": 23613,
+      "unique_first_seen": 0,
+      "utc": false
+    },
+    "raw/self/message-csv/imessage_2124702449_received_2025-06-01_now.csv": {
+      "bytes": 1017596,
+      "first": "2025-08-01",
+      "last": "2026-05-31",
+      "rows": 9706,
+      "unique_first_seen": 0,
+      "utc": false
+    },
+    "raw/self/message-csv/imessage_2124702449_received_2026-01-01_2026-06-05.csv": {
+      "bytes": 433247,
+      "first": "2025-12-31",
+      "last": "2026-06-01",
+      "rows": 4145,
+      "unique_first_seen": 0,
+      "utc": false
+    },
+    "raw/self/message-csv/imessage_3307038747.csv": {
+      "bytes": 282845,
+      "first": "2025-09-01",
+      "last": "2025-09-06",
+      "rows": 3864,
+      "unique_first_seen": 0,
+      "utc": false
+    },
+    "raw/self/message-csv/imessage_3307038747_both_all_now.csv": {
+      "bytes": 2407900,
+      "first": "2025-09-01",
+      "last": "2025-12-10",
+      "rows": 19665,
+      "unique_first_seen": 0,
+      "utc": false
+    },
+    "raw/self/message-csv/imessage_7243228715_both_2025-06-03_now.csv": {
+      "bytes": 365171,
+      "first": "2025-08-01",
+      "last": "2026-06-02",
+      "rows": 3164,
+      "unique_first_seen": 764,
+      "utc": false
+    },
+    "raw/self/message-csv/imessage_7243228715_both_all_now.csv": {
+      "bytes": 334007,
+      "first": "2015-12-11",
+      "last": "2026-06-08",
+      "rows": 3299,
+      "unique_first_seen": 73,
+      "utc": false
+    },
+    "raw/self/message-csv/imessage_7243667777_both_all_now.csv": {
+      "bytes": 5416,
+      "first": "2015-11-12",
+      "last": "2026-01-01",
+      "rows": 36,
+      "unique_first_seen": 0,
+      "utc": false
+    },
+    "raw/self/message-csv/imessage_7244346811+2124702449_both_all_now.csv": {
+      "bytes": 8481712,
+      "first": "2015-11-28",
+      "last": "2026-05-28",
+      "rows": 85390,
+      "unique_first_seen": 0,
+      "utc": false
+    },
+    "raw/self/message-csv/imessage_7244346811+7249204125+2124702449_both_all_now.csv": {
+      "bytes": 9425322,
+      "first": "2015-11-28",
+      "last": "2026-05-28",
+      "rows": 94857,
+      "unique_first_seen": 0,
+      "utc": false
+    },
+    "raw/self/message-csv/imessage_7244346811_both_all_now.csv": {
+      "bytes": 6041880,
+      "first": "2015-11-28",
+      "last": "2019-05-26",
+      "rows": 62729,
+      "unique_first_seen": 0,
+      "utc": false
+    },
+    "raw/self/message-csv/imessage_7248808111_both_all_now.csv": {
+      "bytes": 175721,
+      "first": "2015-11-30",
+      "last": "2026-04-22",
+      "rows": 1468,
+      "unique_first_seen": 5,
+      "utc": false
+    },
+    "raw/self/message-csv/imessage_7249204125_both_all_now.csv": {
+      "bytes": 981978,
+      "first": "2018-12-26",
+      "last": "2020-07-30",
+      "rows": 9467,
+      "unique_first_seen": 0,
+      "utc": false
+    },
+    "raw/self/message-csv/imessage_ALL_both_2026-05-04_now.csv": {
+      "bytes": 462725,
+      "first": "2026-05-04",
+      "last": "2026-06-02",
+      "rows": 3365,
+      "unique_first_seen": 99,
+      "utc": false
+    },
+    "raw/self/message-csv/imessage_ALL_both_2026-05-31_2026-06-02.csv": {
+      "bytes": 69915,
+      "first": "",
+      "last": "",
+      "rows": 0,
+      "unique_first_seen": 0,
+      "utc": false
     },
     "raw/self/message-csv/imessage_ALL_both_all_now.csv": {
       "bytes": 19712445,
-      "note": "adds 6,225 unique 2026 rows the master dump does not hold",
-      "years": {
-        "2011": 1,
-        "2015": 13818,
-        "2016": 20203,
-        "2017": 17429,
-        "2018": 40360,
-        "2019": 20076,
-        "2020": 6295,
-        "2021": 279,
-        "2022": 4,
-        "2023": 952,
-        "2024": 4374,
-        "2025": 40816,
-        "2026": 16118
-      }
+      "first": "2011-03-18",
+      "last": "2026-06-06",
+      "rows": 180725,
+      "unique_first_seen": 675,
+      "utc": false
+    },
+    "raw/self/message-csv/imessage_export_17245629389_both_all_now.csv": {
+      "bytes": 18220,
+      "first": "2020-02-09",
+      "last": "2020-03-29",
+      "rows": 132,
+      "unique_first_seen": 0,
+      "utc": false
+    },
+    "raw/self/message-csv/imessage_export_2124702449_20260726.csv": {
+      "bytes": 3172138,
+      "first": "2025-08-01",
+      "last": "2026-07-26",
+      "rows": 24069,
+      "unique_first_seen": 685,
+      "utc": false
+    },
+    "raw/self/message-csv/imessage_export_2124702449_20260802.csv": {
+      "bytes": 695831,
+      "first": "2026-05-04",
+      "last": "2026-08-02",
+      "rows": 4848,
+      "unique_first_seen": 1880,
+      "utc": false
+    },
+    "raw/self/message-csv/imessage_export_2124702449_20260820.csv": {
+      "bytes": 843110,
+      "first": "2026-07-23",
+      "last": "2026-08-19",
+      "rows": 6495,
+      "unique_first_seen": 3993,
+      "utc": false
+    },
+    "raw/self/message-csv/imessage_export_3307038747_20260624.csv": {
+      "bytes": 2582084,
+      "first": "2025-09-01",
+      "last": "2025-12-10",
+      "rows": 20014,
+      "unique_first_seen": 183,
+      "utc": false
+    },
+    "raw/self/message-csv/imessage_export_7248123683_20260624.csv": {
+      "bytes": 359981,
+      "first": "2026-05-10",
+      "last": "2026-06-16",
+      "rows": 2605,
+      "unique_first_seen": 67,
+      "utc": false
+    },
+    "raw/self/message-csv/imessage_export_7248123683_20260820.csv": {
+      "bytes": 12492,
+      "first": "2026-08-17",
+      "last": "2026-08-19",
+      "rows": 97,
+      "unique_first_seen": 97,
+      "utc": false
+    },
+    "raw/self/message-csv/imessage_export_7249124338_both_all_now.csv": {
+      "bytes": 72456,
+      "first": "2019-05-15",
+      "last": "2019-08-11",
+      "rows": 639,
+      "unique_first_seen": 0,
+      "utc": false
+    },
+    "raw/self/message-csv/imessage_export_7249707658_both_all_now.csv": {
+      "bytes": 10901,
+      "first": "2020-09-14",
+      "last": "2025-02-19",
+      "rows": 87,
+      "unique_first_seen": 1,
+      "utc": false
+    },
+    "raw/self/message-csv/imessage_export_9172925212_both_all_now.csv": {
+      "bytes": 11248,
+      "first": "2023-09-04",
+      "last": "2024-12-02",
+      "rows": 71,
+      "unique_first_seen": 0,
+      "utc": false
+    },
+    "raw/self/message-csv/imessage_export_deep_20260813.csv": {
+      "bytes": 33166825,
+      "first": "2011-03-18",
+      "last": "2026-08-12",
+      "rows": 185805,
+      "unique_first_seen": 1052,
+      "utc": true
+    },
+    "raw/self/message-csv/imessages_2124702449_last6months.csv": {
+      "bytes": 3392444,
+      "first": "2023-08-09",
+      "last": "2025-08-18",
+      "rows": 40325,
+      "unique_first_seen": 241,
+      "utc": true
+    },
+    "raw/self/message-csv/imessages_3307038747.csv": {
+      "bytes": 197,
+      "first": "2025-09-04",
+      "last": "2025-09-04",
+      "rows": 2,
+      "unique_first_seen": 0,
+      "utc": false
+    },
+    "raw/self/message-csv/interspersed_messages.csv": {
+      "bytes": 12092674,
+      "first": "2011-03-18",
+      "last": "2025-12-11",
+      "rows": 153128,
+      "unique_first_seen": 437,
+      "utc": false
+    },
+    "raw/self/message-csv/messages_2124702449.csv": {
+      "bytes": 1236257,
+      "first": "2026-01-03",
+      "last": "2026-05-06",
+      "rows": 8782,
+      "unique_first_seen": 1,
+      "utc": false
+    },
+    "raw/self/message-csv/messages_3476070497_all_time.csv": {
+      "bytes": 254900,
+      "first": "2018-11-04",
+      "last": "2025-02-20",
+      "rows": 4410,
+      "unique_first_seen": 0,
+      "utc": false
+    },
+    "raw/self/message-csv/messages_export.csv": {
+      "bytes": 184694,
+      "first": "2026-03-05",
+      "last": "2026-04-04",
+      "rows": 1846,
+      "unique_first_seen": 0,
+      "utc": false
+    },
+    "raw/self/message-csv/messages_extract.csv": {
+      "bytes": 1150745,
+      "first": "2025-08-01",
+      "last": "2026-02-21",
+      "rows": 13907,
+      "unique_first_seen": 0,
+      "utc": false
+    },
+    "raw/self/message-csv/targeted_extraction.csv": {
+      "bytes": 1691336,
+      "first": "2025-11-27",
+      "last": "2026-05-27",
+      "rows": 17127,
+      "unique_first_seen": 0,
+      "utc": false
     }
+  },
+  "months": {
+    "2011-03": 1,
+    "2015-11": 1640,
+    "2015-12": 12833,
+    "2016-01": 7564,
+    "2016-02": 5893,
+    "2016-03": 3347,
+    "2016-04": 4773,
+    "2016-05": 6941,
+    "2016-06": 793,
+    "2016-07": 498,
+    "2016-08": 632,
+    "2016-09": 18,
+    "2016-10": 13,
+    "2016-11": 1819,
+    "2016-12": 2772,
+    "2017-01": 1913,
+    "2017-02": 1121,
+    "2017-03": 246,
+    "2017-04": 2958,
+    "2017-05": 2197,
+    "2017-06": 1859,
+    "2017-07": 1860,
+    "2017-09": 480,
+    "2017-10": 3527,
+    "2017-11": 4119,
+    "2017-12": 2058,
+    "2018-01": 3065,
+    "2018-02": 3339,
+    "2018-03": 3614,
+    "2018-04": 5847,
+    "2018-05": 5201,
+    "2018-06": 5954,
+    "2018-07": 1788,
+    "2018-08": 3132,
+    "2018-09": 4266,
+    "2018-10": 4975,
+    "2018-11": 4640,
+    "2018-12": 3256,
+    "2019-01": 3595,
+    "2019-02": 2591,
+    "2019-03": 1823,
+    "2019-04": 2317,
+    "2019-05": 2836,
+    "2019-06": 2218,
+    "2019-07": 1595,
+    "2019-08": 3009,
+    "2019-09": 1258,
+    "2019-10": 2016,
+    "2019-11": 763,
+    "2019-12": 751,
+    "2020-01": 666,
+    "2020-02": 1055,
+    "2020-03": 1774,
+    "2020-04": 1165,
+    "2020-05": 613,
+    "2020-06": 997,
+    "2020-07": 165,
+    "2020-08": 1445,
+    "2020-09": 1606,
+    "2020-10": 319,
+    "2020-11": 315,
+    "2020-12": 40,
+    "2021-01": 427,
+    "2021-02": 431,
+    "2021-03": 195,
+    "2021-04": 355,
+    "2022-12": 6,
+    "2023-08": 388,
+    "2023-09": 1104,
+    "2023-10": 1590,
+    "2023-11": 715,
+    "2023-12": 1299,
+    "2024-01": 526,
+    "2024-02": 989,
+    "2024-03": 1556,
+    "2024-04": 1069,
+    "2024-05": 1447,
+    "2024-06": 3524,
+    "2024-07": 4917,
+    "2024-08": 4464,
+    "2024-09": 2669,
+    "2024-10": 2939,
+    "2024-11": 2542,
+    "2024-12": 1350,
+    "2025-01": 1906,
+    "2025-02": 2980,
+    "2025-03": 4413,
+    "2025-04": 3590,
+    "2025-05": 5434,
+    "2025-06": 4891,
+    "2025-07": 3532,
+    "2025-08": 4050,
+    "2025-09": 18833,
+    "2025-10": 8796,
+    "2025-11": 2774,
+    "2025-12": 6391,
+    "2026-01": 3869,
+    "2026-02": 3745,
+    "2026-03": 3180,
+    "2026-04": 1914,
+    "2026-05": 3280,
+    "2026-06": 457,
+    "2026-07": 2228,
+    "2026-08": 5401
   },
   "union": {
     "2011": 1,
-    "2015": 14446,
-    "2016": 34620,
-    "2017": 21836,
-    "2018": 48899,
-    "2019": 24740,
-    "2020": 10135,
-    "2021": 1407,
-    "2022": 4,
-    "2023": 5079,
-    "2024": 27868,
-    "2025": 66254,
-    "2026": 16116
+    "2015": 14473,
+    "2016": 35063,
+    "2017": 22338,
+    "2018": 49077,
+    "2019": 24772,
+    "2020": 10160,
+    "2021": 1408,
+    "2022": 6,
+    "2023": 5096,
+    "2024": 27992,
+    "2025": 67590,
+    "2026": 24074
   }
 }

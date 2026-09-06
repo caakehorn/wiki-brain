@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-09-05
+date_modified: 2026-09-06
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
@@ -279,6 +279,42 @@ attend, and it moved first.
 | 2025-02 | Return to PA: "escaping systemic metropolitan financial drains" | — |
 | 2026 | Broke (primary-source status); BFS job gained and lost | ~$0 |
 | ~2026-06 | 337 Saratoga sale ($465k, Suz's transaction); land at 463 Morgantown | bystander |
+
+> **CORROBORATED [2026-09-06]:** the whole 2020 tail of that table is
+> confirmed by the estate attorney's own message, and it adds the detail the
+> chain was missing. Jason Adams to Dan, **2020-08-26 10:36:34**:
+>
+> > *"Daniel, we are preparing the checks for distribution from the Fran coldren
+> > estate. Your amount in the order was for **$144,069.31**, however on **June
+> > 23, 2020** we issued you a check for **$10,000** which I told you would be
+> > deducted from the final distribution and you agreed with that, so, you check
+> > will be for **$134,069.31**. It will be available to you on **sept. 1**.
+> > **Your mother indicated that she is to receive that check and deposit it for
+> > you.** Will you please confirm all of the above for me?"*
+>
+> Every figure in the table's last three rows is right, to the cent and to the
+> day. What is new is the last sentence. **The deposit-via-Suz arrangement was
+> not a convenience Dan chose at the counter — Suz told the attorney it was
+> happening, and the attorney wrote to Dan to confirm it.** That is the money
+> spine's mechanism visible at its own origin: the largest single sum in Dan's
+> documented life arrives through an intermediary who arranged to be one, in a
+> message he is asked to countersign. He forwarded the whole thing to her the
+> same evening at **21:49:48** — *"from Jason:"* — which is the other half of
+> the pattern this page argues for elsewhere: the account is joint in practice
+> long before it is joint in fact.
+>
+> Two weeks earlier, **2020-08-06 19:04**, he had told
+> [[wiki/people/annie-ulmer|Annie]]: *"i talked to jasón adams today and am
+> going on saturday morning to sign for the inheritance in advance"* — the
+> paperwork run, dated. Window: `bin/wiki-corroborate window 2020-08-26`.
+
+> **RE-CHECKED [2026-09-06]:** against [[wiki/people/suzanne-frank]], whose
+> 2026-09-06 revision added Suz's own two-directional reconciliation of the
+> $14,000 (2018-10-03). **The conclusion below survives and gains a second
+> instance.** The 2018 message is Suz doing the arithmetic on money moving from
+> Dan to her; the 2020 message above is Suz arranging to receive money moving to
+> him. Both are her keeping the ledger, two years apart, on both directions of
+> flow — which is the spine's claim about who holds the account, not a new one.
 
 The most striking single measurement in the chain is the **burn rate of
 the estate**: $134,069.31 lands September 1, 2020, and by early 2021 —

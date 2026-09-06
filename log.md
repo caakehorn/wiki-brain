@@ -1,3 +1,112 @@
+## [2026-09-06] corroborate | meta | the instrument was reading three files out of fifty-two, and the two months it could not see were the ones that mattered
+
+**The operator said find more and cross check. The first thing that turned up
+was a hole in the instrument built this morning.**
+
+`bin/wiki-corroborate` shipped reading three message exports. `raw/` holds
+**fifty-three**. Its coverage table therefore reported **zero rows for July and
+August 2026** — the end of the Annie record, the *"It's time for you to go…"*
+month, the most contested stretch in the corpus — and an `absent` recorded
+against either month would have been a lie with a citation. The rows were always
+there, in `imessage_export_2124702449_20260820.csv` and two others that overlap
+nothing else in the archive.
+
+**Fixed by discovery rather than by a longer list.** Every CSV under
+`raw/self/message-csv/` and `raw/self/imessage/` is now read through one
+column-sniffing reader over thirteen schemas. **282,050 unique messages**, up
+from 271,405; 2026 alone went 16,116 → 24,074. Measured before trusting: every
+file's modal clock offset against the canonical union. **Three files are UTC** —
+`imessage_export_deep_20260813.csv` (75,944 rows at +4h, 46,853 at +5h),
+`imessage_export_flat_20260813.csv`, `imessages_2124702449_last6months.csv` —
+the DST signature `bin/wiki-lexicon` documents, and reading them as local would
+have put a duplicate of every shared message four hours from itself. Two files
+are skipped with the measurement that justifies it.
+
+**Coverage is now by MONTH, and that is not a detail.** A year-level table calls
+February 2015 checkable. It is not:
+
+| Inside a "covered" year | What is actually there |
+|---|---|
+| 2015 — 14,473 rows | **Nothing before 2015-11-28.** The rest of November is seven messages: one each on the 12th, 17th and 23rd, four on the 26th |
+| 2017 — 22,338 rows | **August is empty** |
+| 2021 — 1,408 rows | Stops in April |
+| 2023 — 5,096 rows | Starts in August |
+| 2016 — 35,063 rows | September and October hold 18 and 13 |
+
+**A third refusal follows from that, at day resolution.** November 2015 clears
+every coverage floor on the strength of its last three days, so a window on the
+24th holds one message — and recording `absent` there would publish the
+archive's start date as a fact about the world. `record` now reads the window
+and refuses `absent` below 25 rows. The first version of that rule deadlocked:
+2015-11-24 was refused as `absent` (window too thin) *and* as `uncovered` (month
+covered), leaving no legal outcome. Both guards now read the same number.
+
+**And `--full`, because the 160-character clip nearly cost the pass its best
+find.** The estate attorney's letter is 490 characters and the sentence that
+matters is at 350.
+
+---
+
+**What the cross-checking found, seven records, x006–x012.**
+
+**1. The switch date is not hedged out of laziness — it is unreachable, and now
+the corpus says so.** [[wiki/mind/synthesis/bond-switch-2015]] dates Annie's
+entry `~2015-11-24`, a back-count from her *"HAPPY ONE WEEK SINCE LEX HANDED YOU
+TO ME"*. **The archive begins 2015-11-28.** No future read settles it; recorded
+`uncovered` so nobody spends another session trying. The anchor itself was
+verified verbatim — **2015-12-01 09:37, Received**, the only occurrence of the
+phrase in 282,050 messages.
+
+**2. `wiki/people/annie-ulmer` disagreed with its own prose by three weeks.**
+Frontmatter carried `first_contact: 2015-11-01` and `date_range_start:
+2015-11-01` — a round number with **nothing** behind it: the window 2015-10-22
+to 2015-11-11 holds one message and it is not hers. Both now read **2015-11-28**,
+which is what the evidence covers. Her first surviving message is that day at
+**18:47:54** and it is already deep in the relationship — *"Fuck my friends.
+Fuck birthday dinner. Fucking going drinking. I wanna be with you"*, then *"You
+are everything"* three minutes later. The corpus opens mid-affair, which is why
+every date before it is a back-count.
+
+**3. The estate attorney's own letter corroborates the money spine to the cent
+and adds the sentence the page was missing.** Jason Adams to Dan, **2020-08-26
+10:36:34**: *"Your amount in the order was for **$144,069.31**, however on
+**June 23, 2020** we issued you a check for **$10,000**… so, you check will be
+for **$134,069.31**. It will be available to you on **sept. 1**. **Your mother
+indicated that she is to receive that check and deposit it for you.**"* Every
+figure in [[wiki/mind/synthesis/estate-money-spine]]'s table is right. What is
+new is the last clause: **the deposit-via-Suz arrangement came from Suz**, told
+to the attorney, and Dan was asked to countersign it. He forwarded the whole
+letter to her the same evening at 21:49:48. Two weeks earlier he had told Annie
+*"i talked to jasón adams today and am going on saturday morning to sign for the
+inheritance in advance"*.
+
+**4. The Arnu mechanics lien — carried in `queue.md` as CRITICAL and
+time-sensitive — appears once in fifteen months.** Searched 2026-06-15 →
+2026-08-31 (2,228 messages in July, 5,401 in August) for `lien`, `prothonotary`,
+`recorder of deeds`, `magisterial`, `sheriff`, `foreclos*`, `attorney`,
+`lawyer`, `court`, `summons`, `463`: **nothing**. Over fifteen months the name
+Arnu occurs exactly once — Suz, 2026-02-10 15:18, *"Felix showed up but Arnu
+didn't"* — which is the no-show already in the risk table. A lien is a courthouse
+filing rather than a text, so this cannot prove none exists; it establishes that
+**nobody told Dan about one** through the estimated maturity and for six weeks
+after, on a thread where he was discussing an implied threat over that same
+address on 2026-08-17. Recorded `absent`, the cheapest falsifier that page has
+had.
+
+**One trap re-learned and written into the skill.** The first lien probe used
+`arnu|lien` and returned 23 hits — 22 of them *client*, *resilient*, *alien*.
+`corpus/vocabulary-drift.md` is the standing version; word-bound the pattern or
+read every row.
+
+**A pre-existing red gate on `main`, cleared.** PR #276 merged
+`wiki/mind/synthesis/ocean-cross-validation` with four invalid tags, an edge
+typed `validates` (not in the vocabulary) and seven **wiki** paths inside
+`sources:`. Fixed as the spec requires: `synthesizes:` for the wiki pages, real
+`raw/` provenance in `sources:`, `evidences` for the edge, tags from the closed
+set.
+
+525 tests (10 new), all gates clean, 12 corroboration records over 14 pages.
+
 ## [2026-09-06] corroborate | meta | the message record, joined to the wiki — and the Annie moratorium lifted
 
 **Two operator instructions, and the second one is the architecture change.**

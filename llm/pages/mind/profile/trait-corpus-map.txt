@@ -21,8 +21,8 @@ chart:
         "dormant": 0
     - name: "unreviewed"
       points:
-        "load-bearing": 4
-        "present": 5
+        "load-bearing": 5
+        "present": 4
         "dormant": 1
     - name: "silent"
       points:
@@ -100,34 +100,34 @@ breaks it.
 
 | Trait | Reg. | Support | Replicates | Reach | Cell |
 |---|---|---|---|---|---|
-| Vulnerability at the 78th percentile | 2 | no instrument | — | load-bearing (49p / 12s) | **NO INSTRUMENT / LOAD** |
-| Ti dominance (introverted thinking lead) | 1 | unreviewed | — | load-bearing (48p / 25s) | **UNREVIEWED LOAD** |
+| Vulnerability at the 78th percentile | 2 | no instrument | — | load-bearing (50p / 13s) | **NO INSTRUMENT / LOAD** |
+| Ti dominance (introverted thinking lead) | 1 | unreviewed | — | load-bearing (49p / 26s) | **UNREVIEWED LOAD** |
 | Liberalism at the 91st percentile | 11 | unreviewed | chatgpt, twitter | load-bearing (46p / 28s) | **UNREVIEWED LOAD** |
-| Fe deficit (absent relational grading) | 1 | no instrument | — | load-bearing (35p / 17s) | **NO INSTRUMENT / LOAD** |
-| Impulsiveness at the 96th percentile | 2 | no instrument | chatgpt, gemini, twitter | load-bearing (34p / 13s) | **NO INSTRUMENT / LOAD** |
-| Anxiety at the 67th percentile | 2 | unreviewed | chatgpt | load-bearing (29p / 7s) | **UNREVIEWED LOAD** |
+| Fe deficit (absent relational grading) | 1 | no instrument | — | load-bearing (36p / 18s) | **NO INSTRUMENT / LOAD** |
+| Impulsiveness at the 96th percentile | 2 | no instrument | chatgpt, gemini, twitter | load-bearing (35p / 14s) | **NO INSTRUMENT / LOAD** |
+| Anxiety at the 67th percentile | 2 | unreviewed | chatgpt | load-bearing (30p / 8s) | **UNREVIEWED LOAD** |
 | Schizotypal at 79 (pattern cognition) | 2 | unreviewed | — | load-bearing (26p / 6s) | **UNREVIEWED LOAD** |
-| Self-consciousness at the 91st percentile | 2 | unreviewed | — | present (19p / 8s) | **unreviewed** |
+| Self-consciousness at the 91st percentile | 2 | unreviewed | — | load-bearing (20p / 9s) | **UNREVIEWED LOAD** |
+| Intellect / abstraction at the 95th percentile | 2 | unreviewed | — | present (17p / 6s) | **unreviewed** |
 | Sociability at the 3rd percentile | 2 | unreviewed | chatgpt, gemini, twitter | present (17p / 6s) | **unreviewed** |
-| Intellect / abstraction at the 95th percentile | 2 | unreviewed | — | present (16p / 5s) | **unreviewed** |
-| Assertiveness at the 5th percentile | 2 | silent | chatgpt, gemini, twitter | present (15p / 7s) | **unsupported** |
-| Introspection at the 87th percentile | 2 | silent | — | present (14p / 6s) | **unsupported** |
+| Assertiveness at the 5th percentile | 2 | silent | chatgpt, gemini, twitter | present (16p / 8s) | **unsupported** |
+| Introspection at the 87th percentile | 2 | silent | — | present (15p / 7s) | **unsupported** |
+| Modesty at the 5th percentile | 2 | silent | — | present (14p / 3s) | **unsupported** |
 | Narcissistic at 67 (grandiosity) | 2 | too few | — | present (14p / 4s) | **unmeasured** |
-| Modesty at the 5th percentile | 2 | silent | — | present (13p / 2s) | **unsupported** |
-| Artistic interests at the 81st percentile | 2 | unreviewed | gemini | present (11p / 5s) | **unreviewed** |
+| Artistic interests at the 81st percentile | 2 | unreviewed | gemini | present (12p / 6s) | **unreviewed** |
 | Trust at the 9th percentile | 2 | unreviewed | chatgpt, gemini | present (10p / 5s) | **unreviewed** |
 | Antisocial at 58 (rule indifference) | 2 | unreviewed | — | dormant (3p / 2s) | **unreviewed** |
 
 ## What the map obliges
 
-7 trait(s) sit in a cell that constrains what a synthesis may do.
+8 trait(s) sit in a cell that constrains what a synthesis may do.
 
 ### NO INSTRUMENT / LOAD — Vulnerability at the 78th percentile
 
 Cite as testimony, never as measurement, and say so on the page. Every proxy built for this trait was read and found to catch something else. The wiki leans on it anyway.
 
 - **Support:** no instrument
-- **Reach:** 49 pages, 12 of them synthesis, 25 citing `wiki/mind/profile/big-five-psychometrics.md`
+- **Reach:** 50 pages, 13 of them synthesis, 26 citing `wiki/mind/profile/big-five-psychometrics.md`
 - **Constitution register 2**
 
   - `overwhelm` — 0.96x vs control, n=318, excluded
@@ -137,7 +137,7 @@ Cite as testimony, never as measurement, and say so on the page. Every proxy bui
 Cite as testimony, never as measurement. The wiki leans on this and no proxy for it has had its matches read, so the instrument cannot yet confirm or contradict it. Reviewing them is owed work: `bin/wiki-traits review`.
 
 - **Support:** unreviewed
-- **Reach:** 48 pages, 25 of them synthesis, 43 citing `wiki/mind/profile/intp.md`
+- **Reach:** 49 pages, 26 of them synthesis, 44 citing `wiki/mind/profile/intp.md`
 - **Constitution register 1**
 
   - `conditional reasoning` — 1.56x vs control, n=43, unreviewed
@@ -159,7 +159,7 @@ Cite as testimony, never as measurement. The wiki leans on this and no proxy for
 Cite as testimony, never as measurement, and say so on the page. Every proxy built for this trait was read and found to catch something else. The wiki leans on it anyway.
 
 - **Support:** no instrument
-- **Reach:** 35 pages, 17 of them synthesis, 43 citing `wiki/mind/profile/intp.md`
+- **Reach:** 36 pages, 18 of them synthesis, 44 citing `wiki/mind/profile/intp.md`
 - **Constitution register 1**
 
   - `offering help unprompted` — 1.81x vs control, n=372, excluded
@@ -171,7 +171,7 @@ Cite as testimony, never as measurement, and say so on the page. Every proxy bui
 Cite as testimony, never as measurement, and say so on the page. Every proxy built for this trait was read and found to catch something else. The wiki leans on it anyway.
 
 - **Support:** no instrument — replicates in chatgpt, gemini, twitter
-- **Reach:** 34 pages, 13 of them synthesis, 25 citing `wiki/mind/profile/big-five-psychometrics.md`
+- **Reach:** 35 pages, 14 of them synthesis, 26 citing `wiki/mind/profile/big-five-psychometrics.md`
 - **Constitution register 2**
 
   - `immediacy / right-now` — 1.05x vs control, n=1140, excluded
@@ -181,7 +181,7 @@ Cite as testimony, never as measurement, and say so on the page. Every proxy bui
 Cite as testimony, never as measurement. The wiki leans on this and no proxy for it has had its matches read, so the instrument cannot yet confirm or contradict it. Reviewing them is owed work: `bin/wiki-traits review`.
 
 - **Support:** unreviewed — replicates in chatgpt
-- **Reach:** 29 pages, 7 of them synthesis, 25 citing `wiki/mind/profile/big-five-psychometrics.md`
+- **Reach:** 30 pages, 8 of them synthesis, 26 citing `wiki/mind/profile/big-five-psychometrics.md`
 - **Constitution register 2**
 
   - `worry` — 1.32x vs control, n=465, unreviewed
@@ -191,10 +191,20 @@ Cite as testimony, never as measurement. The wiki leans on this and no proxy for
 Cite as testimony, never as measurement. The wiki leans on this and no proxy for it has had its matches read, so the instrument cannot yet confirm or contradict it. Reviewing them is owed work: `bin/wiki-traits review`.
 
 - **Support:** unreviewed
-- **Reach:** 26 pages, 6 of them synthesis, 19 citing `wiki/mind/profile/deviance-mapping.md`
+- **Reach:** 26 pages, 6 of them synthesis, 20 citing `wiki/mind/profile/deviance-mapping.md`
 - **Constitution register 2**
 
   - `pattern / conspiracy cognition` — 2.04x vs control, n=27, unreviewed
+
+### UNREVIEWED LOAD — Self-consciousness at the 91st percentile
+
+Cite as testimony, never as measurement. The wiki leans on this and no proxy for it has had its matches read, so the instrument cannot yet confirm or contradict it. Reviewing them is owed work: `bin/wiki-traits review`.
+
+- **Support:** unreviewed
+- **Reach:** 20 pages, 9 of them synthesis, 26 citing `wiki/mind/profile/big-five-psychometrics.md`
+- **Constitution register 2**
+
+  - `self-monitoring in company` — 2.33x vs control, n=145, unreviewed
 
 ## What is not measured
 

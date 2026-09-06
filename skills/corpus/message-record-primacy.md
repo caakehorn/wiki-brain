@@ -34,9 +34,14 @@ supersedes: []
 4. **The messages outrank the source you are working from** on any date, time,
    sequence or who-was-present. Where they disagree, correct the page and say so
    in a `> **CORROBORATED [YYYY-MM-DD]:**` block with the old claim visible.
-5. **Check `coverage` before you take a null result seriously.** 2012–2014 hold
-   nothing; 2022 holds four rows. A claim outside coverage is unexamined, not
-   unsupported, and `record` refuses to let `absent` stand in for `uncovered`.
+5. **Check `coverage` before you take a null result seriously, and read it by
+   MONTH.** The record runs 2015-11 to 2026-08 and the holes are inside the
+   covered years as often as between them: nothing before **2015-11-28**,
+   **August 2017 empty**, 2021 stopping in April, 2023 starting in August, all
+   of 2022 holding six rows. A year-level reading calls February 2015 checkable
+   and it is not. A claim outside coverage is unexamined, not unsupported, and
+   `record` refuses `absent` for a date outside coverage **and** for a window
+   holding fewer than 25 messages — a covered month can contain an empty week.
 6. **Record what came back, including nothing.** `--outcome absent` is a real
    result: it distinguishes a page nobody has checked from a page the corpus
    cannot help, and those look identical from outside.
@@ -75,20 +80,29 @@ and worse, because a date is load-bearing for every page downstream of it.
 `bin/wiki-corroborate check` gates in `bin/wiki-check` and fails a commit that
 writes a **new** dated claim inside coverage with no record covering it. It
 reads the working diff, not the tree, so it fires on the pass that creates the
-debt rather than on 378 pages of inherited debt. There is no skip flag.
+debt rather than on 370 pages of inherited debt. There is no skip flag.
 
 `bin/wiki-corroborate scan <page> --hedged` lists a page's own admitted
 uncertainties; `queue` orders the wiki by them.
 
 ## Known limits
 
-**Coverage is real and uneven.** 2012–2014 and 2022 are empty; 2011 has one row.
-Nothing about a claim in those years can be settled here in either direction.
+**Coverage is real and uneven, and the unevenness is monthly.** 2012–2014 are
+empty and 2022 holds six rows; inside the "covered" years, August 2017 is empty,
+2021 stops in April and 2023 starts in August. **The archive begins 2015-11-28**
+— every date before that is permanently unreachable, which is why
+`wiki/mind/synthesis/bond-switch-2015` will always hedge the switch date and why
+that hedge is recorded as `uncovered` rather than left looking like laziness.
 
 **79% of the master CSV's Sent rows carry no handle**, so a window can show what
 Dan wrote without showing who he wrote it to. The dox dump is the corpus with
 reliable direction and counterparty; where the two disagree about *who*, prefer
 it and say so.
+
+**A substring is not a word, and `probe` will not save you.** Searching
+`arnu|lien` over fifteen months returned 23 hits, 22 of them "client",
+"resilient" and "alien". Word-bound the pattern (`\barnu\b`) or read every row
+— `corpus/vocabulary-drift.md` is the standing version of this.
 
 **A window is not the whole of a day.** These are three exports of overlapping
 records and none is a superset — the tool reads all three and dedupes, and it is

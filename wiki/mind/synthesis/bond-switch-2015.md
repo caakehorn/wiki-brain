@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-09-04
+date_modified: 2026-09-06
 sources:
   - raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
@@ -152,7 +152,7 @@ The bootloader's reconstructed chronology, cross-checked against the message rec
 
 | Date | Event | Source |
 | :--- | :--- | :--- |
-| ~2015-11-24 | Annie enters — and **Alexis is the one who introduces them.** "HAPPY ONE WEEK SINCE LEX HANDED YOU TO ME" (Annie, Dec 1) | `all_imessages_complete_dump.txt` |
+| ~2015-11-24 | Annie enters — and **Alexis is the one who introduces them.** "HAPPY ONE WEEK SINCE LEX HANDED YOU TO ME" (Annie, Dec 1). **Uncheckable — see below** | back-count from `all_imessages_complete_dump.txt`, 2015-12-01 |
 | 2015-11-28 (Sat, after Thanksgiving) | Dan, already texting Annie intimately, narrates the **2009 origin** of the Alexis relationship as a contrast case — *not* a 2015 event. See the correction below. | `all_imessages_complete_dump.txt` 19:07–19:08 |
 | 2015-11-29 ~2am | Dan meets Annie in person (golf course, rain; grandmothers were neighbors for 50 years). Same evening, outbound to Zachariah: "Things are collapsing with lex. You might be seeing a lot more Annie very soon." | [[wiki/people/annie-ulmer]], [[wiki/timeline/periods/2015-2016-annie-relationship-start]] |
 | 2015-11-30 | Alexis still in the house — "Alexis is sloshed"; Suz offers Dan a car "if I get Alexis out" | `all_imessages_complete_dump.txt` |
@@ -162,6 +162,30 @@ The bootloader's reconstructed chronology, cross-checked against the message rec
 | 2015-12-11 | 682 sent | **MASTER_MESSAGES_DB_DUMP.csv, recomputed** |
 | 2015-12-12 | 363 sent | **MASTER_MESSAGES_DB_DUMP.csv, recomputed** |
 | 2015-12-13 | 679 sent | **MASTER_MESSAGES_DB_DUMP.csv, recomputed** |
+
+> **CORROBORATED [2026-09-06]:** the hedge on the first row is permanent, and
+> that is worth knowing. **The archive begins on 2015-11-28.** November 2015
+> holds 1,640 messages; **1,633 of them fall on the 28th, 29th and 30th**, and
+> the rest of the month is seven messages — one each on the 12th, 17th and 23rd,
+> four on the 26th. So the introduction date is not merely unconfirmed, it is
+> **unreachable**: no future read of the corpus settles it, and a session that
+> goes looking is spending its time on the one question the archive cannot
+> answer. Recorded `uncovered` rather than `absent` for exactly that reason.
+>
+> What the record *does* corroborate is the row below it. Annie's first
+> surviving message is **2015-11-28 18:47:54** and it is already deep in the
+> relationship — *"Fuck my friends. Fuck birthday dinner. Fucking going
+> drinking. I wanna be with you"*, then *"You are everything"* at 18:50. The
+> corpus opens mid-affair, which is why every date before it is a back-count and
+> why this page's argument has to rest on the sequence after the 28th rather than
+> on the switch itself.
+>
+> One correction propagated from this: [[wiki/people/annie-ulmer]] carried
+> `date_range_start: 2015-11-01` and `first_contact: 2015-11-01` in frontmatter
+> — a round number three weeks earlier than this page's own date and nothing in
+> the archive. Both now read 2015-11-28.
+
+
 
 > **CORRECTED 2026-08-15 — the switch had no precipitating betrayal, and this
 > page was the main carrier of the claim that it did.** Every prior version of
