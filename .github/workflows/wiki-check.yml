@@ -1,0 +1,70 @@
+# Gate `main` against the portal editor — review only, do not merge yet.
+#
+# BACKLOG §4 HIGH: nothing currently runs `bin/wiki-check` on push, and four
+# portal saves have broken `main` in one day (stale-snapshot clobber, stray
+# keystrokes in a wiki path, H1 duplication, llm/ corpus drift). The portal
+# will save anything, so this class recurs by construction. The fix belongs
+# in CI, not in vigilance.
+#
+# `--check-only` is the mode this file is for. It writes nothing: no digest,
+# no llm/ regen, no WORK.md scan. It answers "is what is committed already
+# consistent?" Generators stay a session's pre-commit job; CI that quietly
+# regenerated would turn that question into "it is now."
+#
+# Chief of Staff hold, 2026-09-01: draft this workflow as a PR for review.
+# Do not install it. Merging this file is what turns the gate on (it will
+# start running on every push and PR). It does **not** become a required
+# status check unless branch protection is changed, which this PR does not
+# touch. Do not merge until CoS says so.
+#
+# What a red run means: a gate failed (lint / connect / climb / plain /
+# freshness / intake / lessons / skills / history). Connect *warnings*
+# (bare `## Related` footers) and climb *warnings* (stale premises) do not
+# fail this job — they never fail `bin/wiki-check` locally either. Size
+# warnings do not fail it. Do not trim or date-bump to silence one.
+#
+# `wiki-history check` skips itself in a shallow clone rather than failing
+# on a truth it cannot see. fetch-depth: 0 is load-bearing: without it the
+# date-ahead-of-git gate — the one that catches "clear staleness by bumping
+# date_modified" — is a no-op.
+#
+# Not in this workflow, on purpose:
+#   * `bin/wiki-timeline generate` — Timeline's lane; not in the pre-commit
+#     block either.
+#   * Regenerating earned pages, bumping dates, trimming to a size warning.
+#   * Making the check required. That is a separate decision.
+name: wiki-check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: wiki-check-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # wiki-history check is a no-op on a shallow clone. Full history
+          # is the only way that gate actually runs.
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Gate without writing
+        run: |
+          chmod +x bin/wiki-check
+          python3 bin/wiki-check --check-only
